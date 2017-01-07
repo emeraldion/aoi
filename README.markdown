@@ -1,6 +1,6 @@
 # aoi (青い)
 
-Aoi is a design language for Emeraldion UX.
+Aoi _(Japanese: Blue, Green)_ is a design language for Emeraldion UX.
 
 ![Aoi banner](aoi_banner.png)
 
