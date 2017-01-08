@@ -71,6 +71,12 @@ main {
   padding: 10px;
 }
 
+.codeTable {
+  th, td {
+    display: block;
+  }
+}
+
 pre.hljs {
   border-radius: 4px;
   padding: .8em;
@@ -99,6 +105,12 @@ footer {
 @media screen and (min-width: 768px) {
   main {
     padding: 20px;
+  }
+
+  .codeTable {
+    th, td {
+      display: table-cell;
+    }
   }
 
   pre.hljs {
