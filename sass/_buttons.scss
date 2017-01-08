@@ -18,6 +18,21 @@ Use the `btn` class on `<button>` or `<input type="button">` elements.
 
 /*doc
 ---
+title: Large Button
+name: btn-large
+category: controls
+---
+Add the `btn-large` class to other button classes to obtain a larger affordance.
+
+```html_example_table
+<input type="button" class="btn btn-large" value="Button"/>
+
+<button class="btn btn-large">Button</button>
+```
+*/
+
+/*doc
+---
 title: Small Button
 name: btn-small
 category: controls
@@ -34,7 +49,7 @@ Add the `btn-small` class to other button classes to obtain a smaller affordance
   background-color: $white;
   border: 1px solid $light-gray;
   border-radius: $border-radius;
-  padding: 4px 10px;
+  padding: 6px 10px 4px 10px;
 
   &:hover {
     background-color: $lightest-gray;
@@ -56,7 +71,13 @@ Add the `btn-small` class to other button classes to obtain a smaller affordance
     background-color: $light-blue;
   }
 
+  &.btn-large {
+  	font-size: 1.2rem;
+    padding: 8px 16px 6px 16px;
+  }
+
   &.btn-small {
-    padding: 2px 8px;
+  	font-size: 0.9rem;
+    padding: 4px 8px 2px 8px;
   }
 }
