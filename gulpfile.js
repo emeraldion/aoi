@@ -8,11 +8,10 @@ const hologram = require('./gulp-hologram');
 const SOURCES = './sass/*.scss';
 const DEST = './css';
 
-gulp.task('default', ['sass', 'watch']);
+gulp.task('default', ['sass', 'hologram', 'watch']);
 
 gulp.task('sass', () => {
   gulp.src(SOURCES)
-    .pipe(hologram())
     .pipe(sass())
     .pipe(autoprefixer({
       browsers: ['last 2 versions'],
@@ -22,6 +21,11 @@ gulp.task('sass', () => {
     .pipe(gulp.dest(DEST));
 });
 
+gulp.task('hologram', () => {
+  gulp.src(SOURCES)
+    .pipe(hologram());
+});
+
 gulp.task('watch', () => {
-	gulp.watch(SOURCES, ['sass']);
+	gulp.watch(SOURCES, ['sass', 'hologram']);
 });
