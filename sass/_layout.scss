@@ -1,0 +1,116 @@
+@import 'variables';
+@import 'base';
+
+/*doc
+---
+title: Well
+name: well
+category: layout
+---
+Use the `well` class on `<div>`s or `<aside>`s to apply the visual cue of ancillary content.
+
+```html_example
+<aside class="well">
+    <h3>Ao (青) vs. Midori (緑)</h3>
+    <p>
+        Midori is a Japanese word for green, although its boundaries are not the same as in English.
+        Ancient Japanese did not have this distinction: the word midori only came into use in the
+        Heian period, and at that time (and for a long time thereafter) midori was still considered
+        a shade of ao.
+    </p>
+</aside>
+```
+
+If you add a `<header>` or `<footer>` inside the `well`, they will be visually separated from
+the content.
+
+```html_example
+<aside class="well">
+    <header>
+        <h3>Trivia</h3>
+    </header>
+    <p>
+        Educational materials distinguishing green and blue only came into use after World War II,
+        during the Occupation: thus, even though most Japanese consider them to be green,  the word
+        ao is still used to describe certain vegetables, apples and vegetation.
+    </p>
+</aside>
+```
+*/
+
+/*doc
+---
+title: Small Well
+name: well-small
+category: layout
+---
+The `well-small` modifier class reduces the padding and borders of the well.
+
+```html_example
+<aside class="well well-small">
+    <h3>Ao (青) vs. Midori (緑)</h3>
+    <p>
+        Midori is a Japanese word for green, although its boundaries are not the same as in English.
+        Ancient Japanese did not have this distinction: the word midori only came into use in the
+        Heian period, and at that time (and for a long time thereafter) midori was still considered
+        a shade of ao.
+    </p>
+</aside>
+```
+*/
+.well {
+  background-color: $snow;
+  padding: 20px;
+  border-radius: 2 * $border-radius;
+  border: $border-radius solid $lightest-gray;
+  box-shadow: inset 0 1px 2px 2px $light-gray;
+
+  :first-child {
+    margin-top: 0;
+  }
+
+  :last-child {
+    margin-bottom: 0;
+  }
+
+  @mixin well-header-footer {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+  header {
+    @include well-header-footer;
+    padding: 0 20px 10px 20px;
+    border-bottom: 1px solid $light-gray;
+  }
+
+  footer {
+    @include well-header-footer;
+    padding: 10px 20px 0 20px;
+    border-top: 1px solid $light-gray;
+  }
+
+  &.well-small {
+    padding: 10px;
+    border-radius: 1.5 * $border-radius;
+    border: 0.5 * $border-radius solid $lightest-gray;
+    box-shadow: inset 0 1px 1px 1px $light-gray;
+
+    @mixin well-small-header-footer {
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+
+    header {
+      @include well-small-header-footer;
+      padding: 0 10px 5px 10px;
+      border-bottom: 1px solid $light-gray;
+    }
+
+    footer {
+      @include well-small-header-footer;
+      padding: 5px 10px 0 10px;
+      border-top: 1px solid $light-gray;
+    }
+  }
+}
