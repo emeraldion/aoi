@@ -10,9 +10,9 @@ category: controls
 Use the `btn` class on `<button>` or `<input type="button">` elements.
 
 ```html_example_table
-    <input type="button" class="btn" value="Button"/>
+<input type="button" class="btn" value="Button"/>
 
-    <button class="btn">Button</button>
+<button class="btn">Button</button>
 ```
 */
 .btn {
@@ -52,9 +52,9 @@ category: controls
 Add the `btn-small` class to other button classes to obtain a smaller affordance.
 
 ```html_example_table
-    <input type="button" class="btn btn-small" value="Button"/>
+<input type="button" class="btn btn-small" value="Button"/>
 
-    <button class="btn btn-small">Button</button>
+<button class="btn btn-small">Button</button>
 ```
 */
 .btn-small {
