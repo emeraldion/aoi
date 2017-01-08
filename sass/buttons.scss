@@ -1,9 +1,10 @@
 @import 'variables';
+@import 'base';
 
 /*doc
 ---
 title: Button
-name: button
+name: btn
 category: controls
 ---
 ```html_example_table
@@ -16,22 +17,34 @@ category: controls
 	background-color: $white;
 	border: 1px solid $light-gray;
 	border-radius: $border-radius;
-	padding: 4px 8px;
+	padding: 4px 10px;
 
 	&:hover {
 		background-color: $lightest-gray;
+		border-color: $medium-gray;
+	}
+
+	@mixin active-focused {
+		outline: none;
+		border-color: $blue;
+	}
+
+	&:focus {
+		@include active-focused;
+		background-color: $lightest-blue;
 	}
 
 	&:active {
-		background-color: $lightest-blue;
-		border-color: $light-blue;
+		@include active-focused;
+		background-color: $light-blue;
 	}
+
 }
 
 /*doc
 ---
 title: Small Button
-name: small button
+name: btn-small
 category: controls
 ---
 ```html_example_table
@@ -42,5 +55,5 @@ category: controls
 */
 .btn-small {
 	@extend .btn;
-	padding: 2px 4px;
+	padding: 2px 8px;
 }
