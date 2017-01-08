@@ -1,0 +1,101 @@
+@import 'variables';
+
+/*doc
+---
+title: Table
+name: table
+category: tables
+---
+```html_example
+    <table class="table">
+    	<tr>
+    		<th>One</th>
+    		<th>Two</th>
+    		<th>Three</th>
+    	</tr>
+    	<tr>
+    		<td>One</td>
+    		<td>Two</td>
+    		<td>Three</td>
+    	</tr>
+    	<tr>
+    		<td>One</td>
+    		<td>Two</td>
+    		<td>Three</td>
+    	</tr>
+    </table>
+```
+*/
+.table {
+	border-collapse: collapse;
+
+	td, th {
+		padding: 4px 8px;
+	}
+}
+
+/*doc
+---
+title: Striped Table
+name: table-striped
+category: tables
+---
+```html_example
+    <table class="table table-striped">
+    	<tr>
+    		<th>One</th>
+    		<th>Two</th>
+    		<th>Three</th>
+    	</tr>
+    	<tr>
+    		<td>One</td>
+    		<td>Two</td>
+    		<td>Three</td>
+    	</tr>
+    	<tr>
+    		<td>One</td>
+    		<td>Two</td>
+    		<td>Three</td>
+    	</tr>
+    </table>
+```
+*/
+.table-striped {
+	@extend .table;
+	tr:nth-of-type(2n) {
+		background-color: $lightest-blue;
+	}
+}
+
+/*doc
+---
+title: Compact Table
+name: table-compact
+category: tables
+---
+```html_example
+    <table class="table table-compact">
+    	<tr>
+    		<th>One</th>
+    		<th>Two</th>
+    		<th>Three</th>
+    	</tr>
+    	<tr>
+    		<td>One</td>
+    		<td>Two</td>
+    		<td>Three</td>
+    	</tr>
+    	<tr>
+    		<td>One</td>
+    		<td>Two</td>
+    		<td>Three</td>
+    	</tr>
+    </table>
+```
+*/
+.table-compact {
+	@extend .table;
+	td, th {
+		padding: 2px 4px;
+	}
+}

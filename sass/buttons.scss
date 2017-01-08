@@ -1,0 +1,46 @@
+@import 'variables';
+
+/*doc
+---
+title: Button
+name: button
+category: controls
+---
+```html_example_table
+    <input type="button" class="btn" value="Button"/>
+
+    <button class="btn">Button</button>
+```
+*/
+.btn {
+	background-color: $white;
+	border: 1px solid $light-gray;
+	border-radius: $border-radius;
+	padding: 4px 8px;
+
+	&:hover {
+		background-color: $lightest-gray;
+	}
+
+	&:active {
+		background-color: $lightest-blue;
+		border-color: $light-blue;
+	}
+}
+
+/*doc
+---
+title: Small Button
+name: small button
+category: controls
+---
+```html_example_table
+    <input type="button" class="btn btn-small" value="Button"/>
+
+    <button class="btn btn-small">Button</button>
+```
+*/
+.btn-small {
+	@extend .btn;
+	padding: 2px 4px;
+}
