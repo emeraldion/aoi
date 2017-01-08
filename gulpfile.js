@@ -5,13 +5,14 @@ const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 const hologram = require('./gulp-hologram');
 
-const SOURCES = './sass/*.scss';
+const SASS_SOURCES = './sass/*.scss';
+const STYLE_GUIDE_SOURCES = './doc_assets/*.html';
 const DEST = './css';
 
 gulp.task('default', ['sass', 'hologram', 'watch']);
 
 gulp.task('sass', () => {
-  gulp.src(SOURCES)
+  gulp.src(SASS_SOURCES)
     .pipe(sass())
     .pipe(autoprefixer({
       browsers: ['last 2 versions'],
@@ -22,10 +23,10 @@ gulp.task('sass', () => {
 });
 
 gulp.task('hologram', () => {
-  gulp.src(SOURCES)
+  gulp.src(STYLE_GUIDE_SOURCES)
     .pipe(hologram());
 });
 
 gulp.task('watch', () => {
-	gulp.watch(SOURCES, ['sass', 'hologram']);
+	gulp.watch([STYLE_GUIDE_SOURCES, SASS_SOURCES], ['sass', 'hologram']);
 });
