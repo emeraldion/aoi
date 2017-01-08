@@ -5,6 +5,7 @@
     <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,500,500i" />
     <link type="text/css" rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.css" />
     <link type="text/css" rel="stylesheet" href="../css/aoi.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/zenburn.min.css">
     <link type="image/png" rel="icon" href="../favicon.png" />
     <style type="text/css">
 /*      .exampleOutput {
@@ -23,6 +24,9 @@
         margin: 0;
         padding: 0;
         background-color: #79bccb;
+      }
+      a {
+        color: #298597;
       }
       nav {
         border-bottom: 1px solid #eee;
@@ -48,7 +52,8 @@
         text-decoration: none;
         text-transform: capitalize;
       }
-      nav li a:active {
+      nav li a:focus,
+      nav li a:hover {
         background-color: #298597;
       }
       #logo {
@@ -67,6 +72,10 @@
       main {
         background-color: #fff;
         padding: 20px;
+      }
+      pre.hljs {
+        border-radius: 4px;
+        padding: .8em;
       }
       h1 {
         text-transform: capitalize;

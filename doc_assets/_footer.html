@@ -1,7 +1,17 @@
       </section>
     </main>
     <footer>
-      <p>Generated with <a href="http://github.com/trulia/hologram">Hologram</a>
+      <p>Made with <i class="fa fa-heart"></i> by Emeraldion. Generated with <a href="http://github.com/trulia/hologram">Hologram</a>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script>
+    	$(document).ready(function() {
+		  $('pre').each(function(i, block) {
+		  	$(block).addClass('html');
+		    hljs.highlightBlock(block);
+		  });
+		});
+	</script>
   </body>
 </html>
