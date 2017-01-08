@@ -1,0 +1,96 @@
+html,
+input, textarea, keygen, select, button {
+  font-family: 'Fira Sans', Arial, sans-serif;
+  font-size: 10pt; }
+
+/*doc
+---
+title: Table
+name: table
+category: tables
+---
+```html_example
+    <table class="table">
+    	<tr>
+    		<th>One</th>
+    		<th>Two</th>
+    		<th>Three</th>
+    	</tr>
+    	<tr>
+    		<td>One</td>
+    		<td>Two</td>
+    		<td>Three</td>
+    	</tr>
+    	<tr>
+    		<td>One</td>
+    		<td>Two</td>
+    		<td>Three</td>
+    	</tr>
+    </table>
+```
+*/
+.table, .table-striped, .table-compact {
+  border-collapse: collapse; }
+  .table td, .table-striped td, .table-compact td, .table th, .table-striped th, .table-compact th {
+    padding: 4px 8px; }
+  .table th, .table-striped th, .table-compact th {
+    font-weight: 500;
+    border-bottom: 1px solid #ccc; }
+
+/*doc
+---
+title: Striped Table
+name: table-striped
+category: tables
+---
+```html_example
+    <table class="table table-striped">
+    	<tr>
+    		<th>One</th>
+    		<th>Two</th>
+    		<th>Three</th>
+    	</tr>
+    	<tr>
+    		<td>One</td>
+    		<td>Two</td>
+    		<td>Three</td>
+    	</tr>
+    	<tr>
+    		<td>One</td>
+    		<td>Two</td>
+    		<td>Three</td>
+    	</tr>
+    </table>
+```
+*/
+.table-striped tr:nth-of-type(2n) {
+  background-color: #edf3fe; }
+
+/*doc
+---
+title: Compact Table
+name: table-compact
+category: tables
+---
+```html_example
+    <table class="table table-compact">
+    	<tr>
+    		<th>One</th>
+    		<th>Two</th>
+    		<th>Three</th>
+    	</tr>
+    	<tr>
+    		<td>One</td>
+    		<td>Two</td>
+    		<td>Three</td>
+    	</tr>
+    	<tr>
+    		<td>One</td>
+    		<td>Two</td>
+    		<td>Three</td>
+    	</tr>
+    </table>
+```
+*/
+.table-compact td, .table-compact th {
+  padding: 2px 4px; }
