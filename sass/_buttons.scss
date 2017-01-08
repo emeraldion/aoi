@@ -15,33 +15,6 @@ Use the `btn` class on `<button>` or `<input type="button">` elements.
 <button class="btn">Button</button>
 ```
 */
-.btn {
-	background-color: $white;
-	border: 1px solid $light-gray;
-	border-radius: $border-radius;
-	padding: 4px 10px;
-
-	&:hover {
-		background-color: $lightest-gray;
-		border-color: $medium-gray;
-	}
-
-	@mixin active-focused {
-		outline: none;
-		border-color: $blue;
-	}
-
-	&:focus {
-		@include active-focused;
-		background-color: $lightest-blue;
-	}
-
-	&:active {
-		@include active-focused;
-		background-color: $light-blue;
-	}
-
-}
 
 /*doc
 ---
@@ -57,7 +30,33 @@ Add the `btn-small` class to other button classes to obtain a smaller affordance
 <button class="btn btn-small">Button</button>
 ```
 */
-.btn-small {
-	@extend .btn;
-	padding: 2px 8px;
+.btn {
+  background-color: $white;
+  border: 1px solid $light-gray;
+  border-radius: $border-radius;
+  padding: 4px 10px;
+
+  &:hover {
+    background-color: $lightest-gray;
+    border-color: $medium-gray;
+  }
+
+  @mixin active-focused {
+    outline: none;
+    border-color: $blue;
+  }
+
+  &:focus {
+    @include active-focused;
+    background-color: $lightest-blue;
+  }
+
+  &:active {
+    @include active-focused;
+    background-color: $light-blue;
+  }
+
+  &.btn-small {
+    padding: 2px 8px;
+  }
 }
