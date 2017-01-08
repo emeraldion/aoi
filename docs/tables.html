@@ -5,6 +5,7 @@
     <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,500,500i" />
     <link type="text/css" rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.css" />
     <link type="text/css" rel="stylesheet" href="../css/aoi.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/zenburn.min.css">
     <link type="image/png" rel="icon" href="../favicon.png" />
     <style type="text/css">
 /*      .exampleOutput {
@@ -23,6 +24,9 @@
         margin: 0;
         padding: 0;
         background-color: #79bccb;
+      }
+      a {
+        color: #298597;
       }
       nav {
         border-bottom: 1px solid #eee;
@@ -48,7 +52,8 @@
         text-decoration: none;
         text-transform: capitalize;
       }
-      nav li a:active {
+      nav li a:focus,
+      nav li a:hover {
         background-color: #298597;
       }
       #logo {
@@ -67,6 +72,10 @@
       main {
         background-color: #fff;
         padding: 20px;
+      }
+      pre.hljs {
+        border-radius: 4px;
+        padding: .8em;
       }
       h1 {
         text-transform: capitalize;
@@ -109,44 +118,44 @@
 <p class="styleguide">Use the <code class="styleguide">table</code> class on tables to apply a clean, borderless layout, and separate
 headings from the body with a horizontal line.</p><div class="codeExample">
   <div class="exampleOutput">
-        <table class="table">
-        <tr>
-            <th>One</th>
-            <th>Two</th>
-            <th>Three</th>
-        </tr>
-        <tr>
-            <td>One</td>
-            <td>Two</td>
-            <td>Three</td>
-        </tr>
-        <tr>
-            <td>One</td>
-            <td>Two</td>
-            <td>Three</td>
-        </tr>
-    </table>
+    <table class="table">
+    <tr>
+        <th>One</th>
+        <th>Two</th>
+        <th>Three</th>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
+</table>
 
   </div>
   <div class="codeBlock">
     <div class="highlight">
       <pre><span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">"table"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;tr&gt;</span>
-            <span class="nt">&lt;th&gt;</span>One<span class="nt">&lt;/th&gt;</span>
-            <span class="nt">&lt;th&gt;</span>Two<span class="nt">&lt;/th&gt;</span>
-            <span class="nt">&lt;th&gt;</span>Three<span class="nt">&lt;/th&gt;</span>
-        <span class="nt">&lt;/tr&gt;</span>
-        <span class="nt">&lt;tr&gt;</span>
-            <span class="nt">&lt;td&gt;</span>One<span class="nt">&lt;/td&gt;</span>
-            <span class="nt">&lt;td&gt;</span>Two<span class="nt">&lt;/td&gt;</span>
-            <span class="nt">&lt;td&gt;</span>Three<span class="nt">&lt;/td&gt;</span>
-        <span class="nt">&lt;/tr&gt;</span>
-        <span class="nt">&lt;tr&gt;</span>
-            <span class="nt">&lt;td&gt;</span>One<span class="nt">&lt;/td&gt;</span>
-            <span class="nt">&lt;td&gt;</span>Two<span class="nt">&lt;/td&gt;</span>
-            <span class="nt">&lt;td&gt;</span>Three<span class="nt">&lt;/td&gt;</span>
-        <span class="nt">&lt;/tr&gt;</span>
-    <span class="nt">&lt;/table&gt;</span></pre>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;th&gt;</span>One<span class="nt">&lt;/th&gt;</span>
+        <span class="nt">&lt;th&gt;</span>Two<span class="nt">&lt;/th&gt;</span>
+        <span class="nt">&lt;th&gt;</span>Three<span class="nt">&lt;/th&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>One<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>Two<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>Three<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>One<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>Two<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>Three<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+<span class="nt">&lt;/table&gt;</span></pre>
     </div>
   </div>
 </div>
@@ -154,44 +163,44 @@ headings from the body with a horizontal line.</p><div class="codeExample">
 <h1 id="table-compact" class="styleguide">Compact Table</h1>
 <p class="styleguide">Use the <code class="styleguide">table-compact</code> modifier class on tables to reduce the cell padding for a more compact layout.</p><div class="codeExample">
   <div class="exampleOutput">
-        <table class="table table-compact">
-        <tr>
-            <th>One</th>
-            <th>Two</th>
-            <th>Three</th>
-        </tr>
-        <tr>
-            <td>One</td>
-            <td>Two</td>
-            <td>Three</td>
-        </tr>
-        <tr>
-            <td>One</td>
-            <td>Two</td>
-            <td>Three</td>
-        </tr>
-    </table>
+    <table class="table table-compact">
+    <tr>
+        <th>One</th>
+        <th>Two</th>
+        <th>Three</th>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
+</table>
 
   </div>
   <div class="codeBlock">
     <div class="highlight">
       <pre><span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">"table table-compact"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;tr&gt;</span>
-            <span class="nt">&lt;th&gt;</span>One<span class="nt">&lt;/th&gt;</span>
-            <span class="nt">&lt;th&gt;</span>Two<span class="nt">&lt;/th&gt;</span>
-            <span class="nt">&lt;th&gt;</span>Three<span class="nt">&lt;/th&gt;</span>
-        <span class="nt">&lt;/tr&gt;</span>
-        <span class="nt">&lt;tr&gt;</span>
-            <span class="nt">&lt;td&gt;</span>One<span class="nt">&lt;/td&gt;</span>
-            <span class="nt">&lt;td&gt;</span>Two<span class="nt">&lt;/td&gt;</span>
-            <span class="nt">&lt;td&gt;</span>Three<span class="nt">&lt;/td&gt;</span>
-        <span class="nt">&lt;/tr&gt;</span>
-        <span class="nt">&lt;tr&gt;</span>
-            <span class="nt">&lt;td&gt;</span>One<span class="nt">&lt;/td&gt;</span>
-            <span class="nt">&lt;td&gt;</span>Two<span class="nt">&lt;/td&gt;</span>
-            <span class="nt">&lt;td&gt;</span>Three<span class="nt">&lt;/td&gt;</span>
-        <span class="nt">&lt;/tr&gt;</span>
-    <span class="nt">&lt;/table&gt;</span></pre>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;th&gt;</span>One<span class="nt">&lt;/th&gt;</span>
+        <span class="nt">&lt;th&gt;</span>Two<span class="nt">&lt;/th&gt;</span>
+        <span class="nt">&lt;th&gt;</span>Three<span class="nt">&lt;/th&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>One<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>Two<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>Three<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>One<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>Two<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>Three<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+<span class="nt">&lt;/table&gt;</span></pre>
     </div>
   </div>
 </div>
@@ -200,51 +209,61 @@ headings from the body with a horizontal line.</p><div class="codeExample">
 <p class="styleguide">Use the <code class="styleguide">table-striped</code> modifier class on tables to apply a striped pattern to visually
 separate rows.</p><div class="codeExample">
   <div class="exampleOutput">
-        <table class="table table-striped">
-        <tr>
-            <th>One</th>
-            <th>Two</th>
-            <th>Three</th>
-        </tr>
-        <tr>
-            <td>One</td>
-            <td>Two</td>
-            <td>Three</td>
-        </tr>
-        <tr>
-            <td>One</td>
-            <td>Two</td>
-            <td>Three</td>
-        </tr>
-    </table>
+    <table class="table table-striped">
+    <tr>
+        <th>One</th>
+        <th>Two</th>
+        <th>Three</th>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
+</table>
 
   </div>
   <div class="codeBlock">
     <div class="highlight">
       <pre><span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">"table table-striped"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;tr&gt;</span>
-            <span class="nt">&lt;th&gt;</span>One<span class="nt">&lt;/th&gt;</span>
-            <span class="nt">&lt;th&gt;</span>Two<span class="nt">&lt;/th&gt;</span>
-            <span class="nt">&lt;th&gt;</span>Three<span class="nt">&lt;/th&gt;</span>
-        <span class="nt">&lt;/tr&gt;</span>
-        <span class="nt">&lt;tr&gt;</span>
-            <span class="nt">&lt;td&gt;</span>One<span class="nt">&lt;/td&gt;</span>
-            <span class="nt">&lt;td&gt;</span>Two<span class="nt">&lt;/td&gt;</span>
-            <span class="nt">&lt;td&gt;</span>Three<span class="nt">&lt;/td&gt;</span>
-        <span class="nt">&lt;/tr&gt;</span>
-        <span class="nt">&lt;tr&gt;</span>
-            <span class="nt">&lt;td&gt;</span>One<span class="nt">&lt;/td&gt;</span>
-            <span class="nt">&lt;td&gt;</span>Two<span class="nt">&lt;/td&gt;</span>
-            <span class="nt">&lt;td&gt;</span>Three<span class="nt">&lt;/td&gt;</span>
-        <span class="nt">&lt;/tr&gt;</span>
-    <span class="nt">&lt;/table&gt;</span></pre>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;th&gt;</span>One<span class="nt">&lt;/th&gt;</span>
+        <span class="nt">&lt;th&gt;</span>Two<span class="nt">&lt;/th&gt;</span>
+        <span class="nt">&lt;th&gt;</span>Three<span class="nt">&lt;/th&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>One<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>Two<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>Three<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>One<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>Two<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>Three<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+<span class="nt">&lt;/table&gt;</span></pre>
     </div>
   </div>
 </div>
       </section>
     </main>
     <footer>
-      <p>Generated with <a href="http://github.com/trulia/hologram">Hologram</a>
+      <p>Made with <i class="fa fa-heart"></i> by Emeraldion. Generated with <a href="http://github.com/trulia/hologram">Hologram</a>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script>
+    	$(document).ready(function() {
+		  $('pre').each(function(i, block) {
+		  	$(block).addClass('html');
+		    hljs.highlightBlock(block);
+		  });
+		});
+	</script>
   </body>
 </html>
