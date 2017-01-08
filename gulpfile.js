@@ -3,6 +3,7 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
+const hologram = require('./gulp-hologram');
 
 const SOURCES = './sass/*.scss';
 const DEST = './css';
@@ -11,6 +12,7 @@ gulp.task('default', ['sass', 'watch']);
 
 gulp.task('sass', () => {
   gulp.src(SOURCES)
+    .pipe(hologram())
     .pipe(sass())
     .pipe(autoprefixer({
       browsers: ['last 2 versions'],
