@@ -1,6 +1,43 @@
 @import 'variables';
 @import 'base';
 
+@mixin reset-first-last-margin {
+  :first-child {
+    margin-top: 0;
+  }
+
+  :last-child {
+    margin-bottom: 0;
+  }
+}
+
+/*doc
+---
+title: Panel
+name: panel
+category: layout
+---
+A panel encloses a section of the document with a border and whitespace.
+
+```html_example
+<section class="panel">
+    <p>
+        Midori is a Japanese word for green, although its boundaries are not the same as in English.
+        Ancient Japanese did not have this distinction: the word midori only came into use in the
+        Heian period, and at that time (and for a long time thereafter) midori was still considered
+        a shade of ao.
+    </p>
+</section>
+```
+*/
+.panel {
+  border: 1px solid $lightest-gray;
+  border-radius: $border-radius;
+  padding: 20px;
+
+  @include reset-first-last-margin;
+}
+
 /*doc
 ---
 title: Well
@@ -65,13 +102,7 @@ The `well-small` modifier class reduces the padding and borders of the well.
   border: $border-radius solid $lightest-gray;
   box-shadow: inset 0 1px 2px 2px $light-gray;
 
-  :first-child {
-    margin-top: 0;
-  }
-
-  :last-child {
-    margin-bottom: 0;
-  }
+  @include reset-first-last-margin;
 
   @mixin well-header-footer {
     margin-left: -20px;
