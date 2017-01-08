@@ -27,12 +27,12 @@ Use the `btn` class on `<button>` or `<input type="button">` elements.
     border-color: #999; }
   .btn:focus, .btn-small:focus {
     outline: none;
-    border-color: #84b3f3;
-    background-color: #edf3fe; }
+    border-color: #83bfce;
+    background-color: #deeef2; }
   .btn:active, .btn-small:active {
     outline: none;
-    border-color: #84b3f3;
-    background-color: #cadbf3; }
+    border-color: #83bfce;
+    background-color: #c1e0e7; }
 
 /*doc
 ---
@@ -123,7 +123,7 @@ separate rows.
 ```
 */
 .table-striped tr:nth-of-type(2n) {
-  background-color: #edf3fe; }
+  background-color: #deeef2; }
 
 /*doc
 ---
