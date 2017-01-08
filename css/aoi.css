@@ -20,6 +20,20 @@ Use the `btn` class on `<button>` or `<input type="button">` elements.
 */
 /*doc
 ---
+title: Large Button
+name: btn-large
+category: controls
+---
+Add the `btn-large` class to other button classes to obtain a larger affordance.
+
+```html_example_table
+<input type="button" class="btn btn-large" value="Button"/>
+
+<button class="btn btn-large">Button</button>
+```
+*/
+/*doc
+---
 title: Small Button
 name: btn-small
 category: controls
@@ -36,7 +50,7 @@ Add the `btn-small` class to other button classes to obtain a smaller affordance
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 4px;
-  padding: 4px 10px; }
+  padding: 6px 10px 4px 10px; }
   .btn:hover {
     background-color: #eee;
     border-color: #999; }
@@ -48,8 +62,12 @@ Add the `btn-small` class to other button classes to obtain a smaller affordance
     outline: none;
     border-color: #83bfce;
     background-color: #c1e0e7; }
+  .btn.btn-large {
+    font-size: 1.2rem;
+    padding: 8px 16px 6px 16px; }
   .btn.btn-small {
-    padding: 2px 8px; }
+    font-size: 0.9rem;
+    padding: 4px 8px 2px 8px; }
 
 html,
 input, textarea, keygen, select, button {
@@ -158,6 +176,34 @@ html,
 input, textarea, keygen, select, button {
   font-family: 'Fira Sans', Arial, sans-serif;
   font-size: 10pt; }
+
+/*doc
+---
+title: Panel
+name: panel
+category: layout
+---
+A panel encloses a section of the document with a border and whitespace.
+
+```html_example
+<section class="panel">
+    <p>
+        Midori is a Japanese word for green, although its boundaries are not the same as in English.
+        Ancient Japanese did not have this distinction: the word midori only came into use in the
+        Heian period, and at that time (and for a long time thereafter) midori was still considered
+        a shade of ao.
+    </p>
+</section>
+```
+*/
+.panel {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 20px; }
+  .panel :first-child {
+    margin-top: 0; }
+  .panel :last-child {
+    margin-bottom: 0; }
 
 /*doc
 ---
