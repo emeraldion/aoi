@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html,
 input, textarea, keygen, select, button {
   font-family: 'Fira Sans', Arial, sans-serif;
@@ -17,23 +18,6 @@ Use the `btn` class on `<button>` or `<input type="button">` elements.
 <button class="btn">Button</button>
 ```
 */
-.btn, .btn-small {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 4px 10px; }
-  .btn:hover, .btn-small:hover {
-    background-color: #eee;
-    border-color: #999; }
-  .btn:focus, .btn-small:focus {
-    outline: none;
-    border-color: #83bfce;
-    background-color: #deeef2; }
-  .btn:active, .btn-small:active {
-    outline: none;
-    border-color: #83bfce;
-    background-color: #c1e0e7; }
-
 /*doc
 ---
 title: Small Button
@@ -48,8 +32,24 @@ Add the `btn-small` class to other button classes to obtain a smaller affordance
 <button class="btn btn-small">Button</button>
 ```
 */
-.btn-small {
-  padding: 2px 8px; }
+.btn {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px 10px; }
+  .btn:hover {
+    background-color: #eee;
+    border-color: #999; }
+  .btn:focus {
+    outline: none;
+    border-color: #83bfce;
+    background-color: #deeef2; }
+  .btn:active {
+    outline: none;
+    border-color: #83bfce;
+    background-color: #c1e0e7; }
+  .btn.btn-small {
+    padding: 2px 8px; }
 
 html,
 input, textarea, keygen, select, button {
@@ -67,33 +67,27 @@ headings from the body with a horizontal line.
 
 ```html_example
 <table class="table">
-	<tr>
-		<th>One</th>
-		<th>Two</th>
-		<th>Three</th>
-	</tr>
-	<tr>
-		<td>One</td>
-		<td>Two</td>
-		<td>Three</td>
-	</tr>
-	<tr>
-		<td>One</td>
-		<td>Two</td>
-		<td>Three</td>
-	</tr>
+    <tr>
+        <th>One</th>
+        <th>Two</th>
+        <th>Three</th>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
 </table>
 ```
 */
-.table, .table-striped, .table-compact {
-  border-collapse: collapse; }
-  .table td, .table-striped td, .table-compact td, .table th, .table-striped th, .table-compact th {
-    padding: 4px 8px; }
-  .table th, .table-striped th, .table-compact th {
-    font-weight: 500;
-    border-bottom: 1px solid #ccc; }
-
-/*doc
+.table {
+  border-collapse: collapse;
+  /*doc
 ---
 title: Striped Table
 name: table-striped
@@ -104,28 +98,25 @@ separate rows.
 
 ```html_example
 <table class="table table-striped">
-	<tr>
-		<th>One</th>
-		<th>Two</th>
-		<th>Three</th>
-	</tr>
-	<tr>
-		<td>One</td>
-		<td>Two</td>
-		<td>Three</td>
-	</tr>
-	<tr>
-		<td>One</td>
-		<td>Two</td>
-		<td>Three</td>
-	</tr>
+    <tr>
+        <th>One</th>
+        <th>Two</th>
+        <th>Three</th>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
 </table>
 ```
 */
-.table-striped tr:nth-of-type(2n) {
-  background-color: #deeef2; }
-
-/*doc
+  /*doc
 ---
 title: Compact Table
 name: table-compact
@@ -135,23 +126,127 @@ Use the `table-compact` modifier class on tables to reduce the cell padding for 
 
 ```html_example
 <table class="table table-compact">
-	<tr>
-		<th>One</th>
-		<th>Two</th>
-		<th>Three</th>
-	</tr>
-	<tr>
-		<td>One</td>
-		<td>Two</td>
-		<td>Three</td>
-	</tr>
-	<tr>
-		<td>One</td>
-		<td>Two</td>
-		<td>Three</td>
-	</tr>
+    <tr>
+        <th>One</th>
+        <th>Two</th>
+        <th>Three</th>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
 </table>
 ```
+*/ }
+  .table td, .table th {
+    padding: 4px 8px; }
+  .table th {
+    font-weight: 500;
+    border-bottom: 1px solid #ccc; }
+  .table.table-striped tr:nth-of-type(2n) {
+    background-color: #deeef2; }
+  .table.table-compact td, .table.table-compact th {
+    padding: 2px 4px; }
+
+html,
+input, textarea, keygen, select, button {
+  font-family: 'Fira Sans', Arial, sans-serif;
+  font-size: 10pt; }
+
+/*doc
+---
+title: Well
+name: well
+category: layout
+---
+Use the `well` class on `<div>`s or `<aside>`s to apply the visual cue of ancillary content.
+
+```html_example
+<aside class="well">
+    <h3>Ao (青) vs. Midori (緑)</h3>
+    <p>
+        Midori is a Japanese word for green, although its boundaries are not the same as in English.
+        Ancient Japanese did not have this distinction: the word midori only came into use in the
+        Heian period, and at that time (and for a long time thereafter) midori was still considered
+        a shade of ao.
+    </p>
+</aside>
+```
+
+If you add a `<header>` or `<footer>` inside the `well`, they will be visually separated from
+the content.
+
+```html_example
+<aside class="well">
+    <header>
+        <h3>Trivia</h3>
+    </header>
+    <p>
+        Educational materials distinguishing green and blue only came into use after World War II,
+        during the Occupation: thus, even though most Japanese consider them to be green,  the word
+        ao is still used to describe certain vegetables, apples and vegetation.
+    </p>
+</aside>
+```
 */
-.table-compact td, .table-compact th {
-  padding: 2px 4px; }
+/*doc
+---
+title: Small Well
+name: well-small
+category: layout
+---
+The `well-small` modifier class reduces the padding and borders of the well.
+
+```html_example
+<aside class="well well-small">
+    <h3>Ao (青) vs. Midori (緑)</h3>
+    <p>
+        Midori is a Japanese word for green, although its boundaries are not the same as in English.
+        Ancient Japanese did not have this distinction: the word midori only came into use in the
+        Heian period, and at that time (and for a long time thereafter) midori was still considered
+        a shade of ao.
+    </p>
+</aside>
+```
+*/
+.well {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  border: 4px solid #eee;
+  box-shadow: inset 0 1px 2px 2px #ccc; }
+  .well :first-child {
+    margin-top: 0; }
+  .well :last-child {
+    margin-bottom: 0; }
+  .well header {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 0 20px 10px 20px;
+    border-bottom: 1px solid #ccc; }
+  .well footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 10px 20px 0 20px;
+    border-top: 1px solid #ccc; }
+  .well.well-small {
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid #eee;
+    box-shadow: inset 0 1px 1px 1px #ccc; }
+    .well.well-small header {
+      margin-left: -10px;
+      margin-right: -10px;
+      padding: 0 10px 5px 10px;
+      border-bottom: 1px solid #ccc; }
+    .well.well-small footer {
+      margin-left: -10px;
+      margin-right: -10px;
+      padding: 5px 10px 0 10px;
+      border-top: 1px solid #ccc; }

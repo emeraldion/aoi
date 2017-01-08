@@ -1,11 +1,15 @@
 html, body {
-  min-height: 100%;
   margin: 0;
   padding: 0; }
 
-body {
+html {
   background: #79bccb url("../aoi_bg.jpg") no-repeat 0 100%;
-  background-size: cover; }
+  background-size: cover;
+  min-height: 100%; }
+
+body {
+  background-color: #fff;
+  margin-bottom: 20px; }
 
 a {
   color: #298597; }
@@ -64,15 +68,14 @@ pre.hljs {
 h1 {
   text-transform: capitalize; }
 
-footer {
-  padding-bottom: 20px; }
-  footer a {
-    color: #fff; }
-  footer p {
-    margin: 0;
-    padding: 10px;
-    background-color: #79bccb;
-    text-align: center; }
+footer a {
+  color: #fff; }
+
+footer p {
+  margin: 0;
+  padding: 10px;
+  background-color: #79bccb;
+  text-align: center; }
 
 @media screen and (min-width: 768px) {
   main {
@@ -81,3 +84,8 @@ footer {
     display: table-cell; }
   pre.hljs {
     white-space: pre; } }
+
+@media screen and (min-width: 1024px) {
+  main {
+    max-width: 1024px;
+    margin: auto; } }
