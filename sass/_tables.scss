@@ -7,6 +7,9 @@ title: Table
 name: table
 category: tables
 ---
+Use the `table` class on tables to apply a clean, borderless layout, and separate
+headings from the body with a horizontal line.
+
 ```html_example
     <table class="table">
     	<tr>
@@ -46,6 +49,9 @@ title: Striped Table
 name: table-striped
 category: tables
 ---
+Use the `table-striped` modifier class on tables to apply a striped pattern to visually
+separate rows.
+
 ```html_example
     <table class="table table-striped">
     	<tr>
@@ -79,6 +85,8 @@ title: Compact Table
 name: table-compact
 category: tables
 ---
+Use the `table-compact` modifier class on tables to reduce the cell padding for a more compact layout.
+
 ```html_example
     <table class="table table-compact">
     	<tr>
