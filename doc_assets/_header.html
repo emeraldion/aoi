@@ -1,21 +1,81 @@
 <!doctype html>
 <html>
   <head>
-    <title>a brand new styleguide: <%= title %></title>
+    <title>Aoi (青い) style guide - <%= title %></title>
     <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,500,500i" />
     <link type="text/css" rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.css" />
     <link type="text/css" rel="stylesheet" href="../css/aoi.css" />
+    <style type="text/css">
+/*      .exampleOutput {
+        border: 1px solid #eee;
+        border-radius: 4px;
+        float: left;
+        padding: 10px;
+      }
+      .codeBlock {
+        background-color: #eee;
+        border-radius: 4px;
+        clear: left;
+        padding: 10px;
+      }*/
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        border-bottom: 1px solid #eee;
+      }
+      nav ul {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+      }
+      nav li {
+        display: inline-block;
+      }
+      nav li a {
+        display: inline-block;
+        box-sizing: border-box;
+        height: 48px;
+        padding: 12px 20px;
+        color: #000;
+        text-decoration: none;
+        text-transform: capitalize;
+      }
+      nav li a:active {
+        background-color: #eee;
+      }
+      #logo {
+        font-family: Menlo, sans-serif;
+        border-radius: 1000px;
+        border: 5px solid black;
+        width: 48px;
+        height: 48px;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 10px 0;
+        text-align: center;
+        margin: 10px;
+      }
+      main {
+        padding: 20px;
+      }
+      footer p {
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <div>
-      <nav>
-        <ul>
-        <% @categories.each do |category, file_name| %>
-          <li><a href="<%= file_name %>"><%= category %></a></li>
-        <% end %>
-        </ul>
-      </nav>
+    <nav>
+      <span id="logo">青い</span>
+      <ul>
+      <% @categories.each do |category, file_name| %>
+        <li><a href="<%= file_name %>"><%= category %></a></li>
+      <% end %>
+      </ul>
+    </nav>
 
+    <main>
       <h1>a brand new style guide, it's super effective</h1>
       <section class="content">
         <ul>
