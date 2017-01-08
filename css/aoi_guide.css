@@ -1,0 +1,78 @@
+html, body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #79bccb url("../aoi_bg.jpg") no-repeat 0 100%;
+  background-size: cover; }
+
+a {
+  color: #298597; }
+
+nav {
+  border-bottom: 1px solid #298597;
+  background: linear-gradient(90deg, #29acb7 0%, #298597 100%);
+  display: -ms-flexbox;
+  display: flex; }
+  nav ul {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    -ms-flex: 1 auto;
+    flex: 1 auto; }
+  nav li {
+    display: inline-block; }
+    nav li a {
+      display: block;
+      box-sizing: border-box;
+      height: 100%;
+      padding: 23px 20px;
+      color: #fff;
+      text-decoration: none;
+      text-transform: capitalize; }
+      nav li a:focus, nav li a:hover {
+        background-color: #298597; }
+
+#logo {
+  font-family: Menlo, sans-serif;
+  color: #fff;
+  border-radius: 1000px;
+  border: 5px solid #fff;
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px 0;
+  text-align: center;
+  margin: 10px; }
+
+main {
+  background-color: #fff;
+  padding: 10px; }
+
+pre.hljs {
+  border-radius: 4px;
+  padding: .8em;
+  white-space: pre-wrap; }
+
+h1 {
+  text-transform: capitalize; }
+
+footer {
+  padding-bottom: 20px; }
+  footer a {
+    color: #fff; }
+  footer p {
+    margin: 0;
+    padding: 10px;
+    background-color: #79bccb;
+    text-align: center; }
+
+@media screen and (min-width: 768px) {
+  main {
+    padding: 20px; }
+  pre.hljs {
+    white-space: pre; } }
