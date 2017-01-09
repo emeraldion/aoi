@@ -1,5 +1,155 @@
+@import 'variables';
+
 html,
 input, textarea, keygen, select, button {
-	font-family: 'Fira Sans', Arial, sans-serif;
-	font-size: 10pt;
+  font-family: 'Fira Sans', Arial, sans-serif;
+  font-size: 10pt;
+}
+
+@mixin set-bg-border-colors($bgcolor, $color) {
+  background-color: $bgcolor;
+  border-color: darken($bgcolor, 20%);
+  color: $color;
+}
+
+.dark-gray{
+  @include set-bg-border-colors($dark-gray, $white);
+}
+.medium-gray{
+  @include set-bg-border-colors($medium-gray, $black);
+}
+.light-gray{
+  @include set-bg-border-colors($light-gray, $black);
+}
+.lightest-gray{
+  @include set-bg-border-colors($lightest-gray, $black);
+}
+.dark-blue{
+  @include set-bg-border-colors($dark-blue, $white);
+}
+.medium-blue{
+  @include set-bg-border-colors($medium-blue, $black);
+}
+.light-blue{
+  @include set-bg-border-colors($light-blue, $black);
+}
+.lightest-blue{
+  @include set-bg-border-colors($lightest-blue, $black);
+}
+.dark-green {
+  @include set-bg-border-colors($dark-green, $black);
+}
+.medium-green{
+  @include set-bg-border-colors($medium-green, $black);
+}
+.light-green{
+  @include set-bg-border-colors($light-green, $black);
+}
+.lightest-green{
+  @include set-bg-border-colors($lightest-green, $black);
+}
+.dark-red {
+  @include set-bg-border-colors($dark-red, $white);
+}
+.medium-red{
+  @include set-bg-border-colors($medium-red, $white);
+}
+.light-red{
+  @include set-bg-border-colors($light-red, $black);
+}
+.lightest-red{
+  @include set-bg-border-colors($lightest-red, $black);
+}
+.dark-amber {
+  @include set-bg-border-colors($dark-amber, $white);
+}
+.medium-amber{
+  @include set-bg-border-colors($medium-amber, $black);
+}
+.light-amber{
+  @include set-bg-border-colors($light-amber, $black);
+}
+.lightest-amber{
+  @include set-bg-border-colors($lightest-amber, $black);
+}
+.dark-accent {
+  @include set-bg-border-colors($dark-accent, $white);
+}
+.medium-accent{
+  @include set-bg-border-colors($medium-accent, $black);
+}
+.light-accent{
+  @include set-bg-border-colors($light-accent, $black);
+}
+.lightest-accent{
+  @include set-bg-border-colors($lightest-accent, $black);
+}
+.dark-plum {
+  @include set-bg-border-colors($dark-plum, $white);
+}
+.medium-plum{
+  @include set-bg-border-colors($medium-plum, $white);
+}
+.light-plum{
+  @include set-bg-border-colors($light-plum, $black);
+}
+.lightest-plum{
+  @include set-bg-border-colors($lightest-plum, $black);
+}
+.dark-raspberry {
+  @include set-bg-border-colors($dark-raspberry, $white);
+}
+.medium-raspberry{
+  @include set-bg-border-colors($medium-raspberry, $white);
+}
+.light-raspberry{
+  @include set-bg-border-colors($light-raspberry, $black);
+}
+.lightest-raspberry{
+  @include set-bg-border-colors($lightest-raspberry, $black);
+}
+.dark-banana {
+  @include set-bg-border-colors($dark-banana, $black);
+}
+.medium-banana{
+  @include set-bg-border-colors($medium-banana, $black);
+}
+.light-banana{
+  @include set-bg-border-colors($light-banana, $black);
+}
+.lightest-banana{
+  @include set-bg-border-colors($lightest-banana, $black);
+}
+
+// Generates aliases for level colors
+@each $level in error, warning, info, success {
+  @each $tone in dark, medium, light, lightest {
+  	.#{$tone}-#{$level} {
+      @if $level == error {
+        @extend .#{$tone}-red;
+      } @else if $level == warning {
+        @extend .#{$tone}-amber;
+      } @else if $level == info {
+        @extend .#{$tone}-blue;
+  	  } @else if $level == success {
+    	@extend .#{$tone}-green;
+  	  }
+  	}
+  }
+}
+
+@mixin set-color($color, $tone: medium) {
+  @extend .#{$tone}-#{$color};
+}
+
+@mixin levels {
+  @each $level in accent, error, warning, info, success {
+    &.#{$level} {
+      @include set-color($level);
+    }
+
+    &.#{$level}:active {
+      @include set-color($level, dark);
+    }
+  }
 }

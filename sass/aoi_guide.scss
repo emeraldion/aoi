@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'base';
 
 $lightest-aoi: #79bccb;
 $light-aoi: #29acb7;
@@ -62,7 +63,7 @@ nav {
       display: block;
       box-sizing: border-box;
       height: 100%;
-      padding: 19px 20px;
+      padding: 22px 20px 16px 20px;
       color: $white;
       text-transform: capitalize;
     }
@@ -129,149 +130,14 @@ ul.colors {
     height: 60px;
     margin: 0;
   }
-  .dark-gray{
-    background-color: $dark-gray;
-    color: $white;
-  }
-  .medium-gray{
-    background-color: $medium-gray;
-    color: $black;
-  }
-  .light-gray{
-    background-color: $light-gray;
-    color: $black;
-  }
-  .lightest-gray{
-    background-color: $lightest-gray;
-    color: $black;
-  }
-  .dark-blue{
-    background-color: $dark-blue;
-    color: $white;
-  }
-  .medium-blue{
-    background-color: $medium-blue;
-    color: $black;
-  }
-  .light-blue{
-    background-color: $light-blue;
-    color: $black;
-  }
-  .lightest-blue{
-    background-color: $lightest-blue;
-    color: $black;
-  }
-  .dark-green {
-    background-color: $dark-green;
-    color: $black;
-  }
-  .medium-green{
-    background-color: $medium-green;
-    color: $black;
-  }
-  .light-green{
-    background-color: $light-green;
-    color: $black;
-  }
-  .lightest-green{
-    background-color: $lightest-green;
-    color: $black;
-  }
-  .dark-red {
-    background-color: $dark-red;
-    color: $white;
-  }
-  .medium-red{
-    background-color: $medium-red;
-    color: $white;
-  }
-  .light-red{
-    background-color: $light-red;
-    color: $black;
-  }
-  .lightest-red{
-    background-color: $lightest-red;
-    color: $black;
-  }
-  .dark-amber {
-    background-color: $dark-amber;
-    color: $white;
-  }
-  .medium-amber{
-    background-color: $medium-amber;
-    color: $black;
-  }
-  .light-amber{
-    background-color: $light-amber;
-    color: $black;
-  }
-  .lightest-amber{
-    background-color: $lightest-amber;
-    color: $black;
-  }
-  .dark-accent {
-    background-color: $dark-accent;
-    color: $white;
-  }
-  .medium-accent{
-    background-color: $medium-accent;
-    color: $black;
-  }
-  .light-accent{
-    background-color: $light-accent;
-    color: $black;
-  }
-  .lightest-accent{
-    background-color: $lightest-accent;
-    color: $black;
-  }
-  .dark-plum {
-    background-color: $dark-plum;
-    color: $white;
-  }
-  .medium-plum{
-    background-color: $medium-plum;
-    color: $white;
-  }
-  .light-plum{
-    background-color: $light-plum;
-    color: $black;
-  }
-  .lightest-plum{
-    background-color: $lightest-plum;
-    color: $black;
-  }
-  .dark-raspberry {
-    background-color: $dark-raspberry;
-    color: $white;
-  }
-  .medium-raspberry{
-    background-color: $medium-raspberry;
-    color: $white;
-  }
-  .light-raspberry{
-    background-color: $light-raspberry;
-    color: $black;
-  }
-  .lightest-raspberry{
-    background-color: $lightest-raspberry;
-    color: $black;
-  }
-  .dark-banana {
-    background-color: $dark-banana;
-    color: $black;
-  }
-  .medium-banana{
-    background-color: $medium-banana;
-    color: $black;
-  }
-  .light-banana{
-    background-color: $light-banana;
-    color: $black;
-  }
-  .lightest-banana{
-    background-color: $lightest-banana;
-    color: $black;
+}
+
+@media screen and (min-width: 425px) {
+  ul.colors {
+    li {
+      width: 80px;
+      height: 80px;
+    }
   }
 }
 
@@ -309,6 +175,8 @@ ul.colors {
     display: flex;
 
     li {
+      border-width: 2px;
+      border-style: solid;
       padding: 20px;
       width: 120px;
       height: 120px;
