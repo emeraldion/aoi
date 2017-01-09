@@ -41,7 +41,7 @@ nav {
       display: block;
       box-sizing: border-box;
       height: 100%;
-      padding: 23px 20px;
+      padding: 19px 20px;
       color: #fff;
       text-transform: capitalize; }
 
@@ -203,10 +203,12 @@ ul.colors {
     color: #000; }
 
 @media screen and (min-width: 768px) {
-  nav a .txt {
-    display: inline; }
-  nav a .fa {
-    display: none; }
+  nav li a {
+    padding: 23px 20px; }
+    nav li a .txt {
+      display: inline; }
+    nav li a .fa {
+      display: none; }
   main {
     padding: 20px; }
   .codeTable th, .codeTable td {
