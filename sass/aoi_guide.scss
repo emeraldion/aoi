@@ -37,6 +37,14 @@ nav {
     &:hover {
       background-color: $dark-aoi;
     }
+
+    .txt {
+      display: none;
+    }
+
+    .fa {
+      font-size: 2rem;
+    }
   }
 
   ul {
@@ -268,6 +276,17 @@ ul.colors {
 }
 
 @media screen and (min-width: 768px) {
+  nav {
+    a {
+      .txt {
+        display: inline;
+      }
+
+      .fa {
+        display: none;
+      }
+    }
+  }
   main {
     padding: 20px;
   }
