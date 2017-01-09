@@ -58,17 +58,18 @@ Add the `btn-small` class to other button classes to obtain a smaller affordance
 
   @mixin active-focused {
     outline: none;
-    border-color: $blue;
+    border-color: $dark-gray;
   }
 
   &:focus {
     @include active-focused;
-    background-color: $lightest-blue;
+    background-color: $lightest-gray;
+    border-color: $medium-gray;
   }
 
   &:active {
     @include active-focused;
-    background-color: $light-blue;
+    background-color: $light-gray;
   }
 
   &.btn-large {
