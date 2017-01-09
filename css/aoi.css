@@ -24,7 +24,7 @@ input, textarea, keygen, select, button {
   border-color: #bbbbbb;
   color: #000; }
 
-.dark-blue, .dark-info, .btn.info:active {
+.dark-blue, .dark-info, .btn.info:active, .msg.info:active {
   background-color: #23699f;
   border-color: #11324b;
   color: #fff; }
@@ -34,7 +34,7 @@ input, textarea, keygen, select, button {
   border-color: #216497;
   color: #000; }
 
-.light-blue, .light-info {
+.light-blue, .light-info, .msg.info {
   background-color: #92c2e7;
   border-color: #3f94d5;
   color: #000; }
@@ -44,7 +44,7 @@ input, textarea, keygen, select, button {
   border-color: #86bbe4;
   color: #000; }
 
-.dark-green, .dark-success, .btn.success:active {
+.dark-green, .dark-success, .btn.success:active, .msg.success:active {
   background-color: #29992b;
   border-color: #134914;
   color: #000; }
@@ -54,7 +54,7 @@ input, textarea, keygen, select, button {
   border-color: #279128;
   color: #000; }
 
-.light-green, .light-success {
+.light-green, .light-success, .msg.success {
   background-color: #96e398;
   border-color: #46ce48;
   color: #000; }
@@ -64,7 +64,7 @@ input, textarea, keygen, select, button {
   border-color: #8ae08c;
   color: #000; }
 
-.dark-red, .dark-error, .btn.error:active {
+.dark-red, .dark-error, .btn.error:active, .msg.error:active {
   background-color: #b30f1c;
   border-color: #55070d;
   color: #fff; }
@@ -74,7 +74,7 @@ input, textarea, keygen, select, button {
   border-color: #aa0e1b;
   color: #fff; }
 
-.light-red, .light-error {
+.light-red, .light-error, .msg.error {
   background-color: #f5848e;
   border-color: #ed2637;
   color: #000; }
@@ -84,7 +84,7 @@ input, textarea, keygen, select, button {
   border-color: #f47681;
   color: #000; }
 
-.dark-amber, .dark-warning, .btn.warning:active {
+.dark-amber, .dark-warning, .btn.warning:active, .msg.warning:active {
   background-color: #c25a00;
   border-color: #5c2b00;
   color: #fff; }
@@ -94,7 +94,7 @@ input, textarea, keygen, select, button {
   border-color: #b35605;
   color: #000; }
 
-.light-amber, .light-warning {
+.light-amber, .light-warning, .msg.warning {
   background-color: #f8b981;
   border-color: #f38320;
   color: #000; }
@@ -104,17 +104,17 @@ input, textarea, keygen, select, button {
   border-color: #f4b176;
   color: #000; }
 
-.dark-accent, .btn.accent:active {
+.dark-accent, .btn.accent:active, .btn.msg:active, .msg.accent:active, .msg:active {
   background-color: #298699;
   border-color: #134049;
   color: #fff; }
 
-.medium-accent, .btn.accent {
+.medium-accent, .btn.accent, .btn.msg {
   background-color: #4ebad0;
   border-color: #277f91;
   color: #000; }
 
-.light-accent {
+.light-accent, .msg.accent, .msg {
   background-color: #96d6e3;
   border-color: #46b7ce;
   color: #000; }
@@ -296,7 +296,7 @@ input, textarea, keygen, select, button {
   border-color: #bbbbbb;
   color: #000; }
 
-.dark-blue, .dark-info, .btn.info:active {
+.dark-blue, .dark-info, .btn.info:active, .msg.info:active {
   background-color: #23699f;
   border-color: #11324b;
   color: #fff; }
@@ -306,7 +306,7 @@ input, textarea, keygen, select, button {
   border-color: #216497;
   color: #000; }
 
-.light-blue, .light-info {
+.light-blue, .light-info, .msg.info {
   background-color: #92c2e7;
   border-color: #3f94d5;
   color: #000; }
@@ -316,7 +316,7 @@ input, textarea, keygen, select, button {
   border-color: #86bbe4;
   color: #000; }
 
-.dark-green, .dark-success, .btn.success:active {
+.dark-green, .dark-success, .btn.success:active, .msg.success:active {
   background-color: #29992b;
   border-color: #134914;
   color: #000; }
@@ -326,7 +326,7 @@ input, textarea, keygen, select, button {
   border-color: #279128;
   color: #000; }
 
-.light-green, .light-success {
+.light-green, .light-success, .msg.success {
   background-color: #96e398;
   border-color: #46ce48;
   color: #000; }
@@ -336,7 +336,7 @@ input, textarea, keygen, select, button {
   border-color: #8ae08c;
   color: #000; }
 
-.dark-red, .dark-error, .btn.error:active {
+.dark-red, .dark-error, .btn.error:active, .msg.error:active {
   background-color: #b30f1c;
   border-color: #55070d;
   color: #fff; }
@@ -346,7 +346,7 @@ input, textarea, keygen, select, button {
   border-color: #aa0e1b;
   color: #fff; }
 
-.light-red, .light-error {
+.light-red, .light-error, .msg.error {
   background-color: #f5848e;
   border-color: #ed2637;
   color: #000; }
@@ -356,7 +356,7 @@ input, textarea, keygen, select, button {
   border-color: #f47681;
   color: #000; }
 
-.dark-amber, .dark-warning, .btn.warning:active {
+.dark-amber, .dark-warning, .btn.warning:active, .msg.warning:active {
   background-color: #c25a00;
   border-color: #5c2b00;
   color: #fff; }
@@ -366,7 +366,7 @@ input, textarea, keygen, select, button {
   border-color: #b35605;
   color: #000; }
 
-.light-amber, .light-warning {
+.light-amber, .light-warning, .msg.warning {
   background-color: #f8b981;
   border-color: #f38320;
   color: #000; }
@@ -376,17 +376,17 @@ input, textarea, keygen, select, button {
   border-color: #f4b176;
   color: #000; }
 
-.dark-accent, .btn.accent:active {
+.dark-accent, .btn.accent:active, .btn.msg:active, .msg.accent:active, .msg:active {
   background-color: #298699;
   border-color: #134049;
   color: #fff; }
 
-.medium-accent, .btn.accent {
+.medium-accent, .btn.accent, .btn.msg {
   background-color: #4ebad0;
   border-color: #277f91;
   color: #000; }
 
-.light-accent {
+.light-accent, .msg.accent, .msg {
   background-color: #96d6e3;
   border-color: #46b7ce;
   color: #000; }
@@ -579,7 +579,7 @@ input, textarea, keygen, select, button {
   border-color: #bbbbbb;
   color: #000; }
 
-.dark-blue, .dark-info, .btn.info:active {
+.dark-blue, .dark-info, .btn.info:active, .msg.info:active {
   background-color: #23699f;
   border-color: #11324b;
   color: #fff; }
@@ -589,7 +589,7 @@ input, textarea, keygen, select, button {
   border-color: #216497;
   color: #000; }
 
-.light-blue, .light-info {
+.light-blue, .light-info, .msg.info {
   background-color: #92c2e7;
   border-color: #3f94d5;
   color: #000; }
@@ -599,7 +599,7 @@ input, textarea, keygen, select, button {
   border-color: #86bbe4;
   color: #000; }
 
-.dark-green, .dark-success, .btn.success:active {
+.dark-green, .dark-success, .btn.success:active, .msg.success:active {
   background-color: #29992b;
   border-color: #134914;
   color: #000; }
@@ -609,7 +609,7 @@ input, textarea, keygen, select, button {
   border-color: #279128;
   color: #000; }
 
-.light-green, .light-success {
+.light-green, .light-success, .msg.success {
   background-color: #96e398;
   border-color: #46ce48;
   color: #000; }
@@ -619,7 +619,7 @@ input, textarea, keygen, select, button {
   border-color: #8ae08c;
   color: #000; }
 
-.dark-red, .dark-error, .btn.error:active {
+.dark-red, .dark-error, .btn.error:active, .msg.error:active {
   background-color: #b30f1c;
   border-color: #55070d;
   color: #fff; }
@@ -629,7 +629,7 @@ input, textarea, keygen, select, button {
   border-color: #aa0e1b;
   color: #fff; }
 
-.light-red, .light-error {
+.light-red, .light-error, .msg.error {
   background-color: #f5848e;
   border-color: #ed2637;
   color: #000; }
@@ -639,7 +639,7 @@ input, textarea, keygen, select, button {
   border-color: #f47681;
   color: #000; }
 
-.dark-amber, .dark-warning, .btn.warning:active {
+.dark-amber, .dark-warning, .btn.warning:active, .msg.warning:active {
   background-color: #c25a00;
   border-color: #5c2b00;
   color: #fff; }
@@ -649,7 +649,7 @@ input, textarea, keygen, select, button {
   border-color: #b35605;
   color: #000; }
 
-.light-amber, .light-warning {
+.light-amber, .light-warning, .msg.warning {
   background-color: #f8b981;
   border-color: #f38320;
   color: #000; }
@@ -659,17 +659,17 @@ input, textarea, keygen, select, button {
   border-color: #f4b176;
   color: #000; }
 
-.dark-accent, .btn.accent:active {
+.dark-accent, .btn.accent:active, .btn.msg:active, .msg.accent:active, .msg:active {
   background-color: #298699;
   border-color: #134049;
   color: #fff; }
 
-.medium-accent, .btn.accent {
+.medium-accent, .btn.accent, .btn.msg {
   background-color: #4ebad0;
   border-color: #277f91;
   color: #000; }
 
-.light-accent {
+.light-accent, .msg.accent, .msg {
   background-color: #96d6e3;
   border-color: #46b7ce;
   color: #000; }
@@ -858,3 +858,274 @@ The `well-small` modifier class reduces the padding and borders of the well.
       margin-right: -10px;
       padding: 5px 10px 0 10px;
       border-top: 1px solid #ccc; }
+
+html,
+input, textarea, keygen, select, button {
+  font-family: 'Fira Sans', Arial, sans-serif;
+  font-size: 10pt; }
+
+.dark-gray {
+  background-color: #666;
+  border-color: #333333;
+  color: #fff; }
+
+.medium-gray {
+  background-color: #999;
+  border-color: #666666;
+  color: #000; }
+
+.light-gray {
+  background-color: #ccc;
+  border-color: #999999;
+  color: #000; }
+
+.lightest-gray {
+  background-color: #eee;
+  border-color: #bbbbbb;
+  color: #000; }
+
+.dark-blue, .dark-info, .btn.info:active, .msg.info:active {
+  background-color: #23699f;
+  border-color: #11324b;
+  color: #fff; }
+
+.medium-blue, .medium-info, .btn.info {
+  background-color: #4798d7;
+  border-color: #216497;
+  color: #000; }
+
+.light-blue, .light-info, .msg.info {
+  background-color: #92c2e7;
+  border-color: #3f94d5;
+  color: #000; }
+
+.lightest-blue, .lightest-info {
+  background-color: #d9eaf7;
+  border-color: #86bbe4;
+  color: #000; }
+
+.dark-green, .dark-success, .btn.success:active, .msg.success:active {
+  background-color: #29992b;
+  border-color: #134914;
+  color: #000; }
+
+.medium-green, .medium-success, .btn.success {
+  background-color: #4ed050;
+  border-color: #279128;
+  color: #000; }
+
+.light-green, .light-success, .msg.success {
+  background-color: #96e398;
+  border-color: #46ce48;
+  color: #000; }
+
+.lightest-green, .lightest-success {
+  background-color: #dbf5db;
+  border-color: #8ae08c;
+  color: #000; }
+
+.dark-red, .dark-error, .btn.error:active, .msg.error:active {
+  background-color: #b30f1c;
+  border-color: #55070d;
+  color: #fff; }
+
+.medium-red, .medium-error, .btn.error {
+  background-color: #ee2f3f;
+  border-color: #aa0e1b;
+  color: #fff; }
+
+.light-red, .light-error, .msg.error {
+  background-color: #f5848e;
+  border-color: #ed2637;
+  color: #000; }
+
+.lightest-red, .lightest-error {
+  background-color: #fcd5d8;
+  border-color: #f47681;
+  color: #000; }
+
+.dark-amber, .dark-warning, .btn.warning:active, .msg.warning:active {
+  background-color: #c25a00;
+  border-color: #5c2b00;
+  color: #fff; }
+
+.medium-amber, .medium-warning, .btn.warning {
+  background-color: #f98824;
+  border-color: #b35605;
+  color: #000; }
+
+.light-amber, .light-warning, .msg.warning {
+  background-color: #f8b981;
+  border-color: #f38320;
+  color: #000; }
+
+.lightest-amber, .lightest-warning {
+  background-color: #fce7d5;
+  border-color: #f4b176;
+  color: #000; }
+
+.dark-accent, .btn.accent:active, .btn.msg:active, .msg.accent:active, .msg:active {
+  background-color: #298699;
+  border-color: #134049;
+  color: #fff; }
+
+.medium-accent, .btn.accent, .btn.msg {
+  background-color: #4ebad0;
+  border-color: #277f91;
+  color: #000; }
+
+.light-accent, .msg.accent, .msg {
+  background-color: #96d6e3;
+  border-color: #46b7ce;
+  color: #000; }
+
+.lightest-accent {
+  background-color: #dbf1f5;
+  border-color: #8ad2e0;
+  color: #000; }
+
+.dark-plum {
+  background-color: #632999;
+  border-color: #2f1349;
+  color: #fff; }
+
+.medium-plum {
+  background-color: #914ed0;
+  border-color: #5e2791;
+  color: #fff; }
+
+.light-plum {
+  background-color: #be96e3;
+  border-color: #8c46ce;
+  color: #000; }
+
+.lightest-plum {
+  background-color: #e8dbf5;
+  border-color: #b68ae0;
+  color: #000; }
+
+.dark-raspberry {
+  background-color: #a61c48;
+  border-color: #4e0d22;
+  color: #fff; }
+
+.medium-raspberry {
+  background-color: #de3f72;
+  border-color: #9d1b44;
+  color: #fff; }
+
+.light-raspberry {
+  background-color: #ec8eab;
+  border-color: #dd366b;
+  color: #000; }
+
+.lightest-raspberry {
+  background-color: #f8d8e2;
+  border-color: #ea81a2;
+  color: #000; }
+
+.dark-banana {
+  background-color: #c2a200;
+  border-color: #5c4d00;
+  color: #000; }
+
+.medium-banana {
+  background-color: #f9d624;
+  border-color: #b39605;
+  color: #000; }
+
+.light-banana {
+  background-color: #f8e481;
+  border-color: #f3d020;
+  color: #000; }
+
+.lightest-banana {
+  background-color: #fcf5d5;
+  border-color: #f4df76;
+  color: #000; }
+
+/*doc
+---
+title: Messages
+name: msg
+category: controls
+---
+Use the `msg` class on a block element to style it as a message container.
+
+```html_example
+<div class="msg">
+    <p>Hey y'all!</p>
+</div>
+```
+
+Additionally, you can set a level modifier of `accent` (default), `error`, `warning`,
+`info`, or `success` to give it a semantic cue. 
+
+```html_example
+<div class="msg error">
+    <p>There was an error</p>
+</div>
+
+<div class="msg warning">
+    <p>This is a warning</p>
+</div>
+
+<div class="msg info">
+    <p>Here is some info</p>
+</div>
+
+<div class="msg success">
+    <p>Things are going well</p>
+</div>
+```
+
+Finally, setting a modifier of `msg-icon`, the message will include an icon. 
+
+```html_example
+<div class="msg msg-icon error">
+    <p>There was an error</p>
+</div>
+
+<div class="msg msg-icon warning">
+    <p>This is a warning</p>
+</div>
+
+<div class="msg msg-icon info">
+    <p>Here is some info</p>
+</div>
+
+<div class="msg msg-icon success">
+    <p>Things are going well</p>
+</div>
+```
+*/
+.msg {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 0 10px 10px 10px; }
+  .msg.msg-icon.error :first-child:before {
+    font-family: 'FontAwesome';
+    margin-right: .8em;
+    vertical-align: middle;
+    content: '\f06a'; }
+  .msg.msg-icon.info :first-child:before {
+    font-family: 'FontAwesome';
+    margin-right: .8em;
+    vertical-align: middle;
+    content: '\f05a'; }
+  .msg.msg-icon.warning :first-child:before {
+    font-family: 'FontAwesome';
+    margin-right: .8em;
+    vertical-align: middle;
+    content: '\f071'; }
+  .msg.msg-icon.success :first-child:before {
+    font-family: 'FontAwesome';
+    margin-right: .8em;
+    vertical-align: middle;
+    content: '\f058'; }
+  .msg :first-child {
+    margin-top: 0; }
+  .msg :last-child {
+    margin-bottom: 0; }
