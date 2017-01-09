@@ -4,7 +4,7 @@ This style guide contains a catalog of patterns, as well as guidelines for their
 
 ## Colors
 
-Aoi uses a palette of four tones and seven hues, a main hue called _accent_, then four
+Aoi uses a palette of four tones and eight hues: a main hue called _accent_, then four
 hues associated with _levels_, and three extra hues. Additionally, the theme uses
 four tones of grayscale. All colors have been tested for color contrast according to
 [WAI WCAG 2.0 AAA](https://www.w3.org/TR/WCAG20/) guidelines.
