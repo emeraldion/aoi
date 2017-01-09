@@ -56,12 +56,13 @@ Add the `btn-small` class to other button classes to obtain a smaller affordance
     border-color: #999; }
   .btn:focus {
     outline: none;
-    border-color: #83bfce;
-    background-color: #d9eaf7; }
+    border-color: #666;
+    background-color: #eee;
+    border-color: #999; }
   .btn:active {
     outline: none;
-    border-color: #83bfce;
-    background-color: #92c2e7; }
+    border-color: #666;
+    background-color: #ccc; }
   .btn.btn-large {
     font-size: 1.2rem;
     padding: 8px 16px 6px 16px; }

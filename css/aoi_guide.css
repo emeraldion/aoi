@@ -19,6 +19,10 @@ nav {
   background: linear-gradient(90deg, #29acb7 0%, #298597 100%);
   display: -ms-flexbox;
   display: flex; }
+  nav a {
+    text-decoration: none; }
+    nav a:focus, nav a:hover {
+      background-color: #298597; }
   nav ul {
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -35,10 +39,7 @@ nav {
       height: 100%;
       padding: 23px 20px;
       color: #fff;
-      text-decoration: none;
       text-transform: capitalize; }
-      nav li a:focus, nav li a:hover {
-        background-color: #298597; }
 
 #logo {
   font-family: Menlo, sans-serif;
