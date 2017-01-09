@@ -23,6 +23,10 @@ nav {
     text-decoration: none; }
     nav a:focus, nav a:hover {
       background-color: #298597; }
+    nav a .txt {
+      display: none; }
+    nav a .fa {
+      font-size: 2rem; }
   nav ul {
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -199,6 +203,10 @@ ul.colors {
     color: #000; }
 
 @media screen and (min-width: 768px) {
+  nav a .txt {
+    display: inline; }
+  nav a .fa {
+    display: none; }
   main {
     padding: 20px; }
   .codeTable th, .codeTable td {
