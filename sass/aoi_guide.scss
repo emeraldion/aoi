@@ -62,7 +62,7 @@ nav {
       display: block;
       box-sizing: border-box;
       height: 100%;
-      padding: 23px 20px;
+      padding: 19px 20px;
       color: $white;
       text-transform: capitalize;
     }
@@ -277,13 +277,17 @@ ul.colors {
 
 @media screen and (min-width: 768px) {
   nav {
-    a {
-      .txt {
-        display: inline;
-      }
+    li {
+      a {
+        padding: 23px 20px;
 
-      .fa {
-        display: none;
+        .txt {
+          display: inline;
+        }
+
+        .fa {
+          display: none;
+        }
       }
     }
   }
