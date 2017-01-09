@@ -45,11 +45,35 @@ Add the `btn-small` class to other button classes to obtain a smaller affordance
 <button class="btn btn-small">Button</button>
 ```
 */
+
+/*doc
+---
+title: Colored Buttons
+name: btn-colored
+category: controls
+---
+Add the `accent`, `error`, `warning`, `info`, or `success` classes to a button
+to give the button a special semantic cue.
+
+```html_example_table
+<button class="btn accent">Button</button>
+
+<button class="btn error">Button</button>
+
+<button class="btn warning">Button</button>
+
+<button class="btn info">Button</button>
+
+<button class="btn success">Button</button>
+```
+*/
 .btn {
   background-color: $white;
   border: 1px solid $light-gray;
   border-radius: $border-radius;
   padding: 6px 10px 4px 10px;
+
+  @include levels;
 
   &:hover {
     background-color: $lightest-gray;

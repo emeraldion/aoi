@@ -2,14 +2,14 @@ Aoi _(Japanese: Blue, Green)_ is a design language for Emeraldion UX.
 
 This style guide contains a catalog of patterns, as well as guidelines for their use.
 
-# Colors
+## Colors
 
 Aoi uses a palette of four tones and seven hues, a main hue called _accent_, then four
 hues associated with _levels_, and three extra hues. Additionally, the theme uses
 four tones of grayscale. All colors have been tested for color contrast according to
 [WAI WCAG 2.0 AAA](https://www.w3.org/TR/WCAG20/) guidelines.
 
-## Accent
+### Accent
 
 <ul class="colors">
 	<li class="dark-accent">Aa</li>
@@ -18,7 +18,7 @@ four tones of grayscale. All colors have been tested for color contrast accordin
 	<li class="lightest-accent">Aa</li>
 </ul>
 
-## Error
+### Error
 
 <ul class="colors">
 	<li class="dark-red">Aa</li>
@@ -27,7 +27,7 @@ four tones of grayscale. All colors have been tested for color contrast accordin
 	<li class="lightest-red">Aa</li>
 </ul>
 
-## Warning
+### Warning
 
 <ul class="colors">
 	<li class="dark-amber">Aa</li>
@@ -36,7 +36,7 @@ four tones of grayscale. All colors have been tested for color contrast accordin
 	<li class="lightest-amber">Aa</li>
 </ul>
 
-## Info
+### Info
 
 <ul class="colors">
 	<li class="dark-blue">Aa</li>
@@ -45,7 +45,7 @@ four tones of grayscale. All colors have been tested for color contrast accordin
 	<li class="lightest-blue">Aa</li>
 </ul>
 
-## Success
+### Success
 
 <ul class="colors">
 	<li class="dark-green">Aa</li>
@@ -54,7 +54,7 @@ four tones of grayscale. All colors have been tested for color contrast accordin
 	<li class="lightest-green">Aa</li>
 </ul>
 
-## Extra 1
+### Extra 1
 
 <ul class="colors">
 	<li class="dark-plum">Aa</li>
@@ -63,7 +63,7 @@ four tones of grayscale. All colors have been tested for color contrast accordin
 	<li class="lightest-plum">Aa</li>
 </ul>
 
-## Extra 2
+### Extra 2
 
 <ul class="colors">
 	<li class="dark-raspberry">Aa</li>
@@ -72,7 +72,7 @@ four tones of grayscale. All colors have been tested for color contrast accordin
 	<li class="lightest-raspberry">Aa</li>
 </ul>
 
-## Extra 3
+### Extra 3
 
 <ul class="colors">
 	<li class="dark-banana">Aa</li>
@@ -81,7 +81,7 @@ four tones of grayscale. All colors have been tested for color contrast accordin
 	<li class="lightest-banana">Aa</li>
 </ul>
 
-## Grayscale
+### Grayscale
 
 <ul class="colors">
 	<li class="dark-gray">Aa</li>
