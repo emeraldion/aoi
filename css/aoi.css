@@ -57,11 +57,11 @@ Add the `btn-small` class to other button classes to obtain a smaller affordance
   .btn:focus {
     outline: none;
     border-color: #83bfce;
-    background-color: #deeef2; }
+    background-color: #d9eaf7; }
   .btn:active {
     outline: none;
     border-color: #83bfce;
-    background-color: #c1e0e7; }
+    background-color: #92c2e7; }
   .btn.btn-large {
     font-size: 1.2rem;
     padding: 8px 16px 6px 16px; }
@@ -168,7 +168,7 @@ Use the `table-compact` modifier class on tables to reduce the cell padding for 
     font-weight: 500;
     border-bottom: 1px solid #ccc; }
   .table.table-striped tr:nth-of-type(2n) {
-    background-color: #deeef2; }
+    background-color: #d9eaf7; }
   .table.table-compact td, .table.table-compact th {
     padding: 2px 4px; }
 

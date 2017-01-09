@@ -77,13 +77,141 @@ footer p {
   background-color: #79bccb;
   text-align: center; }
 
+ul.colors {
+  padding: 0;
+  display: -ms-flexbox;
+  display: flex; }
+  ul.colors li {
+    padding: 10px;
+    font-size: 24pt;
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0; }
+  ul.colors .dark-gray {
+    background-color: #666;
+    color: #fff; }
+  ul.colors .medium-gray {
+    background-color: #999;
+    color: #000; }
+  ul.colors .light-gray {
+    background-color: #ccc;
+    color: #000; }
+  ul.colors .lightest-gray {
+    background-color: #eee;
+    color: #000; }
+  ul.colors .dark-blue {
+    background-color: #23699f;
+    color: #fff; }
+  ul.colors .medium-blue {
+    background-color: #4798d7;
+    color: #000; }
+  ul.colors .light-blue {
+    background-color: #92c2e7;
+    color: #000; }
+  ul.colors .lightest-blue {
+    background-color: #d9eaf7;
+    color: #000; }
+  ul.colors .dark-green {
+    background-color: #29992b;
+    color: #000; }
+  ul.colors .medium-green {
+    background-color: #4ed050;
+    color: #000; }
+  ul.colors .light-green {
+    background-color: #96e398;
+    color: #000; }
+  ul.colors .lightest-green {
+    background-color: #dbf5db;
+    color: #000; }
+  ul.colors .dark-red {
+    background-color: #b30f1c;
+    color: #fff; }
+  ul.colors .medium-red {
+    background-color: #ee2f3f;
+    color: #fff; }
+  ul.colors .light-red {
+    background-color: #f5848e;
+    color: #000; }
+  ul.colors .lightest-red {
+    background-color: #fcd5d8;
+    color: #000; }
+  ul.colors .dark-amber {
+    background-color: #c25a00;
+    color: #fff; }
+  ul.colors .medium-amber {
+    background-color: #f98824;
+    color: #000; }
+  ul.colors .light-amber {
+    background-color: #f8b981;
+    color: #000; }
+  ul.colors .lightest-amber {
+    background-color: #fce7d5;
+    color: #000; }
+  ul.colors .dark-accent {
+    background-color: #298699;
+    color: #fff; }
+  ul.colors .medium-accent {
+    background-color: #4ebad0;
+    color: #000; }
+  ul.colors .light-accent {
+    background-color: #96d6e3;
+    color: #000; }
+  ul.colors .lightest-accent {
+    background-color: #dbf1f5;
+    color: #000; }
+  ul.colors .dark-plum {
+    background-color: #632999;
+    color: #fff; }
+  ul.colors .medium-plum {
+    background-color: #914ed0;
+    color: #fff; }
+  ul.colors .light-plum {
+    background-color: #be96e3;
+    color: #000; }
+  ul.colors .lightest-plum {
+    background-color: #e8dbf5;
+    color: #000; }
+  ul.colors .dark-raspberry {
+    background-color: #a61c48;
+    color: #fff; }
+  ul.colors .medium-raspberry {
+    background-color: #de3f72;
+    color: #fff; }
+  ul.colors .light-raspberry {
+    background-color: #ec8eab;
+    color: #000; }
+  ul.colors .lightest-raspberry {
+    background-color: #f8d8e2;
+    color: #000; }
+  ul.colors .dark-banana {
+    background-color: #c2a200;
+    color: #000; }
+  ul.colors .medium-banana {
+    background-color: #f9d624;
+    color: #000; }
+  ul.colors .light-banana {
+    background-color: #f8e481;
+    color: #000; }
+  ul.colors .lightest-banana {
+    background-color: #fcf5d5;
+    color: #000; }
+
 @media screen and (min-width: 768px) {
   main {
     padding: 20px; }
   .codeTable th, .codeTable td {
     display: table-cell; }
   pre.hljs {
-    white-space: pre; } }
+    white-space: pre; }
+  ul.colors {
+    display: -ms-flexbox;
+    display: flex; }
+    ul.colors li {
+      padding: 20px;
+      width: 120px;
+      height: 120px;
+      margin: 10px; } }
 
 @media screen and (min-width: 1024px) {
   main {
