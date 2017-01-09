@@ -1,0 +1,91 @@
+@import 'variables';
+@import 'base';
+
+/*doc
+---
+title: Messages
+name: msg
+category: controls
+---
+Use the `msg` class on a block element to style it as a message container.
+
+```html_example
+<div class="msg">
+    <p>Hey y'all!</p>
+</div>
+```
+
+Additionally, you can set a level modifier of `accent` (default), `error`, `warning`,
+`info`, or `success` to give it a semantic cue. 
+
+```html_example
+<div class="msg error">
+    <p>There was an error</p>
+</div>
+
+<div class="msg warning">
+    <p>This is a warning</p>
+</div>
+
+<div class="msg info">
+    <p>Here is some info</p>
+</div>
+
+<div class="msg success">
+    <p>Things are going well</p>
+</div>
+```
+
+Finally, setting a modifier of `msg-icon`, the message will include an icon. 
+
+```html_example
+<div class="msg msg-icon error">
+    <p>There was an error</p>
+</div>
+
+<div class="msg msg-icon warning">
+    <p>This is a warning</p>
+</div>
+
+<div class="msg msg-icon info">
+    <p>Here is some info</p>
+</div>
+
+<div class="msg msg-icon success">
+    <p>Things are going well</p>
+</div>
+```
+*/
+.msg {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: $border-radius;
+  padding: 10px;
+  margin: 0 10px 10px 10px;
+
+  @extend .accent;
+
+  @include levels(light);
+
+  &.msg-icon {
+    @each $level in error, info, warning, success {
+      &.#{$level} :first-child:before {
+        font-family: 'FontAwesome';
+        margin-right: .8em;
+        vertical-align: middle;
+
+        @if $level == error {
+          content: '\f06a';
+        } @else if $level == warning {
+          content: '\f071';
+        } @else if $level == info {
+          content: '\f05a';
+        } @else if $level == success {
+          content: '\f058';
+        }
+      }
+    }
+  }
+
+  @include reset-first-last-margin;
+}

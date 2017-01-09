@@ -1,16 +1,6 @@
 @import 'variables';
 @import 'base';
 
-@mixin reset-first-last-margin {
-  :first-child {
-    margin-top: 0;
-  }
-
-  :last-child {
-    margin-bottom: 0;
-  }
-}
-
 /*doc
 ---
 title: Panel
