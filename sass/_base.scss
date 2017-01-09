@@ -124,17 +124,17 @@ input, textarea, keygen, select, button {
 // Generates aliases for level colors
 @each $level in error, warning, info, success {
   @each $tone in dark, medium, light, lightest {
-  	.#{$tone}-#{$level} {
+    .#{$tone}-#{$level} {
       @if $level == error {
         @extend .#{$tone}-red;
       } @else if $level == warning {
         @extend .#{$tone}-amber;
       } @else if $level == info {
         @extend .#{$tone}-blue;
-  	  } @else if $level == success {
-    	@extend .#{$tone}-green;
-  	  }
-  	}
+      } @else if $level == success {
+        @extend .#{$tone}-green;
+      }
+    }
   }
 }
 
@@ -142,14 +142,24 @@ input, textarea, keygen, select, button {
   @extend .#{$tone}-#{$color};
 }
 
-@mixin levels {
+@mixin levels($tone: medium) {
   @each $level in accent, error, warning, info, success {
     &.#{$level} {
-      @include set-color($level);
+      @include set-color($level, $tone);
     }
 
     &.#{$level}:active {
       @include set-color($level, dark);
     }
+  }
+}
+
+@mixin reset-first-last-margin {
+  :first-child {
+    margin-top: 0;
+  }
+
+  :last-child {
+    margin-bottom: 0;
   }
 }
