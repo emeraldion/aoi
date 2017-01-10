@@ -28,7 +28,7 @@ module.exports = function(taskCallback) {
     const args = [
         './hologram_config.yml'
       ];
-	const hologram = spawn('hologram', args, {stdio: 'inherit'});
+    const hologram = spawn('hologram', args, {stdio: 'inherit'});
 
     hologram
       // Print hologram stdout to log.
@@ -40,7 +40,7 @@ module.exports = function(taskCallback) {
           error = new gutil.PluginError('hologram', 'Hologram failed with error code: ' + code);
         }
         if (typeof taskCallback === 'function') {
-        	taskCallback(error, file);
+          taskCallback(error, file);
         }
       });
   });

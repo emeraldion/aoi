@@ -12,13 +12,13 @@ input, textarea, keygen, select, button {
   color: $color;
 
   a {
-  	color: $color;
+    color: $color;
   }
 
   .active {
-  	a {
-  	  color: $color;
-  	}
+    a {
+      color: $color;
+    }
   }
 }
 
@@ -155,7 +155,7 @@ input, textarea, keygen, select, button {
 @mixin set-normal-color($color, $tone) {
   &.#{$color} {
     @include set-color($color, $tone);
-  }	
+  } 
 }
 
 @mixin set-normal-active-colors($color, $tone) {
@@ -165,18 +165,18 @@ input, textarea, keygen, select, button {
     &:active {
       @include set-color($color, dark);
     }
-  }	
+  } 
 }
 
 @mixin levels($tone: medium) {
   @each $level in accent, error, warning, info, success {
-  	@include set-normal-color($level, $tone);
+    @include set-normal-color($level, $tone);
   }
 }
 
 @mixin active-levels($tone: medium) {
   @each $level in accent, error, warning, info, success {
-  	@include set-normal-active-colors($level, $tone);
+    @include set-normal-active-colors($level, $tone);
   }
 }
 
