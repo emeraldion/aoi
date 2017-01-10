@@ -1,5 +1,6 @@
 /node_modules/
 npm-debug.log
 css/*.css
+dist/*.min.css
 .sass-cache
 docs/*
