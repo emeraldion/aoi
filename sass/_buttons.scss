@@ -73,7 +73,7 @@ to give the button a special semantic cue.
   border-radius: $border-radius;
   padding: 6px 10px 4px 10px;
 
-  @include levels;
+  @include active-levels;
 
   &:hover {
     background-color: $lightest-gray;

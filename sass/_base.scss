@@ -10,6 +10,16 @@ input, textarea, keygen, select, button {
   background-color: $bgcolor;
   border-color: darken($bgcolor, 20%);
   color: $color;
+
+  a {
+  	color: $color;
+  }
+
+  .active {
+  	a {
+  	  color: $color;
+  	}
+  }
 }
 
 .dark-gray{
@@ -142,15 +152,43 @@ input, textarea, keygen, select, button {
   @extend .#{$tone}-#{$color};
 }
 
+@mixin set-normal-color($color, $tone) {
+  &.#{$color} {
+    @include set-color($color, $tone);
+  }	
+}
+
+@mixin set-normal-active-colors($color, $tone) {
+  &.#{$color} {
+    @include set-color($color, $tone);
+
+    &:active {
+      @include set-color($color, dark);
+    }
+  }	
+}
+
 @mixin levels($tone: medium) {
   @each $level in accent, error, warning, info, success {
-    &.#{$level} {
-      @include set-color($level, $tone);
-    }
+  	@include set-normal-color($level, $tone);
+  }
+}
 
-    &.#{$level}:active {
-      @include set-color($level, dark);
-    }
+@mixin active-levels($tone: medium) {
+  @each $level in accent, error, warning, info, success {
+  	@include set-normal-active-colors($level, $tone);
+  }
+}
+
+@mixin colors($tone: medium) {
+  @each $color in accent, blue, green, red, amber, banana, raspberry, plum {
+    @include set-normal-color($color, $tone);
+  }
+}
+
+@mixin active-colors($tone: medium) {
+  @each $color in accent, blue, green, red, amber, banana, raspberry, plum {
+    @include set-normal-active-colors($color, $tone);
   }
 }
 
