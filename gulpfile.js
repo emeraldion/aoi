@@ -32,7 +32,7 @@ gulp.task('hologram', () => {
 });
 
 gulp.task('watch', () => {
-  gulp.watch([STYLE_GUIDE_SOURCES, SASS_SOURCES], ['sass', 'hologram']);
+  gulp.watch([STYLE_GUIDE_SOURCES, SASS_SOURCES], ['sass']);
   gulp.watch(STYLE_GUIDE_SOURCES, ['hologram']);
   gulp.watch(DEST, ['minify-css']);
 });
