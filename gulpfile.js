@@ -47,7 +47,7 @@ gulp.task('minify-css', () => {
 });
 
 gulp.task('watch', () => {
-  gulp.watch([STYLE_GUIDE_SOURCES, SASS_SOURCES], ['sass']);
+  gulp.watch(SASS_SOURCES, ['sass']);
   gulp.watch(STYLE_GUIDE_SOURCES, ['hologram']);
   gulp.watch(GENERATED_CSS, ['minify-css']);
 });
