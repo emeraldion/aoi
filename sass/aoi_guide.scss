@@ -26,7 +26,7 @@ a {
   color: $dark-aoi;
 }
 
-nav {
+nav.sg {
   border-bottom: 1px solid $dark-aoi;
   background: linear-gradient(90deg, $light-aoi 0%, $dark-aoi 100%);
   display: flex;
@@ -63,7 +63,7 @@ nav {
       display: block;
       box-sizing: border-box;
       height: 100%;
-      padding: 22px 20px 16px 20px;
+      padding: 22px 10px 16px 10px;
       color: $white;
       text-transform: capitalize;
     }
@@ -132,7 +132,25 @@ ul.colors {
   }
 }
 
+@media screen and (min-width: 375px) {
+  nav.sg {
+    li {
+      a {
+        padding: 22px 17px 16px 17px;
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 425px) {
+  nav.sg {
+    li {
+      a {
+        padding: 22px 20px 16px 20px;
+      }
+    }
+  }
+
   ul.colors {
     li {
       width: 80px;
@@ -142,7 +160,7 @@ ul.colors {
 }
 
 @media screen and (min-width: 768px) {
-  nav {
+  nav.sg {
     li {
       a {
         padding: 23px 20px;

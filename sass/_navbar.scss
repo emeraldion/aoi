@@ -1,0 +1,107 @@
+@import 'variables';
+@import 'base';
+
+/*doc
+---
+title: Navbar
+name: navbar
+category: navigation
+---
+Use the `navbar` class on `<nav>` or `<div>` elements to style a global navbar.
+
+```html_example
+<nav class="navbar">
+    <ul class="nav">
+        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+</nav>
+```
+
+Of course you can give your navbar a kick by adding a color class to the `navbar` class:
+
+```html_example
+<nav class="navbar raspberry">
+    <ul class="nav">
+        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+</nav>
+```
+```html_example
+<nav class="navbar blue">
+    <ul class="nav">
+        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+</nav>
+```
+```html_example
+<nav class="navbar plum">
+    <ul class="nav">
+        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+</nav>
+```
+*/
+.navbar {
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  display: block;
+
+  @include set-color(gray, lightest);
+
+  @include colors(medium);
+
+  ul.nav {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      vertical-align: middle;
+
+      a {
+        display: block;
+        box-sizing: border-box;
+        height: 45px;
+        padding: 15px 20px;
+        text-decoration: none;
+
+        @include set-color(gray, lightest);
+      }
+
+      &.active {
+        a {
+          font-weight: 500;
+          @include set-color(gray, light);
+        }
+      }
+    }
+  }
+
+  @each $color in accent, blue, green, red, amber, banana, raspberry, plum {
+    &.#{$color} {
+      ul.nav {
+        li {
+          a {
+            @include set-color($color, medium);
+          }
+          &.active {
+            a {
+              @include set-color($color, dark);
+            }
+          }
+        }
+      }
+    }
+  }
+}
