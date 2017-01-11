@@ -406,11 +406,15 @@ main {
   background-color: #fff;
   padding: 10px; }
 
+.exampleOutput {
+  margin: 10px 0; }
+
 .codeTable th, .codeTable td {
   display: block; }
 
 pre.hljs {
   border-radius: 4px;
+  margin: 10px 0;
   padding: .8em;
   white-space: pre-wrap; }
 
@@ -476,4 +480,8 @@ ul.colors {
 @media screen and (min-width: 1024px) {
   main {
     max-width: 1024px;
-    margin: auto; } }
+    margin: auto; }
+  .exampleOutput {
+    margin: 20px 0; }
+  pre.hljs {
+    margin: 20px 0; } }
