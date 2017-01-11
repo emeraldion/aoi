@@ -101,6 +101,7 @@ The `well-small` modifier class reduces the padding and borders of the well.
 
   header {
     @include well-header-footer;
+    @include reset-first-last-margin;
     padding: 0 20px 10px 20px;
     border-bottom: 1px solid $light-gray;
   }
