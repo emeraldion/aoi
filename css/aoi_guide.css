@@ -6,327 +6,342 @@ input, textarea, keygen, select, button {
 .dark-gray {
   background-color: #666;
   border-color: #333333;
-  color: #fff; }
+  color: foreground-meeting-color-contrast(#666); }
   .dark-gray a {
-    color: #fff; }
+    color: foreground-meeting-color-contrast(#666); }
   .dark-gray .active a {
-    color: #fff; }
+    color: foreground-meeting-color-contrast(#666); }
 
 .medium-gray {
   background-color: #999;
   border-color: #666666;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#999); }
   .medium-gray a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#999); }
   .medium-gray .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#999); }
 
 .light-gray {
   background-color: #ccc;
   border-color: #999999;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#ccc); }
   .light-gray a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#ccc); }
   .light-gray .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#ccc); }
 
 .lightest-gray {
   background-color: #eee;
   border-color: #bbbbbb;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#eee); }
   .lightest-gray a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#eee); }
   .lightest-gray .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#eee); }
 
 .dark-blue, .dark-info {
   background-color: #23699f;
   border-color: #11324b;
-  color: #fff; }
+  color: foreground-meeting-color-contrast(#23699f); }
   .dark-blue a, .dark-info a {
-    color: #fff; }
+    color: foreground-meeting-color-contrast(#23699f); }
   .dark-blue .active a, .dark-info .active a {
-    color: #fff; }
+    color: foreground-meeting-color-contrast(#23699f); }
 
 .medium-blue, .medium-info {
   background-color: #4798d7;
   border-color: #216497;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#4798d7); }
   .medium-blue a, .medium-info a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#4798d7); }
   .medium-blue .active a, .medium-info .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#4798d7); }
 
 .light-blue, .light-info {
   background-color: #92c2e7;
   border-color: #3f94d5;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#92c2e7); }
   .light-blue a, .light-info a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#92c2e7); }
   .light-blue .active a, .light-info .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#92c2e7); }
 
 .lightest-blue, .lightest-info {
   background-color: #d9eaf7;
   border-color: #86bbe4;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#d9eaf7); }
   .lightest-blue a, .lightest-info a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#d9eaf7); }
   .lightest-blue .active a, .lightest-info .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#d9eaf7); }
 
 .dark-green, .dark-success {
   background-color: #29992b;
   border-color: #134914;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#29992b); }
   .dark-green a, .dark-success a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#29992b); }
   .dark-green .active a, .dark-success .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#29992b); }
 
 .medium-green, .medium-success {
   background-color: #4ed050;
   border-color: #279128;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#4ed050); }
   .medium-green a, .medium-success a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#4ed050); }
   .medium-green .active a, .medium-success .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#4ed050); }
 
 .light-green, .light-success {
   background-color: #96e398;
   border-color: #46ce48;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#96e398); }
   .light-green a, .light-success a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#96e398); }
   .light-green .active a, .light-success .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#96e398); }
 
 .lightest-green, .lightest-success {
   background-color: #dbf5db;
   border-color: #8ae08c;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#dbf5db); }
   .lightest-green a, .lightest-success a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#dbf5db); }
   .lightest-green .active a, .lightest-success .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#dbf5db); }
 
 .dark-red, .dark-error {
   background-color: #b30f1c;
   border-color: #55070d;
-  color: #fff; }
+  color: foreground-meeting-color-contrast(#b30f1c); }
   .dark-red a, .dark-error a {
-    color: #fff; }
+    color: foreground-meeting-color-contrast(#b30f1c); }
   .dark-red .active a, .dark-error .active a {
-    color: #fff; }
+    color: foreground-meeting-color-contrast(#b30f1c); }
 
 .medium-red, .medium-error {
   background-color: #ee2f3f;
   border-color: #aa0e1b;
-  color: #fff; }
+  color: foreground-meeting-color-contrast(#ee2f3f); }
   .medium-red a, .medium-error a {
-    color: #fff; }
+    color: foreground-meeting-color-contrast(#ee2f3f); }
   .medium-red .active a, .medium-error .active a {
-    color: #fff; }
+    color: foreground-meeting-color-contrast(#ee2f3f); }
 
 .light-red, .light-error {
   background-color: #f5848e;
   border-color: #ed2637;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#f5848e); }
   .light-red a, .light-error a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#f5848e); }
   .light-red .active a, .light-error .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#f5848e); }
 
 .lightest-red, .lightest-error {
   background-color: #fcd5d8;
   border-color: #f47681;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#fcd5d8); }
   .lightest-red a, .lightest-error a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#fcd5d8); }
   .lightest-red .active a, .lightest-error .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#fcd5d8); }
 
 .dark-amber, .dark-warning {
   background-color: #c25a00;
   border-color: #5c2b00;
-  color: #fff; }
+  color: foreground-meeting-color-contrast(#c25a00); }
   .dark-amber a, .dark-warning a {
-    color: #fff; }
+    color: foreground-meeting-color-contrast(#c25a00); }
   .dark-amber .active a, .dark-warning .active a {
-    color: #fff; }
+    color: foreground-meeting-color-contrast(#c25a00); }
 
 .medium-amber, .medium-warning {
   background-color: #f98824;
   border-color: #b35605;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#f98824); }
   .medium-amber a, .medium-warning a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#f98824); }
   .medium-amber .active a, .medium-warning .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#f98824); }
 
 .light-amber, .light-warning {
   background-color: #f8b981;
   border-color: #f38320;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#f8b981); }
   .light-amber a, .light-warning a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#f8b981); }
   .light-amber .active a, .light-warning .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#f8b981); }
 
 .lightest-amber, .lightest-warning {
   background-color: #fce7d5;
   border-color: #f4b176;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#fce7d5); }
   .lightest-amber a, .lightest-warning a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#fce7d5); }
   .lightest-amber .active a, .lightest-warning .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#fce7d5); }
 
 .dark-accent {
   background-color: #298699;
   border-color: #134049;
-  color: #fff; }
+  color: foreground-meeting-color-contrast(#298699); }
   .dark-accent a {
-    color: #fff; }
+    color: foreground-meeting-color-contrast(#298699); }
   .dark-accent .active a {
-    color: #fff; }
+    color: foreground-meeting-color-contrast(#298699); }
 
 .medium-accent {
   background-color: #4ebad0;
   border-color: #277f91;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#4ebad0); }
   .medium-accent a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#4ebad0); }
   .medium-accent .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#4ebad0); }
 
 .light-accent {
   background-color: #96d6e3;
   border-color: #46b7ce;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#96d6e3); }
   .light-accent a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#96d6e3); }
   .light-accent .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#96d6e3); }
 
 .lightest-accent {
   background-color: #dbf1f5;
   border-color: #8ad2e0;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#dbf1f5); }
   .lightest-accent a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#dbf1f5); }
   .lightest-accent .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#dbf1f5); }
 
 .dark-plum {
   background-color: #632999;
   border-color: #2f1349;
-  color: #fff; }
+  color: foreground-meeting-color-contrast(#632999); }
   .dark-plum a {
-    color: #fff; }
+    color: foreground-meeting-color-contrast(#632999); }
   .dark-plum .active a {
-    color: #fff; }
+    color: foreground-meeting-color-contrast(#632999); }
 
 .medium-plum {
   background-color: #914ed0;
   border-color: #5e2791;
-  color: #fff; }
+  color: foreground-meeting-color-contrast(#914ed0); }
   .medium-plum a {
-    color: #fff; }
+    color: foreground-meeting-color-contrast(#914ed0); }
   .medium-plum .active a {
-    color: #fff; }
+    color: foreground-meeting-color-contrast(#914ed0); }
 
 .light-plum {
   background-color: #be96e3;
   border-color: #8c46ce;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#be96e3); }
   .light-plum a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#be96e3); }
   .light-plum .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#be96e3); }
 
 .lightest-plum {
   background-color: #e8dbf5;
   border-color: #b68ae0;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#e8dbf5); }
   .lightest-plum a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#e8dbf5); }
   .lightest-plum .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#e8dbf5); }
 
 .dark-raspberry {
   background-color: #a61c48;
   border-color: #4e0d22;
-  color: #fff; }
+  color: foreground-meeting-color-contrast(#a61c48); }
   .dark-raspberry a {
-    color: #fff; }
+    color: foreground-meeting-color-contrast(#a61c48); }
   .dark-raspberry .active a {
-    color: #fff; }
+    color: foreground-meeting-color-contrast(#a61c48); }
 
 .medium-raspberry {
   background-color: #de3f72;
   border-color: #9d1b44;
-  color: #fff; }
+  color: foreground-meeting-color-contrast(#de3f72); }
   .medium-raspberry a {
-    color: #fff; }
+    color: foreground-meeting-color-contrast(#de3f72); }
   .medium-raspberry .active a {
-    color: #fff; }
+    color: foreground-meeting-color-contrast(#de3f72); }
 
 .light-raspberry {
   background-color: #ec8eab;
   border-color: #dd366b;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#ec8eab); }
   .light-raspberry a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#ec8eab); }
   .light-raspberry .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#ec8eab); }
 
 .lightest-raspberry {
   background-color: #f8d8e2;
   border-color: #ea81a2;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#f8d8e2); }
   .lightest-raspberry a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#f8d8e2); }
   .lightest-raspberry .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#f8d8e2); }
 
 .dark-banana {
   background-color: #c2a200;
   border-color: #5c4d00;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#c2a200); }
   .dark-banana a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#c2a200); }
   .dark-banana .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#c2a200); }
 
 .medium-banana {
   background-color: #f9d624;
   border-color: #b39605;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#f9d624); }
   .medium-banana a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#f9d624); }
   .medium-banana .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#f9d624); }
 
 .light-banana {
   background-color: #f8e481;
   border-color: #f3d020;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#f8e481); }
   .light-banana a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#f8e481); }
   .light-banana .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#f8e481); }
 
 .lightest-banana {
   background-color: #fcf5d5;
   border-color: #f4df76;
-  color: #000; }
+  color: foreground-meeting-color-contrast(#fcf5d5); }
   .lightest-banana a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#fcf5d5); }
   .lightest-banana .active a {
-    color: #000; }
+    color: foreground-meeting-color-contrast(#fcf5d5); }
 
+/*
+Relative Luminance
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+The relative brightness of any point in a colorspace, normalized to 0 for darkest black and 1 for lightest white
+Note 1: For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 * R + 0.7152 * G + 0.0722 * B where R, G and B are defined as:
+
+if RsRGB <= 0.03928 then R = RsRGB/12.92 else R = ((RsRGB+0.055)/1.055) ^ 2.4
+if GsRGB <= 0.03928 then G = GsRGB/12.92 else G = ((GsRGB+0.055)/1.055) ^ 2.4
+if BsRGB <= 0.03928 then B = BsRGB/12.92 else B = ((BsRGB+0.055)/1.055) ^ 2.4
+and RsRGB, GsRGB, and BsRGB are defined as:
+
+RsRGB = R8bit/255
+GsRGB = G8bit/255
+BsRGB = B8bit/255
+*/
 html, body {
   margin: 0;
   padding: 0; }
