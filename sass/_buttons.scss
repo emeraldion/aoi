@@ -75,6 +75,8 @@ to give the button a special semantic cue.
 
   @include active-levels;
 
+  @include active-colors;
+
   &:hover {
     background-color: $lightest-gray;
     border-color: $medium-gray;
