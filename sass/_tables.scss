@@ -70,10 +70,81 @@ separate rows.
     </tr>
 </table>
 ```
+
+Adding a color class, e.g. `blue` or `plum`, to a `table-striped` table, you can customize
+the color of stripes.
+
+```html_example
+<table class="table table-striped blue">
+    <tr>
+        <th>One</th>
+        <th>Two</th>
+        <th>Three</th>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
+</table>
+```
+
+```html_example
+<table class="table table-striped red">
+    <tr>
+        <th>One</th>
+        <th>Two</th>
+        <th>Three</th>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
+</table>
+```
+
+```html_example
+<table class="table table-striped plum">
+    <tr>
+        <th>One</th>
+        <th>Two</th>
+        <th>Three</th>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
+</table>
+```
 */
   &.table-striped {
     tr:nth-of-type(2n) {
-      background-color: $lightest-blue;
+      background-color: $lightest-accent;
+    }
+
+    @each $color in accent, blue, green, red, amber, banana, raspberry, plum {
+      &.#{$color} {
+        tr:nth-of-type(2n) {
+          @include set-color($color, lightest);
+        }
+      }
     }
   }
 
