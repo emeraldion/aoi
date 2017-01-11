@@ -14,7 +14,7 @@ const SASS_SOURCES = './sass/*.scss';
 const STYLE_GUIDE_SOURCES = [
   './sass/index.md',
   './doc_assets/*.html',
-  './code_example_templates/*.erb'].concat(SASS_SOURCES);
+  './code_example_templates/*.erb'].concat([SASS_SOURCES]);
 const GENERATED_CSS = DEST + '/*.css';
 
 gulp.task('sass', () => {

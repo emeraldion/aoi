@@ -1,0 +1,116 @@
+@import 'variables';
+@import 'base';
+@import 'buttons';
+
+/*doc
+---
+title: Form
+name: form
+category: controls
+---
+
+Use the `form` class on a `<div>` or a `<section>` enclosing a group of form controls.
+Each row of the form must be enclosed in a block element with class `form-row`.
+Inside it, place a `<label>` and an input enclosed in a `<div>` with class `form-field`.
+
+```html_example
+<div class="form">
+    <div class="form-row">
+        <label for="f_title">Title:</label>
+        <div class="form-field">
+            <input type="text" size="24" placeholder="Enter title"/>
+        </div>
+    </div>
+</div>
+```
+
+Disabled and readonly elements are styled automatically.
+
+```html_example
+<div class="form">
+    <div class="form-row">
+        <label for="f_title">Title:</label>
+        <div class="form-field">
+            <input type="text" size="24" value="Norwegian Wood" readonly/>
+        </div>
+    </div>
+    <div class="form-row">
+        <label for="f_category">Category:</label>
+        <div class="form-field">
+            <input type="text" size="24" value="Novel" disabled/>
+        </div>
+    </div>
+</div>
+```
+
+Enclose submit and cancel buttons in a `form-footer` element. The primary
+action in the form, usually the submit button, should have the `accent` class.
+Dangerous actions, e.g. actions that have a destructive effect, should use the
+`danger` class.
+
+```html_example
+<div class="form">
+    <div class="form-row">
+        <label for="f_title">Title:</label>
+        <div class="form-field">
+            <input type="text" size="24" placeholder="Enter title"/>
+        </div>
+    </div>
+    <div class="form-footer">
+        <input type="submit" class="accent" value="Order"/>
+        <input type="submit" class="danger" value="Delete"/>
+        <input type="reset" value="Cancel"/>
+    </div>
+</div>
+```
+*/
+.form {
+  .form-row {
+    label {
+      display: block;
+      padding: 10px 0 5px 0;
+      font-weight: $bold-weight;
+    }
+
+    .form-field {
+      @each $type in text, number, password {
+        input[type=#{$type}] {
+          transition: box-shadow .2s ease-in;
+          border: 1px solid $light-gray;
+          border-radius: $border-radius;
+          padding: 6px 6px 4px 6px;
+
+          &:focus {
+            outline: none;
+            box-shadow: 0 0 3px 1px $light-accent;
+            border-color: $medium-accent;
+          }
+
+          &[disabled] {
+            background-color: $lightest-gray;
+            cursor: not-allowed;
+          }
+
+          &[readonly] {
+            color: $medium-gray;
+
+            &:focus {
+              box-shadow: none;
+              border-color: $light-gray;
+            }
+          }
+        } // input[type=#{$type}]
+      }
+    } // .form-field
+  }
+
+  .form-footer {
+    padding: 10px 0;
+
+    @each $type in submit, reset, button {
+      input[type=#{$type}] {
+        @extend .btn;
+      }
+    }
+  } // .form-footer
+}

@@ -52,13 +52,13 @@ title: Colored Buttons
 name: btn-colored
 category: controls
 ---
-Add the `accent`, `error`, `warning`, `info`, or `success` classes to a button
+Add the `accent`, `danger`, `warning`, `info`, or `success` classes to a button
 to give the button a special semantic cue.
 
 ```html_example_table
 <button class="btn accent">Button</button>
 
-<button class="btn error">Button</button>
+<button class="btn danger">Button</button>
 
 <button class="btn warning">Button</button>
 
@@ -67,24 +67,24 @@ to give the button a special semantic cue.
 <button class="btn success">Button</button>
 ```
 */
-.btn {
+
+@mixin active-focused {
+  outline: none;
+  border-color: $dark-gray;
+  box-shadow: 0 0 3px 1px $light-accent;
+  // border-color: $medium-accent;
+}
+
+@mixin base-btn {
+  transition: box-shadow .2s ease-in;
   background-color: $white;
   border: 1px solid $light-gray;
   border-radius: $border-radius;
-  padding: 6px 10px 4px 10px;
-
-  @include active-levels;
-
-  @include active-colors;
+  padding: 6px 12px;
 
   &:hover {
     background-color: $lightest-gray;
     border-color: $medium-gray;
-  }
-
-  @mixin active-focused {
-    outline: none;
-    border-color: $dark-gray;
   }
 
   &:focus {
@@ -97,14 +97,22 @@ to give the button a special semantic cue.
     @include active-focused;
     background-color: $light-gray;
   }
+}
+
+.btn {
+  @include base-btn;
+
+  @include active-levels;
+
+  @include active-colors;
 
   &.btn-large {
     font-size: 1.2rem;
-    padding: 8px 16px 6px 16px;
+    padding: 8px 16px;
   }
 
   &.btn-small {
     font-size: 0.9rem;
-    padding: 4px 8px 2px 8px;
+    padding: 4px 8px;
   }
 }
