@@ -22,7 +22,7 @@ Use the `navbar` class on `<nav>` or `<div>` elements to style a global navbar.
 Of course you can give your navbar a kick by adding a color class to the `navbar` class:
 
 ```html_example
-<nav class="navbar raspberry">
+<nav class="navbar accent">
     <ul class="nav">
         <li><a href="#">Link</a></li>
         <li class="active"><a href="#">Link</a></li>
@@ -30,6 +30,27 @@ Of course you can give your navbar a kick by adding a color class to the `navbar
     </ul>
 </nav>
 ```
+
+```html_example
+<nav class="navbar red">
+    <ul class="nav">
+        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+</nav>
+```
+
+```html_example
+<nav class="navbar amber">
+    <ul class="nav">
+        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+</nav>
+```
+
 ```html_example
 <nav class="navbar blue">
     <ul class="nav">
@@ -39,8 +60,39 @@ Of course you can give your navbar a kick by adding a color class to the `navbar
     </ul>
 </nav>
 ```
+
+```html_example
+<nav class="navbar green">
+    <ul class="nav">
+        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+</nav>
+```
+
 ```html_example
 <nav class="navbar plum">
+    <ul class="nav">
+        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+</nav>
+```
+
+```html_example
+<nav class="navbar raspberry">
+    <ul class="nav">
+        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+</nav>
+```
+
+```html_example
+<nav class="navbar banana">
     <ul class="nav">
         <li><a href="#">Link</a></li>
         <li class="active"><a href="#">Link</a></li>
