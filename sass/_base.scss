@@ -6,7 +6,9 @@ input, textarea, keygen, select, button {
   font-size: 10pt;
 }
 
-@mixin set-bg-border-colors($bgcolor, $color) {
+@mixin set-bg-border-colors($bgcolor) {
+  $color: foreground-meeting-color-contrast($bgcolor);
+
   background-color: $bgcolor;
   border-color: darken($bgcolor, 20%);
   color: $color;
@@ -23,112 +25,112 @@ input, textarea, keygen, select, button {
 }
 
 .dark-gray{
-  @include set-bg-border-colors($dark-gray, $white);
+  @include set-bg-border-colors($dark-gray);
 }
 .medium-gray{
-  @include set-bg-border-colors($medium-gray, $black);
+  @include set-bg-border-colors($medium-gray);
 }
 .light-gray{
-  @include set-bg-border-colors($light-gray, $black);
+  @include set-bg-border-colors($light-gray);
 }
 .lightest-gray{
-  @include set-bg-border-colors($lightest-gray, $black);
+  @include set-bg-border-colors($lightest-gray);
 }
 .dark-blue{
-  @include set-bg-border-colors($dark-blue, $white);
+  @include set-bg-border-colors($dark-blue);
 }
 .medium-blue{
-  @include set-bg-border-colors($medium-blue, $black);
+  @include set-bg-border-colors($medium-blue);
 }
 .light-blue{
-  @include set-bg-border-colors($light-blue, $black);
+  @include set-bg-border-colors($light-blue);
 }
 .lightest-blue{
-  @include set-bg-border-colors($lightest-blue, $black);
+  @include set-bg-border-colors($lightest-blue);
 }
 .dark-green {
-  @include set-bg-border-colors($dark-green, $black);
+  @include set-bg-border-colors($dark-green);
 }
 .medium-green{
-  @include set-bg-border-colors($medium-green, $black);
+  @include set-bg-border-colors($medium-green);
 }
 .light-green{
-  @include set-bg-border-colors($light-green, $black);
+  @include set-bg-border-colors($light-green);
 }
 .lightest-green{
-  @include set-bg-border-colors($lightest-green, $black);
+  @include set-bg-border-colors($lightest-green);
 }
 .dark-red {
-  @include set-bg-border-colors($dark-red, $white);
+  @include set-bg-border-colors($dark-red);
 }
 .medium-red{
-  @include set-bg-border-colors($medium-red, $white);
+  @include set-bg-border-colors($medium-red);
 }
 .light-red{
-  @include set-bg-border-colors($light-red, $black);
+  @include set-bg-border-colors($light-red);
 }
 .lightest-red{
-  @include set-bg-border-colors($lightest-red, $black);
+  @include set-bg-border-colors($lightest-red);
 }
 .dark-amber {
-  @include set-bg-border-colors($dark-amber, $white);
+  @include set-bg-border-colors($dark-amber);
 }
 .medium-amber{
-  @include set-bg-border-colors($medium-amber, $black);
+  @include set-bg-border-colors($medium-amber);
 }
 .light-amber{
-  @include set-bg-border-colors($light-amber, $black);
+  @include set-bg-border-colors($light-amber);
 }
 .lightest-amber{
-  @include set-bg-border-colors($lightest-amber, $black);
+  @include set-bg-border-colors($lightest-amber);
 }
 .dark-accent {
-  @include set-bg-border-colors($dark-accent, $white);
+  @include set-bg-border-colors($dark-accent);
 }
 .medium-accent{
-  @include set-bg-border-colors($medium-accent, $black);
+  @include set-bg-border-colors($medium-accent);
 }
 .light-accent{
-  @include set-bg-border-colors($light-accent, $black);
+  @include set-bg-border-colors($light-accent);
 }
 .lightest-accent{
-  @include set-bg-border-colors($lightest-accent, $black);
+  @include set-bg-border-colors($lightest-accent);
 }
 .dark-plum {
-  @include set-bg-border-colors($dark-plum, $white);
+  @include set-bg-border-colors($dark-plum);
 }
 .medium-plum{
-  @include set-bg-border-colors($medium-plum, $white);
+  @include set-bg-border-colors($medium-plum);
 }
 .light-plum{
-  @include set-bg-border-colors($light-plum, $black);
+  @include set-bg-border-colors($light-plum);
 }
 .lightest-plum{
-  @include set-bg-border-colors($lightest-plum, $black);
+  @include set-bg-border-colors($lightest-plum);
 }
 .dark-raspberry {
-  @include set-bg-border-colors($dark-raspberry, $white);
+  @include set-bg-border-colors($dark-raspberry);
 }
 .medium-raspberry{
-  @include set-bg-border-colors($medium-raspberry, $white);
+  @include set-bg-border-colors($medium-raspberry);
 }
 .light-raspberry{
-  @include set-bg-border-colors($light-raspberry, $black);
+  @include set-bg-border-colors($light-raspberry);
 }
 .lightest-raspberry{
-  @include set-bg-border-colors($lightest-raspberry, $black);
+  @include set-bg-border-colors($lightest-raspberry);
 }
 .dark-banana {
-  @include set-bg-border-colors($dark-banana, $black);
+  @include set-bg-border-colors($dark-banana);
 }
 .medium-banana{
-  @include set-bg-border-colors($medium-banana, $black);
+  @include set-bg-border-colors($medium-banana);
 }
 .light-banana{
-  @include set-bg-border-colors($light-banana, $black);
+  @include set-bg-border-colors($light-banana);
 }
 .lightest-banana{
-  @include set-bg-border-colors($lightest-banana, $black);
+  @include set-bg-border-colors($lightest-banana);
 }
 
 // Generates aliases for level colors
@@ -193,11 +195,88 @@ input, textarea, keygen, select, button {
 }
 
 @mixin reset-first-last-margin {
-  :first-child {
+  >:first-child {
     margin-top: 0;
   }
 
-  :last-child {
+  >:last-child {
     margin-bottom: 0;
+  }
+}
+
+// Exponent
+// From: https://github.com/Team-Sass/Sassy-math/blob/master/sass/math.scss#L36
+
+@function exponent($base, $exponent) {
+  // reset value
+  $value: $base;
+  // positive intergers get multiplied
+  @if $exponent > 1 {
+    @for $i from 2 through $exponent {
+      $value: $value * $base; } }
+  // negitive intergers get divided. A number divided by itself is 1
+  @if $exponent < 1 {
+    @for $i from 0 through -$exponent {
+      $value: $value / $base; } }
+  // return the last value written
+  @return $value;
+}
+
+/*
+Relative Luminance
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+The relative brightness of any point in a colorspace, normalized to 0 for darkest black and 1 for lightest white
+Note 1: For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 * R + 0.7152 * G + 0.0722 * B where R, G and B are defined as:
+
+if RsRGB <= 0.03928 then R = RsRGB/12.92 else R = ((RsRGB+0.055)/1.055) ^ 2.4
+if GsRGB <= 0.03928 then G = GsRGB/12.92 else G = ((GsRGB+0.055)/1.055) ^ 2.4
+if BsRGB <= 0.03928 then B = BsRGB/12.92 else B = ((BsRGB+0.055)/1.055) ^ 2.4
+and RsRGB, GsRGB, and BsRGB are defined as:
+
+RsRGB = R8bit/255
+GsRGB = G8bit/255
+BsRGB = B8bit/255
+*/
+@function relative-luminance($color: #fff) {
+  $r_srgb: red($color)/255;
+  $g_srgb: green($color)/255;
+  $b_srgb: blue($color)/255;
+
+  $r: 1;
+  $g: 1;
+  $b: 1;
+
+  @if $r_srgb <= 0.03928 {
+    $r: $r_srgb/12.92;
+  } @else {
+    $r: exponent(($r_srgb + 0.055)/1.055, 2.4);
+  }
+  @if $g_srgb <= 0.03928 {
+    $g: $g_srgb/12.92;
+  } @else {
+    $g: exponent(($g_srgb+0.055)/1.055, 2.4);
+  }
+  @if $b_srgb <= 0.03928 {
+    $b: $b_srgb/12.92;
+  } @else {
+    $b: exponent(($b_srgb+0.055)/1.055, 2.4);
+  }
+
+  @return 0.2126 * $r + 0.7152 * $g + 0.0722 * $b;
+}
+
+@function contrast-ratio($foreground: $black, $background: $white) {
+  @return (relative-luminance($foreground) + .05) / (relative-luminance($background) + .05);
+}
+
+@function foreground-meeting-color-contrast($background: $white, $font-size: 10pt) {
+  $c: 4.5;
+  @if $font-size > 18pt {
+    $c: 3;
+  }
+  @if contrast-ratio($white, $background) > 4.5 {
+    @return $white;
+  } @else {
+    @return $black;
   }
 }
