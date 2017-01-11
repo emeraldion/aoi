@@ -1,0 +1,78 @@
+@import 'variables';
+
+// Exponent
+// From: https://github.com/Team-Sass/Sassy-math/blob/master/sass/math.scss#L36
+
+@function exponent($base, $exponent) {
+  // reset value
+  $value: $base;
+  // positive intergers get multiplied
+  @if $exponent > 1 {
+    @for $i from 2 through $exponent {
+      $value: $value * $base; } }
+  // negitive intergers get divided. A number divided by itself is 1
+  @if $exponent < 1 {
+    @for $i from 0 through -$exponent {
+      $value: $value / $base; } }
+  // return the last value written
+  @return $value;
+}
+
+/*
+Relative Luminance
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+The relative brightness of any point in a colorspace, normalized to 0 for darkest black and 1 for lightest white
+Note 1: For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 * R + 0.7152 * G + 0.0722 * B where R, G and B are defined as:
+
+if RsRGB <= 0.03928 then R = RsRGB/12.92 else R = ((RsRGB+0.055)/1.055) ^ 2.4
+if GsRGB <= 0.03928 then G = GsRGB/12.92 else G = ((GsRGB+0.055)/1.055) ^ 2.4
+if BsRGB <= 0.03928 then B = BsRGB/12.92 else B = ((BsRGB+0.055)/1.055) ^ 2.4
+and RsRGB, GsRGB, and BsRGB are defined as:
+
+RsRGB = R8bit/255
+GsRGB = G8bit/255
+BsRGB = B8bit/255
+*/
+@function relative-luminance($color: #fff) {
+  $r_srgb: red($color)/255;
+  $g_srgb: green($color)/255;
+  $b_srgb: blue($color)/255;
+
+  $r: 1;
+  $g: 1;
+  $b: 1;
+
+  @if $r_srgb <= 0.03928 {
+    $r: $r_srgb/12.92;
+  } @else {
+    $r: exponent(($r_srgb + 0.055)/1.055, 2.4);
+  }
+  @if $g_srgb <= 0.03928 {
+    $g: $g_srgb/12.92;
+  } @else {
+    $g: exponent(($g_srgb+0.055)/1.055, 2.4);
+  }
+  @if $b_srgb <= 0.03928 {
+    $b: $b_srgb/12.92;
+  } @else {
+    $b: exponent(($b_srgb+0.055)/1.055, 2.4);
+  }
+
+  @return 0.2126 * $r + 0.7152 * $g + 0.0722 * $b;
+}
+
+@function contrast-ratio($foreground: $black, $background: $white) {
+  @return (relative-luminance($foreground) + .05) / (relative-luminance($background) + .05);
+}
+
+@function foreground-meeting-color-contrast($background: $white, $font-size: 10pt) {
+  $c: 4.5;
+  @if $font-size > 18pt {
+    $c: 3;
+  }
+  @if contrast-ratio($white, $background) > 4.5 {
+    @return $white;
+  } @else {
+    @return $black;
+  }
+}
