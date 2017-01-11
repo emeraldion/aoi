@@ -2,3 +2,4 @@
 !/node_modules/font-awesome
 npm-debug.log
 .sass-cache
+.DS_Store
