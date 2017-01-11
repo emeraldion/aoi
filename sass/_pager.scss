@@ -1,0 +1,115 @@
+@import 'variables';
+@import 'base';
+
+/*doc
+---
+title: Pager
+name: nav-pager
+category: navigation
+---
+Use the `nav-pager` class on a `<ol>` or a `<ul>` element to render a compound navigation control
+to pick an item from a list, with optional shortcuts to move forward and backward, and skip to the beginning or end.
+
+```html_example
+<ol class="nav-pager">
+    <li>
+        <a title="Page 1" href="#">1</a>
+    </li>
+    <li class="active">
+        <a title="Page 2 (current)" href="#">2</a>
+    </li>
+    <li>
+        <a title="Page 3" href="#">3</a>
+    </li>
+    <li>
+        <a title="Page 4" href="#">4</a>
+    </li>
+    <li>
+        <a title="Page 5" href="#">5</a>
+    </li>
+    <li>
+        <a title="Move one page forward" href="#"><i class="fa fa-step-forward"></i></a>
+    </li>
+    <li>
+        <a title="Move five pages forward" href="#"><i class="fa fa-fast-forward"></i></a>
+    </li>
+</ol>
+```
+
+### Guidelines
+
+It is recommended to limit the number of items in the pager control to a minimum. Display at most five items, centered on the current
+item, unless you're at the beginning or at the end of the list. The purpose of the pager is to provide a speed dial affordance, not
+to clutter the UI and add cognitive load with unnecessarily long lists of options.
+
+If there is at least one more item before or after the items rendered by the pager, display the step backward and/or forward items,
+through the Font Awesome icons `fa-step-backward` and `fa-step-forward` respectively.
+
+Moreover, if there are at least 5 more items beyond the first and/or last items, display the fast-forward and backward items as well,
+through the Font Awesome icons `fa-fast-backward` and `fa-fast-forward` respectively.
+
+```html_example
+<ol class="nav-pager">
+    <li>
+        <a title="Move five pages backward" href="#"><i class="fa fa-fast-backward"></i></a>
+    </li>
+    <li>
+        <a title="Move one page backward" href="#"><i class="fa fa-step-backward"></i></a>
+    </li>
+    <li>
+        <a title="Page 20" href="#">20</a>
+    </li>
+    <li class="active">
+        <a title="Page 21 (current)" href="#">21</a>
+    </li>
+    <li>
+        <a title="Page 22" href="#">22</a>
+    </li>
+    <li>
+        <a title="Page 23" href="#">23</a>
+    </li>
+    <li>
+        <a title="Page 24" href="#">24</a>
+    </li>
+    <li>
+        <a title="Move one page forward" href="#"><i class="fa fa-step-forward"></i></a>
+    </li>
+    <li>
+        <a title="Move five pages forward" href="#"><i class="fa fa-fast-forward"></i></a>
+    </li>
+</ol>
+```
+*/
+.nav-pager {
+    border: 1px solid $light-gray;
+    border-radius: $border-radius;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 0;
+
+    li {
+        display: table-cell;
+        border-right: 1px solid $light-gray;
+        vertical-align: middle;
+    
+        &:last-child {
+            border-right-width: 0;
+        }
+
+        &.active {
+            a {
+                background-color: $lightest-gray;
+            }
+        }
+    }
+
+    a {
+        box-sizing: border-box;
+        display: block;
+        font-weight: $bold-weight;
+        padding: 8px 12px;
+        text-decoration: none;
+        white-space: nowrap;
+    }
+}

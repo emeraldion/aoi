@@ -89,6 +89,10 @@ main {
   padding: 10px;
 }
 
+.exampleOutput {
+  margin: 10px 0;
+}
+
 .codeTable {
   th, td {
     display: block;
@@ -97,6 +101,7 @@ main {
 
 pre.hljs {
   border-radius: 4px;
+  margin: 10px 0;
   padding: .8em;
   white-space: pre-wrap;
 }
@@ -207,5 +212,13 @@ ul.colors {
   main {
     max-width: 1024px;
     margin: auto;
+  }
+
+  .exampleOutput {
+    margin: 20px 0;
+  }
+
+  pre.hljs {
+    margin: 20px 0;
   }
 }
