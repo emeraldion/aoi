@@ -4,3 +4,4 @@ css/*.css
 dist/*.min.css
 .sass-cache
 docs/*
+.DS_Store
