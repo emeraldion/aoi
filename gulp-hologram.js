@@ -1,3 +1,5 @@
+/** @format */
+
 'use strict';
 
 /*
@@ -23,25 +25,23 @@ const spawn = require('child_process').spawn;
  * @returns {*}
  */
 module.exports = function(taskCallback) {
-  // (child-process.spawn implementation)
-  return map(file => {
-    const args = [
-        './hologram_config.yml'
-      ];
-    const hologram = spawn('hologram', args, {stdio: 'inherit'});
+	// (child-process.spawn implementation)
+	return map(file => {
+		const args = ['./hologram_config.yml'];
+		const hologram = spawn('hologram', args, { stdio: 'inherit' });
 
-    hologram
-      // Print hologram stdout to log.
-      .on('data', data => gutil.log(data.toString().trim()))
-      // Handle end of command execution.
-      .on('close', code => {
-        let error;
-        if (code && 0 !== code) {
-          error = new gutil.PluginError('hologram', 'Hologram failed with error code: ' + code);
-        }
-        if (typeof taskCallback === 'function') {
-          taskCallback(error, file);
-        }
-      });
-  });
+		hologram
+			// Print hologram stdout to log.
+			.on('data', data => gutil.log(data.toString().trim()))
+			// Handle end of command execution.
+			.on('close', code => {
+				let error;
+				if (code && 0 !== code) {
+					error = new gutil.PluginError('hologram', 'Hologram failed with error code: ' + code);
+				}
+				if (typeof taskCallback === 'function') {
+					taskCallback(error, file);
+				}
+			});
+	});
 };
