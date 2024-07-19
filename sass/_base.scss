@@ -9,15 +9,25 @@ textarea,
 keygen,
 select,
 button {
-	font-family: 'Fira Sans', Arial, sans-serif;
-	font-size: 10pt;
+	font-family: Rubik, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 500;
 }
 
 @mixin set-bg-border-colors($bgcolor) {
 	$color: foreground-meeting-color-contrast($bgcolor);
 
 	background-color: $bgcolor;
-	border-color: darken($bgcolor, 20%);
+	border-color: darken($bgcolor, 6.667%);
 	color: $color;
 
 	a {

@@ -1,9 +1,9 @@
 @import 'variables';
 @import 'base';
 
-$lightest-aoi: #8ed3e1;
-$light-aoi: #2d95a9;
-$dark-aoi: #237383;
+$lightest-aoi: $light-accent;
+$light-aoi: $medium-accent;
+$dark-aoi: $dark-accent;
 
 
 html, body {
@@ -30,9 +30,10 @@ nav.sg {
   border-bottom: 1px solid $dark-aoi;
   background: linear-gradient(90deg, $light-aoi 0%, $dark-aoi 100%);
   display: flex;
-
+  
   a {
     text-decoration: none;
+    transition: background-color .1s ease-in, color .1s ease-in;
 
     &:focus,
     &:hover {
@@ -60,10 +61,12 @@ nav.sg {
     display: inline-block;
     
     a {
-      display: block;
+      align-items: center;
+      display: inline-flex;
       box-sizing: border-box;
+      font-size: 22px;
       height: 100%;
-      padding: 22px 10px 16px 10px;
+      justify-content: center;
       color: $white;
       text-transform: capitalize;
     }
@@ -108,6 +111,10 @@ pre.hljs {
 
 h1 {
   text-transform: capitalize;
+}
+
+h1, h2, h3, h4 {
+  color: $dark-accent;
 }
 
 footer {
@@ -198,7 +205,8 @@ ul.colors {
     display: flex;
 
     li {
-      border-width: 2px;
+      border-width: $border-size;
+      border-radius: $border-radius;
       border-style: solid;
       padding: 20px;
       width: 120px;

@@ -81,7 +81,7 @@ through the Font Awesome icons `fa-fast-backward` and `fa-fast-forward` respecti
 ```
 */
 .nav-pager {
-    border: 1px solid $light-gray;
+    border: $border-size solid $light-gray;
     border-radius: $border-radius;
     display: table;
     margin: 0 auto;
