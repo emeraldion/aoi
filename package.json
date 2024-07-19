@@ -19,7 +19,6 @@
 	"homepage": "https://github.com/emeraldion/aoi#readme",
 	"devDependencies": {
 		"fancy-log": "^2.0.0",
-		"font-awesome": "^4.7.0",
 		"gulp": "^5.0.0",
 		"gulp-autoprefixer": "^9.0.0",
 		"gulp-clean-css": "^4.3.0",
@@ -31,6 +30,9 @@
 		"plugin-error": "^2.0.1",
 		"sass": "^1.77.8",
 		"st": "^3.0.0"
+	},
+	"dependencies": {
+		"font-awesome": "^4.7.0"
 	},
 	"directories": {
 		"doc": "docs"
