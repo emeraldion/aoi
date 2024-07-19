@@ -12,7 +12,8 @@ gulp.task('docs', function(cb) {
 });
 */
 
-import gutil from 'gulp-util';
+import log from 'fancy-log';
+import PluginError from 'plugin-error';
 import map from 'map-stream';
 import { spawn } from 'child_process';
 
@@ -30,12 +31,12 @@ export default function(taskCallback) {
 
 		hologram
 			// Print hologram stdout to log.
-			.on('data', data => gutil.log(data.toString().trim()))
+			.on('data', data => log(data.toString().trim()))
 			// Handle end of command execution.
 			.on('close', code => {
 				let error;
 				if (code && 0 !== code) {
-					error = new gutil.PluginError('hologram', 'Hologram failed with error code: ' + code);
+					error = new PluginError('hologram', 'Hologram failed with error code: ' + code);
 				}
 				if (typeof taskCallback === 'function') {
 					taskCallback(error, file);
