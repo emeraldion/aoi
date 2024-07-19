@@ -1,3 +1,5 @@
+/** @format */
+
 'use strict';
 
 /*
@@ -10,11 +12,9 @@ gulp.task('docs', function(cb) {
 });
 */
 
-const gulp = require('gulp');
-const notify = require('gulp-notify');
-const gutil = require('gulp-util');
-const map = require('map-stream');
-const spawn = require('child_process').spawn;
+import gutil from 'gulp-util';
+import map from 'map-stream';
+import { spawn } from 'child_process';
 
 /**
  * Facade/Plugin for compiling Hologram as a stream
@@ -22,26 +22,24 @@ const spawn = require('child_process').spawn;
  * @param taskCallback
  * @returns {*}
  */
-module.exports = function(taskCallback) {
-  // (child-process.spawn implementation)
-  return map(file => {
-    const args = [
-        './hologram_config.yml'
-      ];
-    const hologram = spawn('hologram', args, {stdio: 'inherit'});
+export default function(taskCallback) {
+	// (child-process.spawn implementation)
+	return map(file => {
+		const args = ['./hologram_config.yml'];
+		const hologram = spawn('hologram', args, { stdio: 'inherit' });
 
-    hologram
-      // Print hologram stdout to log.
-      .on('data', data => gutil.log(data.toString().trim()))
-      // Handle end of command execution.
-      .on('close', code => {
-        let error;
-        if (code && 0 !== code) {
-          error = new gutil.PluginError('hologram', 'Hologram failed with error code: ' + code);
-        }
-        if (typeof taskCallback === 'function') {
-          taskCallback(error, file);
-        }
-      });
-  });
-};
+		hologram
+			// Print hologram stdout to log.
+			.on('data', data => gutil.log(data.toString().trim()))
+			// Handle end of command execution.
+			.on('close', code => {
+				let error;
+				if (code && 0 !== code) {
+					error = new gutil.PluginError('hologram', 'Hologram failed with error code: ' + code);
+				}
+				if (typeof taskCallback === 'function') {
+					taskCallback(error, file);
+				}
+			});
+	});
+}

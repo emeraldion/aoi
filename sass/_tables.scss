@@ -1,3 +1,5 @@
+/** @format */
+
 @import 'variables';
 @import 'base';
 
@@ -31,18 +33,19 @@ headings from the body with a horizontal line.
 ```
 */
 .table {
-  border-collapse: collapse;
+	border-collapse: collapse;
 
-  td, th {
-    padding: 4px 8px;
-  }
+	td,
+	th {
+		padding: 4px 8px;
+	}
 
-  th {
-    font-weight: 500;
-    border-bottom: 1px solid $light-gray;
-  }
+	th {
+		font-weight: 500;
+		border-bottom: 1px solid $light-gray;
+	}
 
-/*doc
+	/*doc
 ---
 title: Striped Table
 name: table-striped
@@ -134,21 +137,21 @@ the color of stripes.
 </table>
 ```
 */
-  &.table-striped {
-    tr:nth-of-type(2n) {
-      background-color: $lightest-accent;
-    }
+	&.table-striped {
+		tr:nth-of-type(2n) {
+			background-color: $lightest-accent;
+		}
 
-    @each $color in accent, blue, green, red, amber, banana, raspberry, plum {
-      &.#{$color} {
-        tr:nth-of-type(2n) {
-          @include set-color($color, lightest);
-        }
-      }
-    }
-  }
+		@each $color in accent, blue, green, red, amber, banana, raspberry, plum {
+			&.#{'' + $color} {
+				tr:nth-of-type(2n) {
+					@include set-color($color, lightest);
+				}
+			}
+		}
+	}
 
-/*doc
+	/*doc
 ---
 title: Compact Table
 name: table-compact
@@ -176,9 +179,10 @@ Use the `table-compact` modifier class on tables to reduce the cell padding for 
 </table>
 ```
 */
-  &.table-compact {
-    td, th {
-      padding: 2px 4px;
-    }
-  }
+	&.table-compact {
+		td,
+		th {
+			padding: 2px 4px;
+		}
+	}
 }
