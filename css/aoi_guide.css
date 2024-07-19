@@ -463,7 +463,7 @@ html, body {
 }
 
 html {
-  background: #79bccb url("../aoi_bg.jpg") no-repeat 0 100%;
+  background: #8ed3e1 url("../aoi_bg.jpg") no-repeat 0 100%;
   background-size: cover;
   min-height: 100%;
 }
@@ -474,19 +474,19 @@ body {
 }
 
 a {
-  color: #298597;
+  color: #237383;
 }
 
 nav.sg {
-  border-bottom: 1px solid #298597;
-  background: linear-gradient(90deg, #29acb7 0%, #298597 100%);
+  border-bottom: 1px solid #237383;
+  background: linear-gradient(90deg, #2d95a9 0%, #237383 100%);
   display: flex;
 }
 nav.sg a {
   text-decoration: none;
 }
 nav.sg a:focus, nav.sg a:hover {
-  background-color: #298597;
+  background-color: #237383;
 }
 nav.sg a .txt {
   display: none;
@@ -557,7 +557,7 @@ footer a {
 footer p {
   margin: 0;
   padding: 10px;
-  background-color: #79bccb;
+  background-color: #8ed3e1;
   text-align: center;
 }
 
