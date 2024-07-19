@@ -1,3 +1,5 @@
+/** @format */
+
 @import 'variables';
 @import 'base';
 
@@ -21,11 +23,11 @@ A panel encloses a section of the document with a border and whitespace.
 ```
 */
 .panel {
-  border: 1px solid $lightest-gray;
-  border-radius: $border-radius;
-  padding: 20px;
+	border: 1px solid $lightest-gray;
+	border-radius: $border-radius;
+	padding: 20px;
 
-  @include reset-first-last-margin;
+	@include reset-first-last-margin;
 }
 
 /*doc
@@ -86,53 +88,57 @@ The `well-small` modifier class reduces the padding and borders of the well.
 ```
 */
 .well {
-  background-color: $snow;
-  padding: 20px;
-  border-radius: 2 * $border-radius;
-  border: $border-radius solid $lightest-gray;
-  box-shadow: inset 0 1px 2px 2px $light-gray;
+	background-color: $snow;
+	padding: 20px;
+	border-radius: 2 * $border-radius;
+	border: $border-radius solid $lightest-gray;
+	box-shadow: inset 0 1px 2px 2px $light-gray;
 
-  @include reset-first-last-margin;
+	@include reset-first-last-margin;
 
-  @mixin well-header-footer {
-    margin-left: -20px;
-    margin-right: -20px;
-  }
+	@mixin well-header-footer {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
 
-  header {
-    @include well-header-footer;
-    @include reset-first-last-margin;
-    padding: 0 20px 10px 20px;
-    border-bottom: 1px solid $light-gray;
-  }
+	header {
+		padding: 0 20px 10px 20px;
+		border-bottom: 1px solid $light-gray;
 
-  footer {
-    @include well-header-footer;
-    padding: 10px 20px 0 20px;
-    border-top: 1px solid $light-gray;
-  }
+		@include well-header-footer;
+		@include reset-first-last-margin;
+	}
 
-  &.well-small {
-    padding: 10px;
-    border-radius: 1.5 * $border-radius;
-    border: 0.5 * $border-radius solid $lightest-gray;
-    box-shadow: inset 0 1px 1px 1px $light-gray;
+	footer {
+		padding: 10px 20px 0 20px;
+		border-top: 1px solid $light-gray;
 
-    @mixin well-small-header-footer {
-      margin-left: -10px;
-      margin-right: -10px;
-    }
+		@include well-header-footer;
+	}
 
-    header {
-      @include well-small-header-footer;
-      padding: 0 10px 5px 10px;
-      border-bottom: 1px solid $light-gray;
-    }
+	&.well-small {
+		padding: 10px;
+		border-radius: 1.5 * $border-radius;
+		border: 0.5 * $border-radius solid $lightest-gray;
+		box-shadow: inset 0 1px 1px 1px $light-gray;
 
-    footer {
-      @include well-small-header-footer;
-      padding: 5px 10px 0 10px;
-      border-top: 1px solid $light-gray;
-    }
-  }
+		@mixin well-small-header-footer {
+			margin-left: -10px;
+			margin-right: -10px;
+		}
+
+		header {
+			padding: 0 10px 5px 10px;
+			border-bottom: 1px solid $light-gray;
+
+			@include well-small-header-footer;
+		}
+
+		footer {
+			padding: 5px 10px 0 10px;
+			border-top: 1px solid $light-gray;
+
+			@include well-small-header-footer;
+		}
+	}
 }

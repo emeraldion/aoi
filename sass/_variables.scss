@@ -15,50 +15,50 @@ $dark-main: #298597;
 
 $blue: #83bfce;
 
-$l1: 36;
-$l2: 42;
-$l3: 72;
-$l4: 92;
+$l1: 36%;
+$l2: 42%;
+$l3: 72%;
+$l4: 92%;
 
-$dark-blue:          hsla(206, 58, $l1, 1.0); // #295a99;
-$medium-blue:        hsla(206, 58, $l2, 1.0); // #4e86d0;
-$light-blue:         hsla(206, 58, $l3, 1.0); // #96b8e3;
-$lightest-blue:      hsla(206, 58, $l4, 1.0); // #deeef2;
+$dark-blue:          hsla(206, 58%, $l1, 100%); // #295a99;
+$medium-blue:        hsla(206, 58%, $l2, 100%); // #4e86d0;
+$light-blue:         hsla(206, 58%, $l3, 100%); // #96b8e3;
+$lightest-blue:      hsla(206, 58%, $l4, 100%); // #deeef2;
 
-$dark-green:         hsla(121, 32, $l1, 1.0);    //#29992b;
-$medium-green:       hsla(121, 32, $l2, 1.0);    //#4ed050;
-$light-green:        hsla(121, 32, $l3, 1.0);    //#96e398;
-$lightest-green:     hsla(121, 32, $l4, 1.0);    //#dbf5db;
+$dark-green:         hsla(121, 32%, $l1, 100%);    //#29992b;
+$medium-green:       hsla(121, 32%, $l2, 100%);    //#4ed050;
+$light-green:        hsla(121, 32%, $l3, 100%);    //#96e398;
+$lightest-green:     hsla(121, 32%, $l4, 100%);    //#dbf5db;
 
-$dark-red:           hsla(355, 72, $l1, 1.0);
-$medium-red:         hsla(355, 72, $l2, 1.0);
-$light-red:          hsla(355, 72, $l3, 1.0);
-$lightest-red:       hsla(355, 72, $l4, 1.0);
+$dark-red:           hsla(355, 72%, $l1, 100%);
+$medium-red:         hsla(355, 72%, $l2, 100%);
+$light-red:          hsla(355, 72%, $l3, 100%);
+$lightest-red:       hsla(355, 72%, $l4, 100%);
 
-$dark-amber:         hsla(28, 91, $l1, 1.0);
-$medium-amber:       hsla(28, 91, $l2, 1.0);
-$light-amber:        hsla(28, 91, $l3, 1.0);
-$lightest-amber:     hsla(28, 91, $l4, 1.0);
+$dark-amber:         hsla(28, 91%, $l1, 100%);
+$medium-amber:       hsla(28, 91%, $l2, 100%);
+$light-amber:        hsla(28, 91%, $l3, 100%);
+$lightest-amber:     hsla(28, 91%, $l4, 100%);
 
-$dark-accent:        hsla(190, 58, $l1*.9, 1.0);
-$medium-accent:      hsla(190, 58, $l2, 1.0);
-$light-accent:       hsla(190, 58, $l3, 1.0);
-$lightest-accent:    hsla(190, 58, $l4, 1.0);
+$dark-accent:        hsla(190, 58%, $l1*.9, 100%);
+$medium-accent:      hsla(190, 58%, $l2, 100%);
+$light-accent:       hsla(190, 58%, $l3, 100%);
+$lightest-accent:    hsla(190, 58%, $l4, 100%);
 
-$dark-plum:          hsla(271, 42, $l1*.9, 1.0);
-$medium-plum:        hsla(271, 42, $l2, 1.0);
-$light-plum:         hsla(271, 42, $l3, 1.0);
-$lightest-plum:      hsla(271, 42, $l4, 1.0);
+$dark-plum:          hsla(271, 42%, $l1*.9, 100%);
+$medium-plum:        hsla(271, 42%, $l2, 100%);
+$light-plum:         hsla(271, 42%, $l3, 100%);
+$lightest-plum:      hsla(271, 42%, $l4, 100%);
 
-$dark-raspberry:     hsla(341, 69, $l1, 1.0);
-$medium-raspberry:   hsla(341, 69, $l2, 1.0);
-$light-raspberry:    hsla(341, 69, $l3, 1.0);
-$lightest-raspberry: hsla(341, 69, $l4, 1.0);
+$dark-raspberry:     hsla(341, 69%, $l1, 100%);
+$medium-raspberry:   hsla(341, 69%, $l2, 100%);
+$light-raspberry:    hsla(341, 69%, $l3, 100%);
+$lightest-raspberry: hsla(341, 69%, $l4, 100%);
 
-$dark-banana:        hsla(50, 77, $l1, 1.0);
-$medium-banana:      hsla(50, 77, $l2, 1.0);
-$light-banana:       hsla(50, 77, $l3, 1.0);
-$lightest-banana:    hsla(50, 77, $l4, 1.0);
+$dark-banana:        hsla(50, 77%, $l1, 100%);
+$medium-banana:      hsla(50, 77%, $l2, 100%);
+$light-banana:       hsla(50, 77%, $l3, 100%);
+$lightest-banana:    hsla(50, 77%, $l4, 100%);
 
 $border-radius: 4px;
 

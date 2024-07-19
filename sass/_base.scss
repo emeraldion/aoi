@@ -1,226 +1,232 @@
+/** @format */
+
 @import 'variables';
 @import 'functions';
 
 html,
-input, textarea, keygen, select, button {
-  font-family: 'Fira Sans', Arial, sans-serif;
-  font-size: 10pt;
+input,
+textarea,
+keygen,
+select,
+button {
+	font-family: 'Fira Sans', Arial, sans-serif;
+	font-size: 10pt;
 }
 
 @mixin set-bg-border-colors($bgcolor) {
-  $color: foreground-meeting-color-contrast($bgcolor);
+	$color: foreground-meeting-color-contrast($bgcolor);
 
-  background-color: $bgcolor;
-  border-color: darken($bgcolor, 20%);
-  color: $color;
+	background-color: $bgcolor;
+	border-color: darken($bgcolor, 20%);
+	color: $color;
 
-  a {
-    color: $color;
-  }
+	a {
+		color: $color;
+	}
 
-  .active {
-    a {
-      color: $color;
-    }
-  }
+	.active {
+		a {
+			color: $color;
+		}
+	}
 }
 
-.dark-gray{
-  @include set-bg-border-colors($dark-gray);
+.dark-gray {
+	@include set-bg-border-colors($dark-gray);
 }
-.medium-gray{
-  @include set-bg-border-colors($medium-gray);
+.medium-gray {
+	@include set-bg-border-colors($medium-gray);
 }
-.light-gray{
-  @include set-bg-border-colors($light-gray);
+.light-gray {
+	@include set-bg-border-colors($light-gray);
 }
-.lightest-gray{
-  @include set-bg-border-colors($lightest-gray);
+.lightest-gray {
+	@include set-bg-border-colors($lightest-gray);
 }
-.dark-blue{
-  @include set-bg-border-colors($dark-blue);
+.dark-blue {
+	@include set-bg-border-colors($dark-blue);
 }
-.medium-blue{
-  @include set-bg-border-colors($medium-blue);
+.medium-blue {
+	@include set-bg-border-colors($medium-blue);
 }
-.light-blue{
-  @include set-bg-border-colors($light-blue);
+.light-blue {
+	@include set-bg-border-colors($light-blue);
 }
-.lightest-blue{
-  @include set-bg-border-colors($lightest-blue);
+.lightest-blue {
+	@include set-bg-border-colors($lightest-blue);
 }
 .dark-green {
-  @include set-bg-border-colors($dark-green);
+	@include set-bg-border-colors($dark-green);
 }
-.medium-green{
-  @include set-bg-border-colors($medium-green);
+.medium-green {
+	@include set-bg-border-colors($medium-green);
 }
-.light-green{
-  @include set-bg-border-colors($light-green);
+.light-green {
+	@include set-bg-border-colors($light-green);
 }
-.lightest-green{
-  @include set-bg-border-colors($lightest-green);
+.lightest-green {
+	@include set-bg-border-colors($lightest-green);
 }
 .dark-red {
-  @include set-bg-border-colors($dark-red);
+	@include set-bg-border-colors($dark-red);
 }
-.medium-red{
-  @include set-bg-border-colors($medium-red);
+.medium-red {
+	@include set-bg-border-colors($medium-red);
 }
-.light-red{
-  @include set-bg-border-colors($light-red);
+.light-red {
+	@include set-bg-border-colors($light-red);
 }
-.lightest-red{
-  @include set-bg-border-colors($lightest-red);
+.lightest-red {
+	@include set-bg-border-colors($lightest-red);
 }
 .dark-amber {
-  @include set-bg-border-colors($dark-amber);
+	@include set-bg-border-colors($dark-amber);
 }
-.medium-amber{
-  @include set-bg-border-colors($medium-amber);
+.medium-amber {
+	@include set-bg-border-colors($medium-amber);
 }
-.light-amber{
-  @include set-bg-border-colors($light-amber);
+.light-amber {
+	@include set-bg-border-colors($light-amber);
 }
-.lightest-amber{
-  @include set-bg-border-colors($lightest-amber);
+.lightest-amber {
+	@include set-bg-border-colors($lightest-amber);
 }
 .dark-accent {
-  @include set-bg-border-colors($dark-accent);
+	@include set-bg-border-colors($dark-accent);
 }
-.medium-accent{
-  @include set-bg-border-colors($medium-accent);
+.medium-accent {
+	@include set-bg-border-colors($medium-accent);
 }
-.light-accent{
-  @include set-bg-border-colors($light-accent);
+.light-accent {
+	@include set-bg-border-colors($light-accent);
 }
-.lightest-accent{
-  @include set-bg-border-colors($lightest-accent);
+.lightest-accent {
+	@include set-bg-border-colors($lightest-accent);
 }
 .dark-plum {
-  @include set-bg-border-colors($dark-plum);
+	@include set-bg-border-colors($dark-plum);
 }
-.medium-plum{
-  @include set-bg-border-colors($medium-plum);
+.medium-plum {
+	@include set-bg-border-colors($medium-plum);
 }
-.light-plum{
-  @include set-bg-border-colors($light-plum);
+.light-plum {
+	@include set-bg-border-colors($light-plum);
 }
-.lightest-plum{
-  @include set-bg-border-colors($lightest-plum);
+.lightest-plum {
+	@include set-bg-border-colors($lightest-plum);
 }
 .dark-raspberry {
-  @include set-bg-border-colors($dark-raspberry);
+	@include set-bg-border-colors($dark-raspberry);
 }
-.medium-raspberry{
-  @include set-bg-border-colors($medium-raspberry);
+.medium-raspberry {
+	@include set-bg-border-colors($medium-raspberry);
 }
-.light-raspberry{
-  @include set-bg-border-colors($light-raspberry);
+.light-raspberry {
+	@include set-bg-border-colors($light-raspberry);
 }
-.lightest-raspberry{
-  @include set-bg-border-colors($lightest-raspberry);
+.lightest-raspberry {
+	@include set-bg-border-colors($lightest-raspberry);
 }
 .dark-banana {
-  @include set-bg-border-colors($dark-banana);
+	@include set-bg-border-colors($dark-banana);
 }
-.medium-banana{
-  @include set-bg-border-colors($medium-banana);
+.medium-banana {
+	@include set-bg-border-colors($medium-banana);
 }
-.light-banana{
-  @include set-bg-border-colors($light-banana);
+.light-banana {
+	@include set-bg-border-colors($light-banana);
 }
-.lightest-banana{
-  @include set-bg-border-colors($lightest-banana);
+.lightest-banana {
+	@include set-bg-border-colors($lightest-banana);
 }
 
 // Generates aliases for level colors
 @each $level in danger, error, warning, info, success {
-  @each $tone in dark, medium, light, lightest {
-    .#{$tone}-#{$level} {
-      @if $level == error or $level == danger {
-        @extend .#{$tone}-red;
-      } @else if $level == warning {
-        @extend .#{$tone}-amber;
-      } @else if $level == info {
-        @extend .#{$tone}-blue;
-      } @else if $level == success {
-        @extend .#{$tone}-green;
-      }
-    }
-  }
+	@each $tone in dark, medium, light, lightest {
+		.#{$tone}-#{$level} {
+			@if $level == error or $level == danger {
+				@extend .#{$tone}-red;
+			} @else if $level == warning {
+				@extend .#{$tone}-amber;
+			} @else if $level == info {
+				@extend .#{$tone}-blue;
+			} @else if $level == success {
+				@extend .#{$tone}-green;
+			}
+		}
+	}
 }
 
 @mixin set-color($color, $tone: medium) {
-  @extend .#{$tone}-#{$color};
+	@extend .#{$tone}-#{'' + $color};
 }
 
 @mixin set-normal-color($color, $tone) {
-  &.#{$color} {
-    @include set-color($color, $tone);
-  }
+	&.#{'' + $color} {
+		@include set-color($color, $tone);
+	}
 }
 
 @mixin normal-active-colors($color, $tone) {
-  @include set-color($color, $tone);
+	@include set-color($color, $tone);
 
-  @each $state in /*hover, focus,*/ active {
-    &:#{$state} {
-      @if $state == hover {
-        @include set-color($color, $tone);
-      } @else {
-        @include set-color($color, dark);
-      }
-    }
-  }
+	@each $state in /*hover, focus,*/ active {
+		&:#{$state} {
+			@if $state == hover {
+				@include set-color($color, $tone);
+			} @else {
+				@include set-color($color, dark);
+			}
+		}
+	}
 }
 
 @mixin set-normal-active-colors($color, $tone) {
-  &.#{$color} {
-    @include set-color($color, $tone);
+	&.#{'' + $color} {
+		@include set-color($color, $tone);
 
-    @each $state in /*hover, focus,*/ active {
-      &:#{$state} {
-        @if $state == hover {
-          @include set-color($color, $tone);
-        } @else {
-          @include set-color($color, dark);
-        }
-      }
-    }
-  }
+		@each $state in /*hover, focus,*/ active {
+			&:#{$state} {
+				@if $state == hover {
+					@include set-color($color, $tone);
+				} @else {
+					@include set-color($color, dark);
+				}
+			}
+		}
+	}
 }
 
 @mixin levels($tone: medium) {
-  @each $level in accent, danger, error, warning, info, success {
-    @include set-normal-color($level, $tone);
-  }
+	@each $level in accent, danger, error, warning, info, success {
+		@include set-normal-color($level, $tone);
+	}
 }
 
 @mixin active-levels($tone: medium) {
-  @each $level in accent, danger, error, warning, info, success {
-    @include set-normal-active-colors($level, $tone);
-  }
+	@each $level in accent, danger, error, warning, info, success {
+		@include set-normal-active-colors($level, $tone);
+	}
 }
 
 @mixin colors($tone: medium) {
-  @each $color in accent, blue, green, red, amber, banana, raspberry, plum {
-    @include set-normal-color($color, $tone);
-  }
+	@each $color in accent, blue, green, red, amber, banana, raspberry, plum {
+		@include set-normal-color($color, $tone);
+	}
 }
 
 @mixin active-colors($tone: medium) {
-  @each $color in accent, blue, green, red, amber, banana, raspberry, plum {
-    @include set-normal-active-colors($color, $tone);
-  }
+	@each $color in accent, blue, green, red, amber, banana, raspberry, plum {
+		@include set-normal-active-colors($color, $tone);
+	}
 }
 
 @mixin reset-first-last-margin {
-  >:first-child {
-    margin-top: 0;
-  }
+	> :first-child {
+		margin-top: 0;
+	}
 
-  >:last-child {
-    margin-bottom: 0;
-  }
+	> :last-child {
+		margin-bottom: 0;
+	}
 }
