@@ -22,13 +22,23 @@ textarea,
 keygen,
 select,
 button {
-  font-family: "Fira Sans", Arial, sans-serif;
-  font-size: 10pt;
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
 }
 
 .dark-gray {
   background-color: #666;
-  border-color: #333333;
+  border-color: #555555;
   color: #fff;
 }
 .dark-gray a {
@@ -40,7 +50,7 @@ button {
 
 .medium-gray {
   background-color: #999;
-  border-color: #666666;
+  border-color: #888888;
   color: #000;
 }
 .medium-gray a {
@@ -52,7 +62,7 @@ button {
 
 .light-gray, .navbar ul.nav li.active a {
   background-color: #ccc;
-  border-color: #999999;
+  border-color: #bbbbbb;
   color: #000;
 }
 .light-gray a, .navbar ul.nav li.active a a {
@@ -64,7 +74,7 @@ button {
 
 .lightest-gray, .navbar ul.nav li a, .navbar {
   background-color: #eee;
-  border-color: #bbbbbb;
+  border-color: #dddddd;
   color: #000;
 }
 .lightest-gray a, .navbar ul.nav li a a, .navbar a {
@@ -76,7 +86,7 @@ button {
 
 .dark-blue, .navbar.blue ul.nav li.active a, .btn.blue:active, .form .form-footer input.blue[type=button]:active, .form .form-footer input.blue[type=reset]:active, .form .form-footer input.blue[type=submit]:active, .dark-info, .btn.info:active, .form .form-footer input.info[type=button]:active, .form .form-footer input.info[type=reset]:active, .form .form-footer input.info[type=submit]:active {
   background-color: hsl(206, 58%, 36%);
-  border-color: #112c40;
+  border-color: #1f5176;
   color: #fff;
 }
 .dark-blue a, .navbar.blue ul.nav li.active a a, .btn.blue:active a, .form .form-footer input.blue[type=button]:active a, .form .form-footer input.blue[type=reset]:active a, .form .form-footer input.blue[type=submit]:active a, .dark-info a, .btn.info:active a, .form .form-footer input.info[type=button]:active a, .form .form-footer input.info[type=reset]:active a, .form .form-footer input.info[type=submit]:active a {
@@ -88,7 +98,7 @@ button {
 
 .medium-blue, .navbar.blue ul.nav li a, .navbar.blue, .btn.blue, .form .form-footer input.blue[type=button], .form .form-footer input.blue[type=reset], .form .form-footer input.blue[type=submit], .medium-info, .btn.info, .form .form-footer input.info[type=button], .form .form-footer input.info[type=reset], .form .form-footer input.info[type=submit] {
   background-color: hsl(206, 58%, 42%);
-  border-color: #183c59;
+  border-color: #26618e;
   color: #fff;
 }
 .medium-blue a, .navbar.blue ul.nav li a a, .navbar.blue a, .btn.blue a, .form .form-footer input.blue[type=button] a, .form .form-footer input.blue[type=reset] a, .form .form-footer input.blue[type=submit] a, .medium-info a, .btn.info a, .form .form-footer input.info[type=button] a, .form .form-footer input.info[type=reset] a, .form .form-footer input.info[type=submit] a {
@@ -100,7 +110,7 @@ button {
 
 .light-blue, .light-info, .msg.info {
   background-color: hsl(206, 58%, 72%);
-  border-color: #3e8ecc;
+  border-color: #73adda;
   color: #000;
 }
 .light-blue a, .light-info a, .msg.info a {
@@ -112,7 +122,7 @@ button {
 
 .lightest-blue, .table.table-striped.blue tr:nth-of-type(2n), .lightest-info {
   background-color: hsl(206, 58%, 92%);
-  border-color: #8ebde1;
+  border-color: #c4dcef;
   color: #000;
 }
 .lightest-blue a, .table.table-striped.blue tr:nth-of-type(2n) a, .lightest-info a {
@@ -124,7 +134,7 @@ button {
 
 .dark-green, .navbar.green ul.nav li.active a, .btn.green:active, .form .form-footer input.green[type=button]:active, .form .form-footer input.green[type=reset]:active, .form .form-footer input.green[type=submit]:active, .dark-success, .btn.success:active, .form .form-footer input.success[type=button]:active, .form .form-footer input.success[type=reset]:active, .form .form-footer input.success[type=submit]:active {
   background-color: hsl(121, 32%, 36%);
-  border-color: #1c361c;
+  border-color: #336334;
   color: #fff;
 }
 .dark-green a, .navbar.green ul.nav li.active a a, .btn.green:active a, .form .form-footer input.green[type=button]:active a, .form .form-footer input.green[type=reset]:active a, .form .form-footer input.green[type=submit]:active a, .dark-success a, .btn.success:active a, .form .form-footer input.success[type=button]:active a, .form .form-footer input.success[type=reset]:active a, .form .form-footer input.success[type=submit]:active a {
@@ -136,7 +146,7 @@ button {
 
 .medium-green, .navbar.green ul.nav li a, .navbar.green, .btn.green, .form .form-footer input.green[type=button], .form .form-footer input.green[type=reset], .form .form-footer input.green[type=submit], .medium-success, .btn.success, .form .form-footer input.success[type=button], .form .form-footer input.success[type=reset], .form .form-footer input.success[type=submit] {
   background-color: hsl(121, 32%, 42%);
-  border-color: #264a27;
+  border-color: #3d773e;
   color: #000;
 }
 .medium-green a, .navbar.green ul.nav li a a, .navbar.green a, .btn.green a, .form .form-footer input.green[type=button] a, .form .form-footer input.green[type=reset] a, .form .form-footer input.green[type=submit] a, .medium-success a, .btn.success a, .form .form-footer input.success[type=button] a, .form .form-footer input.success[type=reset] a, .form .form-footer input.success[type=submit] a {
@@ -148,7 +158,7 @@ button {
 
 .light-green, .light-success, .msg.success {
   background-color: hsl(121, 32%, 72%);
-  border-color: #5dac5f;
+  border-color: #8ac38b;
   color: #000;
 }
 .light-green a, .light-success a, .msg.success a {
@@ -160,7 +170,7 @@ button {
 
 .lightest-green, .table.table-striped.green tr:nth-of-type(2n), .lightest-success {
   background-color: hsl(121, 32%, 92%);
-  border-color: #a1cea2;
+  border-color: #cee6ce;
   color: #000;
 }
 .lightest-green a, .table.table-striped.green tr:nth-of-type(2n) a, .lightest-success a {
@@ -172,7 +182,7 @@ button {
 
 .dark-red, .navbar.red ul.nav li.active a, .btn.red:active, .form .form-footer input.red[type=button]:active, .form .form-footer input.red[type=reset]:active, .form .form-footer input.red[type=submit]:active, .dark-error, .btn.error:active, .form .form-footer input.error[type=button]:active, .form .form-footer input.error[type=reset]:active, .form .form-footer input.error[type=submit]:active, .dark-danger, .btn.danger:active, .form .form-footer input.danger[type=button]:active, .form .form-footer input.danger[type=reset]:active, .form .form-footer input.danger[type=submit]:active {
   background-color: hsl(355, 72%, 36%);
-  border-color: #460b10;
+  border-color: #81151e;
   color: #fff;
 }
 .dark-red a, .navbar.red ul.nav li.active a a, .btn.red:active a, .form .form-footer input.red[type=button]:active a, .form .form-footer input.red[type=reset]:active a, .form .form-footer input.red[type=submit]:active a, .dark-error a, .btn.error:active a, .form .form-footer input.error[type=button]:active a, .form .form-footer input.error[type=reset]:active a, .form .form-footer input.error[type=submit]:active a, .dark-danger a, .btn.danger:active a, .form .form-footer input.danger[type=button]:active a, .form .form-footer input.danger[type=reset]:active a, .form .form-footer input.danger[type=submit]:active a {
@@ -184,7 +194,7 @@ button {
 
 .medium-red, .navbar.red ul.nav li a, .navbar.red, .btn.red, .form .form-footer input.red[type=button], .form .form-footer input.red[type=reset], .form .form-footer input.red[type=submit], .medium-error, .btn.error, .form .form-footer input.error[type=button], .form .form-footer input.error[type=reset], .form .form-footer input.error[type=submit], .medium-danger, .btn.danger, .form .form-footer input.danger[type=button], .form .form-footer input.danger[type=reset], .form .form-footer input.danger[type=submit] {
   background-color: hsl(355, 72%, 42%);
-  border-color: #601016;
+  border-color: #9b1924;
   color: #fff;
 }
 .medium-red a, .navbar.red ul.nav li a a, .navbar.red a, .btn.red a, .form .form-footer input.red[type=button] a, .form .form-footer input.red[type=reset] a, .form .form-footer input.red[type=submit] a, .medium-error a, .btn.error a, .form .form-footer input.error[type=button] a, .form .form-footer input.error[type=reset] a, .form .form-footer input.error[type=submit] a, .medium-danger a, .btn.danger a, .form .form-footer input.danger[type=button] a, .form .form-footer input.danger[type=reset] a, .form .form-footer input.danger[type=submit] a {
@@ -196,7 +206,7 @@ button {
 
 .light-red, .light-error, .msg.error, .light-danger, .msg.danger {
   background-color: hsl(355, 72%, 72%);
-  border-color: #dd2c3b;
+  border-color: #e66772;
   color: #000;
 }
 .light-red a, .light-error a, .msg.error a, .light-danger a, .msg.danger a {
@@ -208,7 +218,7 @@ button {
 
 .lightest-red, .table.table-striped.red tr:nth-of-type(2n), .lightest-error, .lightest-danger {
   background-color: hsl(355, 72%, 92%);
-  border-color: #eb848d;
+  border-color: #f5bfc3;
   color: #000;
 }
 .lightest-red a, .table.table-striped.red tr:nth-of-type(2n) a, .lightest-error a, .lightest-danger a {
@@ -219,20 +229,20 @@ button {
 }
 
 .dark-amber, .navbar.amber ul.nav li.active a, .btn.amber:active, .form .form-footer input.amber[type=button]:active, .form .form-footer input.amber[type=reset]:active, .form .form-footer input.amber[type=submit]:active, .dark-warning, .btn.warning:active, .form .form-footer input.warning[type=button]:active, .form .form-footer input.warning[type=reset]:active, .form .form-footer input.warning[type=submit]:active {
-  background-color: hsl(28, 91%, 36%);
-  border-color: #4e2604;
-  color: #fff;
+  background-color: hsl(30, 84%, 43.2%);
+  border-color: #ab5d0f;
+  color: #000;
 }
 .dark-amber a, .navbar.amber ul.nav li.active a a, .btn.amber:active a, .form .form-footer input.amber[type=button]:active a, .form .form-footer input.amber[type=reset]:active a, .form .form-footer input.amber[type=submit]:active a, .dark-warning a, .btn.warning:active a, .form .form-footer input.warning[type=button]:active a, .form .form-footer input.warning[type=reset]:active a, .form .form-footer input.warning[type=submit]:active a {
-  color: #fff;
+  color: #000;
 }
 .dark-amber .active a, .navbar.amber ul.nav li.active a .active a, .btn.amber:active .active a, .form .form-footer input.amber[type=button]:active .active a, .form .form-footer input.amber[type=reset]:active .active a, .form .form-footer input.amber[type=submit]:active .active a, .dark-warning .active a, .btn.warning:active .active a, .form .form-footer input.warning[type=button]:active .active a, .form .form-footer input.warning[type=reset]:active .active a, .form .form-footer input.warning[type=submit]:active .active a {
-  color: #fff;
+  color: #000;
 }
 
 .medium-amber, .navbar.amber ul.nav li a, .navbar.amber, .btn.amber, .form .form-footer input.amber[type=button], .form .form-footer input.amber[type=reset], .form .form-footer input.amber[type=submit], .medium-warning, .btn.warning, .form .form-footer input.warning[type=button], .form .form-footer input.warning[type=reset], .form .form-footer input.warning[type=submit] {
-  background-color: hsl(28, 91%, 42%);
-  border-color: #6b3505;
+  background-color: hsl(30, 84%, 50.4%);
+  border-color: #cd7012;
   color: #000;
 }
 .medium-amber a, .navbar.amber ul.nav li a a, .navbar.amber a, .btn.amber a, .form .form-footer input.amber[type=button] a, .form .form-footer input.amber[type=reset] a, .form .form-footer input.amber[type=submit] a, .medium-warning a, .btn.warning a, .form .form-footer input.warning[type=button] a, .form .form-footer input.warning[type=reset] a, .form .form-footer input.warning[type=submit] a {
@@ -243,8 +253,8 @@ button {
 }
 
 .light-amber, .light-warning, .msg.warning {
-  background-color: hsl(28, 91%, 72%);
-  border-color: #f47d15;
+  background-color: hsl(30, 84%, 86.4%);
+  border-color: #f7cba0;
   color: #000;
 }
 .light-amber a, .light-warning a, .msg.warning a {
@@ -255,8 +265,8 @@ button {
 }
 
 .lightest-amber, .table.table-striped.amber tr:nth-of-type(2n), .lightest-warning {
-  background-color: hsl(28, 91%, 92%);
-  border-color: #f9b377;
+  background-color: hsl(30, 84%, 100%);
+  border-color: #fceee0;
   color: #000;
 }
 .lightest-amber a, .table.table-striped.amber tr:nth-of-type(2n) a, .lightest-warning a {
@@ -267,8 +277,8 @@ button {
 }
 
 .dark-accent, .navbar.accent ul.nav li.active a, .navbar.msg ul.nav li.active a, .btn.accent:active, .btn.msg:active, .form .form-footer input.accent[type=button]:active, .form .form-footer input[type=button].msg:active, .form .form-footer input.accent[type=reset]:active, .form .form-footer input[type=reset].msg:active, .form .form-footer input.accent[type=submit]:active, .form .form-footer input[type=submit].msg:active {
-  background-color: hsl(190, 58%, 32.4%);
-  border-color: #0d2c32;
+  background-color: hsl(192, 58%, 32.4%);
+  border-color: #1c5868;
   color: #fff;
 }
 .dark-accent a, .navbar.accent ul.nav li.active a a, .navbar.msg ul.nav li.active a a, .btn.accent:active a, .btn.msg:active a, .form .form-footer input.accent[type=button]:active a, .form .form-footer input[type=button].msg:active a, .form .form-footer input.accent[type=reset]:active a, .form .form-footer input[type=reset].msg:active a, .form .form-footer input.accent[type=submit]:active a, .form .form-footer input[type=submit].msg:active a {
@@ -279,8 +289,8 @@ button {
 }
 
 .medium-accent, .navbar.accent ul.nav li a, .navbar.msg ul.nav li a, .navbar.accent, .navbar.msg, .btn.accent, .btn.msg, .form .form-footer input.accent[type=button], .form .form-footer input[type=button].msg, .form .form-footer input.accent[type=reset], .form .form-footer input[type=reset].msg, .form .form-footer input.accent[type=submit], .form .form-footer input[type=submit].msg {
-  background-color: hsl(190, 58%, 42%);
-  border-color: #184e59;
+  background-color: hsl(192, 58%, 42%);
+  border-color: #26798e;
   color: #000;
 }
 .medium-accent a, .navbar.accent ul.nav li a a, .navbar.msg ul.nav li a a, .navbar.accent a, .navbar.msg a, .btn.accent a, .btn.msg a, .form .form-footer input.accent[type=button] a, .form .form-footer input[type=button].msg a, .form .form-footer input.accent[type=reset] a, .form .form-footer input[type=reset].msg a, .form .form-footer input.accent[type=submit] a, .form .form-footer input[type=submit].msg a {
@@ -291,8 +301,8 @@ button {
 }
 
 .light-accent, .msg.accent, .msg {
-  background-color: hsl(190, 58%, 72%);
-  border-color: #3eb4cc;
+  background-color: hsl(192, 58%, 72%);
+  border-color: #73c5da;
   color: #000;
 }
 .light-accent a, .msg.accent a, .msg a {
@@ -303,8 +313,8 @@ button {
 }
 
 .lightest-accent, .table.table-striped.accent tr:nth-of-type(2n), .table.table-striped.msg tr:nth-of-type(2n) {
-  background-color: hsl(190, 58%, 92%);
-  border-color: #8ed3e1;
+  background-color: hsl(192, 58%, 92%);
+  border-color: #c4e7ef;
   color: #000;
 }
 .lightest-accent a, .table.table-striped.accent tr:nth-of-type(2n) a, .table.table-striped.msg tr:nth-of-type(2n) a {
@@ -315,8 +325,8 @@ button {
 }
 
 .dark-plum, .navbar.plum ul.nav li.active a, .btn.plum:active, .form .form-footer input.plum[type=button]:active, .form .form-footer input.plum[type=reset]:active, .form .form-footer input.plum[type=submit]:active {
-  background-color: hsl(271, 42%, 32.4%);
-  border-color: #20122d;
+  background-color: hsl(271, 36%, 32.4%);
+  border-color: #422a59;
   color: #fff;
 }
 .dark-plum a, .navbar.plum ul.nav li.active a a, .btn.plum:active a, .form .form-footer input.plum[type=button]:active a, .form .form-footer input.plum[type=reset]:active a, .form .form-footer input.plum[type=submit]:active a {
@@ -327,8 +337,8 @@ button {
 }
 
 .medium-plum, .navbar.plum ul.nav li a, .navbar.plum, .btn.plum, .form .form-footer input.plum[type=button], .form .form-footer input.plum[type=reset], .form .form-footer input.plum[type=submit] {
-  background-color: hsl(271, 42%, 42%);
-  border-color: #392150;
+  background-color: hsl(271, 36%, 42%);
+  border-color: #5b3a7b;
   color: #fff;
 }
 .medium-plum a, .navbar.plum ul.nav li a a, .navbar.plum a, .btn.plum a, .form .form-footer input.plum[type=button] a, .form .form-footer input.plum[type=reset] a, .form .form-footer input.plum[type=submit] a {
@@ -339,8 +349,8 @@ button {
 }
 
 .light-plum {
-  background-color: hsl(271, 42%, 72%);
-  border-color: #8651b8;
+  background-color: hsl(271, 36%, 72%);
+  border-color: #a887c6;
   color: #000;
 }
 .light-plum a {
@@ -351,8 +361,8 @@ button {
 }
 
 .lightest-plum, .table.table-striped.plum tr:nth-of-type(2n) {
-  background-color: hsl(271, 42%, 92%);
-  border-color: #b99ad6;
+  background-color: hsl(271, 36%, 92%);
+  border-color: #dacce7;
   color: #000;
 }
 .lightest-plum a, .table.table-striped.plum tr:nth-of-type(2n) a {
@@ -364,7 +374,7 @@ button {
 
 .dark-raspberry, .navbar.raspberry ul.nav li.active a, .btn.raspberry:active, .form .form-footer input.raspberry[type=button]:active, .form .form-footer input.raspberry[type=reset]:active, .form .form-footer input.raspberry[type=submit]:active {
   background-color: hsl(341, 69%, 36%);
-  border-color: #450d1e;
+  border-color: #7e1738;
   color: #fff;
 }
 .dark-raspberry a, .navbar.raspberry ul.nav li.active a a, .btn.raspberry:active a, .form .form-footer input.raspberry[type=button]:active a, .form .form-footer input.raspberry[type=reset]:active a, .form .form-footer input.raspberry[type=submit]:active a {
@@ -376,7 +386,7 @@ button {
 
 .medium-raspberry, .navbar.raspberry ul.nav li a, .navbar.raspberry, .btn.raspberry, .form .form-footer input.raspberry[type=button], .form .form-footer input.raspberry[type=reset], .form .form-footer input.raspberry[type=submit] {
   background-color: hsl(341, 69%, 42%);
-  border-color: #5f112a;
+  border-color: #981c43;
   color: #fff;
 }
 .medium-raspberry a, .navbar.raspberry ul.nav li a a, .navbar.raspberry a, .btn.raspberry a, .form .form-footer input.raspberry[type=button] a, .form .form-footer input.raspberry[type=reset] a, .form .form-footer input.raspberry[type=submit] a {
@@ -388,7 +398,7 @@ button {
 
 .light-raspberry {
   background-color: hsl(341, 69%, 72%);
-  border-color: #d93066;
+  border-color: #e46a90;
   color: #000;
 }
 .light-raspberry a {
@@ -400,7 +410,7 @@ button {
 
 .lightest-raspberry, .table.table-striped.raspberry tr:nth-of-type(2n) {
   background-color: hsl(341, 69%, 92%);
-  border-color: #e986a6;
+  border-color: #f3c0d0;
   color: #000;
 }
 .lightest-raspberry a, .table.table-striped.raspberry tr:nth-of-type(2n) a {
@@ -411,8 +421,8 @@ button {
 }
 
 .dark-banana, .navbar.banana ul.nav li.active a, .btn.banana:active, .form .form-footer input.banana[type=button]:active, .form .form-footer input.banana[type=reset]:active, .form .form-footer input.banana[type=submit]:active {
-  background-color: hsl(50, 77%, 36%);
-  border-color: #483e09;
+  background-color: hsl(45, 84%, 43.2%);
+  border-color: #ab840f;
   color: #000;
 }
 .dark-banana a, .navbar.banana ul.nav li.active a a, .btn.banana:active a, .form .form-footer input.banana[type=button]:active a, .form .form-footer input.banana[type=reset]:active a, .form .form-footer input.banana[type=submit]:active a {
@@ -423,8 +433,8 @@ button {
 }
 
 .medium-banana, .navbar.banana ul.nav li a, .navbar.banana, .btn.banana, .form .form-footer input.banana[type=button], .form .form-footer input.banana[type=reset], .form .form-footer input.banana[type=submit] {
-  background-color: hsl(50, 77%, 42%);
-  border-color: #63550d;
+  background-color: hsl(45, 84%, 50.4%);
+  border-color: #cd9e12;
   color: #000;
 }
 .medium-banana a, .navbar.banana ul.nav li a a, .navbar.banana a, .btn.banana a, .form .form-footer input.banana[type=button] a, .form .form-footer input.banana[type=reset] a, .form .form-footer input.banana[type=submit] a {
@@ -435,8 +445,8 @@ button {
 }
 
 .light-banana {
-  background-color: hsl(50, 77%, 72%);
-  border-color: #e3c326;
+  background-color: hsl(45, 84%, 86.4%);
+  border-color: #f7e1a0;
   color: #000;
 }
 .light-banana a {
@@ -447,8 +457,8 @@ button {
 }
 
 .lightest-banana, .table.table-striped.banana tr:nth-of-type(2n) {
-  background-color: hsl(50, 77%, 92%);
-  border-color: #efdc81;
+  background-color: hsl(45, 84%, 100%);
+  border-color: #fcf5e0;
   color: #000;
 }
 .lightest-banana a, .table.table-striped.banana tr:nth-of-type(2n) a {
@@ -481,13 +491,23 @@ textarea,
 keygen,
 select,
 button {
-  font-family: "Fira Sans", Arial, sans-serif;
-  font-size: 10pt;
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
 }
 
 .dark-gray {
   background-color: #666;
-  border-color: #333333;
+  border-color: #555555;
   color: #fff;
 }
 .dark-gray a {
@@ -499,7 +519,7 @@ button {
 
 .medium-gray {
   background-color: #999;
-  border-color: #666666;
+  border-color: #888888;
   color: #000;
 }
 .medium-gray a {
@@ -511,7 +531,7 @@ button {
 
 .light-gray, .navbar ul.nav li.active a {
   background-color: #ccc;
-  border-color: #999999;
+  border-color: #bbbbbb;
   color: #000;
 }
 .light-gray a, .navbar ul.nav li.active a a {
@@ -523,7 +543,7 @@ button {
 
 .lightest-gray, .navbar ul.nav li a, .navbar {
   background-color: #eee;
-  border-color: #bbbbbb;
+  border-color: #dddddd;
   color: #000;
 }
 .lightest-gray a, .navbar ul.nav li a a, .navbar a {
@@ -535,7 +555,7 @@ button {
 
 .dark-blue, .navbar.blue ul.nav li.active a, .btn.blue:active, .form .form-footer input.blue[type=button]:active, .form .form-footer input.blue[type=reset]:active, .form .form-footer input.blue[type=submit]:active, .dark-info, .btn.info:active, .form .form-footer input.info[type=button]:active, .form .form-footer input.info[type=reset]:active, .form .form-footer input.info[type=submit]:active {
   background-color: hsl(206, 58%, 36%);
-  border-color: #112c40;
+  border-color: #1f5176;
   color: #fff;
 }
 .dark-blue a, .navbar.blue ul.nav li.active a a, .btn.blue:active a, .form .form-footer input.blue[type=button]:active a, .form .form-footer input.blue[type=reset]:active a, .form .form-footer input.blue[type=submit]:active a, .dark-info a, .btn.info:active a, .form .form-footer input.info[type=button]:active a, .form .form-footer input.info[type=reset]:active a, .form .form-footer input.info[type=submit]:active a {
@@ -547,7 +567,7 @@ button {
 
 .medium-blue, .navbar.blue ul.nav li a, .navbar.blue, .btn.blue, .form .form-footer input.blue[type=button], .form .form-footer input.blue[type=reset], .form .form-footer input.blue[type=submit], .medium-info, .btn.info, .form .form-footer input.info[type=button], .form .form-footer input.info[type=reset], .form .form-footer input.info[type=submit] {
   background-color: hsl(206, 58%, 42%);
-  border-color: #183c59;
+  border-color: #26618e;
   color: #fff;
 }
 .medium-blue a, .navbar.blue ul.nav li a a, .navbar.blue a, .btn.blue a, .form .form-footer input.blue[type=button] a, .form .form-footer input.blue[type=reset] a, .form .form-footer input.blue[type=submit] a, .medium-info a, .btn.info a, .form .form-footer input.info[type=button] a, .form .form-footer input.info[type=reset] a, .form .form-footer input.info[type=submit] a {
@@ -559,7 +579,7 @@ button {
 
 .light-blue, .light-info, .msg.info {
   background-color: hsl(206, 58%, 72%);
-  border-color: #3e8ecc;
+  border-color: #73adda;
   color: #000;
 }
 .light-blue a, .light-info a, .msg.info a {
@@ -571,7 +591,7 @@ button {
 
 .lightest-blue, .table.table-striped.blue tr:nth-of-type(2n), .lightest-info {
   background-color: hsl(206, 58%, 92%);
-  border-color: #8ebde1;
+  border-color: #c4dcef;
   color: #000;
 }
 .lightest-blue a, .table.table-striped.blue tr:nth-of-type(2n) a, .lightest-info a {
@@ -583,7 +603,7 @@ button {
 
 .dark-green, .navbar.green ul.nav li.active a, .btn.green:active, .form .form-footer input.green[type=button]:active, .form .form-footer input.green[type=reset]:active, .form .form-footer input.green[type=submit]:active, .dark-success, .btn.success:active, .form .form-footer input.success[type=button]:active, .form .form-footer input.success[type=reset]:active, .form .form-footer input.success[type=submit]:active {
   background-color: hsl(121, 32%, 36%);
-  border-color: #1c361c;
+  border-color: #336334;
   color: #fff;
 }
 .dark-green a, .navbar.green ul.nav li.active a a, .btn.green:active a, .form .form-footer input.green[type=button]:active a, .form .form-footer input.green[type=reset]:active a, .form .form-footer input.green[type=submit]:active a, .dark-success a, .btn.success:active a, .form .form-footer input.success[type=button]:active a, .form .form-footer input.success[type=reset]:active a, .form .form-footer input.success[type=submit]:active a {
@@ -595,7 +615,7 @@ button {
 
 .medium-green, .navbar.green ul.nav li a, .navbar.green, .btn.green, .form .form-footer input.green[type=button], .form .form-footer input.green[type=reset], .form .form-footer input.green[type=submit], .medium-success, .btn.success, .form .form-footer input.success[type=button], .form .form-footer input.success[type=reset], .form .form-footer input.success[type=submit] {
   background-color: hsl(121, 32%, 42%);
-  border-color: #264a27;
+  border-color: #3d773e;
   color: #000;
 }
 .medium-green a, .navbar.green ul.nav li a a, .navbar.green a, .btn.green a, .form .form-footer input.green[type=button] a, .form .form-footer input.green[type=reset] a, .form .form-footer input.green[type=submit] a, .medium-success a, .btn.success a, .form .form-footer input.success[type=button] a, .form .form-footer input.success[type=reset] a, .form .form-footer input.success[type=submit] a {
@@ -607,7 +627,7 @@ button {
 
 .light-green, .light-success, .msg.success {
   background-color: hsl(121, 32%, 72%);
-  border-color: #5dac5f;
+  border-color: #8ac38b;
   color: #000;
 }
 .light-green a, .light-success a, .msg.success a {
@@ -619,7 +639,7 @@ button {
 
 .lightest-green, .table.table-striped.green tr:nth-of-type(2n), .lightest-success {
   background-color: hsl(121, 32%, 92%);
-  border-color: #a1cea2;
+  border-color: #cee6ce;
   color: #000;
 }
 .lightest-green a, .table.table-striped.green tr:nth-of-type(2n) a, .lightest-success a {
@@ -631,7 +651,7 @@ button {
 
 .dark-red, .navbar.red ul.nav li.active a, .btn.red:active, .form .form-footer input.red[type=button]:active, .form .form-footer input.red[type=reset]:active, .form .form-footer input.red[type=submit]:active, .dark-danger, .btn.danger:active, .form .form-footer input.danger[type=button]:active, .form .form-footer input.danger[type=reset]:active, .form .form-footer input.danger[type=submit]:active, .dark-error, .btn.error:active, .form .form-footer input.error[type=button]:active, .form .form-footer input.error[type=reset]:active, .form .form-footer input.error[type=submit]:active {
   background-color: hsl(355, 72%, 36%);
-  border-color: #460b10;
+  border-color: #81151e;
   color: #fff;
 }
 .dark-red a, .navbar.red ul.nav li.active a a, .btn.red:active a, .form .form-footer input.red[type=button]:active a, .form .form-footer input.red[type=reset]:active a, .form .form-footer input.red[type=submit]:active a, .dark-danger a, .btn.danger:active a, .form .form-footer input.danger[type=button]:active a, .form .form-footer input.danger[type=reset]:active a, .form .form-footer input.danger[type=submit]:active a, .dark-error a, .btn.error:active a, .form .form-footer input.error[type=button]:active a, .form .form-footer input.error[type=reset]:active a, .form .form-footer input.error[type=submit]:active a {
@@ -643,7 +663,7 @@ button {
 
 .medium-red, .navbar.red ul.nav li a, .navbar.red, .btn.red, .form .form-footer input.red[type=button], .form .form-footer input.red[type=reset], .form .form-footer input.red[type=submit], .medium-danger, .btn.danger, .form .form-footer input.danger[type=button], .form .form-footer input.danger[type=reset], .form .form-footer input.danger[type=submit], .medium-error, .btn.error, .form .form-footer input.error[type=button], .form .form-footer input.error[type=reset], .form .form-footer input.error[type=submit] {
   background-color: hsl(355, 72%, 42%);
-  border-color: #601016;
+  border-color: #9b1924;
   color: #fff;
 }
 .medium-red a, .navbar.red ul.nav li a a, .navbar.red a, .btn.red a, .form .form-footer input.red[type=button] a, .form .form-footer input.red[type=reset] a, .form .form-footer input.red[type=submit] a, .medium-danger a, .btn.danger a, .form .form-footer input.danger[type=button] a, .form .form-footer input.danger[type=reset] a, .form .form-footer input.danger[type=submit] a, .medium-error a, .btn.error a, .form .form-footer input.error[type=button] a, .form .form-footer input.error[type=reset] a, .form .form-footer input.error[type=submit] a {
@@ -655,7 +675,7 @@ button {
 
 .light-red, .light-danger, .msg.danger, .light-error, .msg.error {
   background-color: hsl(355, 72%, 72%);
-  border-color: #dd2c3b;
+  border-color: #e66772;
   color: #000;
 }
 .light-red a, .light-danger a, .msg.danger a, .light-error a, .msg.error a {
@@ -667,7 +687,7 @@ button {
 
 .lightest-red, .table.table-striped.red tr:nth-of-type(2n), .lightest-danger, .lightest-error {
   background-color: hsl(355, 72%, 92%);
-  border-color: #eb848d;
+  border-color: #f5bfc3;
   color: #000;
 }
 .lightest-red a, .table.table-striped.red tr:nth-of-type(2n) a, .lightest-danger a, .lightest-error a {
@@ -678,20 +698,20 @@ button {
 }
 
 .dark-amber, .navbar.amber ul.nav li.active a, .btn.amber:active, .form .form-footer input.amber[type=button]:active, .form .form-footer input.amber[type=reset]:active, .form .form-footer input.amber[type=submit]:active, .dark-warning, .btn.warning:active, .form .form-footer input.warning[type=button]:active, .form .form-footer input.warning[type=reset]:active, .form .form-footer input.warning[type=submit]:active {
-  background-color: hsl(28, 91%, 36%);
-  border-color: #4e2604;
-  color: #fff;
+  background-color: hsl(30, 84%, 43.2%);
+  border-color: #ab5d0f;
+  color: #000;
 }
 .dark-amber a, .navbar.amber ul.nav li.active a a, .btn.amber:active a, .form .form-footer input.amber[type=button]:active a, .form .form-footer input.amber[type=reset]:active a, .form .form-footer input.amber[type=submit]:active a, .dark-warning a, .btn.warning:active a, .form .form-footer input.warning[type=button]:active a, .form .form-footer input.warning[type=reset]:active a, .form .form-footer input.warning[type=submit]:active a {
-  color: #fff;
+  color: #000;
 }
 .dark-amber .active a, .navbar.amber ul.nav li.active a .active a, .btn.amber:active .active a, .form .form-footer input.amber[type=button]:active .active a, .form .form-footer input.amber[type=reset]:active .active a, .form .form-footer input.amber[type=submit]:active .active a, .dark-warning .active a, .btn.warning:active .active a, .form .form-footer input.warning[type=button]:active .active a, .form .form-footer input.warning[type=reset]:active .active a, .form .form-footer input.warning[type=submit]:active .active a {
-  color: #fff;
+  color: #000;
 }
 
 .medium-amber, .navbar.amber ul.nav li a, .navbar.amber, .btn.amber, .form .form-footer input.amber[type=button], .form .form-footer input.amber[type=reset], .form .form-footer input.amber[type=submit], .medium-warning, .btn.warning, .form .form-footer input.warning[type=button], .form .form-footer input.warning[type=reset], .form .form-footer input.warning[type=submit] {
-  background-color: hsl(28, 91%, 42%);
-  border-color: #6b3505;
+  background-color: hsl(30, 84%, 50.4%);
+  border-color: #cd7012;
   color: #000;
 }
 .medium-amber a, .navbar.amber ul.nav li a a, .navbar.amber a, .btn.amber a, .form .form-footer input.amber[type=button] a, .form .form-footer input.amber[type=reset] a, .form .form-footer input.amber[type=submit] a, .medium-warning a, .btn.warning a, .form .form-footer input.warning[type=button] a, .form .form-footer input.warning[type=reset] a, .form .form-footer input.warning[type=submit] a {
@@ -702,8 +722,8 @@ button {
 }
 
 .light-amber, .light-warning, .msg.warning {
-  background-color: hsl(28, 91%, 72%);
-  border-color: #f47d15;
+  background-color: hsl(30, 84%, 86.4%);
+  border-color: #f7cba0;
   color: #000;
 }
 .light-amber a, .light-warning a, .msg.warning a {
@@ -714,8 +734,8 @@ button {
 }
 
 .lightest-amber, .table.table-striped.amber tr:nth-of-type(2n), .lightest-warning {
-  background-color: hsl(28, 91%, 92%);
-  border-color: #f9b377;
+  background-color: hsl(30, 84%, 100%);
+  border-color: #fceee0;
   color: #000;
 }
 .lightest-amber a, .table.table-striped.amber tr:nth-of-type(2n) a, .lightest-warning a {
@@ -726,8 +746,8 @@ button {
 }
 
 .dark-accent, .navbar.accent ul.nav li.active a, .navbar.msg ul.nav li.active a, .btn.accent:active, .btn.msg:active, .form .form-footer input.accent[type=button]:active, .form .form-footer input[type=button].msg:active, .form .form-footer input.accent[type=reset]:active, .form .form-footer input[type=reset].msg:active, .form .form-footer input.accent[type=submit]:active, .form .form-footer input[type=submit].msg:active {
-  background-color: hsl(190, 58%, 32.4%);
-  border-color: #0d2c32;
+  background-color: hsl(192, 58%, 32.4%);
+  border-color: #1c5868;
   color: #fff;
 }
 .dark-accent a, .navbar.accent ul.nav li.active a a, .navbar.msg ul.nav li.active a a, .btn.accent:active a, .btn.msg:active a, .form .form-footer input.accent[type=button]:active a, .form .form-footer input[type=button].msg:active a, .form .form-footer input.accent[type=reset]:active a, .form .form-footer input[type=reset].msg:active a, .form .form-footer input.accent[type=submit]:active a, .form .form-footer input[type=submit].msg:active a {
@@ -738,8 +758,8 @@ button {
 }
 
 .medium-accent, .navbar.accent ul.nav li a, .navbar.msg ul.nav li a, .navbar.accent, .navbar.msg, .btn.accent, .btn.msg, .form .form-footer input.accent[type=button], .form .form-footer input[type=button].msg, .form .form-footer input.accent[type=reset], .form .form-footer input[type=reset].msg, .form .form-footer input.accent[type=submit], .form .form-footer input[type=submit].msg {
-  background-color: hsl(190, 58%, 42%);
-  border-color: #184e59;
+  background-color: hsl(192, 58%, 42%);
+  border-color: #26798e;
   color: #000;
 }
 .medium-accent a, .navbar.accent ul.nav li a a, .navbar.msg ul.nav li a a, .navbar.accent a, .navbar.msg a, .btn.accent a, .btn.msg a, .form .form-footer input.accent[type=button] a, .form .form-footer input[type=button].msg a, .form .form-footer input.accent[type=reset] a, .form .form-footer input[type=reset].msg a, .form .form-footer input.accent[type=submit] a, .form .form-footer input[type=submit].msg a {
@@ -750,8 +770,8 @@ button {
 }
 
 .light-accent, .msg.accent, .msg {
-  background-color: hsl(190, 58%, 72%);
-  border-color: #3eb4cc;
+  background-color: hsl(192, 58%, 72%);
+  border-color: #73c5da;
   color: #000;
 }
 .light-accent a, .msg.accent a, .msg a {
@@ -762,8 +782,8 @@ button {
 }
 
 .lightest-accent, .table.table-striped.accent tr:nth-of-type(2n), .table.table-striped.msg tr:nth-of-type(2n) {
-  background-color: hsl(190, 58%, 92%);
-  border-color: #8ed3e1;
+  background-color: hsl(192, 58%, 92%);
+  border-color: #c4e7ef;
   color: #000;
 }
 .lightest-accent a, .table.table-striped.accent tr:nth-of-type(2n) a, .table.table-striped.msg tr:nth-of-type(2n) a {
@@ -774,8 +794,8 @@ button {
 }
 
 .dark-plum, .navbar.plum ul.nav li.active a, .btn.plum:active, .form .form-footer input.plum[type=button]:active, .form .form-footer input.plum[type=reset]:active, .form .form-footer input.plum[type=submit]:active {
-  background-color: hsl(271, 42%, 32.4%);
-  border-color: #20122d;
+  background-color: hsl(271, 36%, 32.4%);
+  border-color: #422a59;
   color: #fff;
 }
 .dark-plum a, .navbar.plum ul.nav li.active a a, .btn.plum:active a, .form .form-footer input.plum[type=button]:active a, .form .form-footer input.plum[type=reset]:active a, .form .form-footer input.plum[type=submit]:active a {
@@ -786,8 +806,8 @@ button {
 }
 
 .medium-plum, .navbar.plum ul.nav li a, .navbar.plum, .btn.plum, .form .form-footer input.plum[type=button], .form .form-footer input.plum[type=reset], .form .form-footer input.plum[type=submit] {
-  background-color: hsl(271, 42%, 42%);
-  border-color: #392150;
+  background-color: hsl(271, 36%, 42%);
+  border-color: #5b3a7b;
   color: #fff;
 }
 .medium-plum a, .navbar.plum ul.nav li a a, .navbar.plum a, .btn.plum a, .form .form-footer input.plum[type=button] a, .form .form-footer input.plum[type=reset] a, .form .form-footer input.plum[type=submit] a {
@@ -798,8 +818,8 @@ button {
 }
 
 .light-plum {
-  background-color: hsl(271, 42%, 72%);
-  border-color: #8651b8;
+  background-color: hsl(271, 36%, 72%);
+  border-color: #a887c6;
   color: #000;
 }
 .light-plum a {
@@ -810,8 +830,8 @@ button {
 }
 
 .lightest-plum, .table.table-striped.plum tr:nth-of-type(2n) {
-  background-color: hsl(271, 42%, 92%);
-  border-color: #b99ad6;
+  background-color: hsl(271, 36%, 92%);
+  border-color: #dacce7;
   color: #000;
 }
 .lightest-plum a, .table.table-striped.plum tr:nth-of-type(2n) a {
@@ -823,7 +843,7 @@ button {
 
 .dark-raspberry, .navbar.raspberry ul.nav li.active a, .btn.raspberry:active, .form .form-footer input.raspberry[type=button]:active, .form .form-footer input.raspberry[type=reset]:active, .form .form-footer input.raspberry[type=submit]:active {
   background-color: hsl(341, 69%, 36%);
-  border-color: #450d1e;
+  border-color: #7e1738;
   color: #fff;
 }
 .dark-raspberry a, .navbar.raspberry ul.nav li.active a a, .btn.raspberry:active a, .form .form-footer input.raspberry[type=button]:active a, .form .form-footer input.raspberry[type=reset]:active a, .form .form-footer input.raspberry[type=submit]:active a {
@@ -835,7 +855,7 @@ button {
 
 .medium-raspberry, .navbar.raspberry ul.nav li a, .navbar.raspberry, .btn.raspberry, .form .form-footer input.raspberry[type=button], .form .form-footer input.raspberry[type=reset], .form .form-footer input.raspberry[type=submit] {
   background-color: hsl(341, 69%, 42%);
-  border-color: #5f112a;
+  border-color: #981c43;
   color: #fff;
 }
 .medium-raspberry a, .navbar.raspberry ul.nav li a a, .navbar.raspberry a, .btn.raspberry a, .form .form-footer input.raspberry[type=button] a, .form .form-footer input.raspberry[type=reset] a, .form .form-footer input.raspberry[type=submit] a {
@@ -847,7 +867,7 @@ button {
 
 .light-raspberry {
   background-color: hsl(341, 69%, 72%);
-  border-color: #d93066;
+  border-color: #e46a90;
   color: #000;
 }
 .light-raspberry a {
@@ -859,7 +879,7 @@ button {
 
 .lightest-raspberry, .table.table-striped.raspberry tr:nth-of-type(2n) {
   background-color: hsl(341, 69%, 92%);
-  border-color: #e986a6;
+  border-color: #f3c0d0;
   color: #000;
 }
 .lightest-raspberry a, .table.table-striped.raspberry tr:nth-of-type(2n) a {
@@ -870,8 +890,8 @@ button {
 }
 
 .dark-banana, .navbar.banana ul.nav li.active a, .btn.banana:active, .form .form-footer input.banana[type=button]:active, .form .form-footer input.banana[type=reset]:active, .form .form-footer input.banana[type=submit]:active {
-  background-color: hsl(50, 77%, 36%);
-  border-color: #483e09;
+  background-color: hsl(45, 84%, 43.2%);
+  border-color: #ab840f;
   color: #000;
 }
 .dark-banana a, .navbar.banana ul.nav li.active a a, .btn.banana:active a, .form .form-footer input.banana[type=button]:active a, .form .form-footer input.banana[type=reset]:active a, .form .form-footer input.banana[type=submit]:active a {
@@ -882,8 +902,8 @@ button {
 }
 
 .medium-banana, .navbar.banana ul.nav li a, .navbar.banana, .btn.banana, .form .form-footer input.banana[type=button], .form .form-footer input.banana[type=reset], .form .form-footer input.banana[type=submit] {
-  background-color: hsl(50, 77%, 42%);
-  border-color: #63550d;
+  background-color: hsl(45, 84%, 50.4%);
+  border-color: #cd9e12;
   color: #000;
 }
 .medium-banana a, .navbar.banana ul.nav li a a, .navbar.banana a, .btn.banana a, .form .form-footer input.banana[type=button] a, .form .form-footer input.banana[type=reset] a, .form .form-footer input.banana[type=submit] a {
@@ -894,8 +914,8 @@ button {
 }
 
 .light-banana {
-  background-color: hsl(50, 77%, 72%);
-  border-color: #e3c326;
+  background-color: hsl(45, 84%, 86.4%);
+  border-color: #f7e1a0;
   color: #000;
 }
 .light-banana a {
@@ -906,8 +926,8 @@ button {
 }
 
 .lightest-banana, .table.table-striped.banana tr:nth-of-type(2n) {
-  background-color: hsl(50, 77%, 92%);
-  border-color: #efdc81;
+  background-color: hsl(45, 84%, 100%);
+  border-color: #fcf5e0;
   color: #000;
 }
 .lightest-banana a, .table.table-striped.banana tr:nth-of-type(2n) a {
@@ -983,7 +1003,7 @@ to give the button a special semantic cue.
 .btn, .form .form-footer input[type=button], .form .form-footer input[type=reset], .form .form-footer input[type=submit] {
   transition: box-shadow 0.2s ease-in;
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 4px;
   padding: 6px 12px;
 }
@@ -994,14 +1014,14 @@ to give the button a special semantic cue.
 .btn:focus, .form .form-footer input[type=button]:focus, .form .form-footer input[type=reset]:focus, .form .form-footer input[type=submit]:focus {
   outline: none;
   border-color: #666;
-  box-shadow: 0 0 3px 1px hsl(190, 58%, 72%);
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 72%);
   background-color: #eee;
   border-color: #999;
 }
 .btn:active, .form .form-footer input[type=button]:active, .form .form-footer input[type=reset]:active, .form .form-footer input[type=submit]:active {
   outline: none;
   border-color: #666;
-  box-shadow: 0 0 3px 1px hsl(190, 58%, 72%);
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 72%);
   background-color: #ccc;
 }
 .btn.btn-large, .form .form-footer input.btn-large[type=button], .form .form-footer input.btn-large[type=reset], .form .form-footer input.btn-large[type=submit] {
@@ -1082,14 +1102,14 @@ Dangerous actions, e.g. actions that have a destructive effect, should use the
 }
 .form .form-row .form-field input[type=text] {
   transition: box-shadow 0.2s ease-in;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 4px;
   padding: 6px 6px 4px 6px;
 }
 .form .form-row .form-field input[type=text]:focus {
   outline: none;
-  box-shadow: 0 0 3px 1px hsl(190, 58%, 72%);
-  border-color: hsl(190, 58%, 42%);
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 72%);
+  border-color: hsl(192, 58%, 42%);
 }
 .form .form-row .form-field input[type=text][disabled] {
   background-color: #eee;
@@ -1104,14 +1124,14 @@ Dangerous actions, e.g. actions that have a destructive effect, should use the
 }
 .form .form-row .form-field input[type=number] {
   transition: box-shadow 0.2s ease-in;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 4px;
   padding: 6px 6px 4px 6px;
 }
 .form .form-row .form-field input[type=number]:focus {
   outline: none;
-  box-shadow: 0 0 3px 1px hsl(190, 58%, 72%);
-  border-color: hsl(190, 58%, 42%);
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 72%);
+  border-color: hsl(192, 58%, 42%);
 }
 .form .form-row .form-field input[type=number][disabled] {
   background-color: #eee;
@@ -1126,14 +1146,14 @@ Dangerous actions, e.g. actions that have a destructive effect, should use the
 }
 .form .form-row .form-field input[type=password] {
   transition: box-shadow 0.2s ease-in;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 4px;
   padding: 6px 6px 4px 6px;
 }
 .form .form-row .form-field input[type=password]:focus {
   outline: none;
-  box-shadow: 0 0 3px 1px hsl(190, 58%, 72%);
-  border-color: hsl(190, 58%, 42%);
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 72%);
+  border-color: hsl(192, 58%, 42%);
 }
 .form .form-row .form-field input[type=password][disabled] {
   background-color: #eee;
@@ -1143,6 +1163,72 @@ Dangerous actions, e.g. actions that have a destructive effect, should use the
   color: #999;
 }
 .form .form-row .form-field input[type=password][readonly]:focus {
+  box-shadow: none;
+  border-color: #ccc;
+}
+.form .form-row .form-field input[type=date] {
+  transition: box-shadow 0.2s ease-in;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 6px 4px 6px;
+}
+.form .form-row .form-field input[type=date]:focus {
+  outline: none;
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 72%);
+  border-color: hsl(192, 58%, 42%);
+}
+.form .form-row .form-field input[type=date][disabled] {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+.form .form-row .form-field input[type=date][readonly] {
+  color: #999;
+}
+.form .form-row .form-field input[type=date][readonly]:focus {
+  box-shadow: none;
+  border-color: #ccc;
+}
+.form .form-row .form-field input[type=datetime-local] {
+  transition: box-shadow 0.2s ease-in;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 6px 4px 6px;
+}
+.form .form-row .form-field input[type=datetime-local]:focus {
+  outline: none;
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 72%);
+  border-color: hsl(192, 58%, 42%);
+}
+.form .form-row .form-field input[type=datetime-local][disabled] {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+.form .form-row .form-field input[type=datetime-local][readonly] {
+  color: #999;
+}
+.form .form-row .form-field input[type=datetime-local][readonly]:focus {
+  box-shadow: none;
+  border-color: #ccc;
+}
+.form .form-row .form-field input[type=search] {
+  transition: box-shadow 0.2s ease-in;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 6px 4px 6px;
+}
+.form .form-row .form-field input[type=search]:focus {
+  outline: none;
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 72%);
+  border-color: hsl(192, 58%, 42%);
+}
+.form .form-row .form-field input[type=search][disabled] {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+.form .form-row .form-field input[type=search][readonly] {
+  color: #999;
+}
+.form .form-row .form-field input[type=search][readonly]:focus {
   box-shadow: none;
   border-color: #ccc;
 }
@@ -1172,13 +1258,23 @@ textarea,
 keygen,
 select,
 button {
-  font-family: "Fira Sans", Arial, sans-serif;
-  font-size: 10pt;
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
 }
 
 .dark-gray {
   background-color: #666;
-  border-color: #333333;
+  border-color: #555555;
   color: #fff;
 }
 .dark-gray a {
@@ -1190,7 +1286,7 @@ button {
 
 .medium-gray {
   background-color: #999;
-  border-color: #666666;
+  border-color: #888888;
   color: #000;
 }
 .medium-gray a {
@@ -1202,7 +1298,7 @@ button {
 
 .light-gray, .navbar ul.nav li.active a {
   background-color: #ccc;
-  border-color: #999999;
+  border-color: #bbbbbb;
   color: #000;
 }
 .light-gray a, .navbar ul.nav li.active a a {
@@ -1214,7 +1310,7 @@ button {
 
 .lightest-gray, .navbar ul.nav li a, .navbar {
   background-color: #eee;
-  border-color: #bbbbbb;
+  border-color: #dddddd;
   color: #000;
 }
 .lightest-gray a, .navbar ul.nav li a a, .navbar a {
@@ -1226,7 +1322,7 @@ button {
 
 .dark-blue, .navbar.blue ul.nav li.active a, .dark-info, .btn.info:active, .btn.blue:active, .form .form-footer input.info[type=submit]:active, .form .form-footer input.blue[type=submit]:active, .form .form-footer input.info[type=reset]:active, .form .form-footer input.blue[type=reset]:active, .form .form-footer input.info[type=button]:active, .form .form-footer input.blue[type=button]:active {
   background-color: hsl(206, 58%, 36%);
-  border-color: #112c40;
+  border-color: #1f5176;
   color: #fff;
 }
 .dark-blue a, .navbar.blue ul.nav li.active a a, .dark-info a, .btn.info:active a, .btn.blue:active a, .form .form-footer input.info[type=submit]:active a, .form .form-footer input.blue[type=submit]:active a, .form .form-footer input.info[type=reset]:active a, .form .form-footer input.blue[type=reset]:active a, .form .form-footer input.info[type=button]:active a, .form .form-footer input.blue[type=button]:active a {
@@ -1238,7 +1334,7 @@ button {
 
 .medium-blue, .navbar.blue ul.nav li a, .navbar.blue, .medium-info, .btn.info, .btn.blue, .form .form-footer input.info[type=submit], .form .form-footer input.blue[type=submit], .form .form-footer input.info[type=reset], .form .form-footer input.blue[type=reset], .form .form-footer input.info[type=button], .form .form-footer input.blue[type=button] {
   background-color: hsl(206, 58%, 42%);
-  border-color: #183c59;
+  border-color: #26618e;
   color: #fff;
 }
 .medium-blue a, .navbar.blue ul.nav li a a, .navbar.blue a, .medium-info a, .btn.info a, .btn.blue a, .form .form-footer input.info[type=submit] a, .form .form-footer input.blue[type=submit] a, .form .form-footer input.info[type=reset] a, .form .form-footer input.blue[type=reset] a, .form .form-footer input.info[type=button] a, .form .form-footer input.blue[type=button] a {
@@ -1250,7 +1346,7 @@ button {
 
 .light-blue, .light-info, .msg.info {
   background-color: hsl(206, 58%, 72%);
-  border-color: #3e8ecc;
+  border-color: #73adda;
   color: #000;
 }
 .light-blue a, .light-info a, .msg.info a {
@@ -1262,7 +1358,7 @@ button {
 
 .lightest-blue, .table.table-striped.blue tr:nth-of-type(2n), .lightest-info {
   background-color: hsl(206, 58%, 92%);
-  border-color: #8ebde1;
+  border-color: #c4dcef;
   color: #000;
 }
 .lightest-blue a, .table.table-striped.blue tr:nth-of-type(2n) a, .lightest-info a {
@@ -1274,7 +1370,7 @@ button {
 
 .dark-green, .navbar.green ul.nav li.active a, .dark-success, .btn.success:active, .btn.green:active, .form .form-footer input.success[type=submit]:active, .form .form-footer input.green[type=submit]:active, .form .form-footer input.success[type=reset]:active, .form .form-footer input.green[type=reset]:active, .form .form-footer input.success[type=button]:active, .form .form-footer input.green[type=button]:active {
   background-color: hsl(121, 32%, 36%);
-  border-color: #1c361c;
+  border-color: #336334;
   color: #fff;
 }
 .dark-green a, .navbar.green ul.nav li.active a a, .dark-success a, .btn.success:active a, .btn.green:active a, .form .form-footer input.success[type=submit]:active a, .form .form-footer input.green[type=submit]:active a, .form .form-footer input.success[type=reset]:active a, .form .form-footer input.green[type=reset]:active a, .form .form-footer input.success[type=button]:active a, .form .form-footer input.green[type=button]:active a {
@@ -1286,7 +1382,7 @@ button {
 
 .medium-green, .navbar.green ul.nav li a, .navbar.green, .medium-success, .btn.success, .btn.green, .form .form-footer input.success[type=submit], .form .form-footer input.green[type=submit], .form .form-footer input.success[type=reset], .form .form-footer input.green[type=reset], .form .form-footer input.success[type=button], .form .form-footer input.green[type=button] {
   background-color: hsl(121, 32%, 42%);
-  border-color: #264a27;
+  border-color: #3d773e;
   color: #000;
 }
 .medium-green a, .navbar.green ul.nav li a a, .navbar.green a, .medium-success a, .btn.success a, .btn.green a, .form .form-footer input.success[type=submit] a, .form .form-footer input.green[type=submit] a, .form .form-footer input.success[type=reset] a, .form .form-footer input.green[type=reset] a, .form .form-footer input.success[type=button] a, .form .form-footer input.green[type=button] a {
@@ -1298,7 +1394,7 @@ button {
 
 .light-green, .light-success, .msg.success {
   background-color: hsl(121, 32%, 72%);
-  border-color: #5dac5f;
+  border-color: #8ac38b;
   color: #000;
 }
 .light-green a, .light-success a, .msg.success a {
@@ -1310,7 +1406,7 @@ button {
 
 .lightest-green, .table.table-striped.green tr:nth-of-type(2n), .lightest-success {
   background-color: hsl(121, 32%, 92%);
-  border-color: #a1cea2;
+  border-color: #cee6ce;
   color: #000;
 }
 .lightest-green a, .table.table-striped.green tr:nth-of-type(2n) a, .lightest-success a {
@@ -1322,7 +1418,7 @@ button {
 
 .dark-red, .navbar.red ul.nav li.active a, .dark-danger, .dark-error, .btn.danger:active, .btn.error:active, .btn.red:active, .form .form-footer input.danger[type=submit]:active, .form .form-footer input.error[type=submit]:active, .form .form-footer input.red[type=submit]:active, .form .form-footer input.danger[type=reset]:active, .form .form-footer input.error[type=reset]:active, .form .form-footer input.red[type=reset]:active, .form .form-footer input.danger[type=button]:active, .form .form-footer input.error[type=button]:active, .form .form-footer input.red[type=button]:active {
   background-color: hsl(355, 72%, 36%);
-  border-color: #460b10;
+  border-color: #81151e;
   color: #fff;
 }
 .dark-red a, .navbar.red ul.nav li.active a a, .dark-danger a, .dark-error a, .btn.danger:active a, .btn.error:active a, .btn.red:active a, .form .form-footer input.danger[type=submit]:active a, .form .form-footer input.error[type=submit]:active a, .form .form-footer input.red[type=submit]:active a, .form .form-footer input.danger[type=reset]:active a, .form .form-footer input.error[type=reset]:active a, .form .form-footer input.red[type=reset]:active a, .form .form-footer input.danger[type=button]:active a, .form .form-footer input.error[type=button]:active a, .form .form-footer input.red[type=button]:active a {
@@ -1334,7 +1430,7 @@ button {
 
 .medium-red, .navbar.red ul.nav li a, .navbar.red, .medium-danger, .medium-error, .btn.danger, .btn.error, .btn.red, .form .form-footer input.danger[type=submit], .form .form-footer input.error[type=submit], .form .form-footer input.red[type=submit], .form .form-footer input.danger[type=reset], .form .form-footer input.error[type=reset], .form .form-footer input.red[type=reset], .form .form-footer input.danger[type=button], .form .form-footer input.error[type=button], .form .form-footer input.red[type=button] {
   background-color: hsl(355, 72%, 42%);
-  border-color: #601016;
+  border-color: #9b1924;
   color: #fff;
 }
 .medium-red a, .navbar.red ul.nav li a a, .navbar.red a, .medium-danger a, .medium-error a, .btn.danger a, .btn.error a, .btn.red a, .form .form-footer input.danger[type=submit] a, .form .form-footer input.error[type=submit] a, .form .form-footer input.red[type=submit] a, .form .form-footer input.danger[type=reset] a, .form .form-footer input.error[type=reset] a, .form .form-footer input.red[type=reset] a, .form .form-footer input.danger[type=button] a, .form .form-footer input.error[type=button] a, .form .form-footer input.red[type=button] a {
@@ -1346,7 +1442,7 @@ button {
 
 .light-red, .light-danger, .msg.danger, .light-error, .msg.error {
   background-color: hsl(355, 72%, 72%);
-  border-color: #dd2c3b;
+  border-color: #e66772;
   color: #000;
 }
 .light-red a, .light-danger a, .msg.danger a, .light-error a, .msg.error a {
@@ -1358,7 +1454,7 @@ button {
 
 .lightest-red, .table.table-striped.red tr:nth-of-type(2n), .lightest-danger, .lightest-error {
   background-color: hsl(355, 72%, 92%);
-  border-color: #eb848d;
+  border-color: #f5bfc3;
   color: #000;
 }
 .lightest-red a, .table.table-striped.red tr:nth-of-type(2n) a, .lightest-danger a, .lightest-error a {
@@ -1369,20 +1465,20 @@ button {
 }
 
 .dark-amber, .navbar.amber ul.nav li.active a, .dark-warning, .btn.warning:active, .btn.amber:active, .form .form-footer input.warning[type=submit]:active, .form .form-footer input.amber[type=submit]:active, .form .form-footer input.warning[type=reset]:active, .form .form-footer input.amber[type=reset]:active, .form .form-footer input.warning[type=button]:active, .form .form-footer input.amber[type=button]:active {
-  background-color: hsl(28, 91%, 36%);
-  border-color: #4e2604;
-  color: #fff;
+  background-color: hsl(30, 84%, 43.2%);
+  border-color: #ab5d0f;
+  color: #000;
 }
 .dark-amber a, .navbar.amber ul.nav li.active a a, .dark-warning a, .btn.warning:active a, .btn.amber:active a, .form .form-footer input.warning[type=submit]:active a, .form .form-footer input.amber[type=submit]:active a, .form .form-footer input.warning[type=reset]:active a, .form .form-footer input.amber[type=reset]:active a, .form .form-footer input.warning[type=button]:active a, .form .form-footer input.amber[type=button]:active a {
-  color: #fff;
+  color: #000;
 }
 .dark-amber .active a, .navbar.amber ul.nav li.active a .active a, .dark-warning .active a, .btn.warning:active .active a, .btn.amber:active .active a, .form .form-footer input.warning[type=submit]:active .active a, .form .form-footer input.amber[type=submit]:active .active a, .form .form-footer input.warning[type=reset]:active .active a, .form .form-footer input.amber[type=reset]:active .active a, .form .form-footer input.warning[type=button]:active .active a, .form .form-footer input.amber[type=button]:active .active a {
-  color: #fff;
+  color: #000;
 }
 
 .medium-amber, .navbar.amber ul.nav li a, .navbar.amber, .medium-warning, .btn.warning, .btn.amber, .form .form-footer input.warning[type=submit], .form .form-footer input.amber[type=submit], .form .form-footer input.warning[type=reset], .form .form-footer input.amber[type=reset], .form .form-footer input.warning[type=button], .form .form-footer input.amber[type=button] {
-  background-color: hsl(28, 91%, 42%);
-  border-color: #6b3505;
+  background-color: hsl(30, 84%, 50.4%);
+  border-color: #cd7012;
   color: #000;
 }
 .medium-amber a, .navbar.amber ul.nav li a a, .navbar.amber a, .medium-warning a, .btn.warning a, .btn.amber a, .form .form-footer input.warning[type=submit] a, .form .form-footer input.amber[type=submit] a, .form .form-footer input.warning[type=reset] a, .form .form-footer input.amber[type=reset] a, .form .form-footer input.warning[type=button] a, .form .form-footer input.amber[type=button] a {
@@ -1393,8 +1489,8 @@ button {
 }
 
 .light-amber, .light-warning, .msg.warning {
-  background-color: hsl(28, 91%, 72%);
-  border-color: #f47d15;
+  background-color: hsl(30, 84%, 86.4%);
+  border-color: #f7cba0;
   color: #000;
 }
 .light-amber a, .light-warning a, .msg.warning a {
@@ -1405,8 +1501,8 @@ button {
 }
 
 .lightest-amber, .table.table-striped.amber tr:nth-of-type(2n), .lightest-warning {
-  background-color: hsl(28, 91%, 92%);
-  border-color: #f9b377;
+  background-color: hsl(30, 84%, 100%);
+  border-color: #fceee0;
   color: #000;
 }
 .lightest-amber a, .table.table-striped.amber tr:nth-of-type(2n) a, .lightest-warning a {
@@ -1417,8 +1513,8 @@ button {
 }
 
 .dark-accent, .navbar.accent ul.nav li.active a, .navbar.msg ul.nav li.active a, .btn.accent:active, .btn.msg:active, .form .form-footer input.accent[type=submit]:active, .form .form-footer input[type=submit].msg:active, .form .form-footer input.accent[type=reset]:active, .form .form-footer input[type=reset].msg:active, .form .form-footer input.accent[type=button]:active, .form .form-footer input[type=button].msg:active {
-  background-color: hsl(190, 58%, 32.4%);
-  border-color: #0d2c32;
+  background-color: hsl(192, 58%, 32.4%);
+  border-color: #1c5868;
   color: #fff;
 }
 .dark-accent a, .navbar.accent ul.nav li.active a a, .navbar.msg ul.nav li.active a a, .btn.accent:active a, .btn.msg:active a, .form .form-footer input.accent[type=submit]:active a, .form .form-footer input[type=submit].msg:active a, .form .form-footer input.accent[type=reset]:active a, .form .form-footer input[type=reset].msg:active a, .form .form-footer input.accent[type=button]:active a, .form .form-footer input[type=button].msg:active a {
@@ -1429,8 +1525,8 @@ button {
 }
 
 .medium-accent, .navbar.accent ul.nav li a, .navbar.msg ul.nav li a, .navbar.accent, .navbar.msg, .btn.accent, .btn.msg, .form .form-footer input.accent[type=submit], .form .form-footer input[type=submit].msg, .form .form-footer input.accent[type=reset], .form .form-footer input[type=reset].msg, .form .form-footer input.accent[type=button], .form .form-footer input[type=button].msg {
-  background-color: hsl(190, 58%, 42%);
-  border-color: #184e59;
+  background-color: hsl(192, 58%, 42%);
+  border-color: #26798e;
   color: #000;
 }
 .medium-accent a, .navbar.accent ul.nav li a a, .navbar.msg ul.nav li a a, .navbar.accent a, .navbar.msg a, .btn.accent a, .btn.msg a, .form .form-footer input.accent[type=submit] a, .form .form-footer input[type=submit].msg a, .form .form-footer input.accent[type=reset] a, .form .form-footer input[type=reset].msg a, .form .form-footer input.accent[type=button] a, .form .form-footer input[type=button].msg a {
@@ -1441,8 +1537,8 @@ button {
 }
 
 .light-accent, .msg.accent, .msg {
-  background-color: hsl(190, 58%, 72%);
-  border-color: #3eb4cc;
+  background-color: hsl(192, 58%, 72%);
+  border-color: #73c5da;
   color: #000;
 }
 .light-accent a, .msg.accent a, .msg a {
@@ -1453,8 +1549,8 @@ button {
 }
 
 .lightest-accent, .table.table-striped.accent tr:nth-of-type(2n), .table.table-striped.msg tr:nth-of-type(2n) {
-  background-color: hsl(190, 58%, 92%);
-  border-color: #8ed3e1;
+  background-color: hsl(192, 58%, 92%);
+  border-color: #c4e7ef;
   color: #000;
 }
 .lightest-accent a, .table.table-striped.accent tr:nth-of-type(2n) a, .table.table-striped.msg tr:nth-of-type(2n) a {
@@ -1465,8 +1561,8 @@ button {
 }
 
 .dark-plum, .navbar.plum ul.nav li.active a, .btn.plum:active, .form .form-footer input.plum[type=submit]:active, .form .form-footer input.plum[type=reset]:active, .form .form-footer input.plum[type=button]:active {
-  background-color: hsl(271, 42%, 32.4%);
-  border-color: #20122d;
+  background-color: hsl(271, 36%, 32.4%);
+  border-color: #422a59;
   color: #fff;
 }
 .dark-plum a, .navbar.plum ul.nav li.active a a, .btn.plum:active a, .form .form-footer input.plum[type=submit]:active a, .form .form-footer input.plum[type=reset]:active a, .form .form-footer input.plum[type=button]:active a {
@@ -1477,8 +1573,8 @@ button {
 }
 
 .medium-plum, .navbar.plum ul.nav li a, .navbar.plum, .btn.plum, .form .form-footer input.plum[type=submit], .form .form-footer input.plum[type=reset], .form .form-footer input.plum[type=button] {
-  background-color: hsl(271, 42%, 42%);
-  border-color: #392150;
+  background-color: hsl(271, 36%, 42%);
+  border-color: #5b3a7b;
   color: #fff;
 }
 .medium-plum a, .navbar.plum ul.nav li a a, .navbar.plum a, .btn.plum a, .form .form-footer input.plum[type=submit] a, .form .form-footer input.plum[type=reset] a, .form .form-footer input.plum[type=button] a {
@@ -1489,8 +1585,8 @@ button {
 }
 
 .light-plum {
-  background-color: hsl(271, 42%, 72%);
-  border-color: #8651b8;
+  background-color: hsl(271, 36%, 72%);
+  border-color: #a887c6;
   color: #000;
 }
 .light-plum a {
@@ -1501,8 +1597,8 @@ button {
 }
 
 .lightest-plum, .table.table-striped.plum tr:nth-of-type(2n) {
-  background-color: hsl(271, 42%, 92%);
-  border-color: #b99ad6;
+  background-color: hsl(271, 36%, 92%);
+  border-color: #dacce7;
   color: #000;
 }
 .lightest-plum a, .table.table-striped.plum tr:nth-of-type(2n) a {
@@ -1514,7 +1610,7 @@ button {
 
 .dark-raspberry, .navbar.raspberry ul.nav li.active a, .btn.raspberry:active, .form .form-footer input.raspberry[type=submit]:active, .form .form-footer input.raspberry[type=reset]:active, .form .form-footer input.raspberry[type=button]:active {
   background-color: hsl(341, 69%, 36%);
-  border-color: #450d1e;
+  border-color: #7e1738;
   color: #fff;
 }
 .dark-raspberry a, .navbar.raspberry ul.nav li.active a a, .btn.raspberry:active a, .form .form-footer input.raspberry[type=submit]:active a, .form .form-footer input.raspberry[type=reset]:active a, .form .form-footer input.raspberry[type=button]:active a {
@@ -1526,7 +1622,7 @@ button {
 
 .medium-raspberry, .navbar.raspberry ul.nav li a, .navbar.raspberry, .btn.raspberry, .form .form-footer input.raspberry[type=submit], .form .form-footer input.raspberry[type=reset], .form .form-footer input.raspberry[type=button] {
   background-color: hsl(341, 69%, 42%);
-  border-color: #5f112a;
+  border-color: #981c43;
   color: #fff;
 }
 .medium-raspberry a, .navbar.raspberry ul.nav li a a, .navbar.raspberry a, .btn.raspberry a, .form .form-footer input.raspberry[type=submit] a, .form .form-footer input.raspberry[type=reset] a, .form .form-footer input.raspberry[type=button] a {
@@ -1538,7 +1634,7 @@ button {
 
 .light-raspberry {
   background-color: hsl(341, 69%, 72%);
-  border-color: #d93066;
+  border-color: #e46a90;
   color: #000;
 }
 .light-raspberry a {
@@ -1550,7 +1646,7 @@ button {
 
 .lightest-raspberry, .table.table-striped.raspberry tr:nth-of-type(2n) {
   background-color: hsl(341, 69%, 92%);
-  border-color: #e986a6;
+  border-color: #f3c0d0;
   color: #000;
 }
 .lightest-raspberry a, .table.table-striped.raspberry tr:nth-of-type(2n) a {
@@ -1561,8 +1657,8 @@ button {
 }
 
 .dark-banana, .navbar.banana ul.nav li.active a, .btn.banana:active, .form .form-footer input.banana[type=submit]:active, .form .form-footer input.banana[type=reset]:active, .form .form-footer input.banana[type=button]:active {
-  background-color: hsl(50, 77%, 36%);
-  border-color: #483e09;
+  background-color: hsl(45, 84%, 43.2%);
+  border-color: #ab840f;
   color: #000;
 }
 .dark-banana a, .navbar.banana ul.nav li.active a a, .btn.banana:active a, .form .form-footer input.banana[type=submit]:active a, .form .form-footer input.banana[type=reset]:active a, .form .form-footer input.banana[type=button]:active a {
@@ -1573,8 +1669,8 @@ button {
 }
 
 .medium-banana, .navbar.banana ul.nav li a, .navbar.banana, .btn.banana, .form .form-footer input.banana[type=submit], .form .form-footer input.banana[type=reset], .form .form-footer input.banana[type=button] {
-  background-color: hsl(50, 77%, 42%);
-  border-color: #63550d;
+  background-color: hsl(45, 84%, 50.4%);
+  border-color: #cd9e12;
   color: #000;
 }
 .medium-banana a, .navbar.banana ul.nav li a a, .navbar.banana a, .btn.banana a, .form .form-footer input.banana[type=submit] a, .form .form-footer input.banana[type=reset] a, .form .form-footer input.banana[type=button] a {
@@ -1585,8 +1681,8 @@ button {
 }
 
 .light-banana {
-  background-color: hsl(50, 77%, 72%);
-  border-color: #e3c326;
+  background-color: hsl(45, 84%, 86.4%);
+  border-color: #f7e1a0;
   color: #000;
 }
 .light-banana a {
@@ -1597,8 +1693,8 @@ button {
 }
 
 .lightest-banana, .table.table-striped.banana tr:nth-of-type(2n) {
-  background-color: hsl(50, 77%, 92%);
-  border-color: #efdc81;
+  background-color: hsl(45, 84%, 100%);
+  border-color: #fcf5e0;
   color: #000;
 }
 .lightest-banana a, .table.table-striped.banana tr:nth-of-type(2n) a {
@@ -1674,7 +1770,7 @@ to give the button a special semantic cue.
 .btn, .form .form-footer input[type=submit], .form .form-footer input[type=reset], .form .form-footer input[type=button] {
   transition: box-shadow 0.2s ease-in;
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 4px;
   padding: 6px 12px;
 }
@@ -1685,14 +1781,14 @@ to give the button a special semantic cue.
 .btn:focus, .form .form-footer input[type=submit]:focus, .form .form-footer input[type=reset]:focus, .form .form-footer input[type=button]:focus {
   outline: none;
   border-color: #666;
-  box-shadow: 0 0 3px 1px hsl(190, 58%, 72%);
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 72%);
   background-color: #eee;
   border-color: #999;
 }
 .btn:active, .form .form-footer input[type=submit]:active, .form .form-footer input[type=reset]:active, .form .form-footer input[type=button]:active {
   outline: none;
   border-color: #666;
-  box-shadow: 0 0 3px 1px hsl(190, 58%, 72%);
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 72%);
   background-color: #ccc;
 }
 .btn.btn-large, .form .form-footer input.btn-large[type=submit], .form .form-footer input.btn-large[type=reset], .form .form-footer input.btn-large[type=button] {
@@ -1728,13 +1824,23 @@ textarea,
 keygen,
 select,
 button {
-  font-family: "Fira Sans", Arial, sans-serif;
-  font-size: 10pt;
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
 }
 
 .dark-gray {
   background-color: #666;
-  border-color: #333333;
+  border-color: #555555;
   color: #fff;
 }
 .dark-gray a {
@@ -1746,7 +1852,7 @@ button {
 
 .medium-gray {
   background-color: #999;
-  border-color: #666666;
+  border-color: #888888;
   color: #000;
 }
 .medium-gray a {
@@ -1758,7 +1864,7 @@ button {
 
 .light-gray, .navbar ul.nav li.active a {
   background-color: #ccc;
-  border-color: #999999;
+  border-color: #bbbbbb;
   color: #000;
 }
 .light-gray a, .navbar ul.nav li.active a a {
@@ -1770,7 +1876,7 @@ button {
 
 .lightest-gray, .navbar ul.nav li a, .navbar {
   background-color: #eee;
-  border-color: #bbbbbb;
+  border-color: #dddddd;
   color: #000;
 }
 .lightest-gray a, .navbar ul.nav li a a, .navbar a {
@@ -1782,7 +1888,7 @@ button {
 
 .dark-blue, .navbar.blue ul.nav li.active a, .dark-info, .btn.info:active, .btn.blue:active, .form .form-footer input.info[type=submit]:active, .form .form-footer input.blue[type=submit]:active, .form .form-footer input.info[type=reset]:active, .form .form-footer input.blue[type=reset]:active, .form .form-footer input.info[type=button]:active, .form .form-footer input.blue[type=button]:active {
   background-color: hsl(206, 58%, 36%);
-  border-color: #112c40;
+  border-color: #1f5176;
   color: #fff;
 }
 .dark-blue a, .navbar.blue ul.nav li.active a a, .dark-info a, .btn.info:active a, .btn.blue:active a, .form .form-footer input.info[type=submit]:active a, .form .form-footer input.blue[type=submit]:active a, .form .form-footer input.info[type=reset]:active a, .form .form-footer input.blue[type=reset]:active a, .form .form-footer input.info[type=button]:active a, .form .form-footer input.blue[type=button]:active a {
@@ -1794,7 +1900,7 @@ button {
 
 .medium-blue, .navbar.blue ul.nav li a, .navbar.blue, .medium-info, .btn.info, .btn.blue, .form .form-footer input.info[type=submit], .form .form-footer input.blue[type=submit], .form .form-footer input.info[type=reset], .form .form-footer input.blue[type=reset], .form .form-footer input.info[type=button], .form .form-footer input.blue[type=button] {
   background-color: hsl(206, 58%, 42%);
-  border-color: #183c59;
+  border-color: #26618e;
   color: #fff;
 }
 .medium-blue a, .navbar.blue ul.nav li a a, .navbar.blue a, .medium-info a, .btn.info a, .btn.blue a, .form .form-footer input.info[type=submit] a, .form .form-footer input.blue[type=submit] a, .form .form-footer input.info[type=reset] a, .form .form-footer input.blue[type=reset] a, .form .form-footer input.info[type=button] a, .form .form-footer input.blue[type=button] a {
@@ -1806,7 +1912,7 @@ button {
 
 .light-blue, .light-info, .msg.info {
   background-color: hsl(206, 58%, 72%);
-  border-color: #3e8ecc;
+  border-color: #73adda;
   color: #000;
 }
 .light-blue a, .light-info a, .msg.info a {
@@ -1818,7 +1924,7 @@ button {
 
 .lightest-blue, .table.table-striped.blue tr:nth-of-type(2n), .lightest-info {
   background-color: hsl(206, 58%, 92%);
-  border-color: #8ebde1;
+  border-color: #c4dcef;
   color: #000;
 }
 .lightest-blue a, .table.table-striped.blue tr:nth-of-type(2n) a, .lightest-info a {
@@ -1830,7 +1936,7 @@ button {
 
 .dark-green, .navbar.green ul.nav li.active a, .dark-success, .btn.success:active, .btn.green:active, .form .form-footer input.success[type=submit]:active, .form .form-footer input.green[type=submit]:active, .form .form-footer input.success[type=reset]:active, .form .form-footer input.green[type=reset]:active, .form .form-footer input.success[type=button]:active, .form .form-footer input.green[type=button]:active {
   background-color: hsl(121, 32%, 36%);
-  border-color: #1c361c;
+  border-color: #336334;
   color: #fff;
 }
 .dark-green a, .navbar.green ul.nav li.active a a, .dark-success a, .btn.success:active a, .btn.green:active a, .form .form-footer input.success[type=submit]:active a, .form .form-footer input.green[type=submit]:active a, .form .form-footer input.success[type=reset]:active a, .form .form-footer input.green[type=reset]:active a, .form .form-footer input.success[type=button]:active a, .form .form-footer input.green[type=button]:active a {
@@ -1842,7 +1948,7 @@ button {
 
 .medium-green, .navbar.green ul.nav li a, .navbar.green, .medium-success, .btn.success, .btn.green, .form .form-footer input.success[type=submit], .form .form-footer input.green[type=submit], .form .form-footer input.success[type=reset], .form .form-footer input.green[type=reset], .form .form-footer input.success[type=button], .form .form-footer input.green[type=button] {
   background-color: hsl(121, 32%, 42%);
-  border-color: #264a27;
+  border-color: #3d773e;
   color: #000;
 }
 .medium-green a, .navbar.green ul.nav li a a, .navbar.green a, .medium-success a, .btn.success a, .btn.green a, .form .form-footer input.success[type=submit] a, .form .form-footer input.green[type=submit] a, .form .form-footer input.success[type=reset] a, .form .form-footer input.green[type=reset] a, .form .form-footer input.success[type=button] a, .form .form-footer input.green[type=button] a {
@@ -1854,7 +1960,7 @@ button {
 
 .light-green, .light-success, .msg.success {
   background-color: hsl(121, 32%, 72%);
-  border-color: #5dac5f;
+  border-color: #8ac38b;
   color: #000;
 }
 .light-green a, .light-success a, .msg.success a {
@@ -1866,7 +1972,7 @@ button {
 
 .lightest-green, .table.table-striped.green tr:nth-of-type(2n), .lightest-success {
   background-color: hsl(121, 32%, 92%);
-  border-color: #a1cea2;
+  border-color: #cee6ce;
   color: #000;
 }
 .lightest-green a, .table.table-striped.green tr:nth-of-type(2n) a, .lightest-success a {
@@ -1878,7 +1984,7 @@ button {
 
 .dark-red, .navbar.red ul.nav li.active a, .dark-danger, .dark-error, .btn.danger:active, .btn.error:active, .btn.red:active, .form .form-footer input.danger[type=submit]:active, .form .form-footer input.error[type=submit]:active, .form .form-footer input.red[type=submit]:active, .form .form-footer input.danger[type=reset]:active, .form .form-footer input.error[type=reset]:active, .form .form-footer input.red[type=reset]:active, .form .form-footer input.danger[type=button]:active, .form .form-footer input.error[type=button]:active, .form .form-footer input.red[type=button]:active {
   background-color: hsl(355, 72%, 36%);
-  border-color: #460b10;
+  border-color: #81151e;
   color: #fff;
 }
 .dark-red a, .navbar.red ul.nav li.active a a, .dark-danger a, .dark-error a, .btn.danger:active a, .btn.error:active a, .btn.red:active a, .form .form-footer input.danger[type=submit]:active a, .form .form-footer input.error[type=submit]:active a, .form .form-footer input.red[type=submit]:active a, .form .form-footer input.danger[type=reset]:active a, .form .form-footer input.error[type=reset]:active a, .form .form-footer input.red[type=reset]:active a, .form .form-footer input.danger[type=button]:active a, .form .form-footer input.error[type=button]:active a, .form .form-footer input.red[type=button]:active a {
@@ -1890,7 +1996,7 @@ button {
 
 .medium-red, .navbar.red ul.nav li a, .navbar.red, .medium-danger, .medium-error, .btn.danger, .btn.error, .btn.red, .form .form-footer input.danger[type=submit], .form .form-footer input.error[type=submit], .form .form-footer input.red[type=submit], .form .form-footer input.danger[type=reset], .form .form-footer input.error[type=reset], .form .form-footer input.red[type=reset], .form .form-footer input.danger[type=button], .form .form-footer input.error[type=button], .form .form-footer input.red[type=button] {
   background-color: hsl(355, 72%, 42%);
-  border-color: #601016;
+  border-color: #9b1924;
   color: #fff;
 }
 .medium-red a, .navbar.red ul.nav li a a, .navbar.red a, .medium-danger a, .medium-error a, .btn.danger a, .btn.error a, .btn.red a, .form .form-footer input.danger[type=submit] a, .form .form-footer input.error[type=submit] a, .form .form-footer input.red[type=submit] a, .form .form-footer input.danger[type=reset] a, .form .form-footer input.error[type=reset] a, .form .form-footer input.red[type=reset] a, .form .form-footer input.danger[type=button] a, .form .form-footer input.error[type=button] a, .form .form-footer input.red[type=button] a {
@@ -1902,7 +2008,7 @@ button {
 
 .light-red, .light-danger, .msg.danger, .light-error, .msg.error {
   background-color: hsl(355, 72%, 72%);
-  border-color: #dd2c3b;
+  border-color: #e66772;
   color: #000;
 }
 .light-red a, .light-danger a, .msg.danger a, .light-error a, .msg.error a {
@@ -1914,7 +2020,7 @@ button {
 
 .lightest-red, .table.table-striped.red tr:nth-of-type(2n), .lightest-danger, .lightest-error {
   background-color: hsl(355, 72%, 92%);
-  border-color: #eb848d;
+  border-color: #f5bfc3;
   color: #000;
 }
 .lightest-red a, .table.table-striped.red tr:nth-of-type(2n) a, .lightest-danger a, .lightest-error a {
@@ -1925,20 +2031,20 @@ button {
 }
 
 .dark-amber, .navbar.amber ul.nav li.active a, .dark-warning, .btn.warning:active, .btn.amber:active, .form .form-footer input.warning[type=submit]:active, .form .form-footer input.amber[type=submit]:active, .form .form-footer input.warning[type=reset]:active, .form .form-footer input.amber[type=reset]:active, .form .form-footer input.warning[type=button]:active, .form .form-footer input.amber[type=button]:active {
-  background-color: hsl(28, 91%, 36%);
-  border-color: #4e2604;
-  color: #fff;
+  background-color: hsl(30, 84%, 43.2%);
+  border-color: #ab5d0f;
+  color: #000;
 }
 .dark-amber a, .navbar.amber ul.nav li.active a a, .dark-warning a, .btn.warning:active a, .btn.amber:active a, .form .form-footer input.warning[type=submit]:active a, .form .form-footer input.amber[type=submit]:active a, .form .form-footer input.warning[type=reset]:active a, .form .form-footer input.amber[type=reset]:active a, .form .form-footer input.warning[type=button]:active a, .form .form-footer input.amber[type=button]:active a {
-  color: #fff;
+  color: #000;
 }
 .dark-amber .active a, .navbar.amber ul.nav li.active a .active a, .dark-warning .active a, .btn.warning:active .active a, .btn.amber:active .active a, .form .form-footer input.warning[type=submit]:active .active a, .form .form-footer input.amber[type=submit]:active .active a, .form .form-footer input.warning[type=reset]:active .active a, .form .form-footer input.amber[type=reset]:active .active a, .form .form-footer input.warning[type=button]:active .active a, .form .form-footer input.amber[type=button]:active .active a {
-  color: #fff;
+  color: #000;
 }
 
 .medium-amber, .navbar.amber ul.nav li a, .navbar.amber, .medium-warning, .btn.warning, .btn.amber, .form .form-footer input.warning[type=submit], .form .form-footer input.amber[type=submit], .form .form-footer input.warning[type=reset], .form .form-footer input.amber[type=reset], .form .form-footer input.warning[type=button], .form .form-footer input.amber[type=button] {
-  background-color: hsl(28, 91%, 42%);
-  border-color: #6b3505;
+  background-color: hsl(30, 84%, 50.4%);
+  border-color: #cd7012;
   color: #000;
 }
 .medium-amber a, .navbar.amber ul.nav li a a, .navbar.amber a, .medium-warning a, .btn.warning a, .btn.amber a, .form .form-footer input.warning[type=submit] a, .form .form-footer input.amber[type=submit] a, .form .form-footer input.warning[type=reset] a, .form .form-footer input.amber[type=reset] a, .form .form-footer input.warning[type=button] a, .form .form-footer input.amber[type=button] a {
@@ -1949,8 +2055,8 @@ button {
 }
 
 .light-amber, .light-warning, .msg.warning {
-  background-color: hsl(28, 91%, 72%);
-  border-color: #f47d15;
+  background-color: hsl(30, 84%, 86.4%);
+  border-color: #f7cba0;
   color: #000;
 }
 .light-amber a, .light-warning a, .msg.warning a {
@@ -1961,8 +2067,8 @@ button {
 }
 
 .lightest-amber, .table.table-striped.amber tr:nth-of-type(2n), .lightest-warning {
-  background-color: hsl(28, 91%, 92%);
-  border-color: #f9b377;
+  background-color: hsl(30, 84%, 100%);
+  border-color: #fceee0;
   color: #000;
 }
 .lightest-amber a, .table.table-striped.amber tr:nth-of-type(2n) a, .lightest-warning a {
@@ -1973,8 +2079,8 @@ button {
 }
 
 .dark-accent, .navbar.accent ul.nav li.active a, .navbar.msg ul.nav li.active a, .btn.accent:active, .btn.msg:active, .form .form-footer input.accent[type=submit]:active, .form .form-footer input[type=submit].msg:active, .form .form-footer input.accent[type=reset]:active, .form .form-footer input[type=reset].msg:active, .form .form-footer input.accent[type=button]:active, .form .form-footer input[type=button].msg:active {
-  background-color: hsl(190, 58%, 32.4%);
-  border-color: #0d2c32;
+  background-color: hsl(192, 58%, 32.4%);
+  border-color: #1c5868;
   color: #fff;
 }
 .dark-accent a, .navbar.accent ul.nav li.active a a, .navbar.msg ul.nav li.active a a, .btn.accent:active a, .btn.msg:active a, .form .form-footer input.accent[type=submit]:active a, .form .form-footer input[type=submit].msg:active a, .form .form-footer input.accent[type=reset]:active a, .form .form-footer input[type=reset].msg:active a, .form .form-footer input.accent[type=button]:active a, .form .form-footer input[type=button].msg:active a {
@@ -1985,8 +2091,8 @@ button {
 }
 
 .medium-accent, .navbar.accent ul.nav li a, .navbar.msg ul.nav li a, .navbar.accent, .navbar.msg, .btn.accent, .btn.msg, .form .form-footer input.accent[type=submit], .form .form-footer input[type=submit].msg, .form .form-footer input.accent[type=reset], .form .form-footer input[type=reset].msg, .form .form-footer input.accent[type=button], .form .form-footer input[type=button].msg {
-  background-color: hsl(190, 58%, 42%);
-  border-color: #184e59;
+  background-color: hsl(192, 58%, 42%);
+  border-color: #26798e;
   color: #000;
 }
 .medium-accent a, .navbar.accent ul.nav li a a, .navbar.msg ul.nav li a a, .navbar.accent a, .navbar.msg a, .btn.accent a, .btn.msg a, .form .form-footer input.accent[type=submit] a, .form .form-footer input[type=submit].msg a, .form .form-footer input.accent[type=reset] a, .form .form-footer input[type=reset].msg a, .form .form-footer input.accent[type=button] a, .form .form-footer input[type=button].msg a {
@@ -1997,8 +2103,8 @@ button {
 }
 
 .light-accent, .msg.accent, .msg {
-  background-color: hsl(190, 58%, 72%);
-  border-color: #3eb4cc;
+  background-color: hsl(192, 58%, 72%);
+  border-color: #73c5da;
   color: #000;
 }
 .light-accent a, .msg.accent a, .msg a {
@@ -2009,8 +2115,8 @@ button {
 }
 
 .lightest-accent, .table.table-striped.accent tr:nth-of-type(2n), .table.table-striped.msg tr:nth-of-type(2n) {
-  background-color: hsl(190, 58%, 92%);
-  border-color: #8ed3e1;
+  background-color: hsl(192, 58%, 92%);
+  border-color: #c4e7ef;
   color: #000;
 }
 .lightest-accent a, .table.table-striped.accent tr:nth-of-type(2n) a, .table.table-striped.msg tr:nth-of-type(2n) a {
@@ -2021,8 +2127,8 @@ button {
 }
 
 .dark-plum, .navbar.plum ul.nav li.active a, .btn.plum:active, .form .form-footer input.plum[type=submit]:active, .form .form-footer input.plum[type=reset]:active, .form .form-footer input.plum[type=button]:active {
-  background-color: hsl(271, 42%, 32.4%);
-  border-color: #20122d;
+  background-color: hsl(271, 36%, 32.4%);
+  border-color: #422a59;
   color: #fff;
 }
 .dark-plum a, .navbar.plum ul.nav li.active a a, .btn.plum:active a, .form .form-footer input.plum[type=submit]:active a, .form .form-footer input.plum[type=reset]:active a, .form .form-footer input.plum[type=button]:active a {
@@ -2033,8 +2139,8 @@ button {
 }
 
 .medium-plum, .navbar.plum ul.nav li a, .navbar.plum, .btn.plum, .form .form-footer input.plum[type=submit], .form .form-footer input.plum[type=reset], .form .form-footer input.plum[type=button] {
-  background-color: hsl(271, 42%, 42%);
-  border-color: #392150;
+  background-color: hsl(271, 36%, 42%);
+  border-color: #5b3a7b;
   color: #fff;
 }
 .medium-plum a, .navbar.plum ul.nav li a a, .navbar.plum a, .btn.plum a, .form .form-footer input.plum[type=submit] a, .form .form-footer input.plum[type=reset] a, .form .form-footer input.plum[type=button] a {
@@ -2045,8 +2151,8 @@ button {
 }
 
 .light-plum {
-  background-color: hsl(271, 42%, 72%);
-  border-color: #8651b8;
+  background-color: hsl(271, 36%, 72%);
+  border-color: #a887c6;
   color: #000;
 }
 .light-plum a {
@@ -2057,8 +2163,8 @@ button {
 }
 
 .lightest-plum, .table.table-striped.plum tr:nth-of-type(2n) {
-  background-color: hsl(271, 42%, 92%);
-  border-color: #b99ad6;
+  background-color: hsl(271, 36%, 92%);
+  border-color: #dacce7;
   color: #000;
 }
 .lightest-plum a, .table.table-striped.plum tr:nth-of-type(2n) a {
@@ -2070,7 +2176,7 @@ button {
 
 .dark-raspberry, .navbar.raspberry ul.nav li.active a, .btn.raspberry:active, .form .form-footer input.raspberry[type=submit]:active, .form .form-footer input.raspberry[type=reset]:active, .form .form-footer input.raspberry[type=button]:active {
   background-color: hsl(341, 69%, 36%);
-  border-color: #450d1e;
+  border-color: #7e1738;
   color: #fff;
 }
 .dark-raspberry a, .navbar.raspberry ul.nav li.active a a, .btn.raspberry:active a, .form .form-footer input.raspberry[type=submit]:active a, .form .form-footer input.raspberry[type=reset]:active a, .form .form-footer input.raspberry[type=button]:active a {
@@ -2082,7 +2188,7 @@ button {
 
 .medium-raspberry, .navbar.raspberry ul.nav li a, .navbar.raspberry, .btn.raspberry, .form .form-footer input.raspberry[type=submit], .form .form-footer input.raspberry[type=reset], .form .form-footer input.raspberry[type=button] {
   background-color: hsl(341, 69%, 42%);
-  border-color: #5f112a;
+  border-color: #981c43;
   color: #fff;
 }
 .medium-raspberry a, .navbar.raspberry ul.nav li a a, .navbar.raspberry a, .btn.raspberry a, .form .form-footer input.raspberry[type=submit] a, .form .form-footer input.raspberry[type=reset] a, .form .form-footer input.raspberry[type=button] a {
@@ -2094,7 +2200,7 @@ button {
 
 .light-raspberry {
   background-color: hsl(341, 69%, 72%);
-  border-color: #d93066;
+  border-color: #e46a90;
   color: #000;
 }
 .light-raspberry a {
@@ -2106,7 +2212,7 @@ button {
 
 .lightest-raspberry, .table.table-striped.raspberry tr:nth-of-type(2n) {
   background-color: hsl(341, 69%, 92%);
-  border-color: #e986a6;
+  border-color: #f3c0d0;
   color: #000;
 }
 .lightest-raspberry a, .table.table-striped.raspberry tr:nth-of-type(2n) a {
@@ -2117,8 +2223,8 @@ button {
 }
 
 .dark-banana, .navbar.banana ul.nav li.active a, .btn.banana:active, .form .form-footer input.banana[type=submit]:active, .form .form-footer input.banana[type=reset]:active, .form .form-footer input.banana[type=button]:active {
-  background-color: hsl(50, 77%, 36%);
-  border-color: #483e09;
+  background-color: hsl(45, 84%, 43.2%);
+  border-color: #ab840f;
   color: #000;
 }
 .dark-banana a, .navbar.banana ul.nav li.active a a, .btn.banana:active a, .form .form-footer input.banana[type=submit]:active a, .form .form-footer input.banana[type=reset]:active a, .form .form-footer input.banana[type=button]:active a {
@@ -2129,8 +2235,8 @@ button {
 }
 
 .medium-banana, .navbar.banana ul.nav li a, .navbar.banana, .btn.banana, .form .form-footer input.banana[type=submit], .form .form-footer input.banana[type=reset], .form .form-footer input.banana[type=button] {
-  background-color: hsl(50, 77%, 42%);
-  border-color: #63550d;
+  background-color: hsl(45, 84%, 50.4%);
+  border-color: #cd9e12;
   color: #000;
 }
 .medium-banana a, .navbar.banana ul.nav li a a, .navbar.banana a, .btn.banana a, .form .form-footer input.banana[type=submit] a, .form .form-footer input.banana[type=reset] a, .form .form-footer input.banana[type=button] a {
@@ -2141,8 +2247,8 @@ button {
 }
 
 .light-banana {
-  background-color: hsl(50, 77%, 72%);
-  border-color: #e3c326;
+  background-color: hsl(45, 84%, 86.4%);
+  border-color: #f7e1a0;
   color: #000;
 }
 .light-banana a {
@@ -2153,8 +2259,8 @@ button {
 }
 
 .lightest-banana, .table.table-striped.banana tr:nth-of-type(2n) {
-  background-color: hsl(50, 77%, 92%);
-  border-color: #efdc81;
+  background-color: hsl(45, 84%, 100%);
+  border-color: #fcf5e0;
   color: #000;
 }
 .lightest-banana a, .table.table-striped.banana tr:nth-of-type(2n) a {
@@ -2322,10 +2428,10 @@ headings from the body with a horizontal line.
 }
 .table th {
   font-weight: 500;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 2px solid #ccc;
 }
 .table.table-striped tr:nth-of-type(2n) {
-  background-color: hsl(190, 58%, 92%);
+  background-color: hsl(192, 58%, 92%);
 }
 .table.table-compact td,
 .table.table-compact th {
@@ -2356,13 +2462,23 @@ textarea,
 keygen,
 select,
 button {
-  font-family: "Fira Sans", Arial, sans-serif;
-  font-size: 10pt;
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
 }
 
 .dark-gray {
   background-color: #666;
-  border-color: #333333;
+  border-color: #555555;
   color: #fff;
 }
 .dark-gray a {
@@ -2374,7 +2490,7 @@ button {
 
 .medium-gray {
   background-color: #999;
-  border-color: #666666;
+  border-color: #888888;
   color: #000;
 }
 .medium-gray a {
@@ -2386,7 +2502,7 @@ button {
 
 .light-gray, .navbar ul.nav li.active a {
   background-color: #ccc;
-  border-color: #999999;
+  border-color: #bbbbbb;
   color: #000;
 }
 .light-gray a, .navbar ul.nav li.active a a {
@@ -2398,7 +2514,7 @@ button {
 
 .lightest-gray, .navbar ul.nav li a, .navbar {
   background-color: #eee;
-  border-color: #bbbbbb;
+  border-color: #dddddd;
   color: #000;
 }
 .lightest-gray a, .navbar ul.nav li a a, .navbar a {
@@ -2410,7 +2526,7 @@ button {
 
 .dark-blue, .navbar.blue ul.nav li.active a, .dark-info, .btn.info:active, .btn.blue:active, .form .form-footer input.info[type=submit]:active, .form .form-footer input.blue[type=submit]:active, .form .form-footer input.info[type=reset]:active, .form .form-footer input.blue[type=reset]:active, .form .form-footer input.info[type=button]:active, .form .form-footer input.blue[type=button]:active {
   background-color: hsl(206, 58%, 36%);
-  border-color: #112c40;
+  border-color: #1f5176;
   color: #fff;
 }
 .dark-blue a, .navbar.blue ul.nav li.active a a, .dark-info a, .btn.info:active a, .btn.blue:active a, .form .form-footer input.info[type=submit]:active a, .form .form-footer input.blue[type=submit]:active a, .form .form-footer input.info[type=reset]:active a, .form .form-footer input.blue[type=reset]:active a, .form .form-footer input.info[type=button]:active a, .form .form-footer input.blue[type=button]:active a {
@@ -2422,7 +2538,7 @@ button {
 
 .medium-blue, .navbar.blue ul.nav li a, .navbar.blue, .medium-info, .btn.info, .btn.blue, .form .form-footer input.info[type=submit], .form .form-footer input.blue[type=submit], .form .form-footer input.info[type=reset], .form .form-footer input.blue[type=reset], .form .form-footer input.info[type=button], .form .form-footer input.blue[type=button] {
   background-color: hsl(206, 58%, 42%);
-  border-color: #183c59;
+  border-color: #26618e;
   color: #fff;
 }
 .medium-blue a, .navbar.blue ul.nav li a a, .navbar.blue a, .medium-info a, .btn.info a, .btn.blue a, .form .form-footer input.info[type=submit] a, .form .form-footer input.blue[type=submit] a, .form .form-footer input.info[type=reset] a, .form .form-footer input.blue[type=reset] a, .form .form-footer input.info[type=button] a, .form .form-footer input.blue[type=button] a {
@@ -2434,7 +2550,7 @@ button {
 
 .light-blue, .light-info, .msg.info {
   background-color: hsl(206, 58%, 72%);
-  border-color: #3e8ecc;
+  border-color: #73adda;
   color: #000;
 }
 .light-blue a, .light-info a, .msg.info a {
@@ -2446,7 +2562,7 @@ button {
 
 .lightest-blue, .lightest-info, .table.table-striped.blue tr:nth-of-type(2n) {
   background-color: hsl(206, 58%, 92%);
-  border-color: #8ebde1;
+  border-color: #c4dcef;
   color: #000;
 }
 .lightest-blue a, .lightest-info a, .table.table-striped.blue tr:nth-of-type(2n) a {
@@ -2458,7 +2574,7 @@ button {
 
 .dark-green, .navbar.green ul.nav li.active a, .dark-success, .btn.success:active, .btn.green:active, .form .form-footer input.success[type=submit]:active, .form .form-footer input.green[type=submit]:active, .form .form-footer input.success[type=reset]:active, .form .form-footer input.green[type=reset]:active, .form .form-footer input.success[type=button]:active, .form .form-footer input.green[type=button]:active {
   background-color: hsl(121, 32%, 36%);
-  border-color: #1c361c;
+  border-color: #336334;
   color: #fff;
 }
 .dark-green a, .navbar.green ul.nav li.active a a, .dark-success a, .btn.success:active a, .btn.green:active a, .form .form-footer input.success[type=submit]:active a, .form .form-footer input.green[type=submit]:active a, .form .form-footer input.success[type=reset]:active a, .form .form-footer input.green[type=reset]:active a, .form .form-footer input.success[type=button]:active a, .form .form-footer input.green[type=button]:active a {
@@ -2470,7 +2586,7 @@ button {
 
 .medium-green, .navbar.green ul.nav li a, .navbar.green, .medium-success, .btn.success, .btn.green, .form .form-footer input.success[type=submit], .form .form-footer input.green[type=submit], .form .form-footer input.success[type=reset], .form .form-footer input.green[type=reset], .form .form-footer input.success[type=button], .form .form-footer input.green[type=button] {
   background-color: hsl(121, 32%, 42%);
-  border-color: #264a27;
+  border-color: #3d773e;
   color: #000;
 }
 .medium-green a, .navbar.green ul.nav li a a, .navbar.green a, .medium-success a, .btn.success a, .btn.green a, .form .form-footer input.success[type=submit] a, .form .form-footer input.green[type=submit] a, .form .form-footer input.success[type=reset] a, .form .form-footer input.green[type=reset] a, .form .form-footer input.success[type=button] a, .form .form-footer input.green[type=button] a {
@@ -2482,7 +2598,7 @@ button {
 
 .light-green, .light-success, .msg.success {
   background-color: hsl(121, 32%, 72%);
-  border-color: #5dac5f;
+  border-color: #8ac38b;
   color: #000;
 }
 .light-green a, .light-success a, .msg.success a {
@@ -2494,7 +2610,7 @@ button {
 
 .lightest-green, .lightest-success, .table.table-striped.green tr:nth-of-type(2n) {
   background-color: hsl(121, 32%, 92%);
-  border-color: #a1cea2;
+  border-color: #cee6ce;
   color: #000;
 }
 .lightest-green a, .lightest-success a, .table.table-striped.green tr:nth-of-type(2n) a {
@@ -2506,7 +2622,7 @@ button {
 
 .dark-red, .navbar.red ul.nav li.active a, .dark-danger, .dark-error, .btn.danger:active, .btn.error:active, .btn.red:active, .form .form-footer input.danger[type=submit]:active, .form .form-footer input.error[type=submit]:active, .form .form-footer input.red[type=submit]:active, .form .form-footer input.danger[type=reset]:active, .form .form-footer input.error[type=reset]:active, .form .form-footer input.red[type=reset]:active, .form .form-footer input.danger[type=button]:active, .form .form-footer input.error[type=button]:active, .form .form-footer input.red[type=button]:active {
   background-color: hsl(355, 72%, 36%);
-  border-color: #460b10;
+  border-color: #81151e;
   color: #fff;
 }
 .dark-red a, .navbar.red ul.nav li.active a a, .dark-danger a, .dark-error a, .btn.danger:active a, .btn.error:active a, .btn.red:active a, .form .form-footer input.danger[type=submit]:active a, .form .form-footer input.error[type=submit]:active a, .form .form-footer input.red[type=submit]:active a, .form .form-footer input.danger[type=reset]:active a, .form .form-footer input.error[type=reset]:active a, .form .form-footer input.red[type=reset]:active a, .form .form-footer input.danger[type=button]:active a, .form .form-footer input.error[type=button]:active a, .form .form-footer input.red[type=button]:active a {
@@ -2518,7 +2634,7 @@ button {
 
 .medium-red, .navbar.red ul.nav li a, .navbar.red, .medium-danger, .medium-error, .btn.danger, .btn.error, .btn.red, .form .form-footer input.danger[type=submit], .form .form-footer input.error[type=submit], .form .form-footer input.red[type=submit], .form .form-footer input.danger[type=reset], .form .form-footer input.error[type=reset], .form .form-footer input.red[type=reset], .form .form-footer input.danger[type=button], .form .form-footer input.error[type=button], .form .form-footer input.red[type=button] {
   background-color: hsl(355, 72%, 42%);
-  border-color: #601016;
+  border-color: #9b1924;
   color: #fff;
 }
 .medium-red a, .navbar.red ul.nav li a a, .navbar.red a, .medium-danger a, .medium-error a, .btn.danger a, .btn.error a, .btn.red a, .form .form-footer input.danger[type=submit] a, .form .form-footer input.error[type=submit] a, .form .form-footer input.red[type=submit] a, .form .form-footer input.danger[type=reset] a, .form .form-footer input.error[type=reset] a, .form .form-footer input.red[type=reset] a, .form .form-footer input.danger[type=button] a, .form .form-footer input.error[type=button] a, .form .form-footer input.red[type=button] a {
@@ -2530,7 +2646,7 @@ button {
 
 .light-red, .light-danger, .msg.danger, .light-error, .msg.error {
   background-color: hsl(355, 72%, 72%);
-  border-color: #dd2c3b;
+  border-color: #e66772;
   color: #000;
 }
 .light-red a, .light-danger a, .msg.danger a, .light-error a, .msg.error a {
@@ -2542,7 +2658,7 @@ button {
 
 .lightest-red, .lightest-danger, .lightest-error, .table.table-striped.red tr:nth-of-type(2n) {
   background-color: hsl(355, 72%, 92%);
-  border-color: #eb848d;
+  border-color: #f5bfc3;
   color: #000;
 }
 .lightest-red a, .lightest-danger a, .lightest-error a, .table.table-striped.red tr:nth-of-type(2n) a {
@@ -2553,20 +2669,20 @@ button {
 }
 
 .dark-amber, .navbar.amber ul.nav li.active a, .dark-warning, .btn.warning:active, .btn.amber:active, .form .form-footer input.warning[type=submit]:active, .form .form-footer input.amber[type=submit]:active, .form .form-footer input.warning[type=reset]:active, .form .form-footer input.amber[type=reset]:active, .form .form-footer input.warning[type=button]:active, .form .form-footer input.amber[type=button]:active {
-  background-color: hsl(28, 91%, 36%);
-  border-color: #4e2604;
-  color: #fff;
+  background-color: hsl(30, 84%, 43.2%);
+  border-color: #ab5d0f;
+  color: #000;
 }
 .dark-amber a, .navbar.amber ul.nav li.active a a, .dark-warning a, .btn.warning:active a, .btn.amber:active a, .form .form-footer input.warning[type=submit]:active a, .form .form-footer input.amber[type=submit]:active a, .form .form-footer input.warning[type=reset]:active a, .form .form-footer input.amber[type=reset]:active a, .form .form-footer input.warning[type=button]:active a, .form .form-footer input.amber[type=button]:active a {
-  color: #fff;
+  color: #000;
 }
 .dark-amber .active a, .navbar.amber ul.nav li.active a .active a, .dark-warning .active a, .btn.warning:active .active a, .btn.amber:active .active a, .form .form-footer input.warning[type=submit]:active .active a, .form .form-footer input.amber[type=submit]:active .active a, .form .form-footer input.warning[type=reset]:active .active a, .form .form-footer input.amber[type=reset]:active .active a, .form .form-footer input.warning[type=button]:active .active a, .form .form-footer input.amber[type=button]:active .active a {
-  color: #fff;
+  color: #000;
 }
 
 .medium-amber, .navbar.amber ul.nav li a, .navbar.amber, .medium-warning, .btn.warning, .btn.amber, .form .form-footer input.warning[type=submit], .form .form-footer input.amber[type=submit], .form .form-footer input.warning[type=reset], .form .form-footer input.amber[type=reset], .form .form-footer input.warning[type=button], .form .form-footer input.amber[type=button] {
-  background-color: hsl(28, 91%, 42%);
-  border-color: #6b3505;
+  background-color: hsl(30, 84%, 50.4%);
+  border-color: #cd7012;
   color: #000;
 }
 .medium-amber a, .navbar.amber ul.nav li a a, .navbar.amber a, .medium-warning a, .btn.warning a, .btn.amber a, .form .form-footer input.warning[type=submit] a, .form .form-footer input.amber[type=submit] a, .form .form-footer input.warning[type=reset] a, .form .form-footer input.amber[type=reset] a, .form .form-footer input.warning[type=button] a, .form .form-footer input.amber[type=button] a {
@@ -2577,8 +2693,8 @@ button {
 }
 
 .light-amber, .light-warning, .msg.warning {
-  background-color: hsl(28, 91%, 72%);
-  border-color: #f47d15;
+  background-color: hsl(30, 84%, 86.4%);
+  border-color: #f7cba0;
   color: #000;
 }
 .light-amber a, .light-warning a, .msg.warning a {
@@ -2589,8 +2705,8 @@ button {
 }
 
 .lightest-amber, .lightest-warning, .table.table-striped.amber tr:nth-of-type(2n) {
-  background-color: hsl(28, 91%, 92%);
-  border-color: #f9b377;
+  background-color: hsl(30, 84%, 100%);
+  border-color: #fceee0;
   color: #000;
 }
 .lightest-amber a, .lightest-warning a, .table.table-striped.amber tr:nth-of-type(2n) a {
@@ -2601,8 +2717,8 @@ button {
 }
 
 .dark-accent, .navbar.accent ul.nav li.active a, .navbar.msg ul.nav li.active a, .btn.accent:active, .btn.msg:active, .form .form-footer input.accent[type=submit]:active, .form .form-footer input[type=submit].msg:active, .form .form-footer input.accent[type=reset]:active, .form .form-footer input[type=reset].msg:active, .form .form-footer input.accent[type=button]:active, .form .form-footer input[type=button].msg:active {
-  background-color: hsl(190, 58%, 32.4%);
-  border-color: #0d2c32;
+  background-color: hsl(192, 58%, 32.4%);
+  border-color: #1c5868;
   color: #fff;
 }
 .dark-accent a, .navbar.accent ul.nav li.active a a, .navbar.msg ul.nav li.active a a, .btn.accent:active a, .btn.msg:active a, .form .form-footer input.accent[type=submit]:active a, .form .form-footer input[type=submit].msg:active a, .form .form-footer input.accent[type=reset]:active a, .form .form-footer input[type=reset].msg:active a, .form .form-footer input.accent[type=button]:active a, .form .form-footer input[type=button].msg:active a {
@@ -2613,8 +2729,8 @@ button {
 }
 
 .medium-accent, .navbar.accent ul.nav li a, .navbar.msg ul.nav li a, .navbar.accent, .navbar.msg, .btn.accent, .btn.msg, .form .form-footer input.accent[type=submit], .form .form-footer input[type=submit].msg, .form .form-footer input.accent[type=reset], .form .form-footer input[type=reset].msg, .form .form-footer input.accent[type=button], .form .form-footer input[type=button].msg {
-  background-color: hsl(190, 58%, 42%);
-  border-color: #184e59;
+  background-color: hsl(192, 58%, 42%);
+  border-color: #26798e;
   color: #000;
 }
 .medium-accent a, .navbar.accent ul.nav li a a, .navbar.msg ul.nav li a a, .navbar.accent a, .navbar.msg a, .btn.accent a, .btn.msg a, .form .form-footer input.accent[type=submit] a, .form .form-footer input[type=submit].msg a, .form .form-footer input.accent[type=reset] a, .form .form-footer input[type=reset].msg a, .form .form-footer input.accent[type=button] a, .form .form-footer input[type=button].msg a {
@@ -2625,8 +2741,8 @@ button {
 }
 
 .light-accent, .msg.accent, .msg {
-  background-color: hsl(190, 58%, 72%);
-  border-color: #3eb4cc;
+  background-color: hsl(192, 58%, 72%);
+  border-color: #73c5da;
   color: #000;
 }
 .light-accent a, .msg.accent a, .msg a {
@@ -2637,8 +2753,8 @@ button {
 }
 
 .lightest-accent, .table.table-striped.accent tr:nth-of-type(2n), .table.table-striped.msg tr:nth-of-type(2n) {
-  background-color: hsl(190, 58%, 92%);
-  border-color: #8ed3e1;
+  background-color: hsl(192, 58%, 92%);
+  border-color: #c4e7ef;
   color: #000;
 }
 .lightest-accent a, .table.table-striped.accent tr:nth-of-type(2n) a, .table.table-striped.msg tr:nth-of-type(2n) a {
@@ -2649,8 +2765,8 @@ button {
 }
 
 .dark-plum, .navbar.plum ul.nav li.active a, .btn.plum:active, .form .form-footer input.plum[type=submit]:active, .form .form-footer input.plum[type=reset]:active, .form .form-footer input.plum[type=button]:active {
-  background-color: hsl(271, 42%, 32.4%);
-  border-color: #20122d;
+  background-color: hsl(271, 36%, 32.4%);
+  border-color: #422a59;
   color: #fff;
 }
 .dark-plum a, .navbar.plum ul.nav li.active a a, .btn.plum:active a, .form .form-footer input.plum[type=submit]:active a, .form .form-footer input.plum[type=reset]:active a, .form .form-footer input.plum[type=button]:active a {
@@ -2661,8 +2777,8 @@ button {
 }
 
 .medium-plum, .navbar.plum ul.nav li a, .navbar.plum, .btn.plum, .form .form-footer input.plum[type=submit], .form .form-footer input.plum[type=reset], .form .form-footer input.plum[type=button] {
-  background-color: hsl(271, 42%, 42%);
-  border-color: #392150;
+  background-color: hsl(271, 36%, 42%);
+  border-color: #5b3a7b;
   color: #fff;
 }
 .medium-plum a, .navbar.plum ul.nav li a a, .navbar.plum a, .btn.plum a, .form .form-footer input.plum[type=submit] a, .form .form-footer input.plum[type=reset] a, .form .form-footer input.plum[type=button] a {
@@ -2673,8 +2789,8 @@ button {
 }
 
 .light-plum {
-  background-color: hsl(271, 42%, 72%);
-  border-color: #8651b8;
+  background-color: hsl(271, 36%, 72%);
+  border-color: #a887c6;
   color: #000;
 }
 .light-plum a {
@@ -2685,8 +2801,8 @@ button {
 }
 
 .lightest-plum, .table.table-striped.plum tr:nth-of-type(2n) {
-  background-color: hsl(271, 42%, 92%);
-  border-color: #b99ad6;
+  background-color: hsl(271, 36%, 92%);
+  border-color: #dacce7;
   color: #000;
 }
 .lightest-plum a, .table.table-striped.plum tr:nth-of-type(2n) a {
@@ -2698,7 +2814,7 @@ button {
 
 .dark-raspberry, .navbar.raspberry ul.nav li.active a, .btn.raspberry:active, .form .form-footer input.raspberry[type=submit]:active, .form .form-footer input.raspberry[type=reset]:active, .form .form-footer input.raspberry[type=button]:active {
   background-color: hsl(341, 69%, 36%);
-  border-color: #450d1e;
+  border-color: #7e1738;
   color: #fff;
 }
 .dark-raspberry a, .navbar.raspberry ul.nav li.active a a, .btn.raspberry:active a, .form .form-footer input.raspberry[type=submit]:active a, .form .form-footer input.raspberry[type=reset]:active a, .form .form-footer input.raspberry[type=button]:active a {
@@ -2710,7 +2826,7 @@ button {
 
 .medium-raspberry, .navbar.raspberry ul.nav li a, .navbar.raspberry, .btn.raspberry, .form .form-footer input.raspberry[type=submit], .form .form-footer input.raspberry[type=reset], .form .form-footer input.raspberry[type=button] {
   background-color: hsl(341, 69%, 42%);
-  border-color: #5f112a;
+  border-color: #981c43;
   color: #fff;
 }
 .medium-raspberry a, .navbar.raspberry ul.nav li a a, .navbar.raspberry a, .btn.raspberry a, .form .form-footer input.raspberry[type=submit] a, .form .form-footer input.raspberry[type=reset] a, .form .form-footer input.raspberry[type=button] a {
@@ -2722,7 +2838,7 @@ button {
 
 .light-raspberry {
   background-color: hsl(341, 69%, 72%);
-  border-color: #d93066;
+  border-color: #e46a90;
   color: #000;
 }
 .light-raspberry a {
@@ -2734,7 +2850,7 @@ button {
 
 .lightest-raspberry, .table.table-striped.raspberry tr:nth-of-type(2n) {
   background-color: hsl(341, 69%, 92%);
-  border-color: #e986a6;
+  border-color: #f3c0d0;
   color: #000;
 }
 .lightest-raspberry a, .table.table-striped.raspberry tr:nth-of-type(2n) a {
@@ -2745,8 +2861,8 @@ button {
 }
 
 .dark-banana, .navbar.banana ul.nav li.active a, .btn.banana:active, .form .form-footer input.banana[type=submit]:active, .form .form-footer input.banana[type=reset]:active, .form .form-footer input.banana[type=button]:active {
-  background-color: hsl(50, 77%, 36%);
-  border-color: #483e09;
+  background-color: hsl(45, 84%, 43.2%);
+  border-color: #ab840f;
   color: #000;
 }
 .dark-banana a, .navbar.banana ul.nav li.active a a, .btn.banana:active a, .form .form-footer input.banana[type=submit]:active a, .form .form-footer input.banana[type=reset]:active a, .form .form-footer input.banana[type=button]:active a {
@@ -2757,8 +2873,8 @@ button {
 }
 
 .medium-banana, .navbar.banana ul.nav li a, .navbar.banana, .btn.banana, .form .form-footer input.banana[type=submit], .form .form-footer input.banana[type=reset], .form .form-footer input.banana[type=button] {
-  background-color: hsl(50, 77%, 42%);
-  border-color: #63550d;
+  background-color: hsl(45, 84%, 50.4%);
+  border-color: #cd9e12;
   color: #000;
 }
 .medium-banana a, .navbar.banana ul.nav li a a, .navbar.banana a, .btn.banana a, .form .form-footer input.banana[type=submit] a, .form .form-footer input.banana[type=reset] a, .form .form-footer input.banana[type=button] a {
@@ -2769,8 +2885,8 @@ button {
 }
 
 .light-banana {
-  background-color: hsl(50, 77%, 72%);
-  border-color: #e3c326;
+  background-color: hsl(45, 84%, 86.4%);
+  border-color: #f7e1a0;
   color: #000;
 }
 .light-banana a {
@@ -2781,8 +2897,8 @@ button {
 }
 
 .lightest-banana, .table.table-striped.banana tr:nth-of-type(2n) {
-  background-color: hsl(50, 77%, 92%);
-  border-color: #efdc81;
+  background-color: hsl(45, 84%, 100%);
+  border-color: #fcf5e0;
   color: #000;
 }
 .lightest-banana a, .table.table-striped.banana tr:nth-of-type(2n) a {
@@ -2812,7 +2928,7 @@ A panel encloses a section of the document with a border and whitespace.
 ```
 */
 .panel {
-  border: 1px solid #eee;
+  border: 2px solid #eee;
   border-radius: 4px;
   padding: 20px;
 }
@@ -2952,13 +3068,23 @@ textarea,
 keygen,
 select,
 button {
-  font-family: "Fira Sans", Arial, sans-serif;
-  font-size: 10pt;
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
 }
 
 .dark-gray {
   background-color: #666;
-  border-color: #333333;
+  border-color: #555555;
   color: #fff;
 }
 .dark-gray a {
@@ -2970,7 +3096,7 @@ button {
 
 .medium-gray {
   background-color: #999;
-  border-color: #666666;
+  border-color: #888888;
   color: #000;
 }
 .medium-gray a {
@@ -2982,7 +3108,7 @@ button {
 
 .light-gray, .navbar ul.nav li.active a {
   background-color: #ccc;
-  border-color: #999999;
+  border-color: #bbbbbb;
   color: #000;
 }
 .light-gray a, .navbar ul.nav li.active a a {
@@ -2994,7 +3120,7 @@ button {
 
 .lightest-gray, .navbar ul.nav li a, .navbar {
   background-color: #eee;
-  border-color: #bbbbbb;
+  border-color: #dddddd;
   color: #000;
 }
 .lightest-gray a, .navbar ul.nav li a a, .navbar a {
@@ -3006,7 +3132,7 @@ button {
 
 .dark-blue, .navbar.blue ul.nav li.active a, .dark-info, .btn.info:active, .btn.blue:active, .form .form-footer input.info[type=submit]:active, .form .form-footer input.blue[type=submit]:active, .form .form-footer input.info[type=reset]:active, .form .form-footer input.blue[type=reset]:active, .form .form-footer input.info[type=button]:active, .form .form-footer input.blue[type=button]:active {
   background-color: hsl(206, 58%, 36%);
-  border-color: #112c40;
+  border-color: #1f5176;
   color: #fff;
 }
 .dark-blue a, .navbar.blue ul.nav li.active a a, .dark-info a, .btn.info:active a, .btn.blue:active a, .form .form-footer input.info[type=submit]:active a, .form .form-footer input.blue[type=submit]:active a, .form .form-footer input.info[type=reset]:active a, .form .form-footer input.blue[type=reset]:active a, .form .form-footer input.info[type=button]:active a, .form .form-footer input.blue[type=button]:active a {
@@ -3018,7 +3144,7 @@ button {
 
 .medium-blue, .navbar.blue ul.nav li a, .navbar.blue, .medium-info, .btn.info, .btn.blue, .form .form-footer input.info[type=submit], .form .form-footer input.blue[type=submit], .form .form-footer input.info[type=reset], .form .form-footer input.blue[type=reset], .form .form-footer input.info[type=button], .form .form-footer input.blue[type=button] {
   background-color: hsl(206, 58%, 42%);
-  border-color: #183c59;
+  border-color: #26618e;
   color: #fff;
 }
 .medium-blue a, .navbar.blue ul.nav li a a, .navbar.blue a, .medium-info a, .btn.info a, .btn.blue a, .form .form-footer input.info[type=submit] a, .form .form-footer input.blue[type=submit] a, .form .form-footer input.info[type=reset] a, .form .form-footer input.blue[type=reset] a, .form .form-footer input.info[type=button] a, .form .form-footer input.blue[type=button] a {
@@ -3030,7 +3156,7 @@ button {
 
 .light-blue, .light-info, .msg.info {
   background-color: hsl(206, 58%, 72%);
-  border-color: #3e8ecc;
+  border-color: #73adda;
   color: #000;
 }
 .light-blue a, .light-info a, .msg.info a {
@@ -3042,7 +3168,7 @@ button {
 
 .lightest-blue, .lightest-info, .table.table-striped.blue tr:nth-of-type(2n) {
   background-color: hsl(206, 58%, 92%);
-  border-color: #8ebde1;
+  border-color: #c4dcef;
   color: #000;
 }
 .lightest-blue a, .lightest-info a, .table.table-striped.blue tr:nth-of-type(2n) a {
@@ -3054,7 +3180,7 @@ button {
 
 .dark-green, .navbar.green ul.nav li.active a, .dark-success, .btn.success:active, .btn.green:active, .form .form-footer input.success[type=submit]:active, .form .form-footer input.green[type=submit]:active, .form .form-footer input.success[type=reset]:active, .form .form-footer input.green[type=reset]:active, .form .form-footer input.success[type=button]:active, .form .form-footer input.green[type=button]:active {
   background-color: hsl(121, 32%, 36%);
-  border-color: #1c361c;
+  border-color: #336334;
   color: #fff;
 }
 .dark-green a, .navbar.green ul.nav li.active a a, .dark-success a, .btn.success:active a, .btn.green:active a, .form .form-footer input.success[type=submit]:active a, .form .form-footer input.green[type=submit]:active a, .form .form-footer input.success[type=reset]:active a, .form .form-footer input.green[type=reset]:active a, .form .form-footer input.success[type=button]:active a, .form .form-footer input.green[type=button]:active a {
@@ -3066,7 +3192,7 @@ button {
 
 .medium-green, .navbar.green ul.nav li a, .navbar.green, .medium-success, .btn.success, .btn.green, .form .form-footer input.success[type=submit], .form .form-footer input.green[type=submit], .form .form-footer input.success[type=reset], .form .form-footer input.green[type=reset], .form .form-footer input.success[type=button], .form .form-footer input.green[type=button] {
   background-color: hsl(121, 32%, 42%);
-  border-color: #264a27;
+  border-color: #3d773e;
   color: #000;
 }
 .medium-green a, .navbar.green ul.nav li a a, .navbar.green a, .medium-success a, .btn.success a, .btn.green a, .form .form-footer input.success[type=submit] a, .form .form-footer input.green[type=submit] a, .form .form-footer input.success[type=reset] a, .form .form-footer input.green[type=reset] a, .form .form-footer input.success[type=button] a, .form .form-footer input.green[type=button] a {
@@ -3078,7 +3204,7 @@ button {
 
 .light-green, .light-success, .msg.success {
   background-color: hsl(121, 32%, 72%);
-  border-color: #5dac5f;
+  border-color: #8ac38b;
   color: #000;
 }
 .light-green a, .light-success a, .msg.success a {
@@ -3090,7 +3216,7 @@ button {
 
 .lightest-green, .lightest-success, .table.table-striped.green tr:nth-of-type(2n) {
   background-color: hsl(121, 32%, 92%);
-  border-color: #a1cea2;
+  border-color: #cee6ce;
   color: #000;
 }
 .lightest-green a, .lightest-success a, .table.table-striped.green tr:nth-of-type(2n) a {
@@ -3102,7 +3228,7 @@ button {
 
 .dark-red, .navbar.red ul.nav li.active a, .dark-danger, .dark-error, .btn.danger:active, .btn.error:active, .btn.red:active, .form .form-footer input.danger[type=submit]:active, .form .form-footer input.error[type=submit]:active, .form .form-footer input.red[type=submit]:active, .form .form-footer input.danger[type=reset]:active, .form .form-footer input.error[type=reset]:active, .form .form-footer input.red[type=reset]:active, .form .form-footer input.danger[type=button]:active, .form .form-footer input.error[type=button]:active, .form .form-footer input.red[type=button]:active {
   background-color: hsl(355, 72%, 36%);
-  border-color: #460b10;
+  border-color: #81151e;
   color: #fff;
 }
 .dark-red a, .navbar.red ul.nav li.active a a, .dark-danger a, .dark-error a, .btn.danger:active a, .btn.error:active a, .btn.red:active a, .form .form-footer input.danger[type=submit]:active a, .form .form-footer input.error[type=submit]:active a, .form .form-footer input.red[type=submit]:active a, .form .form-footer input.danger[type=reset]:active a, .form .form-footer input.error[type=reset]:active a, .form .form-footer input.red[type=reset]:active a, .form .form-footer input.danger[type=button]:active a, .form .form-footer input.error[type=button]:active a, .form .form-footer input.red[type=button]:active a {
@@ -3114,7 +3240,7 @@ button {
 
 .medium-red, .navbar.red ul.nav li a, .navbar.red, .medium-danger, .medium-error, .btn.danger, .btn.error, .btn.red, .form .form-footer input.danger[type=submit], .form .form-footer input.error[type=submit], .form .form-footer input.red[type=submit], .form .form-footer input.danger[type=reset], .form .form-footer input.error[type=reset], .form .form-footer input.red[type=reset], .form .form-footer input.danger[type=button], .form .form-footer input.error[type=button], .form .form-footer input.red[type=button] {
   background-color: hsl(355, 72%, 42%);
-  border-color: #601016;
+  border-color: #9b1924;
   color: #fff;
 }
 .medium-red a, .navbar.red ul.nav li a a, .navbar.red a, .medium-danger a, .medium-error a, .btn.danger a, .btn.error a, .btn.red a, .form .form-footer input.danger[type=submit] a, .form .form-footer input.error[type=submit] a, .form .form-footer input.red[type=submit] a, .form .form-footer input.danger[type=reset] a, .form .form-footer input.error[type=reset] a, .form .form-footer input.red[type=reset] a, .form .form-footer input.danger[type=button] a, .form .form-footer input.error[type=button] a, .form .form-footer input.red[type=button] a {
@@ -3126,7 +3252,7 @@ button {
 
 .light-red, .light-danger, .msg.danger, .light-error, .msg.error {
   background-color: hsl(355, 72%, 72%);
-  border-color: #dd2c3b;
+  border-color: #e66772;
   color: #000;
 }
 .light-red a, .light-danger a, .msg.danger a, .light-error a, .msg.error a {
@@ -3138,7 +3264,7 @@ button {
 
 .lightest-red, .lightest-danger, .lightest-error, .table.table-striped.red tr:nth-of-type(2n) {
   background-color: hsl(355, 72%, 92%);
-  border-color: #eb848d;
+  border-color: #f5bfc3;
   color: #000;
 }
 .lightest-red a, .lightest-danger a, .lightest-error a, .table.table-striped.red tr:nth-of-type(2n) a {
@@ -3149,20 +3275,20 @@ button {
 }
 
 .dark-amber, .navbar.amber ul.nav li.active a, .dark-warning, .btn.warning:active, .btn.amber:active, .form .form-footer input.warning[type=submit]:active, .form .form-footer input.amber[type=submit]:active, .form .form-footer input.warning[type=reset]:active, .form .form-footer input.amber[type=reset]:active, .form .form-footer input.warning[type=button]:active, .form .form-footer input.amber[type=button]:active {
-  background-color: hsl(28, 91%, 36%);
-  border-color: #4e2604;
-  color: #fff;
+  background-color: hsl(30, 84%, 43.2%);
+  border-color: #ab5d0f;
+  color: #000;
 }
 .dark-amber a, .navbar.amber ul.nav li.active a a, .dark-warning a, .btn.warning:active a, .btn.amber:active a, .form .form-footer input.warning[type=submit]:active a, .form .form-footer input.amber[type=submit]:active a, .form .form-footer input.warning[type=reset]:active a, .form .form-footer input.amber[type=reset]:active a, .form .form-footer input.warning[type=button]:active a, .form .form-footer input.amber[type=button]:active a {
-  color: #fff;
+  color: #000;
 }
 .dark-amber .active a, .navbar.amber ul.nav li.active a .active a, .dark-warning .active a, .btn.warning:active .active a, .btn.amber:active .active a, .form .form-footer input.warning[type=submit]:active .active a, .form .form-footer input.amber[type=submit]:active .active a, .form .form-footer input.warning[type=reset]:active .active a, .form .form-footer input.amber[type=reset]:active .active a, .form .form-footer input.warning[type=button]:active .active a, .form .form-footer input.amber[type=button]:active .active a {
-  color: #fff;
+  color: #000;
 }
 
 .medium-amber, .navbar.amber ul.nav li a, .navbar.amber, .medium-warning, .btn.warning, .btn.amber, .form .form-footer input.warning[type=submit], .form .form-footer input.amber[type=submit], .form .form-footer input.warning[type=reset], .form .form-footer input.amber[type=reset], .form .form-footer input.warning[type=button], .form .form-footer input.amber[type=button] {
-  background-color: hsl(28, 91%, 42%);
-  border-color: #6b3505;
+  background-color: hsl(30, 84%, 50.4%);
+  border-color: #cd7012;
   color: #000;
 }
 .medium-amber a, .navbar.amber ul.nav li a a, .navbar.amber a, .medium-warning a, .btn.warning a, .btn.amber a, .form .form-footer input.warning[type=submit] a, .form .form-footer input.amber[type=submit] a, .form .form-footer input.warning[type=reset] a, .form .form-footer input.amber[type=reset] a, .form .form-footer input.warning[type=button] a, .form .form-footer input.amber[type=button] a {
@@ -3173,8 +3299,8 @@ button {
 }
 
 .light-amber, .light-warning, .msg.warning {
-  background-color: hsl(28, 91%, 72%);
-  border-color: #f47d15;
+  background-color: hsl(30, 84%, 86.4%);
+  border-color: #f7cba0;
   color: #000;
 }
 .light-amber a, .light-warning a, .msg.warning a {
@@ -3185,8 +3311,8 @@ button {
 }
 
 .lightest-amber, .lightest-warning, .table.table-striped.amber tr:nth-of-type(2n) {
-  background-color: hsl(28, 91%, 92%);
-  border-color: #f9b377;
+  background-color: hsl(30, 84%, 100%);
+  border-color: #fceee0;
   color: #000;
 }
 .lightest-amber a, .lightest-warning a, .table.table-striped.amber tr:nth-of-type(2n) a {
@@ -3197,8 +3323,8 @@ button {
 }
 
 .dark-accent, .navbar.accent ul.nav li.active a, .navbar.msg ul.nav li.active a, .btn.accent:active, .btn.msg:active, .form .form-footer input.accent[type=submit]:active, .form .form-footer input[type=submit].msg:active, .form .form-footer input.accent[type=reset]:active, .form .form-footer input[type=reset].msg:active, .form .form-footer input.accent[type=button]:active, .form .form-footer input[type=button].msg:active {
-  background-color: hsl(190, 58%, 32.4%);
-  border-color: #0d2c32;
+  background-color: hsl(192, 58%, 32.4%);
+  border-color: #1c5868;
   color: #fff;
 }
 .dark-accent a, .navbar.accent ul.nav li.active a a, .navbar.msg ul.nav li.active a a, .btn.accent:active a, .btn.msg:active a, .form .form-footer input.accent[type=submit]:active a, .form .form-footer input[type=submit].msg:active a, .form .form-footer input.accent[type=reset]:active a, .form .form-footer input[type=reset].msg:active a, .form .form-footer input.accent[type=button]:active a, .form .form-footer input[type=button].msg:active a {
@@ -3209,8 +3335,8 @@ button {
 }
 
 .medium-accent, .navbar.accent ul.nav li a, .navbar.msg ul.nav li a, .navbar.accent, .navbar.msg, .btn.accent, .btn.msg, .form .form-footer input.accent[type=submit], .form .form-footer input[type=submit].msg, .form .form-footer input.accent[type=reset], .form .form-footer input[type=reset].msg, .form .form-footer input.accent[type=button], .form .form-footer input[type=button].msg {
-  background-color: hsl(190, 58%, 42%);
-  border-color: #184e59;
+  background-color: hsl(192, 58%, 42%);
+  border-color: #26798e;
   color: #000;
 }
 .medium-accent a, .navbar.accent ul.nav li a a, .navbar.msg ul.nav li a a, .navbar.accent a, .navbar.msg a, .btn.accent a, .btn.msg a, .form .form-footer input.accent[type=submit] a, .form .form-footer input[type=submit].msg a, .form .form-footer input.accent[type=reset] a, .form .form-footer input[type=reset].msg a, .form .form-footer input.accent[type=button] a, .form .form-footer input[type=button].msg a {
@@ -3221,8 +3347,8 @@ button {
 }
 
 .light-accent, .msg.accent, .msg {
-  background-color: hsl(190, 58%, 72%);
-  border-color: #3eb4cc;
+  background-color: hsl(192, 58%, 72%);
+  border-color: #73c5da;
   color: #000;
 }
 .light-accent a, .msg.accent a, .msg a {
@@ -3233,8 +3359,8 @@ button {
 }
 
 .lightest-accent, .table.table-striped.accent tr:nth-of-type(2n), .table.table-striped.msg tr:nth-of-type(2n) {
-  background-color: hsl(190, 58%, 92%);
-  border-color: #8ed3e1;
+  background-color: hsl(192, 58%, 92%);
+  border-color: #c4e7ef;
   color: #000;
 }
 .lightest-accent a, .table.table-striped.accent tr:nth-of-type(2n) a, .table.table-striped.msg tr:nth-of-type(2n) a {
@@ -3245,8 +3371,8 @@ button {
 }
 
 .dark-plum, .navbar.plum ul.nav li.active a, .btn.plum:active, .form .form-footer input.plum[type=submit]:active, .form .form-footer input.plum[type=reset]:active, .form .form-footer input.plum[type=button]:active {
-  background-color: hsl(271, 42%, 32.4%);
-  border-color: #20122d;
+  background-color: hsl(271, 36%, 32.4%);
+  border-color: #422a59;
   color: #fff;
 }
 .dark-plum a, .navbar.plum ul.nav li.active a a, .btn.plum:active a, .form .form-footer input.plum[type=submit]:active a, .form .form-footer input.plum[type=reset]:active a, .form .form-footer input.plum[type=button]:active a {
@@ -3257,8 +3383,8 @@ button {
 }
 
 .medium-plum, .navbar.plum ul.nav li a, .navbar.plum, .btn.plum, .form .form-footer input.plum[type=submit], .form .form-footer input.plum[type=reset], .form .form-footer input.plum[type=button] {
-  background-color: hsl(271, 42%, 42%);
-  border-color: #392150;
+  background-color: hsl(271, 36%, 42%);
+  border-color: #5b3a7b;
   color: #fff;
 }
 .medium-plum a, .navbar.plum ul.nav li a a, .navbar.plum a, .btn.plum a, .form .form-footer input.plum[type=submit] a, .form .form-footer input.plum[type=reset] a, .form .form-footer input.plum[type=button] a {
@@ -3269,8 +3395,8 @@ button {
 }
 
 .light-plum {
-  background-color: hsl(271, 42%, 72%);
-  border-color: #8651b8;
+  background-color: hsl(271, 36%, 72%);
+  border-color: #a887c6;
   color: #000;
 }
 .light-plum a {
@@ -3281,8 +3407,8 @@ button {
 }
 
 .lightest-plum, .table.table-striped.plum tr:nth-of-type(2n) {
-  background-color: hsl(271, 42%, 92%);
-  border-color: #b99ad6;
+  background-color: hsl(271, 36%, 92%);
+  border-color: #dacce7;
   color: #000;
 }
 .lightest-plum a, .table.table-striped.plum tr:nth-of-type(2n) a {
@@ -3294,7 +3420,7 @@ button {
 
 .dark-raspberry, .navbar.raspberry ul.nav li.active a, .btn.raspberry:active, .form .form-footer input.raspberry[type=submit]:active, .form .form-footer input.raspberry[type=reset]:active, .form .form-footer input.raspberry[type=button]:active {
   background-color: hsl(341, 69%, 36%);
-  border-color: #450d1e;
+  border-color: #7e1738;
   color: #fff;
 }
 .dark-raspberry a, .navbar.raspberry ul.nav li.active a a, .btn.raspberry:active a, .form .form-footer input.raspberry[type=submit]:active a, .form .form-footer input.raspberry[type=reset]:active a, .form .form-footer input.raspberry[type=button]:active a {
@@ -3306,7 +3432,7 @@ button {
 
 .medium-raspberry, .navbar.raspberry ul.nav li a, .navbar.raspberry, .btn.raspberry, .form .form-footer input.raspberry[type=submit], .form .form-footer input.raspberry[type=reset], .form .form-footer input.raspberry[type=button] {
   background-color: hsl(341, 69%, 42%);
-  border-color: #5f112a;
+  border-color: #981c43;
   color: #fff;
 }
 .medium-raspberry a, .navbar.raspberry ul.nav li a a, .navbar.raspberry a, .btn.raspberry a, .form .form-footer input.raspberry[type=submit] a, .form .form-footer input.raspberry[type=reset] a, .form .form-footer input.raspberry[type=button] a {
@@ -3318,7 +3444,7 @@ button {
 
 .light-raspberry {
   background-color: hsl(341, 69%, 72%);
-  border-color: #d93066;
+  border-color: #e46a90;
   color: #000;
 }
 .light-raspberry a {
@@ -3330,7 +3456,7 @@ button {
 
 .lightest-raspberry, .table.table-striped.raspberry tr:nth-of-type(2n) {
   background-color: hsl(341, 69%, 92%);
-  border-color: #e986a6;
+  border-color: #f3c0d0;
   color: #000;
 }
 .lightest-raspberry a, .table.table-striped.raspberry tr:nth-of-type(2n) a {
@@ -3341,8 +3467,8 @@ button {
 }
 
 .dark-banana, .navbar.banana ul.nav li.active a, .btn.banana:active, .form .form-footer input.banana[type=submit]:active, .form .form-footer input.banana[type=reset]:active, .form .form-footer input.banana[type=button]:active {
-  background-color: hsl(50, 77%, 36%);
-  border-color: #483e09;
+  background-color: hsl(45, 84%, 43.2%);
+  border-color: #ab840f;
   color: #000;
 }
 .dark-banana a, .navbar.banana ul.nav li.active a a, .btn.banana:active a, .form .form-footer input.banana[type=submit]:active a, .form .form-footer input.banana[type=reset]:active a, .form .form-footer input.banana[type=button]:active a {
@@ -3353,8 +3479,8 @@ button {
 }
 
 .medium-banana, .navbar.banana ul.nav li a, .navbar.banana, .btn.banana, .form .form-footer input.banana[type=submit], .form .form-footer input.banana[type=reset], .form .form-footer input.banana[type=button] {
-  background-color: hsl(50, 77%, 42%);
-  border-color: #63550d;
+  background-color: hsl(45, 84%, 50.4%);
+  border-color: #cd9e12;
   color: #000;
 }
 .medium-banana a, .navbar.banana ul.nav li a a, .navbar.banana a, .btn.banana a, .form .form-footer input.banana[type=submit] a, .form .form-footer input.banana[type=reset] a, .form .form-footer input.banana[type=button] a {
@@ -3365,8 +3491,8 @@ button {
 }
 
 .light-banana {
-  background-color: hsl(50, 77%, 72%);
-  border-color: #e3c326;
+  background-color: hsl(45, 84%, 86.4%);
+  border-color: #f7e1a0;
   color: #000;
 }
 .light-banana a {
@@ -3377,8 +3503,8 @@ button {
 }
 
 .lightest-banana, .table.table-striped.banana tr:nth-of-type(2n) {
-  background-color: hsl(50, 77%, 92%);
-  border-color: #efdc81;
+  background-color: hsl(45, 84%, 100%);
+  border-color: #fcf5e0;
   color: #000;
 }
 .lightest-banana a, .table.table-striped.banana tr:nth-of-type(2n) a {
@@ -3505,13 +3631,23 @@ textarea,
 keygen,
 select,
 button {
-  font-family: "Fira Sans", Arial, sans-serif;
-  font-size: 10pt;
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
 }
 
 .dark-gray {
   background-color: #666;
-  border-color: #333333;
+  border-color: #555555;
   color: #fff;
 }
 .dark-gray a {
@@ -3523,7 +3659,7 @@ button {
 
 .medium-gray {
   background-color: #999;
-  border-color: #666666;
+  border-color: #888888;
   color: #000;
 }
 .medium-gray a {
@@ -3535,7 +3671,7 @@ button {
 
 .light-gray, .navbar ul.nav li.active a {
   background-color: #ccc;
-  border-color: #999999;
+  border-color: #bbbbbb;
   color: #000;
 }
 .light-gray a, .navbar ul.nav li.active a a {
@@ -3547,7 +3683,7 @@ button {
 
 .lightest-gray, .navbar ul.nav li a, .navbar {
   background-color: #eee;
-  border-color: #bbbbbb;
+  border-color: #dddddd;
   color: #000;
 }
 .lightest-gray a, .navbar ul.nav li a a, .navbar a {
@@ -3559,7 +3695,7 @@ button {
 
 .dark-blue, .navbar.blue ul.nav li.active a, .dark-info, .btn.info:active, .btn.blue:active, .form .form-footer input.info[type=submit]:active, .form .form-footer input.blue[type=submit]:active, .form .form-footer input.info[type=reset]:active, .form .form-footer input.blue[type=reset]:active, .form .form-footer input.info[type=button]:active, .form .form-footer input.blue[type=button]:active {
   background-color: hsl(206, 58%, 36%);
-  border-color: #112c40;
+  border-color: #1f5176;
   color: #fff;
 }
 .dark-blue a, .navbar.blue ul.nav li.active a a, .dark-info a, .btn.info:active a, .btn.blue:active a, .form .form-footer input.info[type=submit]:active a, .form .form-footer input.blue[type=submit]:active a, .form .form-footer input.info[type=reset]:active a, .form .form-footer input.blue[type=reset]:active a, .form .form-footer input.info[type=button]:active a, .form .form-footer input.blue[type=button]:active a {
@@ -3571,7 +3707,7 @@ button {
 
 .medium-blue, .navbar.blue ul.nav li a, .navbar.blue, .medium-info, .btn.info, .btn.blue, .form .form-footer input.info[type=submit], .form .form-footer input.blue[type=submit], .form .form-footer input.info[type=reset], .form .form-footer input.blue[type=reset], .form .form-footer input.info[type=button], .form .form-footer input.blue[type=button] {
   background-color: hsl(206, 58%, 42%);
-  border-color: #183c59;
+  border-color: #26618e;
   color: #fff;
 }
 .medium-blue a, .navbar.blue ul.nav li a a, .navbar.blue a, .medium-info a, .btn.info a, .btn.blue a, .form .form-footer input.info[type=submit] a, .form .form-footer input.blue[type=submit] a, .form .form-footer input.info[type=reset] a, .form .form-footer input.blue[type=reset] a, .form .form-footer input.info[type=button] a, .form .form-footer input.blue[type=button] a {
@@ -3583,7 +3719,7 @@ button {
 
 .light-blue, .light-info, .msg.info {
   background-color: hsl(206, 58%, 72%);
-  border-color: #3e8ecc;
+  border-color: #73adda;
   color: #000;
 }
 .light-blue a, .light-info a, .msg.info a {
@@ -3595,7 +3731,7 @@ button {
 
 .lightest-blue, .lightest-info, .table.table-striped.blue tr:nth-of-type(2n) {
   background-color: hsl(206, 58%, 92%);
-  border-color: #8ebde1;
+  border-color: #c4dcef;
   color: #000;
 }
 .lightest-blue a, .lightest-info a, .table.table-striped.blue tr:nth-of-type(2n) a {
@@ -3607,7 +3743,7 @@ button {
 
 .dark-green, .navbar.green ul.nav li.active a, .dark-success, .btn.success:active, .btn.green:active, .form .form-footer input.success[type=submit]:active, .form .form-footer input.green[type=submit]:active, .form .form-footer input.success[type=reset]:active, .form .form-footer input.green[type=reset]:active, .form .form-footer input.success[type=button]:active, .form .form-footer input.green[type=button]:active {
   background-color: hsl(121, 32%, 36%);
-  border-color: #1c361c;
+  border-color: #336334;
   color: #fff;
 }
 .dark-green a, .navbar.green ul.nav li.active a a, .dark-success a, .btn.success:active a, .btn.green:active a, .form .form-footer input.success[type=submit]:active a, .form .form-footer input.green[type=submit]:active a, .form .form-footer input.success[type=reset]:active a, .form .form-footer input.green[type=reset]:active a, .form .form-footer input.success[type=button]:active a, .form .form-footer input.green[type=button]:active a {
@@ -3619,7 +3755,7 @@ button {
 
 .medium-green, .navbar.green ul.nav li a, .navbar.green, .medium-success, .btn.success, .btn.green, .form .form-footer input.success[type=submit], .form .form-footer input.green[type=submit], .form .form-footer input.success[type=reset], .form .form-footer input.green[type=reset], .form .form-footer input.success[type=button], .form .form-footer input.green[type=button] {
   background-color: hsl(121, 32%, 42%);
-  border-color: #264a27;
+  border-color: #3d773e;
   color: #000;
 }
 .medium-green a, .navbar.green ul.nav li a a, .navbar.green a, .medium-success a, .btn.success a, .btn.green a, .form .form-footer input.success[type=submit] a, .form .form-footer input.green[type=submit] a, .form .form-footer input.success[type=reset] a, .form .form-footer input.green[type=reset] a, .form .form-footer input.success[type=button] a, .form .form-footer input.green[type=button] a {
@@ -3631,7 +3767,7 @@ button {
 
 .light-green, .light-success, .msg.success {
   background-color: hsl(121, 32%, 72%);
-  border-color: #5dac5f;
+  border-color: #8ac38b;
   color: #000;
 }
 .light-green a, .light-success a, .msg.success a {
@@ -3643,7 +3779,7 @@ button {
 
 .lightest-green, .lightest-success, .table.table-striped.green tr:nth-of-type(2n) {
   background-color: hsl(121, 32%, 92%);
-  border-color: #a1cea2;
+  border-color: #cee6ce;
   color: #000;
 }
 .lightest-green a, .lightest-success a, .table.table-striped.green tr:nth-of-type(2n) a {
@@ -3655,7 +3791,7 @@ button {
 
 .dark-red, .navbar.red ul.nav li.active a, .dark-danger, .dark-error, .btn.danger:active, .btn.error:active, .btn.red:active, .form .form-footer input.danger[type=submit]:active, .form .form-footer input.error[type=submit]:active, .form .form-footer input.red[type=submit]:active, .form .form-footer input.danger[type=reset]:active, .form .form-footer input.error[type=reset]:active, .form .form-footer input.red[type=reset]:active, .form .form-footer input.danger[type=button]:active, .form .form-footer input.error[type=button]:active, .form .form-footer input.red[type=button]:active {
   background-color: hsl(355, 72%, 36%);
-  border-color: #460b10;
+  border-color: #81151e;
   color: #fff;
 }
 .dark-red a, .navbar.red ul.nav li.active a a, .dark-danger a, .dark-error a, .btn.danger:active a, .btn.error:active a, .btn.red:active a, .form .form-footer input.danger[type=submit]:active a, .form .form-footer input.error[type=submit]:active a, .form .form-footer input.red[type=submit]:active a, .form .form-footer input.danger[type=reset]:active a, .form .form-footer input.error[type=reset]:active a, .form .form-footer input.red[type=reset]:active a, .form .form-footer input.danger[type=button]:active a, .form .form-footer input.error[type=button]:active a, .form .form-footer input.red[type=button]:active a {
@@ -3667,7 +3803,7 @@ button {
 
 .medium-red, .navbar.red ul.nav li a, .navbar.red, .medium-danger, .medium-error, .btn.danger, .btn.error, .btn.red, .form .form-footer input.danger[type=submit], .form .form-footer input.error[type=submit], .form .form-footer input.red[type=submit], .form .form-footer input.danger[type=reset], .form .form-footer input.error[type=reset], .form .form-footer input.red[type=reset], .form .form-footer input.danger[type=button], .form .form-footer input.error[type=button], .form .form-footer input.red[type=button] {
   background-color: hsl(355, 72%, 42%);
-  border-color: #601016;
+  border-color: #9b1924;
   color: #fff;
 }
 .medium-red a, .navbar.red ul.nav li a a, .navbar.red a, .medium-danger a, .medium-error a, .btn.danger a, .btn.error a, .btn.red a, .form .form-footer input.danger[type=submit] a, .form .form-footer input.error[type=submit] a, .form .form-footer input.red[type=submit] a, .form .form-footer input.danger[type=reset] a, .form .form-footer input.error[type=reset] a, .form .form-footer input.red[type=reset] a, .form .form-footer input.danger[type=button] a, .form .form-footer input.error[type=button] a, .form .form-footer input.red[type=button] a {
@@ -3679,7 +3815,7 @@ button {
 
 .light-red, .light-danger, .light-error, .msg.danger, .msg.error {
   background-color: hsl(355, 72%, 72%);
-  border-color: #dd2c3b;
+  border-color: #e66772;
   color: #000;
 }
 .light-red a, .light-danger a, .light-error a, .msg.danger a, .msg.error a {
@@ -3691,7 +3827,7 @@ button {
 
 .lightest-red, .lightest-danger, .lightest-error, .table.table-striped.red tr:nth-of-type(2n) {
   background-color: hsl(355, 72%, 92%);
-  border-color: #eb848d;
+  border-color: #f5bfc3;
   color: #000;
 }
 .lightest-red a, .lightest-danger a, .lightest-error a, .table.table-striped.red tr:nth-of-type(2n) a {
@@ -3702,20 +3838,20 @@ button {
 }
 
 .dark-amber, .navbar.amber ul.nav li.active a, .dark-warning, .btn.warning:active, .btn.amber:active, .form .form-footer input.warning[type=submit]:active, .form .form-footer input.amber[type=submit]:active, .form .form-footer input.warning[type=reset]:active, .form .form-footer input.amber[type=reset]:active, .form .form-footer input.warning[type=button]:active, .form .form-footer input.amber[type=button]:active {
-  background-color: hsl(28, 91%, 36%);
-  border-color: #4e2604;
-  color: #fff;
+  background-color: hsl(30, 84%, 43.2%);
+  border-color: #ab5d0f;
+  color: #000;
 }
 .dark-amber a, .navbar.amber ul.nav li.active a a, .dark-warning a, .btn.warning:active a, .btn.amber:active a, .form .form-footer input.warning[type=submit]:active a, .form .form-footer input.amber[type=submit]:active a, .form .form-footer input.warning[type=reset]:active a, .form .form-footer input.amber[type=reset]:active a, .form .form-footer input.warning[type=button]:active a, .form .form-footer input.amber[type=button]:active a {
-  color: #fff;
+  color: #000;
 }
 .dark-amber .active a, .navbar.amber ul.nav li.active a .active a, .dark-warning .active a, .btn.warning:active .active a, .btn.amber:active .active a, .form .form-footer input.warning[type=submit]:active .active a, .form .form-footer input.amber[type=submit]:active .active a, .form .form-footer input.warning[type=reset]:active .active a, .form .form-footer input.amber[type=reset]:active .active a, .form .form-footer input.warning[type=button]:active .active a, .form .form-footer input.amber[type=button]:active .active a {
-  color: #fff;
+  color: #000;
 }
 
 .medium-amber, .navbar.amber ul.nav li a, .navbar.amber, .medium-warning, .btn.warning, .btn.amber, .form .form-footer input.warning[type=submit], .form .form-footer input.amber[type=submit], .form .form-footer input.warning[type=reset], .form .form-footer input.amber[type=reset], .form .form-footer input.warning[type=button], .form .form-footer input.amber[type=button] {
-  background-color: hsl(28, 91%, 42%);
-  border-color: #6b3505;
+  background-color: hsl(30, 84%, 50.4%);
+  border-color: #cd7012;
   color: #000;
 }
 .medium-amber a, .navbar.amber ul.nav li a a, .navbar.amber a, .medium-warning a, .btn.warning a, .btn.amber a, .form .form-footer input.warning[type=submit] a, .form .form-footer input.amber[type=submit] a, .form .form-footer input.warning[type=reset] a, .form .form-footer input.amber[type=reset] a, .form .form-footer input.warning[type=button] a, .form .form-footer input.amber[type=button] a {
@@ -3726,8 +3862,8 @@ button {
 }
 
 .light-amber, .light-warning, .msg.warning {
-  background-color: hsl(28, 91%, 72%);
-  border-color: #f47d15;
+  background-color: hsl(30, 84%, 86.4%);
+  border-color: #f7cba0;
   color: #000;
 }
 .light-amber a, .light-warning a, .msg.warning a {
@@ -3738,8 +3874,8 @@ button {
 }
 
 .lightest-amber, .lightest-warning, .table.table-striped.amber tr:nth-of-type(2n) {
-  background-color: hsl(28, 91%, 92%);
-  border-color: #f9b377;
+  background-color: hsl(30, 84%, 100%);
+  border-color: #fceee0;
   color: #000;
 }
 .lightest-amber a, .lightest-warning a, .table.table-striped.amber tr:nth-of-type(2n) a {
@@ -3750,8 +3886,8 @@ button {
 }
 
 .dark-accent, .navbar.accent ul.nav li.active a, .navbar.msg ul.nav li.active a, .btn.accent:active, .form .form-footer input.accent[type=submit]:active, .form .form-footer input.accent[type=reset]:active, .form .form-footer input.accent[type=button]:active, .btn.msg:active, .form .form-footer input[type=submit].msg:active, .form .form-footer input[type=reset].msg:active, .form .form-footer input[type=button].msg:active {
-  background-color: hsl(190, 58%, 32.4%);
-  border-color: #0d2c32;
+  background-color: hsl(192, 58%, 32.4%);
+  border-color: #1c5868;
   color: #fff;
 }
 .dark-accent a, .navbar.accent ul.nav li.active a a, .navbar.msg ul.nav li.active a a, .btn.accent:active a, .form .form-footer input.accent[type=submit]:active a, .form .form-footer input.accent[type=reset]:active a, .form .form-footer input.accent[type=button]:active a, .btn.msg:active a, .form .form-footer input[type=submit].msg:active a, .form .form-footer input[type=reset].msg:active a, .form .form-footer input[type=button].msg:active a {
@@ -3762,8 +3898,8 @@ button {
 }
 
 .medium-accent, .navbar.accent ul.nav li a, .navbar.msg ul.nav li a, .navbar.accent, .navbar.msg, .btn.accent, .form .form-footer input.accent[type=submit], .form .form-footer input.accent[type=reset], .form .form-footer input.accent[type=button], .btn.msg, .form .form-footer input[type=submit].msg, .form .form-footer input[type=reset].msg, .form .form-footer input[type=button].msg {
-  background-color: hsl(190, 58%, 42%);
-  border-color: #184e59;
+  background-color: hsl(192, 58%, 42%);
+  border-color: #26798e;
   color: #000;
 }
 .medium-accent a, .navbar.accent ul.nav li a a, .navbar.msg ul.nav li a a, .navbar.accent a, .navbar.msg a, .btn.accent a, .form .form-footer input.accent[type=submit] a, .form .form-footer input.accent[type=reset] a, .form .form-footer input.accent[type=button] a, .btn.msg a, .form .form-footer input[type=submit].msg a, .form .form-footer input[type=reset].msg a, .form .form-footer input[type=button].msg a {
@@ -3774,8 +3910,8 @@ button {
 }
 
 .light-accent, .msg.accent, .msg {
-  background-color: hsl(190, 58%, 72%);
-  border-color: #3eb4cc;
+  background-color: hsl(192, 58%, 72%);
+  border-color: #73c5da;
   color: #000;
 }
 .light-accent a, .msg.accent a, .msg a {
@@ -3786,8 +3922,8 @@ button {
 }
 
 .lightest-accent, .table.table-striped.accent tr:nth-of-type(2n), .table.table-striped.msg tr:nth-of-type(2n) {
-  background-color: hsl(190, 58%, 92%);
-  border-color: #8ed3e1;
+  background-color: hsl(192, 58%, 92%);
+  border-color: #c4e7ef;
   color: #000;
 }
 .lightest-accent a, .table.table-striped.accent tr:nth-of-type(2n) a, .table.table-striped.msg tr:nth-of-type(2n) a {
@@ -3798,8 +3934,8 @@ button {
 }
 
 .dark-plum, .navbar.plum ul.nav li.active a, .btn.plum:active, .form .form-footer input.plum[type=submit]:active, .form .form-footer input.plum[type=reset]:active, .form .form-footer input.plum[type=button]:active {
-  background-color: hsl(271, 42%, 32.4%);
-  border-color: #20122d;
+  background-color: hsl(271, 36%, 32.4%);
+  border-color: #422a59;
   color: #fff;
 }
 .dark-plum a, .navbar.plum ul.nav li.active a a, .btn.plum:active a, .form .form-footer input.plum[type=submit]:active a, .form .form-footer input.plum[type=reset]:active a, .form .form-footer input.plum[type=button]:active a {
@@ -3810,8 +3946,8 @@ button {
 }
 
 .medium-plum, .navbar.plum ul.nav li a, .navbar.plum, .btn.plum, .form .form-footer input.plum[type=submit], .form .form-footer input.plum[type=reset], .form .form-footer input.plum[type=button] {
-  background-color: hsl(271, 42%, 42%);
-  border-color: #392150;
+  background-color: hsl(271, 36%, 42%);
+  border-color: #5b3a7b;
   color: #fff;
 }
 .medium-plum a, .navbar.plum ul.nav li a a, .navbar.plum a, .btn.plum a, .form .form-footer input.plum[type=submit] a, .form .form-footer input.plum[type=reset] a, .form .form-footer input.plum[type=button] a {
@@ -3822,8 +3958,8 @@ button {
 }
 
 .light-plum {
-  background-color: hsl(271, 42%, 72%);
-  border-color: #8651b8;
+  background-color: hsl(271, 36%, 72%);
+  border-color: #a887c6;
   color: #000;
 }
 .light-plum a {
@@ -3834,8 +3970,8 @@ button {
 }
 
 .lightest-plum, .table.table-striped.plum tr:nth-of-type(2n) {
-  background-color: hsl(271, 42%, 92%);
-  border-color: #b99ad6;
+  background-color: hsl(271, 36%, 92%);
+  border-color: #dacce7;
   color: #000;
 }
 .lightest-plum a, .table.table-striped.plum tr:nth-of-type(2n) a {
@@ -3847,7 +3983,7 @@ button {
 
 .dark-raspberry, .navbar.raspberry ul.nav li.active a, .btn.raspberry:active, .form .form-footer input.raspberry[type=submit]:active, .form .form-footer input.raspberry[type=reset]:active, .form .form-footer input.raspberry[type=button]:active {
   background-color: hsl(341, 69%, 36%);
-  border-color: #450d1e;
+  border-color: #7e1738;
   color: #fff;
 }
 .dark-raspberry a, .navbar.raspberry ul.nav li.active a a, .btn.raspberry:active a, .form .form-footer input.raspberry[type=submit]:active a, .form .form-footer input.raspberry[type=reset]:active a, .form .form-footer input.raspberry[type=button]:active a {
@@ -3859,7 +3995,7 @@ button {
 
 .medium-raspberry, .navbar.raspberry ul.nav li a, .navbar.raspberry, .btn.raspberry, .form .form-footer input.raspberry[type=submit], .form .form-footer input.raspberry[type=reset], .form .form-footer input.raspberry[type=button] {
   background-color: hsl(341, 69%, 42%);
-  border-color: #5f112a;
+  border-color: #981c43;
   color: #fff;
 }
 .medium-raspberry a, .navbar.raspberry ul.nav li a a, .navbar.raspberry a, .btn.raspberry a, .form .form-footer input.raspberry[type=submit] a, .form .form-footer input.raspberry[type=reset] a, .form .form-footer input.raspberry[type=button] a {
@@ -3871,7 +4007,7 @@ button {
 
 .light-raspberry {
   background-color: hsl(341, 69%, 72%);
-  border-color: #d93066;
+  border-color: #e46a90;
   color: #000;
 }
 .light-raspberry a {
@@ -3883,7 +4019,7 @@ button {
 
 .lightest-raspberry, .table.table-striped.raspberry tr:nth-of-type(2n) {
   background-color: hsl(341, 69%, 92%);
-  border-color: #e986a6;
+  border-color: #f3c0d0;
   color: #000;
 }
 .lightest-raspberry a, .table.table-striped.raspberry tr:nth-of-type(2n) a {
@@ -3894,8 +4030,8 @@ button {
 }
 
 .dark-banana, .navbar.banana ul.nav li.active a, .btn.banana:active, .form .form-footer input.banana[type=submit]:active, .form .form-footer input.banana[type=reset]:active, .form .form-footer input.banana[type=button]:active {
-  background-color: hsl(50, 77%, 36%);
-  border-color: #483e09;
+  background-color: hsl(45, 84%, 43.2%);
+  border-color: #ab840f;
   color: #000;
 }
 .dark-banana a, .navbar.banana ul.nav li.active a a, .btn.banana:active a, .form .form-footer input.banana[type=submit]:active a, .form .form-footer input.banana[type=reset]:active a, .form .form-footer input.banana[type=button]:active a {
@@ -3906,8 +4042,8 @@ button {
 }
 
 .medium-banana, .navbar.banana ul.nav li a, .navbar.banana, .btn.banana, .form .form-footer input.banana[type=submit], .form .form-footer input.banana[type=reset], .form .form-footer input.banana[type=button] {
-  background-color: hsl(50, 77%, 42%);
-  border-color: #63550d;
+  background-color: hsl(45, 84%, 50.4%);
+  border-color: #cd9e12;
   color: #000;
 }
 .medium-banana a, .navbar.banana ul.nav li a a, .navbar.banana a, .btn.banana a, .form .form-footer input.banana[type=submit] a, .form .form-footer input.banana[type=reset] a, .form .form-footer input.banana[type=button] a {
@@ -3918,8 +4054,8 @@ button {
 }
 
 .light-banana {
-  background-color: hsl(50, 77%, 72%);
-  border-color: #e3c326;
+  background-color: hsl(45, 84%, 86.4%);
+  border-color: #f7e1a0;
   color: #000;
 }
 .light-banana a {
@@ -3930,8 +4066,8 @@ button {
 }
 
 .lightest-banana, .table.table-striped.banana tr:nth-of-type(2n) {
-  background-color: hsl(50, 77%, 92%);
-  border-color: #efdc81;
+  background-color: hsl(45, 84%, 100%);
+  border-color: #fcf5e0;
   color: #000;
 }
 .lightest-banana a, .table.table-striped.banana tr:nth-of-type(2n) a {
@@ -4090,13 +4226,23 @@ textarea,
 keygen,
 select,
 button {
-  font-family: "Fira Sans", Arial, sans-serif;
-  font-size: 10pt;
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
 }
 
 .dark-gray {
   background-color: #666;
-  border-color: #333333;
+  border-color: #555555;
   color: #fff;
 }
 .dark-gray a {
@@ -4108,7 +4254,7 @@ button {
 
 .medium-gray {
   background-color: #999;
-  border-color: #666666;
+  border-color: #888888;
   color: #000;
 }
 .medium-gray a {
@@ -4120,7 +4266,7 @@ button {
 
 .light-gray, .navbar ul.nav li.active a {
   background-color: #ccc;
-  border-color: #999999;
+  border-color: #bbbbbb;
   color: #000;
 }
 .light-gray a, .navbar ul.nav li.active a a {
@@ -4132,7 +4278,7 @@ button {
 
 .lightest-gray, .navbar, .navbar ul.nav li a {
   background-color: #eee;
-  border-color: #bbbbbb;
+  border-color: #dddddd;
   color: #000;
 }
 .lightest-gray a, .navbar a, .navbar ul.nav li a a {
@@ -4144,7 +4290,7 @@ button {
 
 .dark-blue, .dark-info, .btn.info:active, .btn.blue:active, .form .form-footer input.info[type=submit]:active, .form .form-footer input.blue[type=submit]:active, .form .form-footer input.info[type=reset]:active, .form .form-footer input.blue[type=reset]:active, .form .form-footer input.info[type=button]:active, .form .form-footer input.blue[type=button]:active, .navbar.blue ul.nav li.active a {
   background-color: hsl(206, 58%, 36%);
-  border-color: #112c40;
+  border-color: #1f5176;
   color: #fff;
 }
 .dark-blue a, .dark-info a, .btn.info:active a, .btn.blue:active a, .form .form-footer input.info[type=submit]:active a, .form .form-footer input.blue[type=submit]:active a, .form .form-footer input.info[type=reset]:active a, .form .form-footer input.blue[type=reset]:active a, .form .form-footer input.info[type=button]:active a, .form .form-footer input.blue[type=button]:active a, .navbar.blue ul.nav li.active a a {
@@ -4156,7 +4302,7 @@ button {
 
 .medium-blue, .medium-info, .btn.info, .btn.blue, .form .form-footer input.info[type=submit], .form .form-footer input.blue[type=submit], .form .form-footer input.info[type=reset], .form .form-footer input.blue[type=reset], .form .form-footer input.info[type=button], .form .form-footer input.blue[type=button], .navbar.blue, .navbar.blue ul.nav li a {
   background-color: hsl(206, 58%, 42%);
-  border-color: #183c59;
+  border-color: #26618e;
   color: #fff;
 }
 .medium-blue a, .medium-info a, .btn.info a, .btn.blue a, .form .form-footer input.info[type=submit] a, .form .form-footer input.blue[type=submit] a, .form .form-footer input.info[type=reset] a, .form .form-footer input.blue[type=reset] a, .form .form-footer input.info[type=button] a, .form .form-footer input.blue[type=button] a, .navbar.blue a, .navbar.blue ul.nav li a a {
@@ -4168,7 +4314,7 @@ button {
 
 .light-blue, .light-info, .msg.info {
   background-color: hsl(206, 58%, 72%);
-  border-color: #3e8ecc;
+  border-color: #73adda;
   color: #000;
 }
 .light-blue a, .light-info a, .msg.info a {
@@ -4180,7 +4326,7 @@ button {
 
 .lightest-blue, .lightest-info, .table.table-striped.blue tr:nth-of-type(2n) {
   background-color: hsl(206, 58%, 92%);
-  border-color: #8ebde1;
+  border-color: #c4dcef;
   color: #000;
 }
 .lightest-blue a, .lightest-info a, .table.table-striped.blue tr:nth-of-type(2n) a {
@@ -4192,7 +4338,7 @@ button {
 
 .dark-green, .dark-success, .btn.success:active, .btn.green:active, .form .form-footer input.success[type=submit]:active, .form .form-footer input.green[type=submit]:active, .form .form-footer input.success[type=reset]:active, .form .form-footer input.green[type=reset]:active, .form .form-footer input.success[type=button]:active, .form .form-footer input.green[type=button]:active, .navbar.green ul.nav li.active a {
   background-color: hsl(121, 32%, 36%);
-  border-color: #1c361c;
+  border-color: #336334;
   color: #fff;
 }
 .dark-green a, .dark-success a, .btn.success:active a, .btn.green:active a, .form .form-footer input.success[type=submit]:active a, .form .form-footer input.green[type=submit]:active a, .form .form-footer input.success[type=reset]:active a, .form .form-footer input.green[type=reset]:active a, .form .form-footer input.success[type=button]:active a, .form .form-footer input.green[type=button]:active a, .navbar.green ul.nav li.active a a {
@@ -4204,7 +4350,7 @@ button {
 
 .medium-green, .medium-success, .btn.success, .btn.green, .form .form-footer input.success[type=submit], .form .form-footer input.green[type=submit], .form .form-footer input.success[type=reset], .form .form-footer input.green[type=reset], .form .form-footer input.success[type=button], .form .form-footer input.green[type=button], .navbar.green, .navbar.green ul.nav li a {
   background-color: hsl(121, 32%, 42%);
-  border-color: #264a27;
+  border-color: #3d773e;
   color: #000;
 }
 .medium-green a, .medium-success a, .btn.success a, .btn.green a, .form .form-footer input.success[type=submit] a, .form .form-footer input.green[type=submit] a, .form .form-footer input.success[type=reset] a, .form .form-footer input.green[type=reset] a, .form .form-footer input.success[type=button] a, .form .form-footer input.green[type=button] a, .navbar.green a, .navbar.green ul.nav li a a {
@@ -4216,7 +4362,7 @@ button {
 
 .light-green, .light-success, .msg.success {
   background-color: hsl(121, 32%, 72%);
-  border-color: #5dac5f;
+  border-color: #8ac38b;
   color: #000;
 }
 .light-green a, .light-success a, .msg.success a {
@@ -4228,7 +4374,7 @@ button {
 
 .lightest-green, .lightest-success, .table.table-striped.green tr:nth-of-type(2n) {
   background-color: hsl(121, 32%, 92%);
-  border-color: #a1cea2;
+  border-color: #cee6ce;
   color: #000;
 }
 .lightest-green a, .lightest-success a, .table.table-striped.green tr:nth-of-type(2n) a {
@@ -4240,7 +4386,7 @@ button {
 
 .dark-red, .dark-danger, .dark-error, .btn.danger:active, .btn.error:active, .btn.red:active, .form .form-footer input.danger[type=submit]:active, .form .form-footer input.error[type=submit]:active, .form .form-footer input.red[type=submit]:active, .form .form-footer input.danger[type=reset]:active, .form .form-footer input.error[type=reset]:active, .form .form-footer input.red[type=reset]:active, .form .form-footer input.danger[type=button]:active, .form .form-footer input.error[type=button]:active, .form .form-footer input.red[type=button]:active, .navbar.red ul.nav li.active a {
   background-color: hsl(355, 72%, 36%);
-  border-color: #460b10;
+  border-color: #81151e;
   color: #fff;
 }
 .dark-red a, .dark-danger a, .dark-error a, .btn.danger:active a, .btn.error:active a, .btn.red:active a, .form .form-footer input.danger[type=submit]:active a, .form .form-footer input.error[type=submit]:active a, .form .form-footer input.red[type=submit]:active a, .form .form-footer input.danger[type=reset]:active a, .form .form-footer input.error[type=reset]:active a, .form .form-footer input.red[type=reset]:active a, .form .form-footer input.danger[type=button]:active a, .form .form-footer input.error[type=button]:active a, .form .form-footer input.red[type=button]:active a, .navbar.red ul.nav li.active a a {
@@ -4252,7 +4398,7 @@ button {
 
 .medium-red, .medium-danger, .medium-error, .btn.danger, .btn.error, .btn.red, .form .form-footer input.danger[type=submit], .form .form-footer input.error[type=submit], .form .form-footer input.red[type=submit], .form .form-footer input.danger[type=reset], .form .form-footer input.error[type=reset], .form .form-footer input.red[type=reset], .form .form-footer input.danger[type=button], .form .form-footer input.error[type=button], .form .form-footer input.red[type=button], .navbar.red, .navbar.red ul.nav li a {
   background-color: hsl(355, 72%, 42%);
-  border-color: #601016;
+  border-color: #9b1924;
   color: #fff;
 }
 .medium-red a, .medium-danger a, .medium-error a, .btn.danger a, .btn.error a, .btn.red a, .form .form-footer input.danger[type=submit] a, .form .form-footer input.error[type=submit] a, .form .form-footer input.red[type=submit] a, .form .form-footer input.danger[type=reset] a, .form .form-footer input.error[type=reset] a, .form .form-footer input.red[type=reset] a, .form .form-footer input.danger[type=button] a, .form .form-footer input.error[type=button] a, .form .form-footer input.red[type=button] a, .navbar.red a, .navbar.red ul.nav li a a {
@@ -4264,7 +4410,7 @@ button {
 
 .light-red, .light-danger, .light-error, .msg.danger, .msg.error {
   background-color: hsl(355, 72%, 72%);
-  border-color: #dd2c3b;
+  border-color: #e66772;
   color: #000;
 }
 .light-red a, .light-danger a, .light-error a, .msg.danger a, .msg.error a {
@@ -4276,7 +4422,7 @@ button {
 
 .lightest-red, .lightest-danger, .lightest-error, .table.table-striped.red tr:nth-of-type(2n) {
   background-color: hsl(355, 72%, 92%);
-  border-color: #eb848d;
+  border-color: #f5bfc3;
   color: #000;
 }
 .lightest-red a, .lightest-danger a, .lightest-error a, .table.table-striped.red tr:nth-of-type(2n) a {
@@ -4287,20 +4433,20 @@ button {
 }
 
 .dark-amber, .dark-warning, .btn.warning:active, .btn.amber:active, .form .form-footer input.warning[type=submit]:active, .form .form-footer input.amber[type=submit]:active, .form .form-footer input.warning[type=reset]:active, .form .form-footer input.amber[type=reset]:active, .form .form-footer input.warning[type=button]:active, .form .form-footer input.amber[type=button]:active, .navbar.amber ul.nav li.active a {
-  background-color: hsl(28, 91%, 36%);
-  border-color: #4e2604;
-  color: #fff;
+  background-color: hsl(30, 84%, 43.2%);
+  border-color: #ab5d0f;
+  color: #000;
 }
 .dark-amber a, .dark-warning a, .btn.warning:active a, .btn.amber:active a, .form .form-footer input.warning[type=submit]:active a, .form .form-footer input.amber[type=submit]:active a, .form .form-footer input.warning[type=reset]:active a, .form .form-footer input.amber[type=reset]:active a, .form .form-footer input.warning[type=button]:active a, .form .form-footer input.amber[type=button]:active a, .navbar.amber ul.nav li.active a a {
-  color: #fff;
+  color: #000;
 }
 .dark-amber .active a, .dark-warning .active a, .btn.warning:active .active a, .btn.amber:active .active a, .form .form-footer input.warning[type=submit]:active .active a, .form .form-footer input.amber[type=submit]:active .active a, .form .form-footer input.warning[type=reset]:active .active a, .form .form-footer input.amber[type=reset]:active .active a, .form .form-footer input.warning[type=button]:active .active a, .form .form-footer input.amber[type=button]:active .active a, .navbar.amber ul.nav li.active a .active a {
-  color: #fff;
+  color: #000;
 }
 
 .medium-amber, .medium-warning, .btn.warning, .btn.amber, .form .form-footer input.warning[type=submit], .form .form-footer input.amber[type=submit], .form .form-footer input.warning[type=reset], .form .form-footer input.amber[type=reset], .form .form-footer input.warning[type=button], .form .form-footer input.amber[type=button], .navbar.amber, .navbar.amber ul.nav li a {
-  background-color: hsl(28, 91%, 42%);
-  border-color: #6b3505;
+  background-color: hsl(30, 84%, 50.4%);
+  border-color: #cd7012;
   color: #000;
 }
 .medium-amber a, .medium-warning a, .btn.warning a, .btn.amber a, .form .form-footer input.warning[type=submit] a, .form .form-footer input.amber[type=submit] a, .form .form-footer input.warning[type=reset] a, .form .form-footer input.amber[type=reset] a, .form .form-footer input.warning[type=button] a, .form .form-footer input.amber[type=button] a, .navbar.amber a, .navbar.amber ul.nav li a a {
@@ -4311,8 +4457,8 @@ button {
 }
 
 .light-amber, .light-warning, .msg.warning {
-  background-color: hsl(28, 91%, 72%);
-  border-color: #f47d15;
+  background-color: hsl(30, 84%, 86.4%);
+  border-color: #f7cba0;
   color: #000;
 }
 .light-amber a, .light-warning a, .msg.warning a {
@@ -4323,8 +4469,8 @@ button {
 }
 
 .lightest-amber, .lightest-warning, .table.table-striped.amber tr:nth-of-type(2n) {
-  background-color: hsl(28, 91%, 92%);
-  border-color: #f9b377;
+  background-color: hsl(30, 84%, 100%);
+  border-color: #fceee0;
   color: #000;
 }
 .lightest-amber a, .lightest-warning a, .table.table-striped.amber tr:nth-of-type(2n) a {
@@ -4335,8 +4481,8 @@ button {
 }
 
 .dark-accent, .btn.accent:active, .form .form-footer input.accent[type=submit]:active, .form .form-footer input.accent[type=reset]:active, .form .form-footer input.accent[type=button]:active, .btn.msg:active, .form .form-footer input[type=submit].msg:active, .form .form-footer input[type=reset].msg:active, .form .form-footer input[type=button].msg:active, .navbar.accent ul.nav li.active a, .navbar.msg ul.nav li.active a {
-  background-color: hsl(190, 58%, 32.4%);
-  border-color: #0d2c32;
+  background-color: hsl(192, 58%, 32.4%);
+  border-color: #1c5868;
   color: #fff;
 }
 .dark-accent a, .btn.accent:active a, .form .form-footer input.accent[type=submit]:active a, .form .form-footer input.accent[type=reset]:active a, .form .form-footer input.accent[type=button]:active a, .btn.msg:active a, .form .form-footer input[type=submit].msg:active a, .form .form-footer input[type=reset].msg:active a, .form .form-footer input[type=button].msg:active a, .navbar.accent ul.nav li.active a a, .navbar.msg ul.nav li.active a a {
@@ -4347,8 +4493,8 @@ button {
 }
 
 .medium-accent, .btn.accent, .form .form-footer input.accent[type=submit], .form .form-footer input.accent[type=reset], .form .form-footer input.accent[type=button], .btn.msg, .form .form-footer input[type=submit].msg, .form .form-footer input[type=reset].msg, .form .form-footer input[type=button].msg, .navbar.accent, .navbar.msg, .navbar.accent ul.nav li a, .navbar.msg ul.nav li a {
-  background-color: hsl(190, 58%, 42%);
-  border-color: #184e59;
+  background-color: hsl(192, 58%, 42%);
+  border-color: #26798e;
   color: #000;
 }
 .medium-accent a, .btn.accent a, .form .form-footer input.accent[type=submit] a, .form .form-footer input.accent[type=reset] a, .form .form-footer input.accent[type=button] a, .btn.msg a, .form .form-footer input[type=submit].msg a, .form .form-footer input[type=reset].msg a, .form .form-footer input[type=button].msg a, .navbar.accent a, .navbar.msg a, .navbar.accent ul.nav li a a, .navbar.msg ul.nav li a a {
@@ -4359,8 +4505,8 @@ button {
 }
 
 .light-accent, .msg.accent, .msg {
-  background-color: hsl(190, 58%, 72%);
-  border-color: #3eb4cc;
+  background-color: hsl(192, 58%, 72%);
+  border-color: #73c5da;
   color: #000;
 }
 .light-accent a, .msg.accent a, .msg a {
@@ -4371,8 +4517,8 @@ button {
 }
 
 .lightest-accent, .table.table-striped.accent tr:nth-of-type(2n), .table.table-striped.msg tr:nth-of-type(2n) {
-  background-color: hsl(190, 58%, 92%);
-  border-color: #8ed3e1;
+  background-color: hsl(192, 58%, 92%);
+  border-color: #c4e7ef;
   color: #000;
 }
 .lightest-accent a, .table.table-striped.accent tr:nth-of-type(2n) a, .table.table-striped.msg tr:nth-of-type(2n) a {
@@ -4383,8 +4529,8 @@ button {
 }
 
 .dark-plum, .btn.plum:active, .form .form-footer input.plum[type=submit]:active, .form .form-footer input.plum[type=reset]:active, .form .form-footer input.plum[type=button]:active, .navbar.plum ul.nav li.active a {
-  background-color: hsl(271, 42%, 32.4%);
-  border-color: #20122d;
+  background-color: hsl(271, 36%, 32.4%);
+  border-color: #422a59;
   color: #fff;
 }
 .dark-plum a, .btn.plum:active a, .form .form-footer input.plum[type=submit]:active a, .form .form-footer input.plum[type=reset]:active a, .form .form-footer input.plum[type=button]:active a, .navbar.plum ul.nav li.active a a {
@@ -4395,8 +4541,8 @@ button {
 }
 
 .medium-plum, .btn.plum, .form .form-footer input.plum[type=submit], .form .form-footer input.plum[type=reset], .form .form-footer input.plum[type=button], .navbar.plum, .navbar.plum ul.nav li a {
-  background-color: hsl(271, 42%, 42%);
-  border-color: #392150;
+  background-color: hsl(271, 36%, 42%);
+  border-color: #5b3a7b;
   color: #fff;
 }
 .medium-plum a, .btn.plum a, .form .form-footer input.plum[type=submit] a, .form .form-footer input.plum[type=reset] a, .form .form-footer input.plum[type=button] a, .navbar.plum a, .navbar.plum ul.nav li a a {
@@ -4407,8 +4553,8 @@ button {
 }
 
 .light-plum {
-  background-color: hsl(271, 42%, 72%);
-  border-color: #8651b8;
+  background-color: hsl(271, 36%, 72%);
+  border-color: #a887c6;
   color: #000;
 }
 .light-plum a {
@@ -4419,8 +4565,8 @@ button {
 }
 
 .lightest-plum, .table.table-striped.plum tr:nth-of-type(2n) {
-  background-color: hsl(271, 42%, 92%);
-  border-color: #b99ad6;
+  background-color: hsl(271, 36%, 92%);
+  border-color: #dacce7;
   color: #000;
 }
 .lightest-plum a, .table.table-striped.plum tr:nth-of-type(2n) a {
@@ -4432,7 +4578,7 @@ button {
 
 .dark-raspberry, .btn.raspberry:active, .form .form-footer input.raspberry[type=submit]:active, .form .form-footer input.raspberry[type=reset]:active, .form .form-footer input.raspberry[type=button]:active, .navbar.raspberry ul.nav li.active a {
   background-color: hsl(341, 69%, 36%);
-  border-color: #450d1e;
+  border-color: #7e1738;
   color: #fff;
 }
 .dark-raspberry a, .btn.raspberry:active a, .form .form-footer input.raspberry[type=submit]:active a, .form .form-footer input.raspberry[type=reset]:active a, .form .form-footer input.raspberry[type=button]:active a, .navbar.raspberry ul.nav li.active a a {
@@ -4444,7 +4590,7 @@ button {
 
 .medium-raspberry, .btn.raspberry, .form .form-footer input.raspberry[type=submit], .form .form-footer input.raspberry[type=reset], .form .form-footer input.raspberry[type=button], .navbar.raspberry, .navbar.raspberry ul.nav li a {
   background-color: hsl(341, 69%, 42%);
-  border-color: #5f112a;
+  border-color: #981c43;
   color: #fff;
 }
 .medium-raspberry a, .btn.raspberry a, .form .form-footer input.raspberry[type=submit] a, .form .form-footer input.raspberry[type=reset] a, .form .form-footer input.raspberry[type=button] a, .navbar.raspberry a, .navbar.raspberry ul.nav li a a {
@@ -4456,7 +4602,7 @@ button {
 
 .light-raspberry {
   background-color: hsl(341, 69%, 72%);
-  border-color: #d93066;
+  border-color: #e46a90;
   color: #000;
 }
 .light-raspberry a {
@@ -4468,7 +4614,7 @@ button {
 
 .lightest-raspberry, .table.table-striped.raspberry tr:nth-of-type(2n) {
   background-color: hsl(341, 69%, 92%);
-  border-color: #e986a6;
+  border-color: #f3c0d0;
   color: #000;
 }
 .lightest-raspberry a, .table.table-striped.raspberry tr:nth-of-type(2n) a {
@@ -4479,8 +4625,8 @@ button {
 }
 
 .dark-banana, .btn.banana:active, .form .form-footer input.banana[type=submit]:active, .form .form-footer input.banana[type=reset]:active, .form .form-footer input.banana[type=button]:active, .navbar.banana ul.nav li.active a {
-  background-color: hsl(50, 77%, 36%);
-  border-color: #483e09;
+  background-color: hsl(45, 84%, 43.2%);
+  border-color: #ab840f;
   color: #000;
 }
 .dark-banana a, .btn.banana:active a, .form .form-footer input.banana[type=submit]:active a, .form .form-footer input.banana[type=reset]:active a, .form .form-footer input.banana[type=button]:active a, .navbar.banana ul.nav li.active a a {
@@ -4491,8 +4637,8 @@ button {
 }
 
 .medium-banana, .btn.banana, .form .form-footer input.banana[type=submit], .form .form-footer input.banana[type=reset], .form .form-footer input.banana[type=button], .navbar.banana, .navbar.banana ul.nav li a {
-  background-color: hsl(50, 77%, 42%);
-  border-color: #63550d;
+  background-color: hsl(45, 84%, 50.4%);
+  border-color: #cd9e12;
   color: #000;
 }
 .medium-banana a, .btn.banana a, .form .form-footer input.banana[type=submit] a, .form .form-footer input.banana[type=reset] a, .form .form-footer input.banana[type=button] a, .navbar.banana a, .navbar.banana ul.nav li a a {
@@ -4503,8 +4649,8 @@ button {
 }
 
 .light-banana {
-  background-color: hsl(50, 77%, 72%);
-  border-color: #e3c326;
+  background-color: hsl(45, 84%, 86.4%);
+  border-color: #f7e1a0;
   color: #000;
 }
 .light-banana a {
@@ -4515,8 +4661,8 @@ button {
 }
 
 .lightest-banana, .table.table-striped.banana tr:nth-of-type(2n) {
-  background-color: hsl(50, 77%, 92%);
-  border-color: #efdc81;
+  background-color: hsl(45, 84%, 100%);
+  border-color: #fcf5e0;
   color: #000;
 }
 .lightest-banana a, .table.table-striped.banana tr:nth-of-type(2n) a {
@@ -4606,7 +4752,7 @@ through the Font Awesome icons `fa-fast-backward` and `fa-fast-forward` respecti
 ```
 */
 .nav-pager {
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 4px;
   display: table;
   margin: 0 auto;

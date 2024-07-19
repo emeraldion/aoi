@@ -21,13 +21,23 @@ textarea,
 keygen,
 select,
 button {
-  font-family: "Fira Sans", Arial, sans-serif;
-  font-size: 10pt;
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
 }
 
 .dark-gray {
   background-color: #666;
-  border-color: #333333;
+  border-color: #555555;
   color: #fff;
 }
 .dark-gray a {
@@ -39,7 +49,7 @@ button {
 
 .medium-gray {
   background-color: #999;
-  border-color: #666666;
+  border-color: #888888;
   color: #000;
 }
 .medium-gray a {
@@ -51,7 +61,7 @@ button {
 
 .light-gray {
   background-color: #ccc;
-  border-color: #999999;
+  border-color: #bbbbbb;
   color: #000;
 }
 .light-gray a {
@@ -63,7 +73,7 @@ button {
 
 .lightest-gray {
   background-color: #eee;
-  border-color: #bbbbbb;
+  border-color: #dddddd;
   color: #000;
 }
 .lightest-gray a {
@@ -75,7 +85,7 @@ button {
 
 .dark-blue, .dark-info {
   background-color: hsl(206, 58%, 36%);
-  border-color: #112c40;
+  border-color: #1f5176;
   color: #fff;
 }
 .dark-blue a, .dark-info a {
@@ -87,7 +97,7 @@ button {
 
 .medium-blue, .medium-info {
   background-color: hsl(206, 58%, 42%);
-  border-color: #183c59;
+  border-color: #26618e;
   color: #fff;
 }
 .medium-blue a, .medium-info a {
@@ -99,7 +109,7 @@ button {
 
 .light-blue, .light-info {
   background-color: hsl(206, 58%, 72%);
-  border-color: #3e8ecc;
+  border-color: #73adda;
   color: #000;
 }
 .light-blue a, .light-info a {
@@ -111,7 +121,7 @@ button {
 
 .lightest-blue, .lightest-info {
   background-color: hsl(206, 58%, 92%);
-  border-color: #8ebde1;
+  border-color: #c4dcef;
   color: #000;
 }
 .lightest-blue a, .lightest-info a {
@@ -123,7 +133,7 @@ button {
 
 .dark-green, .dark-success {
   background-color: hsl(121, 32%, 36%);
-  border-color: #1c361c;
+  border-color: #336334;
   color: #fff;
 }
 .dark-green a, .dark-success a {
@@ -135,7 +145,7 @@ button {
 
 .medium-green, .medium-success {
   background-color: hsl(121, 32%, 42%);
-  border-color: #264a27;
+  border-color: #3d773e;
   color: #000;
 }
 .medium-green a, .medium-success a {
@@ -147,7 +157,7 @@ button {
 
 .light-green, .light-success {
   background-color: hsl(121, 32%, 72%);
-  border-color: #5dac5f;
+  border-color: #8ac38b;
   color: #000;
 }
 .light-green a, .light-success a {
@@ -159,7 +169,7 @@ button {
 
 .lightest-green, .lightest-success {
   background-color: hsl(121, 32%, 92%);
-  border-color: #a1cea2;
+  border-color: #cee6ce;
   color: #000;
 }
 .lightest-green a, .lightest-success a {
@@ -171,7 +181,7 @@ button {
 
 .dark-red, .dark-error, .dark-danger {
   background-color: hsl(355, 72%, 36%);
-  border-color: #460b10;
+  border-color: #81151e;
   color: #fff;
 }
 .dark-red a, .dark-error a, .dark-danger a {
@@ -183,7 +193,7 @@ button {
 
 .medium-red, .medium-error, .medium-danger {
   background-color: hsl(355, 72%, 42%);
-  border-color: #601016;
+  border-color: #9b1924;
   color: #fff;
 }
 .medium-red a, .medium-error a, .medium-danger a {
@@ -195,7 +205,7 @@ button {
 
 .light-red, .light-error, .light-danger {
   background-color: hsl(355, 72%, 72%);
-  border-color: #dd2c3b;
+  border-color: #e66772;
   color: #000;
 }
 .light-red a, .light-error a, .light-danger a {
@@ -207,7 +217,7 @@ button {
 
 .lightest-red, .lightest-error, .lightest-danger {
   background-color: hsl(355, 72%, 92%);
-  border-color: #eb848d;
+  border-color: #f5bfc3;
   color: #000;
 }
 .lightest-red a, .lightest-error a, .lightest-danger a {
@@ -218,20 +228,20 @@ button {
 }
 
 .dark-amber, .dark-warning {
-  background-color: hsl(28, 91%, 36%);
-  border-color: #4e2604;
-  color: #fff;
+  background-color: hsl(30, 84%, 43.2%);
+  border-color: #ab5d0f;
+  color: #000;
 }
 .dark-amber a, .dark-warning a {
-  color: #fff;
+  color: #000;
 }
 .dark-amber .active a, .dark-warning .active a {
-  color: #fff;
+  color: #000;
 }
 
 .medium-amber, .medium-warning {
-  background-color: hsl(28, 91%, 42%);
-  border-color: #6b3505;
+  background-color: hsl(30, 84%, 50.4%);
+  border-color: #cd7012;
   color: #000;
 }
 .medium-amber a, .medium-warning a {
@@ -242,8 +252,8 @@ button {
 }
 
 .light-amber, .light-warning {
-  background-color: hsl(28, 91%, 72%);
-  border-color: #f47d15;
+  background-color: hsl(30, 84%, 86.4%);
+  border-color: #f7cba0;
   color: #000;
 }
 .light-amber a, .light-warning a {
@@ -254,8 +264,8 @@ button {
 }
 
 .lightest-amber, .lightest-warning {
-  background-color: hsl(28, 91%, 92%);
-  border-color: #f9b377;
+  background-color: hsl(30, 84%, 100%);
+  border-color: #fceee0;
   color: #000;
 }
 .lightest-amber a, .lightest-warning a {
@@ -266,8 +276,8 @@ button {
 }
 
 .dark-accent {
-  background-color: hsl(190, 58%, 32.4%);
-  border-color: #0d2c32;
+  background-color: hsl(192, 58%, 32.4%);
+  border-color: #1c5868;
   color: #fff;
 }
 .dark-accent a {
@@ -278,8 +288,8 @@ button {
 }
 
 .medium-accent {
-  background-color: hsl(190, 58%, 42%);
-  border-color: #184e59;
+  background-color: hsl(192, 58%, 42%);
+  border-color: #26798e;
   color: #000;
 }
 .medium-accent a {
@@ -290,8 +300,8 @@ button {
 }
 
 .light-accent {
-  background-color: hsl(190, 58%, 72%);
-  border-color: #3eb4cc;
+  background-color: hsl(192, 58%, 72%);
+  border-color: #73c5da;
   color: #000;
 }
 .light-accent a {
@@ -302,8 +312,8 @@ button {
 }
 
 .lightest-accent {
-  background-color: hsl(190, 58%, 92%);
-  border-color: #8ed3e1;
+  background-color: hsl(192, 58%, 92%);
+  border-color: #c4e7ef;
   color: #000;
 }
 .lightest-accent a {
@@ -314,8 +324,8 @@ button {
 }
 
 .dark-plum {
-  background-color: hsl(271, 42%, 32.4%);
-  border-color: #20122d;
+  background-color: hsl(271, 36%, 32.4%);
+  border-color: #422a59;
   color: #fff;
 }
 .dark-plum a {
@@ -326,8 +336,8 @@ button {
 }
 
 .medium-plum {
-  background-color: hsl(271, 42%, 42%);
-  border-color: #392150;
+  background-color: hsl(271, 36%, 42%);
+  border-color: #5b3a7b;
   color: #fff;
 }
 .medium-plum a {
@@ -338,8 +348,8 @@ button {
 }
 
 .light-plum {
-  background-color: hsl(271, 42%, 72%);
-  border-color: #8651b8;
+  background-color: hsl(271, 36%, 72%);
+  border-color: #a887c6;
   color: #000;
 }
 .light-plum a {
@@ -350,8 +360,8 @@ button {
 }
 
 .lightest-plum {
-  background-color: hsl(271, 42%, 92%);
-  border-color: #b99ad6;
+  background-color: hsl(271, 36%, 92%);
+  border-color: #dacce7;
   color: #000;
 }
 .lightest-plum a {
@@ -363,7 +373,7 @@ button {
 
 .dark-raspberry {
   background-color: hsl(341, 69%, 36%);
-  border-color: #450d1e;
+  border-color: #7e1738;
   color: #fff;
 }
 .dark-raspberry a {
@@ -375,7 +385,7 @@ button {
 
 .medium-raspberry {
   background-color: hsl(341, 69%, 42%);
-  border-color: #5f112a;
+  border-color: #981c43;
   color: #fff;
 }
 .medium-raspberry a {
@@ -387,7 +397,7 @@ button {
 
 .light-raspberry {
   background-color: hsl(341, 69%, 72%);
-  border-color: #d93066;
+  border-color: #e46a90;
   color: #000;
 }
 .light-raspberry a {
@@ -399,7 +409,7 @@ button {
 
 .lightest-raspberry {
   background-color: hsl(341, 69%, 92%);
-  border-color: #e986a6;
+  border-color: #f3c0d0;
   color: #000;
 }
 .lightest-raspberry a {
@@ -410,8 +420,8 @@ button {
 }
 
 .dark-banana {
-  background-color: hsl(50, 77%, 36%);
-  border-color: #483e09;
+  background-color: hsl(45, 84%, 43.2%);
+  border-color: #ab840f;
   color: #000;
 }
 .dark-banana a {
@@ -422,8 +432,8 @@ button {
 }
 
 .medium-banana {
-  background-color: hsl(50, 77%, 42%);
-  border-color: #63550d;
+  background-color: hsl(45, 84%, 50.4%);
+  border-color: #cd9e12;
   color: #000;
 }
 .medium-banana a {
@@ -434,8 +444,8 @@ button {
 }
 
 .light-banana {
-  background-color: hsl(50, 77%, 72%);
-  border-color: #e3c326;
+  background-color: hsl(45, 84%, 86.4%);
+  border-color: #f7e1a0;
   color: #000;
 }
 .light-banana a {
@@ -446,8 +456,8 @@ button {
 }
 
 .lightest-banana {
-  background-color: hsl(50, 77%, 92%);
-  border-color: #efdc81;
+  background-color: hsl(45, 84%, 100%);
+  border-color: #fcf5e0;
   color: #000;
 }
 .lightest-banana a {
@@ -463,7 +473,7 @@ html, body {
 }
 
 html {
-  background: #8ed3e1 url("../aoi_bg.jpg") no-repeat 0 100%;
+  background: hsl(192, 58%, 72%) url("../aoi_bg.jpg") no-repeat 0 100%;
   background-size: cover;
   min-height: 100%;
 }
@@ -474,19 +484,20 @@ body {
 }
 
 a {
-  color: #237383;
+  color: hsl(192, 58%, 32.4%);
 }
 
 nav.sg {
-  border-bottom: 1px solid #237383;
-  background: linear-gradient(90deg, #2d95a9 0%, #237383 100%);
+  border-bottom: 1px solid hsl(192, 58%, 32.4%);
+  background: linear-gradient(90deg, hsl(192, 58%, 42%) 0%, hsl(192, 58%, 32.4%) 100%);
   display: flex;
 }
 nav.sg a {
   text-decoration: none;
+  transition: background-color 0.1s ease-in, color 0.1s ease-in;
 }
 nav.sg a:focus, nav.sg a:hover {
-  background-color: #237383;
+  background-color: hsl(192, 58%, 32.4%);
 }
 nav.sg a .txt {
   display: none;
@@ -505,10 +516,12 @@ nav.sg li {
   display: inline-block;
 }
 nav.sg li a {
-  display: block;
+  align-items: center;
+  display: inline-flex;
   box-sizing: border-box;
+  font-size: 22px;
   height: 100%;
-  padding: 22px 10px 16px 10px;
+  justify-content: center;
   color: #fff;
   text-transform: capitalize;
 }
@@ -551,13 +564,17 @@ h1 {
   text-transform: capitalize;
 }
 
+h1, h2, h3, h4 {
+  color: hsl(192, 58%, 32.4%);
+}
+
 footer a {
   color: #fff;
 }
 footer p {
   margin: 0;
   padding: 10px;
-  background-color: #8ed3e1;
+  background-color: hsl(192, 58%, 72%);
   text-align: center;
 }
 
@@ -612,6 +629,7 @@ ul.colors li {
   }
   ul.colors li {
     border-width: 2px;
+    border-radius: 4px;
     border-style: solid;
     padding: 20px;
     width: 120px;
