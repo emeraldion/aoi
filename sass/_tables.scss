@@ -42,7 +42,7 @@ headings from the body with a horizontal line.
 
 	th {
 		font-weight: 500;
-		border-bottom: 1px solid $light-gray;
+		border-bottom: $border-size solid $light-gray;
 	}
 
 	/*doc

@@ -23,7 +23,7 @@ A panel encloses a section of the document with a border and whitespace.
 ```
 */
 .panel {
-	border: 1px solid $lightest-gray;
+	border: $border-size solid $lightest-gray;
 	border-radius: $border-radius;
 	padding: 20px;
 

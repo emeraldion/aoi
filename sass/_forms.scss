@@ -73,10 +73,10 @@ Dangerous actions, e.g. actions that have a destructive effect, should use the
     }
 
     .form-field {
-      @each $type in text, number, password {
+      @each $type in text, number, password, date, datetime-local, search {
         input[type=#{$type}] {
           transition: box-shadow .2s ease-in;
-          border: 1px solid $light-gray;
+          border: $border-size solid $light-gray;
           border-radius: $border-radius;
           padding: 6px 6px 4px 6px;
 
