@@ -6,6 +6,6 @@ gem 'hologram'
 gem "redcarpet", ">= 3.5.1"
 
 # version of Ruby known to work
-ruby '2.4.4'
+ruby '2.5.1'
 
 
