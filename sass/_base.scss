@@ -17,7 +17,7 @@
   $color: foreground-meeting-color-contrast($bgcolor);
 
   background-color: $bgcolor;
-  border-color: darken($bgcolor, 6.667%);
+  border-color: darken($bgcolor, 20%);
   color: $color;
 
   a {
@@ -38,20 +38,6 @@
 @mixin set-normal-color($color, $tone) {
   &.#{'' + $color} {
     @include set-color($color, $tone);
-  }
-}
-
-@mixin normal-active-colors($color, $tone) {
-  @include set-color($color, $tone);
-
-  @each $state in /*hover, focus,*/ active {
-    &:#{$state} {
-      @if $state == hover {
-        @include set-color($color, $tone);
-      } @else {
-        @include set-color($color, dark);
-      }
-    }
   }
 }
 
