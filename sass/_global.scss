@@ -1,0 +1,165 @@
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+
+@import 'variables';
+@import 'functions';
+@import 'base';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+input,
+textarea,
+keygen,
+select,
+button {
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+.dark-gray {
+  @include set-bg-border-colors($dark-gray);
+}
+.medium-gray {
+  @include set-bg-border-colors($medium-gray);
+}
+.light-gray {
+  @include set-bg-border-colors($light-gray);
+}
+.lightest-gray {
+  @include set-bg-border-colors($lightest-gray);
+}
+.dark-blue {
+  @include set-bg-border-colors($dark-blue);
+}
+.medium-blue {
+  @include set-bg-border-colors($medium-blue);
+}
+.light-blue {
+  @include set-bg-border-colors($light-blue);
+}
+.lightest-blue {
+  @include set-bg-border-colors($lightest-blue);
+}
+.dark-green {
+  @include set-bg-border-colors($dark-green);
+}
+.medium-green {
+  @include set-bg-border-colors($medium-green);
+}
+.light-green {
+  @include set-bg-border-colors($light-green);
+}
+.lightest-green {
+  @include set-bg-border-colors($lightest-green);
+}
+.dark-red {
+  @include set-bg-border-colors($dark-red);
+}
+.medium-red {
+  @include set-bg-border-colors($medium-red);
+}
+.light-red {
+  @include set-bg-border-colors($light-red);
+}
+.lightest-red {
+  @include set-bg-border-colors($lightest-red);
+}
+.dark-amber {
+  @include set-bg-border-colors($dark-amber);
+}
+.medium-amber {
+  @include set-bg-border-colors($medium-amber);
+}
+.light-amber {
+  @include set-bg-border-colors($light-amber);
+}
+.lightest-amber {
+  @include set-bg-border-colors($lightest-amber);
+}
+.dark-accent {
+  @include set-bg-border-colors($dark-accent);
+}
+.medium-accent {
+  @include set-bg-border-colors($medium-accent);
+}
+.light-accent {
+  @include set-bg-border-colors($light-accent);
+}
+.lightest-accent {
+  @include set-bg-border-colors($lightest-accent);
+}
+.dark-plum {
+  @include set-bg-border-colors($dark-plum);
+}
+.medium-plum {
+  @include set-bg-border-colors($medium-plum);
+}
+.light-plum {
+  @include set-bg-border-colors($light-plum);
+}
+.lightest-plum {
+  @include set-bg-border-colors($lightest-plum);
+}
+.dark-raspberry {
+  @include set-bg-border-colors($dark-raspberry);
+}
+.medium-raspberry {
+  @include set-bg-border-colors($medium-raspberry);
+}
+.light-raspberry {
+  @include set-bg-border-colors($light-raspberry);
+}
+.lightest-raspberry {
+  @include set-bg-border-colors($lightest-raspberry);
+}
+.dark-banana {
+  @include set-bg-border-colors($dark-banana);
+}
+.medium-banana {
+  @include set-bg-border-colors($medium-banana);
+}
+.light-banana {
+  @include set-bg-border-colors($light-banana);
+}
+.lightest-banana {
+  @include set-bg-border-colors($lightest-banana);
+}
+
+// Generates aliases for level colors
+@each $level in danger, error, warning, info, success {
+  @each $tone in dark, medium, light, lightest {
+    .#{$tone}-#{$level} {
+      @if $level == error or $level == danger {
+        @extend .#{$tone}-red;
+      } @else if $level == warning {
+        @extend .#{$tone}-amber;
+      } @else if $level == info {
+        @extend .#{$tone}-blue;
+      } @else if $level == success {
+        @extend .#{$tone}-green;
+      }
+    }
+  }
+}
