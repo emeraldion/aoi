@@ -1,46 +1,64 @@
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
 
-/*_doc
----
-title: Ribbon
-name: ribbon
-category: decorators
----
-Use the `ribbon` class on panels and other block-level containers to add a visual cue.
+/**
+ * _doc
+ * ---
+ * title: Ribbon
+ * name: ribbon
+ * category: decorators
+ * ---
+ * Use the `ribbon` class on panels and other block-level containers to add a visual cue.
+ * 
+ * ```html_example
+ * <section class="panel ribbon">
+ *     <p>
+ *         The Heian period was preceded by the Nara period and began in 794 A.D.
+ *         after the movement of the capital of Japan to Heian-kyō (present-day Kyōto),
+ *         by the 50th emperor, Emperor Kanmu.
+ *     </p>
+ * </section>
+ * ```
+ *
+ * @format
+ */
 
-```html_example
-<section class="panel ribbon">
-    <p>
-        The Heian period was preceded by the Nara period and began in 794 A.D.
-        after the movement of the capital of Japan to Heian-kyō (present-day Kyōto),
-        by the 50th emperor, Emperor Kanmu.
-    </p>
-</section>
-```
-*/
 .ribbon {
-    position: relative;
-    overflow: hidden;
-    transition: opacity .5s ease-in-out, top .5s ease-in-out, right .5s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  transition:
+    opacity 0.5s ease-in-out,
+    top 0.5s ease-in-out,
+    right 0.5s ease-in-out;
 
-    :first-child:before {
-        background: linear-gradient(#68B1FA 0%, #0D81FF 100%);
-        color: #fff;
+  :first-child:before {
+    background: linear-gradient(#68b1fa 0%, #0d81ff 100%);
+    color: #fff;
 
-        content: '\2605';
-        border-top-color: #4aa0fa;
-        border-bottom-color: #055fff;
+    content: '\2605';
+    border-top-color: #4aa0fa;
+    border-bottom-color: #055fff;
 
-        opacity: 1;
+    opacity: 1;
 
-        position: absolute;
-        right: -45px;
-        top: 9px;
+    position: absolute;
+    right: -45px;
+    top: 9px;
 
-        padding: 5px;
-        width: 120px;
+    padding: 5px;
+    width: 120px;
 
-        transform: rotate(45deg);
-        text-align: center;
-        text-shadow: 1px 0 1px #444;
-    }
+    transform: rotate(45deg);
+    text-align: center;
+    text-shadow: 1px 0 1px #444;
+  }
 }

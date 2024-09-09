@@ -1,3 +1,15 @@
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+
 $dark-gray: #666;
 $medium-gray: #999;
 $light-gray: #ccc;
@@ -15,50 +27,77 @@ $dark-main: #298597;
 
 $blue: #83bfce;
 
-$l1: 36%;
-$l2: 42%;
-$l3: 72%;
-$l4: 92%;
+$lightness-dark: 36%;
+$lightness-medium: 42%;
+$lightness-light: 72%;
+$lightness-lightest: 92%;
 
-$dark-blue:          hsla(206, 58%, $l1, 100%); // #295a99;
-$medium-blue:        hsla(206, 58%, $l2, 100%); // #4e86d0;
-$light-blue:         hsla(206, 58%, $l3, 100%); // #96b8e3;
-$lightest-blue:      hsla(206, 58%, $l4, 100%); // #deeef2;
+$hue-blue: 206;
+$hue-green: 121;
+$hue-red: 355;
+$hue-amber: 29;
+$hue-accent: 192;
+$hue-plum: 271;
+$hue-raspberry: 341;
+$hue-banana: 45;
 
-$dark-green:         hsla(121, 32%, $l1, 100%);    //#29992b;
-$medium-green:       hsla(121, 32%, $l2, 100%);    //#4ed050;
-$light-green:        hsla(121, 32%, $l3, 100%);    //#96e398;
-$lightest-green:     hsla(121, 32%, $l4, 100%);    //#dbf5db;
+$saturation-blue: 58%;
+$saturation-green: 32%;
+$saturation-red: 72%;
+$saturation-amber: 84%;
+$saturation-accent: 58%;
+$saturation-plum: 36%;
+$saturation-raspberry: 69%;
+$saturation-banana: 84%;
 
-$dark-red:           hsla(355, 72%, $l1, 100%);
-$medium-red:         hsla(355, 72%, $l2, 100%);
-$light-red:          hsla(355, 72%, $l3, 100%);
-$lightest-red:       hsla(355, 72%, $l4, 100%);
+$multiplier-blue: 1;
+$multiplier-green: 0.93;
+$multiplier-red: 1;
+$multiplier-amber: 1.2;
+$multiplier-accent: 0.89;
+$multiplier-plum: 0.9;
+$multiplier-raspberry: 1;
+$multiplier-banana: 1.2;
 
-$dark-amber:         hsla(30, 84%, $l1*1.2, 100%);
-$medium-amber:       hsla(30, 84%, $l2*1.2, 100%);
-$light-amber:        hsla(30, 84%, $l3*1.2, 100%);
-$lightest-amber:     hsla(30, 84%, $l4*1.2, 100%);
+$dark-blue: hsla($hue-blue, $saturation-blue, $multiplier-blue * $lightness-dark, 100%);
+$medium-blue: hsla($hue-blue, $saturation-blue, $multiplier-blue * $lightness-medium, 100%);
+$light-blue: hsla($hue-blue, $saturation-blue, $multiplier-blue * $lightness-light, 100%);
+$lightest-blue: hsla($hue-blue, $saturation-blue, $multiplier-blue * $lightness-lightest, 100%);
 
-$dark-accent:        hsla(192, 58%, $l1*.9, 100%);
-$medium-accent:      hsla(192, 58%, $l2, 100%);
-$light-accent:       hsla(192, 58%, $l3, 100%);
-$lightest-accent:    hsla(192, 58%, $l4, 100%);
+$dark-green: hsla($hue-green, $saturation-green, $multiplier-green * $lightness-dark, 100%);
+$medium-green: hsla($hue-green, $saturation-green, $multiplier-green * $lightness-medium, 100%);
+$light-green: hsla($hue-green, $saturation-green, $multiplier-green * $lightness-light, 100%);
+$lightest-green: hsla($hue-green, $saturation-green, $multiplier-green * $lightness-lightest, 100%);
 
-$dark-plum:          hsla(271, 36%, $l1*.9, 100%);
-$medium-plum:        hsla(271, 36%, $l2, 100%);
-$light-plum:         hsla(271, 36%, $l3, 100%);
-$lightest-plum:      hsla(271, 36%, $l4, 100%);
+$dark-red: hsla($hue-red, $saturation-red, $multiplier-red * $lightness-dark, 100%);
+$medium-red: hsla($hue-red, $saturation-red, $multiplier-red * $lightness-medium, 100%);
+$light-red: hsla($hue-red, $saturation-red, $multiplier-red * $lightness-light, 100%);
+$lightest-red: hsla($hue-red, $saturation-red, $multiplier-red * $lightness-lightest, 100%);
 
-$dark-raspberry:     hsla(341, 69%, $l1, 100%);
-$medium-raspberry:   hsla(341, 69%, $l2, 100%);
-$light-raspberry:    hsla(341, 69%, $l3, 100%);
-$lightest-raspberry: hsla(341, 69%, $l4, 100%);
+$dark-amber: hsla($hue-amber, $saturation-amber, $multiplier-amber * $lightness-dark, 100%);
+$medium-amber: hsla($hue-amber, $saturation-amber, $multiplier-amber * $lightness-medium, 100%);
+$light-amber: hsla($hue-amber, $saturation-amber, $multiplier-amber * $lightness-light, 100%);
+$lightest-amber: hsla($hue-amber, $saturation-amber, $multiplier-amber * $lightness-lightest, 100%);
 
-$dark-banana:        hsla(45, 84%, $l1*1.2, 100%);
-$medium-banana:      hsla(45, 84%, $l2*1.2, 100%);
-$light-banana:       hsla(45, 84%, $l3*1.2, 100%);
-$lightest-banana:    hsla(45, 84%, $l4*1.2, 100%);
+$dark-accent: hsla($hue-accent, $saturation-accent, $multiplier-accent * $lightness-dark, 100%);
+$medium-accent: hsla($hue-accent, $saturation-accent, $multiplier-accent * $lightness-medium, 100%);
+$light-accent: hsla($hue-accent, $saturation-accent, $multiplier-accent * $lightness-light, 100%);
+$lightest-accent: hsla($hue-accent, $saturation-accent, $multiplier-accent * $lightness-lightest, 100%);
+
+$dark-plum: hsla($hue-plum, $saturation-plum, $multiplier-plum * $lightness-dark, 100%);
+$medium-plum: hsla($hue-plum, $saturation-plum, $multiplier-plum * $lightness-medium, 100%);
+$light-plum: hsla($hue-plum, $saturation-plum, $multiplier-plum * $lightness-light, 100%);
+$lightest-plum: hsla($hue-plum, $saturation-plum, $multiplier-plum * $lightness-lightest, 100%);
+
+$dark-raspberry: hsla($hue-raspberry, $saturation-raspberry, $multiplier-raspberry * $lightness-dark, 100%);
+$medium-raspberry: hsla($hue-raspberry, $saturation-raspberry, $multiplier-raspberry * $lightness-medium, 100%);
+$light-raspberry: hsla($hue-raspberry, $saturation-raspberry, $multiplier-raspberry * $lightness-light, 100%);
+$lightest-raspberry: hsla($hue-raspberry, $saturation-raspberry, $multiplier-raspberry * $lightness-lightest, 100%);
+
+$dark-banana: hsla($hue-banana, $saturation-banana, $multiplier-banana * $lightness-dark, 100%);
+$medium-banana: hsla($hue-banana, $saturation-banana, $multiplier-banana * $lightness-medium, 100%);
+$light-banana: hsla($hue-banana, $saturation-banana, $multiplier-banana * $lightness-light, 100%);
+$lightest-banana: hsla($hue-banana, $saturation-banana, $multiplier-banana * $lightness-lightest, 100%);
 
 $border-radius: 4px;
 $border-size: 2px;

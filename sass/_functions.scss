@@ -1,4 +1,14 @@
-/** @format */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
 
 @use 'sass:math';
 
@@ -8,22 +18,22 @@
 // From: https://github.com/Team-Sass/Sassy-math/blob/master/sass/math.scss#L36
 
 @function exponent($base, $exponent) {
-	// reset value
-	$value: $base;
-	// positive intergers get multiplied
-	@if $exponent > 1 {
-		@for $i from 2 through $exponent {
-			$value: $value * $base;
-		}
-	}
-	// negitive intergers get divided. A number divided by itself is 1
-	@if $exponent < 1 {
-		@for $i from 0 through -$exponent {
-			$value: $value / $base;
-		}
-	}
-	// return the last value written
-	@return $value;
+  // reset value
+  $value: $base;
+  // positive intergers get multiplied
+  @if $exponent > 1 {
+    @for $i from 2 through $exponent {
+      $value: $value * $base;
+    }
+  }
+  // negitive intergers get divided. A number divided by itself is 1
+  @if $exponent < 1 {
+    @for $i from 0 through -$exponent {
+      $value: $value / $base;
+    }
+  }
+  // return the last value written
+  @return $value;
 }
 
 /*
@@ -42,45 +52,45 @@ GsRGB = G8bit/255
 BsRGB = B8bit/255
 */
 @function relative-luminance($color: #fff) {
-	$r_srgb: math.div(red($color), 255);
-	$g_srgb: math.div(green($color), 255);
-	$b_srgb: math.div(blue($color), 255);
+  $r_srgb: math.div(red($color), 255);
+  $g_srgb: math.div(green($color), 255);
+  $b_srgb: math.div(blue($color), 255);
 
-	$r: 1;
-	$g: 1;
-	$b: 1;
+  $r: 1;
+  $g: 1;
+  $b: 1;
 
-	@if $r_srgb <= 0.03928 {
-		$r: math.div($r_srgb, 12.92);
-	} @else {
-		$r: math.pow(math.div(($r_srgb + 0.055), 1.055), 2.4);
-	}
-	@if $g_srgb <= 0.03928 {
-		$g: math.div($g_srgb, 12.92);
-	} @else {
-		$g: math.pow(math.div(($g_srgb + 0.055), 1.055), 2.4);
-	}
-	@if $b_srgb <= 0.03928 {
-		$b: math.div($b_srgb, 12.92);
-	} @else {
-		$b: math.pow(math.div(($b_srgb + 0.055), 1.055), 2.4);
-	}
+  @if $r_srgb <= 0.03928 {
+    $r: math.div($r_srgb, 12.92);
+  } @else {
+    $r: math.pow(math.div(($r_srgb + 0.055), 1.055), 2.4);
+  }
+  @if $g_srgb <= 0.03928 {
+    $g: math.div($g_srgb, 12.92);
+  } @else {
+    $g: math.pow(math.div(($g_srgb + 0.055), 1.055), 2.4);
+  }
+  @if $b_srgb <= 0.03928 {
+    $b: math.div($b_srgb, 12.92);
+  } @else {
+    $b: math.pow(math.div(($b_srgb + 0.055), 1.055), 2.4);
+  }
 
-	@return 0.2126 * $r + 0.7152 * $g + 0.0722 * $b;
+  @return 0.2126 * $r + 0.7152 * $g + 0.0722 * $b;
 }
 
 @function contrast-ratio($foreground: $black, $background: $white) {
-	@return math.div((relative-luminance($foreground) + 0.05), (relative-luminance($background) + 0.05));
+  @return math.div((relative-luminance($foreground) + 0.05), (relative-luminance($background) + 0.05));
 }
 
 @function foreground-meeting-color-contrast($background: $white, $font-size: 10pt) {
-	$c: 4.5;
-	@if $font-size > 18pt {
-		$c: 3;
-	}
-	@if contrast-ratio($white, $background) > 4.5 {
-		@return $white;
-	} @else {
-		@return $black;
-	}
+  $c: 4.5;
+  @if $font-size > 18pt {
+    $c: 3;
+  }
+  @if contrast-ratio($white, $background) > 4.5 {
+    @return $white;
+  } @else {
+    @return $black;
+  }
 }

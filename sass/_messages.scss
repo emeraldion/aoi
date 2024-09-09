@@ -1,3 +1,15 @@
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+
 @import 'variables';
 @import 'base';
 
@@ -71,7 +83,7 @@ Finally, setting a modifier of `msg-icon`, the message will include an icon.
     @each $level in error, info, warning, success {
       &.#{$level} :first-child:before {
         font-family: 'FontAwesome';
-        margin-right: .8em;
+        margin-right: 0.8em;
         vertical-align: middle;
 
         @if $level == error {

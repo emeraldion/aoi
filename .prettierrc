@@ -2,6 +2,8 @@
 	"endOfLine": "lf",
 	"insertPragma": true,
 	"printWidth": 120,
+	"singleAttributePerLine": true,
 	"singleQuote": true,
-	"useTabs": true
+	"trailingComma": "es5",
+	"useTabs": false
 }

@@ -1,4 +1,14 @@
-/** @format */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
 
 @import 'variables';
 @import 'base';
@@ -104,58 +114,58 @@ Of course you can give your navbar a kick by adding a color class to the `navbar
 ```
 */
 .navbar {
-	border-width: 0;
-	border-bottom-width: 1px;
-	border-style: solid;
-	box-sizing: border-box;
-	display: block;
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  display: block;
 
-	@include set-color(gray, lightest);
+  @include set-color(gray, lightest);
 
-	@include colors(medium);
+  @include colors(medium);
 
-	ul.nav {
-		display: inline-block;
-		margin: 0;
-		padding: 0;
+  ul.nav {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
 
-		li {
-			display: inline-block;
-			vertical-align: middle;
+    li {
+      display: inline-block;
+      vertical-align: middle;
 
-			a {
-				display: block;
-				box-sizing: border-box;
-				height: 45px;
-				padding: 15px 20px;
-				text-decoration: none;
+      a {
+        display: block;
+        box-sizing: border-box;
+        height: 45px;
+        padding: 15px 20px;
+        text-decoration: none;
 
-				@include set-color(gray, lightest);
-			}
+        @include set-color(gray, lightest);
+      }
 
-			&.active {
-				a {
-					font-weight: 500;
-					@include set-color(gray, light);
-				}
-			}
-		}
-	}
+      &.active {
+        a {
+          font-weight: 500;
+          @include set-color(gray, light);
+        }
+      }
+    }
+  }
 
-	@each $color in accent, blue, green, red, amber, banana, raspberry, plum {
-		&.#{'' + $color} {
-			ul.nav {
-				li {
-					a {
-						@include set-color($color, medium);
-					}
-					&.active {
-						a {
-							@include set-color($color, dark);
-						}
-					}
-				}
-			}
-		}
-	}
+  @each $color in accent, blue, green, red, amber, banana, raspberry, plum {
+    &.#{'' + $color} {
+      ul.nav {
+        li {
+          a {
+            @include set-color($color, medium);
+          }
+          &.active {
+            a {
+              @include set-color($color, dark);
+            }
+          }
+        }
+      }
+    }
+  }
 }
