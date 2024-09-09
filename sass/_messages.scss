@@ -10,6 +10,8 @@
  * @format
  */
 
+@use 'sass:map';
+
 @import 'variables';
 @import 'base';
 
@@ -66,6 +68,10 @@ category: messages
 Finally, setting a modifier of `msg-icon`, the message will include an icon. 
 
 ```html_example
+<div class="msg msg-icon">
+    <p>Hello there!</p>
+</div>
+
 <div class="msg msg-icon error">
     <p>There was an error</p>
 </div>
@@ -83,6 +89,14 @@ Finally, setting a modifier of `msg-icon`, the message will include an icon.
 </div>
 ```
 */
+
+$msg-icon-colors: (
+  'error': $dark-red,
+  'info': $dark-blue,
+  'success': $dark-green,
+  'warning': $dark-amber,
+);
+
 .msg {
   border-radius: $border-radius;
   border-style: solid;
@@ -95,23 +109,25 @@ Finally, setting a modifier of `msg-icon`, the message will include an icon.
   @include levels(light);
 
   &.msg-icon {
+    :first-child:before {
+      color: $dark-accent;
+      content: '\f075';
+      font-family: 'FontAwesome';
+      margin-right: 0.8em;
+      vertical-align: middle;
+    }
+
     @each $level in error, info, warning, success {
       &.#{$level} :first-child:before {
-        font-family: 'FontAwesome';
-        margin-right: 0.8em;
-        vertical-align: middle;
+        color: map.get($msg-icon-colors, $level);
 
         @if $level == error {
-          color: #{$dark-red};
           content: '\f06a';
         } @else if $level == warning {
-          color: #{$dark-amber};
           content: '\f071';
         } @else if $level == info {
-          color: #{$dark-blue};
           content: '\f05a';
         } @else if $level == success {
-          color: #{$dark-green};
           content: '\f058';
         }
       }
