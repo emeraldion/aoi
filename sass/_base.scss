@@ -59,7 +59,7 @@
   &.#{'' + $color} {
     @include set-color($color, $tone);
 
-    @each $state in /*hover, focus,*/ active {
+    @each $state in hover, focus, active {
       &:#{$state} {
         @if $state == hover {
           @include set-color($color, $tone);
