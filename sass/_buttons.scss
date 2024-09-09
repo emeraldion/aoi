@@ -1,3 +1,15 @@
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+
 @import 'variables';
 @import 'base';
 
@@ -76,7 +88,7 @@ to give the button a special semantic cue.
 }
 
 @mixin base-btn {
-  transition: box-shadow .2s ease-in;
+  transition: box-shadow 0.2s ease-in;
   background-color: $white;
   border: $border-size solid $light-gray;
   border-radius: $border-radius;

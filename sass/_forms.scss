@@ -1,3 +1,15 @@
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+
 @import 'variables';
 @import 'base';
 @import 'buttons';
@@ -73,9 +85,9 @@ Dangerous actions, e.g. actions that have a destructive effect, should use the
     }
 
     .form-field {
-      @each $type in text, number, password, date, datetime-local, search {
-        input[type=#{$type}] {
-          transition: box-shadow .2s ease-in;
+      @each $type in text, number, password, date, datetime-local, search, url {
+        input[type='#{$type}'] {
+          transition: box-shadow 0.2s ease-in;
           border: $border-size solid $light-gray;
           border-radius: $border-radius;
           padding: 6px 6px 4px 6px;
@@ -108,7 +120,7 @@ Dangerous actions, e.g. actions that have a destructive effect, should use the
     padding: 10px 0;
 
     @each $type in submit, reset, button {
-      input[type=#{$type}] {
+      input[type='#{$type}'] {
         @extend .btn;
       }
     }

@@ -1,3 +1,15 @@
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+
 @import 'variables';
 @import 'base';
 
@@ -81,35 +93,35 @@ through the Font Awesome icons `fa-fast-backward` and `fa-fast-forward` respecti
 ```
 */
 .nav-pager {
-    border: $border-size solid $light-gray;
-    border-radius: $border-radius;
-    display: table;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    padding: 0;
+  border: $border-size solid $light-gray;
+  border-radius: $border-radius;
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 0;
 
-    li {
-        display: table-cell;
-        border-right: 1px solid $light-gray;
-        vertical-align: middle;
-    
-        &:last-child {
-            border-right-width: 0;
-        }
+  li {
+    display: table-cell;
+    border-right: 1px solid $light-gray;
+    vertical-align: middle;
 
-        &.active {
-            a {
-                background-color: $lightest-gray;
-            }
-        }
+    &:last-child {
+      border-right-width: 0;
     }
 
-    a {
-        box-sizing: border-box;
-        display: block;
-        font-weight: $bold-weight;
-        padding: 8px 12px;
-        text-decoration: none;
-        white-space: nowrap;
+    &.active {
+      a {
+        background-color: $lightest-gray;
+      }
     }
+  }
+
+  a {
+    box-sizing: border-box;
+    display: block;
+    font-weight: $bold-weight;
+    padding: 8px 12px;
+    text-decoration: none;
+    white-space: nowrap;
+  }
 }

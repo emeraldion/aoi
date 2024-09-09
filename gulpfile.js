@@ -30,7 +30,7 @@ const GENERATED_CSS = DEST + '/*.css';
 
 function sassTask() {
 	return src(SASS_SOURCES)
-		.pipe(sass())
+		.pipe(sass({ outputStyle: 'compressed' }))
 		.pipe(
 			autoprefixer({
 				cascade: false,

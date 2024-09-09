@@ -1,3 +1,15 @@
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+
 @import 'variables';
 @import 'base';
 
@@ -5,8 +17,8 @@ $lightest-aoi: $light-accent;
 $light-aoi: $medium-accent;
 $dark-aoi: $dark-accent;
 
-
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -30,10 +42,12 @@ nav.sg {
   border-bottom: 1px solid $dark-aoi;
   background: linear-gradient(90deg, $light-aoi 0%, $dark-aoi 100%);
   display: flex;
-  
+
   a {
     text-decoration: none;
-    transition: background-color .1s ease-in, color .1s ease-in;
+    transition:
+      background-color 0.1s ease-in,
+      color 0.1s ease-in;
 
     &:focus,
     &:hover {
@@ -59,7 +73,7 @@ nav.sg {
 
   li {
     display: inline-block;
-    
+
     a {
       align-items: center;
       display: inline-flex;
@@ -97,7 +111,8 @@ main {
 }
 
 .codeTable {
-  th, td {
+  th,
+  td {
     display: block;
   }
 }
@@ -105,7 +120,7 @@ main {
 pre.hljs {
   border-radius: 4px;
   margin: 10px 0;
-  padding: .8em;
+  padding: 0.8em;
   white-space: pre-wrap;
 }
 
@@ -113,7 +128,10 @@ h1 {
   text-transform: capitalize;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   color: $dark-accent;
 }
 
@@ -121,12 +139,12 @@ footer {
   a {
     color: $white;
   }
-  
+
   p {
-   margin: 0;
-   padding: 10px;
-   background-color: $lightest-aoi;
-   text-align: center;
+    margin: 0;
+    padding: 10px;
+    background-color: $lightest-aoi;
+    text-align: center;
   }
 }
 
@@ -192,7 +210,8 @@ ul.colors {
   }
 
   .codeTable {
-    th, td {
+    th,
+    td {
       display: table-cell;
     }
   }
