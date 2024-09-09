@@ -33,8 +33,8 @@
  */
 
 .ribbon {
-  position: relative;
   overflow: hidden;
+  position: relative;
   transition:
     opacity 0.5s ease-in-out,
     top 0.5s ease-in-out,
@@ -42,23 +42,18 @@
 
   :first-child:before {
     background: linear-gradient(#68b1fa 0%, #0d81ff 100%);
-    color: #fff;
-
-    content: '\2605';
-    border-top-color: #4aa0fa;
     border-bottom-color: #055fff;
-
+    border-top-color: #4aa0fa;
+    color: #fff;
+    content: '\2605';
     opacity: 1;
-
+    padding: 5px;
     position: absolute;
     right: -45px;
-    top: 9px;
-
-    padding: 5px;
-    width: 120px;
-
-    transform: rotate(45deg);
     text-align: center;
     text-shadow: 1px 0 1px #444;
+    top: 9px;
+    transform: rotate(45deg);
+    width: 120px;
   }
 }

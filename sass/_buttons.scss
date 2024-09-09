@@ -15,9 +15,9 @@
 
 /*doc
 ---
-title: Button
-name: btn
-category: controls
+title: Buttons
+name: 1-buttons
+category: buttons
 ---
 Use the `btn` class on `<button>` or `<input type="button">` elements.
 
@@ -30,24 +30,9 @@ Use the `btn` class on `<button>` or `<input type="button">` elements.
 
 /*doc
 ---
-title: Large Button
-name: btn-large
-category: controls
----
-Add the `btn-large` class to other button classes to obtain a larger affordance.
-
-```html_example_table
-<input type="button" class="btn btn-large" value="Button"/>
-
-<button class="btn btn-large">Button</button>
-```
-*/
-
-/*doc
----
-title: Small Button
-name: btn-small
-category: controls
+title: Small buttons
+name: 2-small-buttons
+category: buttons
 ---
 Add the `btn-small` class to other button classes to obtain a smaller affordance.
 
@@ -60,9 +45,39 @@ Add the `btn-small` class to other button classes to obtain a smaller affordance
 
 /*doc
 ---
-title: Colored Buttons
-name: btn-colored
-category: controls
+title: Large buttons
+name: 3-large-buttons
+category: buttons
+---
+Add the `btn-large` class to other button classes to obtain a larger affordance.
+
+```html_example_table
+<input type="button" class="btn btn-large" value="Button"/>
+
+<button class="btn btn-large">Button</button>
+```
+*/
+
+/*doc
+---
+title: Huge buttons
+name: 4-huge-buttons
+category: buttons
+---
+Add the `btn-huge` class to other button classes to obtain an even larger affordance.
+
+```html_example_table
+<input type="button" class="btn btn-huge" value="Button"/>
+
+<button class="btn btn-huge">Button</button>
+```
+*/
+
+/*doc
+---
+title: Colorful buttons
+name: 5-colorful-buttons
+category: buttons
 ---
 Add the `accent`, `danger`, `warning`, `info`, or `success` classes to a button
 to give the button a special semantic cue.
@@ -81,18 +96,18 @@ to give the button a special semantic cue.
 */
 
 @mixin active-focused {
-  outline: none;
   border-color: $dark-gray;
   box-shadow: 0 0 3px 1px $light-accent;
+  outline: none;
   // border-color: $medium-accent;
 }
 
 @mixin base-btn {
-  transition: box-shadow 0.2s ease-in;
   background-color: $white;
   border: $border-size solid $light-gray;
   border-radius: $border-radius;
   padding: 6px 12px;
+  transition: box-shadow 0.2s ease-in;
 
   &:hover {
     background-color: $lightest-gray;
@@ -118,13 +133,20 @@ to give the button a special semantic cue.
 
   @include active-colors;
 
+  &.btn-small {
+    font-size: 0.9rem;
+    padding: 4px 8px;
+  }
+
   &.btn-large {
     font-size: 1.2rem;
     padding: 8px 16px;
   }
 
-  &.btn-small {
-    font-size: 0.9rem;
-    padding: 4px 8px;
+  &.btn-huge {
+    border-radius: 2 * $border-radius;
+    font-size: 1.5667rem;
+    height: 72px;
+    padding: 16px 32px;
   }
 }

@@ -15,8 +15,8 @@
 
 /*doc
 ---
-title: Table
-name: table
+title: Tables
+name: 1-tables
 category: tables
 ---
 Use the `table` class on tables to apply a clean, borderless layout, and separate
@@ -51,14 +51,14 @@ headings from the body with a horizontal line.
   }
 
   th {
-    font-weight: 500;
     border-bottom: $border-size solid $light-gray;
+    font-weight: 500;
   }
 
   /*doc
 ---
-title: Striped Table
-name: table-striped
+title: Striped tables
+name: 2-striped-tables
 category: tables
 ---
 Use the `table-striped` modifier class on tables to apply a striped pattern to visually
@@ -163,8 +163,8 @@ the color of stripes.
 
   /*doc
 ---
-title: Compact Table
-name: table-compact
+title: Compact tables
+name: 3-compact-tables
 category: tables
 ---
 Use the `table-compact` modifier class on tables to reduce the cell padding for a more compact layout.

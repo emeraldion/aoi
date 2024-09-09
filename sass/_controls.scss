@@ -1,0 +1,275 @@
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+
+@import 'variables';
+@import 'base';
+@import 'buttons';
+
+/*doc
+ ---
+ title: Controls
+ name: 1-controls
+ category: controls
+ ---
+ 
+ Form controls come with a few predefined behaviors. The focus ring is custom and has a
+ pleasant transition.
+ 
+ ```html_example
+ <div class="form">
+     <div class="form-row">
+         <label for="f_text">Textbox:</label>
+         <div class="form-field">
+             <input id="f_text" type="text" size="24" placeholder="Holds a short line of text" />
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_select">Select:</label>
+         <div class="form-field">
+             <select id="f_select">
+               <option>First option</option>
+               <option selected>Second option (default selected)</option>
+               <option disabled>Third option (disabled)</option>
+             </select>
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_date">Date picker:</label>
+         <div class="form-field">
+             <input id="f_date" type="date" />
+         </div>
+     </div>
+     <div class="form-row">
+        <div class="form-field">
+             <label>
+                <input type="checkbox" />
+                Check me!
+            </label>
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_textarea">Textarea:</label>
+         <div class="form-field">
+             <textarea id="f_textarea" rows="3" placeholder="Holds longer form text"></textarea>
+         </div>
+     </div>
+ </div>
+ ```
+*/
+
+/*doc
+ ---
+ title: Large controls
+ name: 2-large-controls
+ category: controls
+ ---
+ 
+ Controls can be made slightly larger with the modifier `text-large` class.
+ 
+ ```html_example
+ <div class="form">
+     <div class="form-row">
+         <label for="f_text_2">Textbox:</label>
+         <div class="form-field">
+             <input id="f_text_2" type="text" class="text-large" size="24" placeholder="Holds a short line of text" />
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_select_2">Select:</label>
+         <div class="form-field">
+             <select class="text-large" id="f_select_2">
+               <option>First option</option>
+               <option selected>Second option (default selected)</option>
+               <option disabled>Third option (disabled)</option>
+             </select>
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_date_2">Date picker:</label>
+         <div class="form-field">
+             <input id="f_date_2" class="text-large" type="date" />
+         </div>
+     </div>
+     <div class="form-row">
+        <div class="form-field">
+             <label>
+                <input type="checkbox" class="text-large" />
+                Check me!
+            </label>
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_textarea_2">Textarea:</label>
+         <div class="form-field">
+             <textarea id="f_textarea_2" class="text-large" rows="3" placeholder="Holds longer form text"></textarea>
+         </div>
+     </div>
+ </div>
+ ```
+ */
+
+/*doc
+ ---
+ title: Huge controls
+ name: 3-huge-controls
+ category: controls
+ ---
+ 
+ Controls can be made even larger with the modifier `text-huge` class.
+ 
+ ```html_example
+ <div class="form">
+     <div class="form-row">
+         <label for="f_text_2">Textbox:</label>
+         <div class="form-field">
+             <input id="f_text_3" type="text" class="text-huge" size="24" placeholder="Holds a short line of text" />
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_select_3">Select:</label>
+         <div class="form-field">
+             <select class="text-huge" id="f_select_3">
+               <option>First option</option>
+               <option selected>Second option (default selected)</option>
+               <option disabled>Third option (disabled)</option>
+             </select>
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_date_3">Date picker:</label>
+         <div class="form-field">
+             <input id="f_date_3" class="text-huge" type="date" />
+         </div>
+     </div>
+     <div class="form-row">
+        <div class="form-field">
+             <label>
+                <input type="checkbox" class="text-huge" />
+                Check me!
+            </label>
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_textarea_3">Textarea:</label>
+         <div class="form-field">
+             <textarea id="f_textarea_3" class="text-huge" rows="3" placeholder="Holds longer form text"></textarea>
+         </div>
+     </div>
+ </div>
+ ```
+ */
+
+/*doc
+ ---
+ title: Disabled and read-only controls
+ name: 4-disabled-readonly-controls
+ category: controls
+ ---
+ 
+ Disabled and readonly elements are styled automatically.
+ 
+ ```html_example
+<div class="form">
+     <div class="form-row">
+         <label for="f_text_1">Textbox (readonly):</label>
+         <div class="form-field">
+             <input id="f_text_1" type="text" size="24" value="You can select and copy this text" readonly />
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_select_1">Select (disabled):</label>
+         <div class="form-field">
+             <select id="f_select_1" disabled>
+               <option>First option</option>
+               <option selected>Second option (default selected)</option>
+               <option>Third option (disabled)</option>
+             </select>
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_date_1">Date picker (disabled):</label>
+         <div class="form-field">
+             <input id="f_date_1" type="date" disabled />
+         </div>
+     </div>
+     <div class="form-row">
+        <div class="form-field">
+             <label>
+                <input type="checkbox" disabled />
+                You can't check me!
+            </label>
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_textarea_1">Textarea (readonly):</label>
+         <div class="form-field">
+             <textarea id="f_textarea_1" rows="3" readonly>You can select and copy this text</textarea>
+         </div>
+     </div>
+ </div>
+ ```
+ */
+
+@mixin form-control-styles {
+  border: $border-size solid $light-gray;
+  border-radius: $border-radius;
+  padding: 6px 6px 4px 6px;
+  transition: box-shadow 0.2s ease-in;
+
+  &.text-large {
+    font-size: 24px;
+    min-height: 48px;
+  }
+
+  &.text-huge {
+    font-size: 36px;
+    min-height: 72px;
+  }
+
+  &:focus {
+    border-color: $medium-accent;
+    box-shadow: 0 0 3px 1px $light-accent;
+    outline: none;
+  }
+
+  &[disabled] {
+    background-color: $lightest-gray;
+    cursor: not-allowed;
+  }
+
+  &[readonly] {
+    color: $medium-gray;
+
+    &:focus {
+      border-color: $light-gray;
+      box-shadow: none;
+    }
+  }
+}
+
+.form {
+  .form-row {
+    .form-field {
+      @each $type in text, number, password, date, datetime-local, search, url {
+        input[type='#{$type}'] {
+          @include form-control-styles;
+        }
+      }
+
+      @each $field in select, textarea {
+        #{$field} {
+          @include form-control-styles;
+        }
+      }
+    }
+  }
+}

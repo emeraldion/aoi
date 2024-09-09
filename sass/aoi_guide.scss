@@ -12,6 +12,7 @@
 
 @import 'variables';
 @import 'base';
+@import 'forms';
 
 $lightest-aoi: $light-accent;
 $light-aoi: $medium-accent;
@@ -39,8 +40,8 @@ a {
 }
 
 nav.sg {
-  border-bottom: 1px solid $dark-aoi;
   background: linear-gradient(90deg, $light-aoi 0%, $dark-aoi 100%);
+  border-bottom: 1px solid $dark-aoi;
   display: flex;
 
   a {
@@ -65,10 +66,10 @@ nav.sg {
 
   ul {
     display: inline-flex;
+    flex: 1 auto;
     margin: 0;
     padding: 0;
     vertical-align: middle;
-    flex: 1 auto;
   }
 
   li {
@@ -76,29 +77,27 @@ nav.sg {
 
     a {
       align-items: center;
+      color: $white;
       display: inline-flex;
-      box-sizing: border-box;
       font-size: 22px;
       height: 100%;
       justify-content: center;
-      color: $white;
       text-transform: capitalize;
     }
   }
 }
 
 #logo {
-  font-family: Menlo, sans-serif;
-  color: $white;
+  border: 3px solid $white;
   border-radius: 1000px;
-  border: 5px solid $white;
-  width: 48px;
-  height: 48px;
+  color: $white;
   display: inline-block;
-  box-sizing: border-box;
+  font-family: Menlo, sans-serif;
+  height: 48px;
+  margin: 10px;
   padding: 10px 0;
   text-align: center;
-  margin: 10px;
+  width: 48px;
 }
 
 main {
@@ -124,10 +123,6 @@ pre.hljs {
   white-space: pre-wrap;
 }
 
-h1 {
-  text-transform: capitalize;
-}
-
 h1,
 h2,
 h3,
@@ -141,25 +136,30 @@ footer {
   }
 
   p {
+    background-color: $lightest-aoi;
     margin: 0;
     padding: 10px;
-    background-color: $lightest-aoi;
     text-align: center;
   }
 }
 
 ul.colors {
-  padding: 0;
   display: flex;
+  padding: 0;
 
   li {
-    padding: 10px;
-    font-size: 24pt;
     display: block;
-    width: 60px;
+    font-size: 24pt;
     height: 60px;
     margin: 0;
+    padding: 10px;
+    width: 60px;
   }
+}
+
+/* Prevents forms in code examples from being left aligned */
+th .form {
+  text-align: left;
 }
 
 @media screen and (min-width: 375px) {
@@ -183,8 +183,8 @@ ul.colors {
 
   ul.colors {
     li {
-      width: 80px;
       height: 80px;
+      width: 80px;
     }
   }
 }
@@ -224,21 +224,21 @@ ul.colors {
     display: flex;
 
     li {
-      border-width: $border-size;
       border-radius: $border-radius;
       border-style: solid;
-      padding: 20px;
-      width: 120px;
+      border-width: $border-size;
       height: 120px;
       margin: 10px;
+      padding: 20px;
+      width: 120px;
     }
   }
 }
 
 @media screen and (min-width: 1024px) {
   main {
-    max-width: 1024px;
     margin: auto;
+    max-width: 1024px;
   }
 
   .exampleOutput {

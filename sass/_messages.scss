@@ -16,8 +16,8 @@
 /*doc
 ---
 title: Messages
-name: msg
-category: controls
+name: 1-messages
+category: messages
 ---
 Use the `msg` class on a block element to style it as a message container.
 
@@ -26,6 +26,14 @@ Use the `msg` class on a block element to style it as a message container.
     <p>Hey y'all!</p>
 </div>
 ```
+*/
+
+/*doc
+---
+title: Cued messages
+name: 2-cued-messages
+category: messages
+---
 
 Additionally, you can set a level modifier of `accent` (default), `error`, `warning`,
 `info`, or `success` to give it a semantic cue. 
@@ -47,7 +55,14 @@ Additionally, you can set a level modifier of `accent` (default), `error`, `warn
     <p>Things are going well</p>
 </div>
 ```
+*/
 
+/*doc
+---
+title: Messages with icons
+name: 3-messages-with-icons
+category: messages
+---
 Finally, setting a modifier of `msg-icon`, the message will include an icon. 
 
 ```html_example
@@ -69,11 +84,11 @@ Finally, setting a modifier of `msg-icon`, the message will include an icon.
 ```
 */
 .msg {
-  border-width: 1px;
-  border-style: solid;
   border-radius: $border-radius;
-  padding: 10px;
+  border-style: solid;
+  border-width: $border-size;
   margin: 0 10px 10px 10px;
+  padding: 10px;
 
   @extend .accent;
 
@@ -87,12 +102,16 @@ Finally, setting a modifier of `msg-icon`, the message will include an icon.
         vertical-align: middle;
 
         @if $level == error {
+          color: #{$dark-red};
           content: '\f06a';
         } @else if $level == warning {
+          color: #{$dark-amber};
           content: '\f071';
         } @else if $level == info {
+          color: #{$dark-blue};
           content: '\f05a';
         } @else if $level == success {
+          color: #{$dark-green};
           content: '\f058';
         }
       }
