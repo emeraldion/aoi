@@ -27,9 +27,15 @@
       <a href="index.html"><span id="logo">青い</span></a>
       <ul>
       
-        <li><a href="controls.html"><span class="txt">controls</span><i class="fa fa-check-square"></i></a></li>
+        <li><a href="buttons.html"><span class="txt">buttons</span><i class="fa fa-check-square"></i></a></li>
       
-        <li><a href="navigation.html"><span class="txt">navigation</span><i class="fa fa-ship"></i></a></li>
+        <li><a href="controls.html"><span class="txt">controls</span><i class="fa fa-font"></i></a></li>
+      
+        <li><a href="forms.html"><span class="txt">forms</span><i class="fa fa-i-cursor"></i></a></li>
+      
+        <li><a href="messages.html"><span class="txt">messages</span><i class="fa fa-warning"></i></a></li>
+      
+        <li><a href="navigation.html"><span class="txt">navigation</span><i class="fa fa-map-signs"></i></a></li>
       
         <li><a href="layout.html"><span class="txt">layout</span><i class="fa fa-th"></i></a></li>
       
@@ -43,14 +49,14 @@
       <section class="content">
         <ul>
         
-          <li><a href="#table">Table</a></li>
+          <li><a href="#1-tables">Tables</a></li>
         
-          <li><a href="#table-compact">Compact Table</a></li>
+          <li><a href="#2-striped-tables">Striped tables</a></li>
         
-          <li><a href="#table-striped">Striped Table</a></li>
+          <li><a href="#3-compact-tables">Compact tables</a></li>
         
         </ul>
-<h1 id="table" class="styleguide">Table</h1>
+<h1 id="1-tables" class="styleguide">Tables</h1>
 <p class="styleguide">Use the <code class="styleguide">table</code> class on tables to apply a clean, borderless layout, and separate
 headings from the body with a horizontal line.</p><div class="codeExample">
   <div class="exampleOutput">
@@ -96,52 +102,7 @@ headings from the body with a horizontal line.</p><div class="codeExample">
   </div>
 </div>
 
-<h1 id="table-compact" class="styleguide">Compact Table</h1>
-<p class="styleguide">Use the <code class="styleguide">table-compact</code> modifier class on tables to reduce the cell padding for a more compact layout.</p><div class="codeExample">
-  <div class="exampleOutput">
-    <table class="table table-compact">
-    <tr>
-        <th>One</th>
-        <th>Two</th>
-        <th>Three</th>
-    </tr>
-    <tr>
-        <td>One</td>
-        <td>Two</td>
-        <td>Three</td>
-    </tr>
-    <tr>
-        <td>One</td>
-        <td>Two</td>
-        <td>Three</td>
-    </tr>
-</table>
-
-  </div>
-  <div class="codeBlock">
-    <div class="highlight">
-      <pre><span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">"table table-compact"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-        <span class="nt">&lt;th&gt;</span>One<span class="nt">&lt;/th&gt;</span>
-        <span class="nt">&lt;th&gt;</span>Two<span class="nt">&lt;/th&gt;</span>
-        <span class="nt">&lt;th&gt;</span>Three<span class="nt">&lt;/th&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-        <span class="nt">&lt;td&gt;</span>One<span class="nt">&lt;/td&gt;</span>
-        <span class="nt">&lt;td&gt;</span>Two<span class="nt">&lt;/td&gt;</span>
-        <span class="nt">&lt;td&gt;</span>Three<span class="nt">&lt;/td&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-        <span class="nt">&lt;td&gt;</span>One<span class="nt">&lt;/td&gt;</span>
-        <span class="nt">&lt;td&gt;</span>Two<span class="nt">&lt;/td&gt;</span>
-        <span class="nt">&lt;td&gt;</span>Three<span class="nt">&lt;/td&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-<span class="nt">&lt;/table&gt;</span></pre>
-    </div>
-  </div>
-</div>
-
-<h1 id="table-striped" class="styleguide">Striped Table</h1>
+<h1 id="2-striped-tables" class="styleguide">Striped tables</h1>
 <p class="styleguide">Use the <code class="styleguide">table-striped</code> modifier class on tables to apply a striped pattern to visually
 separate rows.</p><div class="codeExample">
   <div class="exampleOutput">
@@ -297,6 +258,51 @@ the color of stripes.</p><div class="codeExample">
   <div class="codeBlock">
     <div class="highlight">
       <pre><span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">"table table-striped plum"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;th&gt;</span>One<span class="nt">&lt;/th&gt;</span>
+        <span class="nt">&lt;th&gt;</span>Two<span class="nt">&lt;/th&gt;</span>
+        <span class="nt">&lt;th&gt;</span>Three<span class="nt">&lt;/th&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>One<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>Two<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>Three<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;tr&gt;</span>
+        <span class="nt">&lt;td&gt;</span>One<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>Two<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;td&gt;</span>Three<span class="nt">&lt;/td&gt;</span>
+    <span class="nt">&lt;/tr&gt;</span>
+<span class="nt">&lt;/table&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h1 id="3-compact-tables" class="styleguide">Compact tables</h1>
+<p class="styleguide">Use the <code class="styleguide">table-compact</code> modifier class on tables to reduce the cell padding for a more compact layout.</p><div class="codeExample">
+  <div class="exampleOutput">
+    <table class="table table-compact">
+    <tr>
+        <th>One</th>
+        <th>Two</th>
+        <th>Three</th>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
+</table>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">"table table-compact"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;tr&gt;</span>
         <span class="nt">&lt;th&gt;</span>One<span class="nt">&lt;/th&gt;</span>
         <span class="nt">&lt;th&gt;</span>Two<span class="nt">&lt;/th&gt;</span>

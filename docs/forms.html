@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Aoi (青い) style guide - forms</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#298597" />
+    <meta property="og:url" content="https://emeraldion.github.io/aoi/docs/forms.html" />
+    <meta property="og:title" content="Aoi (青い) style guide"/>
+    <meta property="og:description" content="Aoi (Japanese: Blue, Green) is a design language for Emeraldion UX" />
+    <meta property="og:image" content="https://emeraldion.github.io/aoi/aoi_og.jpg" />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.css" />
+    <link type="text/css" rel="stylesheet" href="../css/aoi.css" />
+    <link type="text/css" rel="stylesheet" href="../css/aoi_guide.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/zenburn.min.css" />
+    <link type="image/png" rel="icon" href="../favicon.png" />
+  </head>
+  <body>
+    <!-- generated with Fork me on GitHub [animated corner style generator] http://codepen.io/Rplus/pen/wKZOBo -->
+    <a class="github-corner" href="https://github.com/emeraldion/aoi" title="Fork me on GitHub"><svg width="68" height="68" viewbox="0 0 250 250"><title>Fork me on GitHub</title><path d="M0 0h250v250"></path><path class="octo-arm" d="M127.4 110c-14.6-9.2-9.4-19.5-9.4-19.5 3-7 1.5-11 1.5-11-1-6.2 3-2 3-2 4 4.7 2 11 2 11-2.2 10.4 5 14.8 9 16.2" fill="currentColor" style="transform-origin:130px 110px"></path><path class="octo-body" d="M113.2 114.3s3.6 1.6 4.7.6l15-13.7c3-2.4 6-3 8.2-2.7-8-11.2-14-25 3-41 4.7-4.4 10.6-6.4 16.2-6.4.6-1.6 3.6-7.3 11.8-10.7 0 0 4.5 2.7 6.8 16.5 4.3 2.7 8.3 6 12 9.8 3.3 3.5 6.7 8 8.6 12.3 14 3 16.8 8 16.8 8-3.4 8-9.4 11-11.4 11 0 5.8-2.3 11-7.5 15.5-16.4 16-30 9-40 .2 0 3-1 7-5.2 11l-13.3 11c-1 1 .5 5.3.8 5z" fill="currentColor"></path></svg><style> .github-corner svg{position:absolute;right:0;top:0;color:#ffffff;fill:#000000;}.github-corner:hover .octo-arm{animation:octocat-wave .56s;}@keyframes octocat-wave{0%, 100%{transform:rotate(0);}20%, 60%{transform:rotate(-20deg);}40%, 80%{transform:rotate(10deg);}}</style></a>
+    <nav class="sg">
+      
+      <a href="index.html"><span id="logo">青い</span></a>
+      <ul>
+      
+        <li><a href="buttons.html"><span class="txt">buttons</span><i class="fa fa-check-square"></i></a></li>
+      
+        <li><a href="controls.html"><span class="txt">controls</span><i class="fa fa-font"></i></a></li>
+      
+        <li><a href="forms.html"><span class="txt">forms</span><i class="fa fa-i-cursor"></i></a></li>
+      
+        <li><a href="messages.html"><span class="txt">messages</span><i class="fa fa-warning"></i></a></li>
+      
+        <li><a href="navigation.html"><span class="txt">navigation</span><i class="fa fa-map-signs"></i></a></li>
+      
+        <li><a href="layout.html"><span class="txt">layout</span><i class="fa fa-th"></i></a></li>
+      
+        <li><a href="tables.html"><span class="txt">tables</span><i class="fa fa-table"></i></a></li>
+      
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Aoi (青い) style guide</h1>
+      <section class="content">
+        <ul>
+        
+          <li><a href="#1-form-fields">Forms</a></li>
+        
+          <li><a href="#1-form-footer">Form footer</a></li>
+        
+        </ul>
+<h1 id="1-form-fields" class="styleguide">Forms</h1>
+<p class="styleguide">Use the <code class="styleguide">form</code> class on a <code class="styleguide">&lt;div&gt;</code> or a <code class="styleguide">&lt;section&gt;</code> enclosing a group of form controls.
+Each row of the form must be enclosed in a block element with class <code class="styleguide">form-row</code>.
+Inside it, place a <code class="styleguide">&lt;label&gt;</code> and an input enclosed in a <code class="styleguide">&lt;div&gt;</code> with class <code class="styleguide">form-field</code>.</p><div class="codeExample">
+  <div class="exampleOutput">
+    <div class="form">
+    <div class="form-row">
+        <label for="f_title">Title:</label>
+        <div class="form-field">
+            <input id="f_title" type="text" size="24" placeholder="Enter title" />
+        </div>
+    </div>
+    <div class="form-row">
+        <label for="f_color">Color:</label>
+        <div class="form-field">
+            <select id="f_color">
+              <option>Red</option>
+              <option selected>Blue</option>
+              <option>Green</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-row">
+        <label for="f_date">Start date:</label>
+        <div class="form-field">
+            <input id="f_date" type="date" />
+        </div>
+    </div>
+</div>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-row"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"f_title"</span><span class="nt">&gt;</span>Title:<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-field"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"f_title"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">size=</span><span class="s">"24"</span> <span class="na">placeholder=</span><span class="s">"Enter title"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-row"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"f_color"</span><span class="nt">&gt;</span>Color:<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-field"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;select</span> <span class="na">id=</span><span class="s">"f_color"</span><span class="nt">&gt;</span>
+              <span class="nt">&lt;option&gt;</span>Red<span class="nt">&lt;/option&gt;</span>
+              <span class="nt">&lt;option</span> <span class="na">selected</span><span class="nt">&gt;</span>Blue<span class="nt">&lt;/option&gt;</span>
+              <span class="nt">&lt;option&gt;</span>Green<span class="nt">&lt;/option&gt;</span>
+            <span class="nt">&lt;/select&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-row"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"f_date"</span><span class="nt">&gt;</span>Start date:<span class="nt">&lt;/label&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-field"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"f_date"</span> <span class="na">type=</span><span class="s">"date"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span></pre>
+    </div>
+  </div>
+</div>
+
+<h1 id="1-form-footer" class="styleguide">Form footer</h1>
+<p class="styleguide">Enclose submit and other buttons in a <code class="styleguide">form-footer</code> element. The primary
+action in the form, usually the submit button, should have the <code class="styleguide">accent</code> class.
+Dangerous actions, e.g. actions that have a destructive effect, should use the
+<code class="styleguide">danger</code> class and preferrably placed far from the primary one.</p><div class="codeExample">
+  <div class="exampleOutput">
+    <div class="form">
+    <form>
+        <div class="form-row">
+            <label for="f_title_2">Title:</label>
+            <div class="form-field">
+                <input id="f_title_2" type="text" size="24" placeholder="Enter a title" />
+            </div>
+        </div>
+        <div class="form-footer">
+            <input type="submit" class="accent" value="Order" />
+            <input type="reset" value="Cancel" />
+            <input type="submit" class="danger" value="Delete" />
+        </div>
+    </form>
+</div>
+
+  </div>
+  <div class="codeBlock">
+    <div class="highlight">
+      <pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;form&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-row"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"f_title_2"</span><span class="nt">&gt;</span>Title:<span class="nt">&lt;/label&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-field"</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">"f_title_2"</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">size=</span><span class="s">"24"</span> <span class="na">placeholder=</span><span class="s">"Enter a title"</span> <span class="nt">/&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"form-footer"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"submit"</span> <span class="na">class=</span><span class="s">"accent"</span> <span class="na">value=</span><span class="s">"Order"</span> <span class="nt">/&gt;</span>
+            <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"reset"</span> <span class="na">value=</span><span class="s">"Cancel"</span> <span class="nt">/&gt;</span>
+            <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"submit"</span> <span class="na">class=</span><span class="s">"danger"</span> <span class="na">value=</span><span class="s">"Delete"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/form&gt;</span>
+<span class="nt">&lt;/div&gt;</span></pre>
+    </div>
+  </div>
+</div>
+      </section>
+    </main>
+    <footer>
+      <p>Made with <i class="fa fa-heart"></i> by <a href="http://www.emeraldion.it">Emeraldion</a>. Generated with <a href="http://github.com/trulia/hologram">Hologram</a></p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script>
+      $(document).ready(function() {
+      $('pre').each(function(i, block) {
+        $(block).addClass('html');
+        hljs.highlightBlock(block);
+      });
+    });
+  </script>
+  </body>
+</html>
