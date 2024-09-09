@@ -16,7 +16,7 @@
 /*doc
 ---
 title: Navbar
-name: navbar
+name: 1-navbar
 category: navigation
 ---
 Use the `navbar` class on `<nav>` or `<div>` elements to style a global navbar.
@@ -117,7 +117,6 @@ Of course you can give your navbar a kick by adding a color class to the `navbar
   border-width: 0;
   border-bottom-width: 1px;
   border-style: solid;
-  box-sizing: border-box;
   display: block;
 
   @include set-color(gray, lightest);
@@ -135,7 +134,6 @@ Of course you can give your navbar a kick by adding a color class to the `navbar
 
       a {
         display: block;
-        box-sizing: border-box;
         height: 45px;
         padding: 15px 20px;
         text-decoration: none;

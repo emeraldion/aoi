@@ -1,0 +1,60 @@
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+
+@import 'variables';
+
+:root {
+  --aoi-dark-blue: #{$dark-blue};
+  --aoi-medium-blue: #{$medium-blue};
+  --aoi-light-blue: #{$light-blue};
+  --aoi-lightest-blue: #{$lightest-blue};
+
+  --aoi-dark-green: #{$dark-green};
+  --aoi-medium-green: #{$medium-green};
+  --aoi-light-green: #{$light-green};
+  --aoi-lightest-green: #{$lightest-green};
+
+  --aoi-dark-red: #{$dark-red};
+  --aoi-medium-red: #{$medium-red};
+  --aoi-light-red: #{$light-red};
+  --aoi-lightest-red: #{$lightest-red};
+
+  --aoi-dark-amber: #{$dark-amber};
+  --aoi-medium-amber: #{$medium-amber};
+  --aoi-light-amber: #{$light-amber};
+  --aoi-lightest-amber: #{$lightest-amber};
+
+  --aoi-dark-accent: #{$dark-accent};
+  --aoi-medium-accent: #{$medium-accent};
+  --aoi-light-accent: #{$light-accent};
+  --aoi-lightest-accent: #{$lightest-accent};
+
+  --aoi-dark-plum: #{$dark-plum};
+  --aoi-medium-plum: #{$medium-plum};
+  --aoi-light-plum: #{$light-plum};
+  --aoi-lightest-plum: #{$lightest-plum};
+
+  --aoi-dark-raspberry: #{$dark-raspberry};
+  --aoi-medium-raspberry: #{$medium-raspberry};
+  --aoi-light-raspberry: #{$light-raspberry};
+  --aoi-lightest-raspberry: #{$lightest-raspberry};
+
+  --aoi-dark-banana: #{$dark-banana};
+  --aoi-medium-banana: #{$medium-banana};
+  --aoi-light-banana: #{$light-banana};
+  --aoi-lightest-banana: #{$lightest-banana};
+
+  --aoi-dark-gray: #{$dark-gray};
+  --aoi-medium-gray: #{$medium-gray};
+  --aoi-light-gray: #{$light-gray};
+  --aoi-lightest-gray: #{$lightest-gray};
+}

@@ -16,7 +16,7 @@
 /*doc
 ---
 title: Pager
-name: nav-pager
+name: 2-nav-pager
 category: navigation
 ---
 Use the `nav-pager` class on a `<ol>` or a `<ul>` element to render a compound navigation control
@@ -101,8 +101,8 @@ through the Font Awesome icons `fa-fast-backward` and `fa-fast-forward` respecti
   padding: 0;
 
   li {
-    display: table-cell;
     border-right: 1px solid $light-gray;
+    display: table-cell;
     vertical-align: middle;
 
     &:last-child {
@@ -117,7 +117,6 @@ through the Font Awesome icons `fa-fast-backward` and `fa-fast-forward` respecti
   }
 
   a {
-    box-sizing: border-box;
     display: block;
     font-weight: $bold-weight;
     padding: 8px 12px;

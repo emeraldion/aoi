@@ -13,12 +13,13 @@
 @import 'variables';
 @import 'base';
 @import 'buttons';
+@import 'controls';
 
 /*doc
 ---
-title: Form
-name: form
-category: controls
+title: Forms
+name: 1-form-fields
+category: forms
 ---
 
 Use the `form` class on a `<div>` or a `<section>` enclosing a group of form controls.
@@ -30,90 +31,67 @@ Inside it, place a `<label>` and an input enclosed in a `<div>` with class `form
     <div class="form-row">
         <label for="f_title">Title:</label>
         <div class="form-field">
-            <input type="text" size="24" placeholder="Enter title"/>
-        </div>
-    </div>
-</div>
-```
-
-Disabled and readonly elements are styled automatically.
-
-```html_example
-<div class="form">
-    <div class="form-row">
-        <label for="f_title">Title:</label>
-        <div class="form-field">
-            <input type="text" size="24" value="Norwegian Wood" readonly/>
+            <input id="f_title" type="text" size="24" placeholder="Enter title" />
         </div>
     </div>
     <div class="form-row">
-        <label for="f_category">Category:</label>
+        <label for="f_color">Color:</label>
         <div class="form-field">
-            <input type="text" size="24" value="Novel" disabled/>
+            <select id="f_color">
+              <option>Red</option>
+              <option selected>Blue</option>
+              <option>Green</option>
+            </select>
         </div>
     </div>
-</div>
-```
-
-Enclose submit and cancel buttons in a `form-footer` element. The primary
-action in the form, usually the submit button, should have the `accent` class.
-Dangerous actions, e.g. actions that have a destructive effect, should use the
-`danger` class.
-
-```html_example
-<div class="form">
     <div class="form-row">
-        <label for="f_title">Title:</label>
+        <label for="f_date">Start date:</label>
         <div class="form-field">
-            <input type="text" size="24" placeholder="Enter title"/>
+            <input id="f_date" type="date" />
         </div>
-    </div>
-    <div class="form-footer">
-        <input type="submit" class="accent" value="Order"/>
-        <input type="submit" class="danger" value="Delete"/>
-        <input type="reset" value="Cancel"/>
     </div>
 </div>
 ```
 */
+
+/*doc
+---
+title: Form footer
+name: 1-form-footer
+category: forms
+---
+
+Enclose submit and other buttons in a `form-footer` element. The primary
+action in the form, usually the submit button, should have the `accent` class.
+Dangerous actions, e.g. actions that have a destructive effect, should use the
+`danger` class and preferrably placed far from the primary one.
+
+```html_example
+<div class="form">
+    <form>
+        <div class="form-row">
+            <label for="f_title_2">Title:</label>
+            <div class="form-field">
+                <input id="f_title_2" type="text" size="24" placeholder="Enter a title" />
+            </div>
+        </div>
+        <div class="form-footer">
+            <input type="submit" class="accent" value="Order" />
+            <input type="reset" value="Cancel" />
+            <input type="submit" class="danger" value="Delete" />
+        </div>
+    </form>
+</div>
+```
+*/
+
 .form {
   .form-row {
     label {
       display: block;
-      padding: 10px 0 5px 0;
       font-weight: $bold-weight;
+      padding: 10px 0 5px 0;
     }
-
-    .form-field {
-      @each $type in text, number, password, date, datetime-local, search, url {
-        input[type='#{$type}'] {
-          transition: box-shadow 0.2s ease-in;
-          border: $border-size solid $light-gray;
-          border-radius: $border-radius;
-          padding: 6px 6px 4px 6px;
-
-          &:focus {
-            outline: none;
-            box-shadow: 0 0 3px 1px $light-accent;
-            border-color: $medium-accent;
-          }
-
-          &[disabled] {
-            background-color: $lightest-gray;
-            cursor: not-allowed;
-          }
-
-          &[readonly] {
-            color: $medium-gray;
-
-            &:focus {
-              box-shadow: none;
-              border-color: $light-gray;
-            }
-          }
-        } // input[type=#{$type}]
-      }
-    } // .form-field
   }
 
   .form-footer {
@@ -124,5 +102,5 @@ Dangerous actions, e.g. actions that have a destructive effect, should use the
         @extend .btn;
       }
     }
-  } // .form-footer
+  }
 }

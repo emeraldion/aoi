@@ -10,14 +10,16 @@
  * @format
  */
 
+@use 'sass:map';
+
 @import 'variables';
 @import 'base';
 
 /*doc
 ---
 title: Messages
-name: msg
-category: controls
+name: 1-messages
+category: messages
 ---
 Use the `msg` class on a block element to style it as a message container.
 
@@ -26,6 +28,14 @@ Use the `msg` class on a block element to style it as a message container.
     <p>Hey y'all!</p>
 </div>
 ```
+*/
+
+/*doc
+---
+title: Cued messages
+name: 2-cued-messages
+category: messages
+---
 
 Additionally, you can set a level modifier of `accent` (default), `error`, `warning`,
 `info`, or `success` to give it a semantic cue. 
@@ -47,10 +57,21 @@ Additionally, you can set a level modifier of `accent` (default), `error`, `warn
     <p>Things are going well</p>
 </div>
 ```
+*/
 
+/*doc
+---
+title: Messages with icons
+name: 3-messages-with-icons
+category: messages
+---
 Finally, setting a modifier of `msg-icon`, the message will include an icon. 
 
 ```html_example
+<div class="msg msg-icon">
+    <p>Hello there!</p>
+</div>
+
 <div class="msg msg-icon error">
     <p>There was an error</p>
 </div>
@@ -68,23 +89,37 @@ Finally, setting a modifier of `msg-icon`, the message will include an icon.
 </div>
 ```
 */
+
+$msg-icon-colors: (
+  'error': $dark-red,
+  'info': $dark-blue,
+  'success': $dark-green,
+  'warning': $dark-amber,
+);
+
 .msg {
-  border-width: 1px;
-  border-style: solid;
   border-radius: $border-radius;
-  padding: 10px;
+  border-style: solid;
+  border-width: $border-size;
   margin: 0 10px 10px 10px;
+  padding: 10px;
 
   @extend .accent;
 
   @include levels(light);
 
   &.msg-icon {
+    :first-child:before {
+      color: $dark-accent;
+      content: '\f075';
+      font-family: 'FontAwesome';
+      margin-right: 0.8em;
+      vertical-align: middle;
+    }
+
     @each $level in error, info, warning, success {
       &.#{$level} :first-child:before {
-        font-family: 'FontAwesome';
-        margin-right: 0.8em;
-        vertical-align: middle;
+        color: map.get($msg-icon-colors, $level);
 
         @if $level == error {
           content: '\f06a';

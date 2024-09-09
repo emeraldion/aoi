@@ -16,7 +16,7 @@
 /*doc
 ---
 title: Panel
-name: panel
+name: 1-panel
 category: layout
 ---
 A panel encloses a section of the document with a border and whitespace.
@@ -43,7 +43,7 @@ A panel encloses a section of the document with a border and whitespace.
 /*doc
 ---
 title: Well
-name: well
+name: 2-well
 category: layout
 ---
 Use the `well` class on `<div>`s or `<aside>`s to apply the visual cue of ancillary content.
@@ -79,8 +79,8 @@ the content.
 
 /*doc
 ---
-title: Small Well
-name: well-small
+title: Small well
+name: 3-well-small
 category: layout
 ---
 The `well-small` modifier class reduces the padding and borders of the well.
@@ -99,10 +99,10 @@ The `well-small` modifier class reduces the padding and borders of the well.
 */
 .well {
   background-color: $snow;
-  padding: 20px;
-  border-radius: 2 * $border-radius;
   border: $border-radius solid $lightest-gray;
+  border-radius: 2 * $border-radius;
   box-shadow: inset 0 1px 2px 2px $light-gray;
+  padding: 20px;
 
   @include reset-first-last-margin;
 
@@ -112,25 +112,25 @@ The `well-small` modifier class reduces the padding and borders of the well.
   }
 
   header {
-    padding: 0 20px 10px 20px;
     border-bottom: 1px solid $light-gray;
+    padding: 0 20px 10px 20px;
 
     @include well-header-footer;
     @include reset-first-last-margin;
   }
 
   footer {
-    padding: 10px 20px 0 20px;
     border-top: 1px solid $light-gray;
+    padding: 10px 20px 0 20px;
 
     @include well-header-footer;
   }
 
   &.well-small {
-    padding: 10px;
-    border-radius: 1.5 * $border-radius;
     border: 0.5 * $border-radius solid $lightest-gray;
+    border-radius: 1.5 * $border-radius;
     box-shadow: inset 0 1px 1px 1px $light-gray;
+    padding: 10px;
 
     @mixin well-small-header-footer {
       margin-left: -10px;
@@ -138,15 +138,15 @@ The `well-small` modifier class reduces the padding and borders of the well.
     }
 
     header {
-      padding: 0 10px 5px 10px;
       border-bottom: 1px solid $light-gray;
+      padding: 0 10px 5px 10px;
 
       @include well-small-header-footer;
     }
 
     footer {
-      padding: 5px 10px 0 10px;
       border-top: 1px solid $light-gray;
+      padding: 5px 10px 0 10px;
 
       @include well-small-header-footer;
     }

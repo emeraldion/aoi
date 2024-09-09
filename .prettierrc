@@ -1,6 +1,8 @@
 {
+	"cssDeclarationSorterOrder": "alphabetical",
 	"endOfLine": "lf",
 	"insertPragma": true,
+	"plugins": ["prettier-plugin-css-order"],
 	"printWidth": 120,
 	"singleAttributePerLine": true,
 	"singleQuote": true,

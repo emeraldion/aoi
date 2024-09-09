@@ -13,6 +13,10 @@
 @import 'variables';
 @import 'functions';
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 input,
 textarea,
