@@ -32,7 +32,7 @@ function sassTask() {
   return src(SASS_SOURCES)
     .pipe(
       sass({
-        outputStyle: 'compressed',
+        // outputStyle: 'compressed',
       })
     )
     .pipe(
@@ -82,4 +82,4 @@ export {
   serverTask as server,
   watchTask as watch,
 };
-export default series(sassTask, hologramTask, serverTask, watchTask);
+export default series(sassTask, minifyCssTask, hologramTask, serverTask, watchTask);
