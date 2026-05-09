@@ -1,0 +1,84 @@
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+
+@import 'variables';
+@import 'base';
+
+/*doc
+ ---
+ title: Radio Buttons
+ name: 1-radio-buttons
+ category: radio-buttons
+ ---
+ In order to render a group of radio buttons, use the `btn-radio` class on `<button>`, `<input type="button">`, or `<a class="btn">` elements enclosed in a block-level element with the `radio-buttons` class.
+ 
+ ```html_example_table
+ <div class="radio-buttons">
+    <button class="btn btn-radio btn-radio-selected" data-view="one" onclick="filterView(this);">One</button>
+    <button class="btn btn-radio" data-view="two" onclick="filterView(this);">Two</button>
+    <button class="btn btn-radio" data-view="three" onclick="filterView(this);">Three</button>
+</div>
+ ```
+*/
+
+/*doc
+ ---
+ title: Small Radio Buttons
+ name: 1-small-radio-buttons
+ category: radio-buttons
+ ---
+ Add the `btn-small` class on the buttons to render small radio buttons
+ 
+ ```html_example_table
+ <div class="radio-buttons">
+    <button class="btn btn-small btn-radio btn-radio-selected" data-view="one" onclick="filterView(this);">One</button>
+    <button class="btn btn-small btn-radio" data-view="two" onclick="filterView(this);">Two</button>
+    <button class="btn btn-small btn-radio" data-view="three" onclick="filterView(this);">Three</button>
+</div>
+ ```
+ */
+
+.radio-buttons {
+  border: $border-size solid $light-gray;
+  border-radius: $border-radius;
+  display: inline-flex;
+  margin-bottom: 10px;
+
+  .btn {
+    align-items: center;
+    background-color: transparent;
+    border-bottom: none;
+    border-left: none;
+    border-radius: 0;
+    border-right-color: $light-gray;
+    border-top: none;
+    cursor: pointer;
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    min-width: 48px;
+
+    &.btn-small {
+      height: 31px;
+      min-width: 31px;
+    }
+  }
+
+  .btn:first-of-type {
+  }
+  .btn:last-of-type {
+    border-right: none;
+  }
+  .btn-radio-selected {
+    background-color: $lightest-gray;
+  }
+}
