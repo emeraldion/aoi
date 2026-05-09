@@ -39,6 +39,8 @@
       
         <li><a href="layout.html"><span class="txt">layout</span><i class="fa fa-th"></i></a></li>
       
+        <li><a href="radio-buttons.html"><span class="txt">radio-buttons</span><i class="fa fa-dot-circle-o"></i></a></li>
+      
         <li><a href="tables.html"><span class="txt">tables</span><i class="fa fa-table"></i></a></li>
       
       </ul>
@@ -418,11 +420,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
     <script>
+      function filterView(btn) {
+        $(btn)
+          .closest('.radio-buttons')
+          .find('.btn-radio')
+          .removeClass('btn-radio-selected');
+        $(btn)
+          .addClass('btn-radio-selected');
+      }
+
       $(document).ready(function() {
-      $('pre').each(function(i, block) {
-        $(block).addClass('html');
-        hljs.highlightBlock(block);
-      });
+        $('pre').each(function(i, block) {
+          $(block).addClass('html');
+          hljs.highlightBlock(block);
+        });
     });
   </script>
   </body>

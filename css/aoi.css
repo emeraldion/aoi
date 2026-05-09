@@ -1,1 +1,2750 @@
-*{box-sizing:border-box}html,input,textarea,keygen,select,button{font-family:Rubik,sans-serif;font-size:14px;font-weight:400}h1,h2,h3,h4,h5,h6{font-weight:500}.dark-gray{background-color:#666;border-color:#555;color:#fff}.dark-gray a{color:#fff}.dark-gray .active a{color:#fff}.medium-gray{background-color:#999;border-color:#888;color:#000}.medium-gray a{color:#000}.medium-gray .active a{color:#000}.light-gray,.navbar ul.nav li.active a{background-color:#ccc;border-color:#bbb;color:#000}.light-gray a,.navbar ul.nav li.active a a{color:#000}.light-gray .active a,.navbar ul.nav li.active a .active a{color:#000}.lightest-gray,.navbar ul.nav li a,.navbar{background-color:#eee;border-color:#ddd;color:#000}.lightest-gray a,.navbar ul.nav li a a,.navbar a{color:#000}.lightest-gray .active a,.navbar ul.nav li a .active a,.navbar .active a{color:#000}.dark-blue,.navbar.blue ul.nav li.active a,.btn.blue:active,.form .form-footer input.blue[type=submit]:active,.form .form-footer input.blue[type=reset]:active,.form .form-footer input.blue[type=button]:active,.btn.blue:focus,.form .form-footer input.blue[type=submit]:focus,.form .form-footer input.blue[type=reset]:focus,.form .form-footer input.blue[type=button]:focus,.dark-info,.btn.info:active,.form .form-footer input.info[type=submit]:active,.form .form-footer input.info[type=reset]:active,.form .form-footer input.info[type=button]:active,.btn.info:focus,.form .form-footer input.info[type=submit]:focus,.form .form-footer input.info[type=reset]:focus,.form .form-footer input.info[type=button]:focus{background-color:#276391;border-color:#1f5176;color:#fff}.dark-blue a,.navbar.blue ul.nav li.active a a,.btn.blue:active a,.form .form-footer input.blue[type=submit]:active a,.form .form-footer input.blue[type=reset]:active a,.form .form-footer input.blue[type=button]:active a,.btn.blue:focus a,.form .form-footer input.blue[type=submit]:focus a,.form .form-footer input.blue[type=reset]:focus a,.form .form-footer input.blue[type=button]:focus a,.dark-info a,.btn.info:active a,.form .form-footer input.info[type=submit]:active a,.form .form-footer input.info[type=reset]:active a,.form .form-footer input.info[type=button]:active a,.btn.info:focus a,.form .form-footer input.info[type=submit]:focus a,.form .form-footer input.info[type=reset]:focus a,.form .form-footer input.info[type=button]:focus a{color:#fff}.dark-blue .active a,.navbar.blue ul.nav li.active a .active a,.btn.blue:active .active a,.form .form-footer input.blue[type=submit]:active .active a,.form .form-footer input.blue[type=reset]:active .active a,.form .form-footer input.blue[type=button]:active .active a,.btn.blue:focus .active a,.form .form-footer input.blue[type=submit]:focus .active a,.form .form-footer input.blue[type=reset]:focus .active a,.form .form-footer input.blue[type=button]:focus .active a,.dark-info .active a,.btn.info:active .active a,.form .form-footer input.info[type=submit]:active .active a,.form .form-footer input.info[type=reset]:active .active a,.form .form-footer input.info[type=button]:active .active a,.btn.info:focus .active a,.form .form-footer input.info[type=submit]:focus .active a,.form .form-footer input.info[type=reset]:focus .active a,.form .form-footer input.info[type=button]:focus .active a{color:#fff}.medium-blue,.navbar.blue ul.nav li a,.navbar.blue,.btn.blue:hover,.btn.blue,.form .form-footer input.blue[type=submit],.form .form-footer input.blue[type=reset],.form .form-footer input.blue[type=button],.medium-info,.btn.info:hover,.btn.info,.form .form-footer input.info[type=submit],.form .form-footer input.info[type=reset],.form .form-footer input.info[type=button]{background-color:#2d73a9;border-color:#26618e;color:#fff}.medium-blue a,.navbar.blue ul.nav li a a,.navbar.blue a,.btn.blue:hover a,.btn.blue a,.form .form-footer input.blue[type=submit] a,.form .form-footer input.blue[type=reset] a,.form .form-footer input.blue[type=button] a,.medium-info a,.btn.info:hover a,.btn.info a,.form .form-footer input.info[type=submit] a,.form .form-footer input.info[type=reset] a,.form .form-footer input.info[type=button] a{color:#fff}.medium-blue .active a,.navbar.blue ul.nav li a .active a,.navbar.blue .active a,.btn.blue .active a,.form .form-footer input.blue[type=submit] .active a,.form .form-footer input.blue[type=reset] .active a,.form .form-footer input.blue[type=button] .active a,.medium-info .active a,.btn.info .active a,.form .form-footer input.info[type=submit] .active a,.form .form-footer input.info[type=reset] .active a,.form .form-footer input.info[type=button] .active a{color:#fff}.light-blue,.light-info,.msg.info{background-color:#8ebde1;border-color:#73adda;color:#000}.light-blue a,.light-info a,.msg.info a{color:#000}.light-blue .active a,.light-info .active a,.msg.info .active a{color:#000}.lightest-blue,.table.table-striped.blue tr:nth-of-type(2n),.lightest-info{background-color:#dfecf6;border-color:#c4dcef;color:#000}.lightest-blue a,.table.table-striped.blue tr:nth-of-type(2n) a,.lightest-info a{color:#000}.lightest-blue .active a,.table.table-striped.blue tr:nth-of-type(2n) .active a,.lightest-info .active a{color:#000}.dark-green,.navbar.green ul.nav li.active a,.btn.green:active,.form .form-footer input.green[type=submit]:active,.form .form-footer input.green[type=reset]:active,.form .form-footer input.green[type=button]:active,.btn.green:focus,.form .form-footer input.green[type=submit]:focus,.form .form-footer input.green[type=reset]:focus,.form .form-footer input.green[type=button]:focus,.dark-success,.btn.success:active,.form .form-footer input.success[type=submit]:active,.form .form-footer input.success[type=reset]:active,.form .form-footer input.success[type=button]:active,.btn.success:focus,.form .form-footer input.success[type=submit]:focus,.form .form-footer input.success[type=reset]:focus,.form .form-footer input.success[type=button]:focus{background-color:#3a713b;border-color:#2e5a2f;color:#fff}.dark-green a,.navbar.green ul.nav li.active a a,.btn.green:active a,.form .form-footer input.green[type=submit]:active a,.form .form-footer input.green[type=reset]:active a,.form .form-footer input.green[type=button]:active a,.btn.green:focus a,.form .form-footer input.green[type=submit]:focus a,.form .form-footer input.green[type=reset]:focus a,.form .form-footer input.green[type=button]:focus a,.dark-success a,.btn.success:active a,.form .form-footer input.success[type=submit]:active a,.form .form-footer input.success[type=reset]:active a,.form .form-footer input.success[type=button]:active a,.btn.success:focus a,.form .form-footer input.success[type=submit]:focus a,.form .form-footer input.success[type=reset]:focus a,.form .form-footer input.success[type=button]:focus a{color:#fff}.dark-green .active a,.navbar.green ul.nav li.active a .active a,.btn.green:active .active a,.form .form-footer input.green[type=submit]:active .active a,.form .form-footer input.green[type=reset]:active .active a,.form .form-footer input.green[type=button]:active .active a,.btn.green:focus .active a,.form .form-footer input.green[type=submit]:focus .active a,.form .form-footer input.green[type=reset]:focus .active a,.form .form-footer input.green[type=button]:focus .active a,.dark-success .active a,.btn.success:active .active a,.form .form-footer input.success[type=submit]:active .active a,.form .form-footer input.success[type=reset]:active .active a,.form .form-footer input.success[type=button]:active .active a,.btn.success:focus .active a,.form .form-footer input.success[type=submit]:focus .active a,.form .form-footer input.success[type=reset]:focus .active a,.form .form-footer input.success[type=button]:focus .active a{color:#fff}.medium-green,.navbar.green ul.nav li a,.navbar.green,.btn.green:hover,.btn.green,.form .form-footer input.green[type=submit],.form .form-footer input.green[type=reset],.form .form-footer input.green[type=button],.medium-success,.btn.success:hover,.btn.success,.form .form-footer input.success[type=submit],.form .form-footer input.success[type=reset],.form .form-footer input.success[type=button]{background-color:#448345;border-color:#386d39;color:#fff}.medium-green a,.navbar.green ul.nav li a a,.navbar.green a,.btn.green:hover a,.btn.green a,.form .form-footer input.green[type=submit] a,.form .form-footer input.green[type=reset] a,.form .form-footer input.green[type=button] a,.medium-success a,.btn.success:hover a,.btn.success a,.form .form-footer input.success[type=submit] a,.form .form-footer input.success[type=reset] a,.form .form-footer input.success[type=button] a{color:#fff}.medium-green .active a,.navbar.green ul.nav li a .active a,.navbar.green .active a,.btn.green .active a,.form .form-footer input.green[type=submit] .active a,.form .form-footer input.green[type=reset] .active a,.form .form-footer input.green[type=button] .active a,.medium-success .active a,.btn.success .active a,.form .form-footer input.success[type=submit] .active a,.form .form-footer input.success[type=reset] .active a,.form .form-footer input.success[type=button] .active a{color:#fff}.light-green,.light-success,.msg.success{background-color:#90c691;border-color:#79ba7a;color:#000}.light-green a,.light-success a,.msg.success a{color:#000}.light-green .active a,.light-success .active a,.msg.success .active a{color:#000}.lightest-green,.table.table-striped.green tr:nth-of-type(2n),.lightest-success{background-color:#cee6cf;border-color:#b8dab9;color:#000}.lightest-green a,.table.table-striped.green tr:nth-of-type(2n) a,.lightest-success a{color:#000}.lightest-green .active a,.table.table-striped.green tr:nth-of-type(2n) .active a,.lightest-success .active a{color:#000}.dark-red,.navbar.red ul.nav li.active a,.btn.red:active,.form .form-footer input.red[type=submit]:active,.form .form-footer input.red[type=reset]:active,.form .form-footer input.red[type=button]:active,.btn.red:focus,.form .form-footer input.red[type=submit]:focus,.form .form-footer input.red[type=reset]:focus,.form .form-footer input.red[type=button]:focus,.dark-error,.btn.error:active,.form .form-footer input.error[type=submit]:active,.form .form-footer input.error[type=reset]:active,.form .form-footer input.error[type=button]:active,.btn.error:focus,.form .form-footer input.error[type=submit]:focus,.form .form-footer input.error[type=reset]:focus,.form .form-footer input.error[type=button]:focus,.dark-danger,.btn.danger:active,.form .form-footer input.danger[type=submit]:active,.form .form-footer input.danger[type=reset]:active,.form .form-footer input.danger[type=button]:active,.btn.danger:focus,.form .form-footer input.danger[type=submit]:focus,.form .form-footer input.danger[type=reset]:focus,.form .form-footer input.danger[type=button]:focus{background-color:#9e1a25;border-color:#81151e;color:#fff}.dark-red a,.navbar.red ul.nav li.active a a,.btn.red:active a,.form .form-footer input.red[type=submit]:active a,.form .form-footer input.red[type=reset]:active a,.form .form-footer input.red[type=button]:active a,.btn.red:focus a,.form .form-footer input.red[type=submit]:focus a,.form .form-footer input.red[type=reset]:focus a,.form .form-footer input.red[type=button]:focus a,.dark-error a,.btn.error:active a,.form .form-footer input.error[type=submit]:active a,.form .form-footer input.error[type=reset]:active a,.form .form-footer input.error[type=button]:active a,.btn.error:focus a,.form .form-footer input.error[type=submit]:focus a,.form .form-footer input.error[type=reset]:focus a,.form .form-footer input.error[type=button]:focus a,.dark-danger a,.btn.danger:active a,.form .form-footer input.danger[type=submit]:active a,.form .form-footer input.danger[type=reset]:active a,.form .form-footer input.danger[type=button]:active a,.btn.danger:focus a,.form .form-footer input.danger[type=submit]:focus a,.form .form-footer input.danger[type=reset]:focus a,.form .form-footer input.danger[type=button]:focus a{color:#fff}.dark-red .active a,.navbar.red ul.nav li.active a .active a,.btn.red:active .active a,.form .form-footer input.red[type=submit]:active .active a,.form .form-footer input.red[type=reset]:active .active a,.form .form-footer input.red[type=button]:active .active a,.btn.red:focus .active a,.form .form-footer input.red[type=submit]:focus .active a,.form .form-footer input.red[type=reset]:focus .active a,.form .form-footer input.red[type=button]:focus .active a,.dark-error .active a,.btn.error:active .active a,.form .form-footer input.error[type=submit]:active .active a,.form .form-footer input.error[type=reset]:active .active a,.form .form-footer input.error[type=button]:active .active a,.btn.error:focus .active a,.form .form-footer input.error[type=submit]:focus .active a,.form .form-footer input.error[type=reset]:focus .active a,.form .form-footer input.error[type=button]:focus .active a,.dark-danger .active a,.btn.danger:active .active a,.form .form-footer input.danger[type=submit]:active .active a,.form .form-footer input.danger[type=reset]:active .active a,.form .form-footer input.danger[type=button]:active .active a,.btn.danger:focus .active a,.form .form-footer input.danger[type=submit]:focus .active a,.form .form-footer input.danger[type=reset]:focus .active a,.form .form-footer input.danger[type=button]:focus .active a{color:#fff}.medium-red,.navbar.red ul.nav li a,.navbar.red,.btn.red:hover,.btn.red,.form .form-footer input.red[type=submit],.form .form-footer input.red[type=reset],.form .form-footer input.red[type=button],.medium-error,.btn.error:hover,.btn.error,.form .form-footer input.error[type=submit],.form .form-footer input.error[type=reset],.form .form-footer input.error[type=button],.medium-danger,.btn.danger:hover,.btn.danger,.form .form-footer input.danger[type=submit],.form .form-footer input.danger[type=reset],.form .form-footer input.danger[type=button]{background-color:#b81e2b;border-color:#9b1924;color:#fff}.medium-red a,.navbar.red ul.nav li a a,.navbar.red a,.btn.red:hover a,.btn.red a,.form .form-footer input.red[type=submit] a,.form .form-footer input.red[type=reset] a,.form .form-footer input.red[type=button] a,.medium-error a,.btn.error:hover a,.btn.error a,.form .form-footer input.error[type=submit] a,.form .form-footer input.error[type=reset] a,.form .form-footer input.error[type=button] a,.medium-danger a,.btn.danger:hover a,.btn.danger a,.form .form-footer input.danger[type=submit] a,.form .form-footer input.danger[type=reset] a,.form .form-footer input.danger[type=button] a{color:#fff}.medium-red .active a,.navbar.red ul.nav li a .active a,.navbar.red .active a,.btn.red .active a,.form .form-footer input.red[type=submit] .active a,.form .form-footer input.red[type=reset] .active a,.form .form-footer input.red[type=button] .active a,.medium-error .active a,.btn.error .active a,.form .form-footer input.error[type=submit] .active a,.form .form-footer input.error[type=reset] .active a,.form .form-footer input.error[type=button] .active a,.medium-danger .active a,.btn.danger .active a,.form .form-footer input.danger[type=submit] .active a,.form .form-footer input.danger[type=reset] .active a,.form .form-footer input.danger[type=button] .active a{color:#fff}.light-red,.light-error,.msg.error,.light-danger,.msg.danger{background-color:#eb848d;border-color:#e66772;color:#000}.light-red a,.light-error a,.msg.error a,.light-danger a,.msg.danger a{color:#000}.light-red .active a,.light-error .active a,.msg.error .active a,.light-danger .active a,.msg.danger .active a{color:#000}.lightest-red,.table.table-striped.red tr:nth-of-type(2n),.lightest-error,.lightest-danger{background-color:#f9dcde;border-color:#f5bfc3;color:#000}.lightest-red a,.table.table-striped.red tr:nth-of-type(2n) a,.lightest-error a,.lightest-danger a{color:#000}.lightest-red .active a,.table.table-striped.red tr:nth-of-type(2n) .active a,.lightest-error .active a,.lightest-danger .active a{color:#000}.dark-amber,.navbar.amber ul.nav li.active a,.btn.amber:active,.form .form-footer input.amber[type=submit]:active,.form .form-footer input.amber[type=reset]:active,.form .form-footer input.amber[type=button]:active,.btn.amber:focus,.form .form-footer input.amber[type=submit]:focus,.form .form-footer input.amber[type=reset]:focus,.form .form-footer input.amber[type=button]:focus,.dark-warning,.btn.warning:active,.form .form-footer input.warning[type=submit]:active,.form .form-footer input.warning[type=reset]:active,.form .form-footer input.warning[type=button]:active,.btn.warning:focus,.form .form-footer input.warning[type=submit]:focus,.form .form-footer input.warning[type=reset]:focus,.form .form-footer input.warning[type=button]:focus{background-color:#9c520e;border-color:#7c420b;color:#fff}.dark-amber a,.navbar.amber ul.nav li.active a a,.btn.amber:active a,.form .form-footer input.amber[type=submit]:active a,.form .form-footer input.amber[type=reset]:active a,.form .form-footer input.amber[type=button]:active a,.btn.amber:focus a,.form .form-footer input.amber[type=submit]:focus a,.form .form-footer input.amber[type=reset]:focus a,.form .form-footer input.amber[type=button]:focus a,.dark-warning a,.btn.warning:active a,.form .form-footer input.warning[type=submit]:active a,.form .form-footer input.warning[type=reset]:active a,.form .form-footer input.warning[type=button]:active a,.btn.warning:focus a,.form .form-footer input.warning[type=submit]:focus a,.form .form-footer input.warning[type=reset]:focus a,.form .form-footer input.warning[type=button]:focus a{color:#fff}.dark-amber .active a,.navbar.amber ul.nav li.active a .active a,.btn.amber:active .active a,.form .form-footer input.amber[type=submit]:active .active a,.form .form-footer input.amber[type=reset]:active .active a,.form .form-footer input.amber[type=button]:active .active a,.btn.amber:focus .active a,.form .form-footer input.amber[type=submit]:focus .active a,.form .form-footer input.amber[type=reset]:focus .active a,.form .form-footer input.amber[type=button]:focus .active a,.dark-warning .active a,.btn.warning:active .active a,.form .form-footer input.warning[type=submit]:active .active a,.form .form-footer input.warning[type=reset]:active .active a,.form .form-footer input.warning[type=button]:active .active a,.btn.warning:focus .active a,.form .form-footer input.warning[type=submit]:focus .active a,.form .form-footer input.warning[type=reset]:focus .active a,.form .form-footer input.warning[type=button]:focus .active a{color:#fff}.medium-amber,.navbar.amber ul.nav li a,.navbar.amber,.btn.amber:hover,.btn.amber,.form .form-footer input.amber[type=submit],.form .form-footer input.amber[type=reset],.form .form-footer input.amber[type=button],.medium-warning,.btn.warning:hover,.btn.warning,.form .form-footer input.warning[type=submit],.form .form-footer input.warning[type=reset],.form .form-footer input.warning[type=button]{background-color:#b56010;border-color:#964f0d;color:#fff}.medium-amber a,.navbar.amber ul.nav li a a,.navbar.amber a,.btn.amber:hover a,.btn.amber a,.form .form-footer input.amber[type=submit] a,.form .form-footer input.amber[type=reset] a,.form .form-footer input.amber[type=button] a,.medium-warning a,.btn.warning:hover a,.btn.warning a,.form .form-footer input.warning[type=submit] a,.form .form-footer input.warning[type=reset] a,.form .form-footer input.warning[type=button] a{color:#fff}.medium-amber .active a,.navbar.amber ul.nav li a .active a,.navbar.amber .active a,.btn.amber .active a,.form .form-footer input.amber[type=submit] .active a,.form .form-footer input.amber[type=reset] .active a,.form .form-footer input.amber[type=button] .active a,.medium-warning .active a,.btn.warning .active a,.form .form-footer input.warning[type=submit] .active a,.form .form-footer input.warning[type=reset] .active a,.form .form-footer input.warning[type=button] .active a{color:#fff}.light-amber,.light-warning,.msg.warning{background-color:#f1a761;border-color:#ef9542;color:#000}.light-amber a,.light-warning a,.msg.warning a{color:#000}.light-amber .active a,.light-warning .active a,.msg.warning .active a{color:#000}.lightest-amber,.table.table-striped.amber tr:nth-of-type(2n),.lightest-warning{background-color:#f9d7b7;border-color:#f6c598;color:#000}.lightest-amber a,.table.table-striped.amber tr:nth-of-type(2n) a,.lightest-warning a{color:#000}.lightest-amber .active a,.table.table-striped.amber tr:nth-of-type(2n) .active a,.lightest-warning .active a{color:#000}.dark-accent,.navbar.accent ul.nav li.active a,.navbar.msg ul.nav li.active a,.btn.accent:active,.btn.msg:active,.form .form-footer input.accent[type=submit]:active,.form .form-footer input[type=submit].msg:active,.form .form-footer input.accent[type=reset]:active,.form .form-footer input[type=reset].msg:active,.form .form-footer input.accent[type=button]:active,.form .form-footer input[type=button].msg:active,.btn.accent:focus,.btn.msg:focus,.form .form-footer input.accent[type=submit]:focus,.form .form-footer input[type=submit].msg:focus,.form .form-footer input.accent[type=reset]:focus,.form .form-footer input[type=reset].msg:focus,.form .form-footer input.accent[type=button]:focus,.form .form-footer input[type=button].msg:focus{background-color:#226e81;border-color:#1b5766;color:#fff}.dark-accent a,.navbar.accent ul.nav li.active a a,.navbar.msg ul.nav li.active a a,.btn.accent:active a,.btn.msg:active a,.form .form-footer input.accent[type=submit]:active a,.form .form-footer input[type=submit].msg:active a,.form .form-footer input.accent[type=reset]:active a,.form .form-footer input[type=reset].msg:active a,.form .form-footer input.accent[type=button]:active a,.form .form-footer input[type=button].msg:active a,.btn.accent:focus a,.btn.msg:focus a,.form .form-footer input.accent[type=submit]:focus a,.form .form-footer input[type=submit].msg:focus a,.form .form-footer input.accent[type=reset]:focus a,.form .form-footer input[type=reset].msg:focus a,.form .form-footer input.accent[type=button]:focus a,.form .form-footer input[type=button].msg:focus a{color:#fff}.dark-accent .active a,.navbar.accent ul.nav li.active a .active a,.navbar.msg ul.nav li.active a .active a,.btn.accent:active .active a,.btn.msg:active .active a,.form .form-footer input.accent[type=submit]:active .active a,.form .form-footer input[type=submit].msg:active .active a,.form .form-footer input.accent[type=reset]:active .active a,.form .form-footer input[type=reset].msg:active .active a,.form .form-footer input.accent[type=button]:active .active a,.form .form-footer input[type=button].msg:active .active a,.btn.accent:focus .active a,.btn.msg:focus .active a,.form .form-footer input.accent[type=submit]:focus .active a,.form .form-footer input[type=submit].msg:focus .active a,.form .form-footer input.accent[type=reset]:focus .active a,.form .form-footer input[type=reset].msg:focus .active a,.form .form-footer input.accent[type=button]:focus .active a,.form .form-footer input[type=button].msg:focus .active a{color:#fff}.medium-accent,.navbar.accent ul.nav li a,.navbar.msg ul.nav li a,.navbar.accent,.navbar.msg,.btn.accent:hover,.btn.msg:hover,.btn.accent,.btn.msg,.form .form-footer input.accent[type=submit],.form .form-footer input[type=submit].msg,.form .form-footer input.accent[type=reset],.form .form-footer input[type=reset].msg,.form .form-footer input.accent[type=button],.form .form-footer input[type=button].msg{background-color:#288097;border-color:#216a7c;color:#fff}.medium-accent a,.navbar.accent ul.nav li a a,.navbar.msg ul.nav li a a,.navbar.accent a,.navbar.msg a,.btn.accent:hover a,.btn.msg:hover a,.btn.accent a,.btn.msg a,.form .form-footer input.accent[type=submit] a,.form .form-footer input[type=submit].msg a,.form .form-footer input.accent[type=reset] a,.form .form-footer input[type=reset].msg a,.form .form-footer input.accent[type=button] a,.form .form-footer input[type=button].msg a{color:#fff}.medium-accent .active a,.navbar.accent ul.nav li a .active a,.navbar.msg ul.nav li a .active a,.navbar.accent .active a,.navbar.msg .active a,.btn.accent .active a,.btn.msg .active a,.form .form-footer input.accent[type=submit] .active a,.form .form-footer input[type=submit].msg .active a,.form .form-footer input.accent[type=reset] .active a,.form .form-footer input[type=reset].msg .active a,.form .form-footer input.accent[type=button] .active a,.form .form-footer input[type=button].msg .active a{color:#fff}.light-accent,.msg.accent,.msg{background-color:#6ec3d9;border-color:#53b8d1;color:#000}.light-accent a,.msg.accent a,.msg a{color:#000}.light-accent .active a,.msg .active a{color:#000}.lightest-accent,.table.table-striped.accent tr:nth-of-type(2n),.table.table-striped.msg tr:nth-of-type(2n){background-color:#b6e1ec;border-color:#9bd6e4;color:#000}.lightest-accent a,.table.table-striped.accent tr:nth-of-type(2n) a,.table.table-striped.msg tr:nth-of-type(2n) a{color:#000}.lightest-accent .active a,.table.table-striped.accent tr:nth-of-type(2n) .active a,.table.table-striped.msg tr:nth-of-type(2n) .active a{color:#000}.dark-plum,.navbar.plum ul.nav li.active a,.btn.plum:active,.form .form-footer input.plum[type=submit]:active,.form .form-footer input.plum[type=reset]:active,.form .form-footer input.plum[type=button]:active,.btn.plum:focus,.form .form-footer input.plum[type=submit]:focus,.form .form-footer input.plum[type=reset]:focus,.form .form-footer input.plum[type=button]:focus{background-color:#543570;border-color:#422a59;color:#fff}.dark-plum a,.navbar.plum ul.nav li.active a a,.btn.plum:active a,.form .form-footer input.plum[type=submit]:active a,.form .form-footer input.plum[type=reset]:active a,.form .form-footer input.plum[type=button]:active a,.btn.plum:focus a,.form .form-footer input.plum[type=submit]:focus a,.form .form-footer input.plum[type=reset]:focus a,.form .form-footer input.plum[type=button]:focus a{color:#fff}.dark-plum .active a,.navbar.plum ul.nav li.active a .active a,.btn.plum:active .active a,.form .form-footer input.plum[type=submit]:active .active a,.form .form-footer input.plum[type=reset]:active .active a,.form .form-footer input.plum[type=button]:active .active a,.btn.plum:focus .active a,.form .form-footer input.plum[type=submit]:focus .active a,.form .form-footer input.plum[type=reset]:focus .active a,.form .form-footer input.plum[type=button]:focus .active a{color:#fff}.medium-plum,.navbar.plum ul.nav li a,.navbar.plum,.btn.plum:hover,.btn.plum,.form .form-footer input.plum[type=submit],.form .form-footer input.plum[type=reset],.form .form-footer input.plum[type=button]{background-color:#623e83;border-color:#50336c;color:#fff}.medium-plum a,.navbar.plum ul.nav li a a,.navbar.plum a,.btn.plum:hover a,.btn.plum a,.form .form-footer input.plum[type=submit] a,.form .form-footer input.plum[type=reset] a,.form .form-footer input.plum[type=button] a{color:#fff}.medium-plum .active a,.navbar.plum ul.nav li a .active a,.navbar.plum .active a,.btn.plum .active a,.form .form-footer input.plum[type=submit] .active a,.form .form-footer input.plum[type=reset] .active a,.form .form-footer input.plum[type=button] .active a{color:#fff}.light-plum{background-color:#a685c6;border-color:#966ebb;color:#000}.light-plum a{color:#000}.light-plum .active a{color:#000}.lightest-plum,.table.table-striped.plum tr:nth-of-type(2n){background-color:#d4c3e3;border-color:#c3acd8;color:#000}.lightest-plum a,.table.table-striped.plum tr:nth-of-type(2n) a{color:#000}.lightest-plum .active a,.table.table-striped.plum tr:nth-of-type(2n) .active a{color:#000}.dark-raspberry,.navbar.raspberry ul.nav li.active a,.btn.raspberry:active,.form .form-footer input.raspberry[type=submit]:active,.form .form-footer input.raspberry[type=reset]:active,.form .form-footer input.raspberry[type=button]:active,.btn.raspberry:focus,.form .form-footer input.raspberry[type=submit]:focus,.form .form-footer input.raspberry[type=reset]:focus,.form .form-footer input.raspberry[type=button]:focus{background-color:#9b1c45;border-color:#7e1738;color:#fff}.dark-raspberry a,.navbar.raspberry ul.nav li.active a a,.btn.raspberry:active a,.form .form-footer input.raspberry[type=submit]:active a,.form .form-footer input.raspberry[type=reset]:active a,.form .form-footer input.raspberry[type=button]:active a,.btn.raspberry:focus a,.form .form-footer input.raspberry[type=submit]:focus a,.form .form-footer input.raspberry[type=reset]:focus a,.form .form-footer input.raspberry[type=button]:focus a{color:#fff}.dark-raspberry .active a,.navbar.raspberry ul.nav li.active a .active a,.btn.raspberry:active .active a,.form .form-footer input.raspberry[type=submit]:active .active a,.form .form-footer input.raspberry[type=reset]:active .active a,.form .form-footer input.raspberry[type=button]:active .active a,.btn.raspberry:focus .active a,.form .form-footer input.raspberry[type=submit]:focus .active a,.form .form-footer input.raspberry[type=reset]:focus .active a,.form .form-footer input.raspberry[type=button]:focus .active a{color:#fff}.medium-raspberry,.navbar.raspberry ul.nav li a,.navbar.raspberry,.btn.raspberry:hover,.btn.raspberry,.form .form-footer input.raspberry[type=submit],.form .form-footer input.raspberry[type=reset],.form .form-footer input.raspberry[type=button]{background-color:#b52150;border-color:#981c43;color:#fff}.medium-raspberry a,.navbar.raspberry ul.nav li a a,.navbar.raspberry a,.btn.raspberry:hover a,.btn.raspberry a,.form .form-footer input.raspberry[type=submit] a,.form .form-footer input.raspberry[type=reset] a,.form .form-footer input.raspberry[type=button] a{color:#fff}.medium-raspberry .active a,.navbar.raspberry ul.nav li a .active a,.navbar.raspberry .active a,.btn.raspberry .active a,.form .form-footer input.raspberry[type=submit] .active a,.form .form-footer input.raspberry[type=reset] .active a,.form .form-footer input.raspberry[type=button] .active a{color:#fff}.light-raspberry{background-color:#e986a6;border-color:#e46a90;color:#000}.light-raspberry a{color:#000}.light-raspberry .active a{color:#000}.lightest-raspberry,.table.table-striped.raspberry tr:nth-of-type(2n){background-color:#f9dde5;border-color:#f3c0d0;color:#000}.lightest-raspberry a,.table.table-striped.raspberry tr:nth-of-type(2n) a{color:#000}.lightest-raspberry .active a,.table.table-striped.raspberry tr:nth-of-type(2n) .active a{color:#000}.dark-banana,.navbar.banana ul.nav li.active a,.btn.banana:active,.form .form-footer input.banana[type=submit]:active,.form .form-footer input.banana[type=reset]:active,.form .form-footer input.banana[type=button]:active,.btn.banana:focus,.form .form-footer input.banana[type=submit]:focus,.form .form-footer input.banana[type=reset]:focus,.form .form-footer input.banana[type=button]:focus{background-color:#cb9c12;border-color:#ab840f;color:#000}.dark-banana a,.navbar.banana ul.nav li.active a a,.btn.banana:active a,.form .form-footer input.banana[type=submit]:active a,.form .form-footer input.banana[type=reset]:active a,.form .form-footer input.banana[type=button]:active a,.btn.banana:focus a,.form .form-footer input.banana[type=submit]:focus a,.form .form-footer input.banana[type=reset]:focus a,.form .form-footer input.banana[type=button]:focus a{color:#000}.dark-banana .active a,.navbar.banana ul.nav li.active a .active a,.btn.banana:active .active a,.form .form-footer input.banana[type=submit]:active .active a,.form .form-footer input.banana[type=reset]:active .active a,.form .form-footer input.banana[type=button]:active .active a,.btn.banana:focus .active a,.form .form-footer input.banana[type=submit]:focus .active a,.form .form-footer input.banana[type=reset]:focus .active a,.form .form-footer input.banana[type=button]:focus .active a{color:#000}.medium-banana,.navbar.banana ul.nav li a,.navbar.banana,.btn.banana:hover,.btn.banana,.form .form-footer input.banana[type=submit],.form .form-footer input.banana[type=reset],.form .form-footer input.banana[type=button]{background-color:#ebb616;border-color:#cd9e12;color:#000}.medium-banana a,.navbar.banana ul.nav li a a,.navbar.banana a,.btn.banana:hover a,.btn.banana a,.form .form-footer input.banana[type=submit] a,.form .form-footer input.banana[type=reset] a,.form .form-footer input.banana[type=button] a{color:#000}.medium-banana .active a,.navbar.banana ul.nav li a .active a,.navbar.banana .active a,.btn.banana .active a,.form .form-footer input.banana[type=submit] .active a,.form .form-footer input.banana[type=reset] .active a,.form .form-footer input.banana[type=button] .active a{color:#000}.light-banana{background-color:#f9ebbf;border-color:#f7e1a0;color:#000}.light-banana a{color:#000}.light-banana .active a{color:#000}.lightest-banana,.table.table-striped.banana tr:nth-of-type(2n){background-color:#fff;border-color:#fcf5e0;color:#000}.lightest-banana a,.table.table-striped.banana tr:nth-of-type(2n) a{color:#000}.lightest-banana .active a,.table.table-striped.banana tr:nth-of-type(2n) .active a{color:#000}.form .form-row label{display:block;font-weight:500;padding:10px 0 5px 0}.form .form-footer{padding:10px 0}.btn,.form .form-footer input[type=submit],.form .form-footer input[type=reset],.form .form-footer input[type=button]{background-color:#fff;border:2px solid #ccc;border-radius:4px;padding:6px 12px;transition:box-shadow .2s ease-in}.btn:hover,.form .form-footer input[type=submit]:hover,.form .form-footer input[type=reset]:hover,.form .form-footer input[type=button]:hover{background-color:#eee;border-color:#999}.btn:focus,.form .form-footer input[type=submit]:focus,.form .form-footer input[type=reset]:focus,.form .form-footer input[type=button]:focus{border-color:#666;box-shadow:0 0 3px 1px #6ec3d9;outline:none;background-color:#eee;border-color:#999}.btn:active,.form .form-footer input[type=submit]:active,.form .form-footer input[type=reset]:active,.form .form-footer input[type=button]:active{border-color:#666;box-shadow:0 0 3px 1px #6ec3d9;outline:none;background-color:#ccc}.btn.btn-small,.form .form-footer input.btn-small[type=submit],.form .form-footer input.btn-small[type=reset],.form .form-footer input.btn-small[type=button]{font-size:.9rem;padding:4px 8px}.btn.btn-large,.form .form-footer input.btn-large[type=submit],.form .form-footer input.btn-large[type=reset],.form .form-footer input.btn-large[type=button]{font-size:1.2rem;padding:8px 16px}.btn.btn-huge,.form .form-footer input.btn-huge[type=submit],.form .form-footer input.btn-huge[type=reset],.form .form-footer input.btn-huge[type=button]{border-radius:8px;font-size:1.5667rem;height:72px;padding:16px 32px}.form .form-row .form-field input[type=text]{border:2px solid #ccc;border-radius:4px;padding:6px 6px 4px 6px;transition:box-shadow .2s ease-in}.form .form-row .form-field input[type=text].text-large{font-size:24px;min-height:48px}.form .form-row .form-field input[type=text].text-huge{font-size:36px;min-height:72px}.form .form-row .form-field input[type=text]:focus{border-color:#288097;box-shadow:0 0 3px 1px #6ec3d9;outline:none}.form .form-row .form-field input[type=text][disabled]{background-color:#eee;cursor:not-allowed}.form .form-row .form-field input[type=text][readonly]{color:#999}.form .form-row .form-field input[type=text][readonly]:focus{border-color:#ccc;box-shadow:none}.form .form-row .form-field input[type=number]{border:2px solid #ccc;border-radius:4px;padding:6px 6px 4px 6px;transition:box-shadow .2s ease-in}.form .form-row .form-field input[type=number].text-large{font-size:24px;min-height:48px}.form .form-row .form-field input[type=number].text-huge{font-size:36px;min-height:72px}.form .form-row .form-field input[type=number]:focus{border-color:#288097;box-shadow:0 0 3px 1px #6ec3d9;outline:none}.form .form-row .form-field input[type=number][disabled]{background-color:#eee;cursor:not-allowed}.form .form-row .form-field input[type=number][readonly]{color:#999}.form .form-row .form-field input[type=number][readonly]:focus{border-color:#ccc;box-shadow:none}.form .form-row .form-field input[type=password]{border:2px solid #ccc;border-radius:4px;padding:6px 6px 4px 6px;transition:box-shadow .2s ease-in}.form .form-row .form-field input[type=password].text-large{font-size:24px;min-height:48px}.form .form-row .form-field input[type=password].text-huge{font-size:36px;min-height:72px}.form .form-row .form-field input[type=password]:focus{border-color:#288097;box-shadow:0 0 3px 1px #6ec3d9;outline:none}.form .form-row .form-field input[type=password][disabled]{background-color:#eee;cursor:not-allowed}.form .form-row .form-field input[type=password][readonly]{color:#999}.form .form-row .form-field input[type=password][readonly]:focus{border-color:#ccc;box-shadow:none}.form .form-row .form-field input[type=date]{border:2px solid #ccc;border-radius:4px;padding:6px 6px 4px 6px;transition:box-shadow .2s ease-in}.form .form-row .form-field input[type=date].text-large{font-size:24px;min-height:48px}.form .form-row .form-field input[type=date].text-huge{font-size:36px;min-height:72px}.form .form-row .form-field input[type=date]:focus{border-color:#288097;box-shadow:0 0 3px 1px #6ec3d9;outline:none}.form .form-row .form-field input[type=date][disabled]{background-color:#eee;cursor:not-allowed}.form .form-row .form-field input[type=date][readonly]{color:#999}.form .form-row .form-field input[type=date][readonly]:focus{border-color:#ccc;box-shadow:none}.form .form-row .form-field input[type=datetime-local]{border:2px solid #ccc;border-radius:4px;padding:6px 6px 4px 6px;transition:box-shadow .2s ease-in}.form .form-row .form-field input[type=datetime-local].text-large{font-size:24px;min-height:48px}.form .form-row .form-field input[type=datetime-local].text-huge{font-size:36px;min-height:72px}.form .form-row .form-field input[type=datetime-local]:focus{border-color:#288097;box-shadow:0 0 3px 1px #6ec3d9;outline:none}.form .form-row .form-field input[type=datetime-local][disabled]{background-color:#eee;cursor:not-allowed}.form .form-row .form-field input[type=datetime-local][readonly]{color:#999}.form .form-row .form-field input[type=datetime-local][readonly]:focus{border-color:#ccc;box-shadow:none}.form .form-row .form-field input[type=search]{border:2px solid #ccc;border-radius:4px;padding:6px 6px 4px 6px;transition:box-shadow .2s ease-in}.form .form-row .form-field input[type=search].text-large{font-size:24px;min-height:48px}.form .form-row .form-field input[type=search].text-huge{font-size:36px;min-height:72px}.form .form-row .form-field input[type=search]:focus{border-color:#288097;box-shadow:0 0 3px 1px #6ec3d9;outline:none}.form .form-row .form-field input[type=search][disabled]{background-color:#eee;cursor:not-allowed}.form .form-row .form-field input[type=search][readonly]{color:#999}.form .form-row .form-field input[type=search][readonly]:focus{border-color:#ccc;box-shadow:none}.form .form-row .form-field input[type=url]{border:2px solid #ccc;border-radius:4px;padding:6px 6px 4px 6px;transition:box-shadow .2s ease-in}.form .form-row .form-field input[type=url].text-large{font-size:24px;min-height:48px}.form .form-row .form-field input[type=url].text-huge{font-size:36px;min-height:72px}.form .form-row .form-field input[type=url]:focus{border-color:#288097;box-shadow:0 0 3px 1px #6ec3d9;outline:none}.form .form-row .form-field input[type=url][disabled]{background-color:#eee;cursor:not-allowed}.form .form-row .form-field input[type=url][readonly]{color:#999}.form .form-row .form-field input[type=url][readonly]:focus{border-color:#ccc;box-shadow:none}.form .form-row .form-field select{border:2px solid #ccc;border-radius:4px;padding:6px 6px 4px 6px;transition:box-shadow .2s ease-in}.form .form-row .form-field select.text-large{font-size:24px;min-height:48px}.form .form-row .form-field select.text-huge{font-size:36px;min-height:72px}.form .form-row .form-field select:focus{border-color:#288097;box-shadow:0 0 3px 1px #6ec3d9;outline:none}.form .form-row .form-field select[disabled]{background-color:#eee;cursor:not-allowed}.form .form-row .form-field select[readonly]{color:#999}.form .form-row .form-field select[readonly]:focus{border-color:#ccc;box-shadow:none}.form .form-row .form-field textarea{border:2px solid #ccc;border-radius:4px;padding:6px 6px 4px 6px;transition:box-shadow .2s ease-in}.form .form-row .form-field textarea.text-large{font-size:24px;min-height:48px}.form .form-row .form-field textarea.text-huge{font-size:36px;min-height:72px}.form .form-row .form-field textarea:focus{border-color:#288097;box-shadow:0 0 3px 1px #6ec3d9;outline:none}.form .form-row .form-field textarea[disabled]{background-color:#eee;cursor:not-allowed}.form .form-row .form-field textarea[readonly]{color:#999}.form .form-row .form-field textarea[readonly]:focus{border-color:#ccc;box-shadow:none}.table{border-collapse:collapse}.table td,.table th{padding:4px 8px}.table th{border-bottom:2px solid #ccc;font-weight:500}.table.table-striped tr:nth-of-type(2n){background-color:#b6e1ec}.table.table-compact td,.table.table-compact th{padding:2px 4px}.panel{border:2px solid #eee;border-radius:4px;padding:20px}.panel>:first-child{margin-top:0}.panel>:last-child{margin-bottom:0}.well{background-color:#f9f9f9;border:4px solid #eee;border-radius:8px;box-shadow:inset 0 1px 2px 2px #ccc;padding:20px}.well>:first-child{margin-top:0}.well>:last-child{margin-bottom:0}.well header{border-bottom:1px solid #ccc;padding:0 20px 10px 20px;margin-left:-20px;margin-right:-20px}.well header>:first-child{margin-top:0}.well header>:last-child{margin-bottom:0}.well footer{border-top:1px solid #ccc;padding:10px 20px 0 20px;margin-left:-20px;margin-right:-20px}.well.well-small{border:2px solid #eee;border-radius:6px;box-shadow:inset 0 1px 1px 1px #ccc;padding:10px}.well.well-small header{border-bottom:1px solid #ccc;padding:0 10px 5px 10px;margin-left:-10px;margin-right:-10px}.well.well-small footer{border-top:1px solid #ccc;padding:5px 10px 0 10px;margin-left:-10px;margin-right:-10px}.msg{border-radius:4px;border-style:solid;border-width:2px;margin:0 10px 10px 10px;padding:10px}.msg.msg-icon :first-child:before{color:#226e81;content:"";font-family:"FontAwesome";margin-right:.8em;vertical-align:middle}.msg.msg-icon.error :first-child:before{color:#9e1a25;content:""}.msg.msg-icon.info :first-child:before{color:#276391;content:""}.msg.msg-icon.warning :first-child:before{color:#9c520e;content:""}.msg.msg-icon.success :first-child:before{color:#3a713b;content:""}.msg>:first-child{margin-top:0}.msg>:last-child{margin-bottom:0}.navbar{border-width:0;border-bottom-width:1px;border-style:solid;display:block}.navbar ul.nav{display:inline-block;margin:0;padding:0}.navbar ul.nav li{display:inline-block;vertical-align:middle}.navbar ul.nav li a{display:block;height:45px;padding:15px 20px;text-decoration:none}.navbar ul.nav li.active a{font-weight:500}.nav-pager{border:2px solid #ccc;border-radius:4px;display:table;margin:0 auto;margin-bottom:10px;padding:0}.nav-pager li{border-right:1px solid #ccc;display:table-cell;vertical-align:middle}.nav-pager li:last-child{border-right-width:0}.nav-pager li.active a{background-color:#eee}.nav-pager a{display:block;font-weight:500;padding:8px 12px;text-decoration:none;white-space:nowrap}:root{--aoi-dark-blue: hsl(206, 58%, 36%);--aoi-medium-blue: hsl(206, 58%, 42%);--aoi-light-blue: hsl(206, 58%, 72%);--aoi-lightest-blue: hsl(206, 58%, 92%);--aoi-dark-green: hsl(121, 32%, 33.48%);--aoi-medium-green: hsl(121, 32%, 39.06%);--aoi-light-green: hsl(121, 32%, 66.96%);--aoi-lightest-green: hsl(121, 32%, 85.56%);--aoi-dark-red: hsl(355, 72%, 36%);--aoi-medium-red: hsl(355, 72%, 42%);--aoi-light-red: hsl(355, 72%, 72%);--aoi-lightest-red: hsl(355, 72%, 92%);--aoi-dark-amber: hsl(29, 84%, 33.156%);--aoi-medium-amber: hsl(29, 84%, 38.682%);--aoi-light-amber: hsl(29, 84%, 66.312%);--aoi-lightest-amber: hsl(29, 84%, 84.732%);--aoi-dark-accent: hsl(192, 58%, 32.04%);--aoi-medium-accent: hsl(192, 58%, 37.38%);--aoi-light-accent: hsl(192, 58%, 64.08%);--aoi-lightest-accent: hsl(192, 58%, 81.88%);--aoi-dark-plum: hsl(271, 36%, 32.4%);--aoi-medium-plum: hsl(271, 36%, 37.8%);--aoi-light-plum: hsl(271, 36%, 64.8%);--aoi-lightest-plum: hsl(271, 36%, 82.8%);--aoi-dark-raspberry: hsl(341, 69%, 36%);--aoi-medium-raspberry: hsl(341, 69%, 42%);--aoi-light-raspberry: hsl(341, 69%, 72%);--aoi-lightest-raspberry: hsl(341, 69%, 92%);--aoi-dark-banana: hsl(45, 84%, 43.2%);--aoi-medium-banana: hsl(45, 84%, 50.4%);--aoi-light-banana: hsl(45, 84%, 86.4%);--aoi-lightest-banana: hsl(45, 84%, 100%);--aoi-dark-gray: #666;--aoi-medium-gray: #999;--aoi-light-gray: #ccc;--aoi-lightest-gray: #eee}
+@charset "UTF-8";
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/*
+Relative Luminance
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+The relative brightness of any point in a colorspace, normalized to 0 for darkest black and 1 for lightest white
+Note 1: For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 * R + 0.7152 * G + 0.0722 * B where R, G and B are defined as:
+
+if RsRGB <= 0.03928 then R = RsRGB/12.92 else R = ((RsRGB+0.055)/1.055) ^ 2.4
+if GsRGB <= 0.03928 then G = GsRGB/12.92 else G = ((GsRGB+0.055)/1.055) ^ 2.4
+if BsRGB <= 0.03928 then B = BsRGB/12.92 else B = ((BsRGB+0.055)/1.055) ^ 2.4
+and RsRGB, GsRGB, and BsRGB are defined as:
+
+RsRGB = R8bit/255
+GsRGB = G8bit/255
+BsRGB = B8bit/255
+*/
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/*
+Relative Luminance
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+The relative brightness of any point in a colorspace, normalized to 0 for darkest black and 1 for lightest white
+Note 1: For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 * R + 0.7152 * G + 0.0722 * B where R, G and B are defined as:
+
+if RsRGB <= 0.03928 then R = RsRGB/12.92 else R = ((RsRGB+0.055)/1.055) ^ 2.4
+if GsRGB <= 0.03928 then G = GsRGB/12.92 else G = ((GsRGB+0.055)/1.055) ^ 2.4
+if BsRGB <= 0.03928 then B = BsRGB/12.92 else B = ((BsRGB+0.055)/1.055) ^ 2.4
+and RsRGB, GsRGB, and BsRGB are defined as:
+
+RsRGB = R8bit/255
+GsRGB = G8bit/255
+BsRGB = B8bit/255
+*/
+* {
+  box-sizing: border-box;
+}
+
+html,
+input,
+textarea,
+keygen,
+select,
+button {
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+.dark-gray {
+  background-color: #666;
+  border-color: rgb(59.49915, 59.49915, 59.49915);
+  color: #fff;
+}
+.dark-gray a {
+  color: #fff;
+}
+.dark-gray .active a {
+  color: #fff;
+}
+
+.medium-gray {
+  background-color: #999;
+  border-color: rgb(110.49915, 110.49915, 110.49915);
+  color: #000;
+}
+.medium-gray a {
+  color: #000;
+}
+.medium-gray .active a {
+  color: #000;
+}
+
+.light-gray, .navbar ul.nav li.active a {
+  background-color: #ccc;
+  border-color: rgb(161.49915, 161.49915, 161.49915);
+  color: #000;
+}
+.light-gray a, .navbar ul.nav li.active a a {
+  color: #000;
+}
+.light-gray .active a, .navbar ul.nav li.active a .active a {
+  color: #000;
+}
+
+.lightest-gray, .navbar ul.nav li a, .navbar {
+  background-color: #eee;
+  border-color: rgb(195.49915, 195.49915, 195.49915);
+  color: #000;
+}
+.lightest-gray a, .navbar ul.nav li a a, .navbar a {
+  color: #000;
+}
+.lightest-gray .active a, .navbar ul.nav li a .active a, .navbar .active a {
+  color: #000;
+}
+
+.dark-blue, .navbar.blue ul.nav li.active a, .btn.blue:active, .form .form-footer input.blue[type=submit]:active, .form .form-footer input.blue[type=reset]:active, .form .form-footer input.blue[type=button]:active, .btn.blue:focus, .form .form-footer input.blue[type=submit]:focus, .form .form-footer input.blue[type=reset]:focus, .form .form-footer input.blue[type=button]:focus, .dark-info, .btn.info:active, .form .form-footer input.info[type=submit]:active, .form .form-footer input.info[type=reset]:active, .form .form-footer input.info[type=button]:active, .btn.info:focus, .form .form-footer input.info[type=submit]:focus, .form .form-footer input.info[type=reset]:focus, .form .form-footer input.info[type=button]:focus {
+  background-color: hsl(206, 58%, 36%);
+  border-color: hsl(206, 58%, 19.333%);
+  color: #fff;
+}
+.dark-blue a, .navbar.blue ul.nav li.active a a, .btn.blue:active a, .form .form-footer input.blue[type=submit]:active a, .form .form-footer input.blue[type=reset]:active a, .form .form-footer input.blue[type=button]:active a, .btn.blue:focus a, .form .form-footer input.blue[type=submit]:focus a, .form .form-footer input.blue[type=reset]:focus a, .form .form-footer input.blue[type=button]:focus a, .dark-info a, .btn.info:active a, .form .form-footer input.info[type=submit]:active a, .form .form-footer input.info[type=reset]:active a, .form .form-footer input.info[type=button]:active a, .btn.info:focus a, .form .form-footer input.info[type=submit]:focus a, .form .form-footer input.info[type=reset]:focus a, .form .form-footer input.info[type=button]:focus a {
+  color: #fff;
+}
+.dark-blue .active a, .navbar.blue ul.nav li.active a .active a, .btn.blue:active .active a, .form .form-footer input.blue[type=submit]:active .active a, .form .form-footer input.blue[type=reset]:active .active a, .form .form-footer input.blue[type=button]:active .active a, .btn.blue:focus .active a, .form .form-footer input.blue[type=submit]:focus .active a, .form .form-footer input.blue[type=reset]:focus .active a, .form .form-footer input.blue[type=button]:focus .active a, .dark-info .active a, .btn.info:active .active a, .form .form-footer input.info[type=submit]:active .active a, .form .form-footer input.info[type=reset]:active .active a, .form .form-footer input.info[type=button]:active .active a, .btn.info:focus .active a, .form .form-footer input.info[type=submit]:focus .active a, .form .form-footer input.info[type=reset]:focus .active a, .form .form-footer input.info[type=button]:focus .active a {
+  color: #fff;
+}
+
+.medium-blue, .navbar.blue ul.nav li a, .navbar.blue, .btn.blue:hover, .btn.blue, .form .form-footer input.blue[type=submit], .form .form-footer input.blue[type=reset], .form .form-footer input.blue[type=button], .medium-info, .btn.info:hover, .btn.info, .form .form-footer input.info[type=submit], .form .form-footer input.info[type=reset], .form .form-footer input.info[type=button] {
+  background-color: hsl(206, 58%, 42%);
+  border-color: hsl(206, 58%, 25.333%);
+  color: #fff;
+}
+.medium-blue a, .navbar.blue ul.nav li a a, .navbar.blue a, .btn.blue:hover a, .btn.blue a, .form .form-footer input.blue[type=submit] a, .form .form-footer input.blue[type=reset] a, .form .form-footer input.blue[type=button] a, .medium-info a, .btn.info:hover a, .btn.info a, .form .form-footer input.info[type=submit] a, .form .form-footer input.info[type=reset] a, .form .form-footer input.info[type=button] a {
+  color: #fff;
+}
+.medium-blue .active a, .navbar.blue ul.nav li a .active a, .navbar.blue .active a, .btn.blue .active a, .form .form-footer input.blue[type=submit] .active a, .form .form-footer input.blue[type=reset] .active a, .form .form-footer input.blue[type=button] .active a, .medium-info .active a, .btn.info .active a, .form .form-footer input.info[type=submit] .active a, .form .form-footer input.info[type=reset] .active a, .form .form-footer input.info[type=button] .active a {
+  color: #fff;
+}
+
+.light-blue, .light-info, .msg.info {
+  background-color: hsl(206, 58%, 72%);
+  border-color: hsl(206, 58%, 55.333%);
+  color: #000;
+}
+.light-blue a, .light-info a, .msg.info a {
+  color: #000;
+}
+.light-blue .active a, .light-info .active a, .msg.info .active a {
+  color: #000;
+}
+
+.lightest-blue, .table.table-striped.blue tr:nth-of-type(2n), .lightest-info {
+  background-color: hsl(206, 58%, 92%);
+  border-color: hsl(206, 58%, 75.333%);
+  color: #000;
+}
+.lightest-blue a, .table.table-striped.blue tr:nth-of-type(2n) a, .lightest-info a {
+  color: #000;
+}
+.lightest-blue .active a, .table.table-striped.blue tr:nth-of-type(2n) .active a, .lightest-info .active a {
+  color: #000;
+}
+
+.dark-green, .navbar.green ul.nav li.active a, .btn.green:active, .form .form-footer input.green[type=submit]:active, .form .form-footer input.green[type=reset]:active, .form .form-footer input.green[type=button]:active, .btn.green:focus, .form .form-footer input.green[type=submit]:focus, .form .form-footer input.green[type=reset]:focus, .form .form-footer input.green[type=button]:focus, .dark-success, .btn.success:active, .form .form-footer input.success[type=submit]:active, .form .form-footer input.success[type=reset]:active, .form .form-footer input.success[type=button]:active, .btn.success:focus, .form .form-footer input.success[type=submit]:focus, .form .form-footer input.success[type=reset]:focus, .form .form-footer input.success[type=button]:focus {
+  background-color: hsl(121, 32%, 33.48%);
+  border-color: hsl(121, 32%, 16.813%);
+  color: #fff;
+}
+.dark-green a, .navbar.green ul.nav li.active a a, .btn.green:active a, .form .form-footer input.green[type=submit]:active a, .form .form-footer input.green[type=reset]:active a, .form .form-footer input.green[type=button]:active a, .btn.green:focus a, .form .form-footer input.green[type=submit]:focus a, .form .form-footer input.green[type=reset]:focus a, .form .form-footer input.green[type=button]:focus a, .dark-success a, .btn.success:active a, .form .form-footer input.success[type=submit]:active a, .form .form-footer input.success[type=reset]:active a, .form .form-footer input.success[type=button]:active a, .btn.success:focus a, .form .form-footer input.success[type=submit]:focus a, .form .form-footer input.success[type=reset]:focus a, .form .form-footer input.success[type=button]:focus a {
+  color: #fff;
+}
+.dark-green .active a, .navbar.green ul.nav li.active a .active a, .btn.green:active .active a, .form .form-footer input.green[type=submit]:active .active a, .form .form-footer input.green[type=reset]:active .active a, .form .form-footer input.green[type=button]:active .active a, .btn.green:focus .active a, .form .form-footer input.green[type=submit]:focus .active a, .form .form-footer input.green[type=reset]:focus .active a, .form .form-footer input.green[type=button]:focus .active a, .dark-success .active a, .btn.success:active .active a, .form .form-footer input.success[type=submit]:active .active a, .form .form-footer input.success[type=reset]:active .active a, .form .form-footer input.success[type=button]:active .active a, .btn.success:focus .active a, .form .form-footer input.success[type=submit]:focus .active a, .form .form-footer input.success[type=reset]:focus .active a, .form .form-footer input.success[type=button]:focus .active a {
+  color: #fff;
+}
+
+.medium-green, .navbar.green ul.nav li a, .navbar.green, .btn.green:hover, .btn.green, .form .form-footer input.green[type=submit], .form .form-footer input.green[type=reset], .form .form-footer input.green[type=button], .medium-success, .btn.success:hover, .btn.success, .form .form-footer input.success[type=submit], .form .form-footer input.success[type=reset], .form .form-footer input.success[type=button] {
+  background-color: hsl(121, 32%, 39.06%);
+  border-color: hsl(121, 32%, 22.393%);
+  color: #fff;
+}
+.medium-green a, .navbar.green ul.nav li a a, .navbar.green a, .btn.green:hover a, .btn.green a, .form .form-footer input.green[type=submit] a, .form .form-footer input.green[type=reset] a, .form .form-footer input.green[type=button] a, .medium-success a, .btn.success:hover a, .btn.success a, .form .form-footer input.success[type=submit] a, .form .form-footer input.success[type=reset] a, .form .form-footer input.success[type=button] a {
+  color: #fff;
+}
+.medium-green .active a, .navbar.green ul.nav li a .active a, .navbar.green .active a, .btn.green .active a, .form .form-footer input.green[type=submit] .active a, .form .form-footer input.green[type=reset] .active a, .form .form-footer input.green[type=button] .active a, .medium-success .active a, .btn.success .active a, .form .form-footer input.success[type=submit] .active a, .form .form-footer input.success[type=reset] .active a, .form .form-footer input.success[type=button] .active a {
+  color: #fff;
+}
+
+.light-green, .light-success, .msg.success {
+  background-color: hsl(121, 32%, 66.96%);
+  border-color: hsl(121, 32%, 50.293%);
+  color: #000;
+}
+.light-green a, .light-success a, .msg.success a {
+  color: #000;
+}
+.light-green .active a, .light-success .active a, .msg.success .active a {
+  color: #000;
+}
+
+.lightest-green, .table.table-striped.green tr:nth-of-type(2n), .lightest-success {
+  background-color: hsl(121, 32%, 85.56%);
+  border-color: hsl(121, 32%, 68.893%);
+  color: #000;
+}
+.lightest-green a, .table.table-striped.green tr:nth-of-type(2n) a, .lightest-success a {
+  color: #000;
+}
+.lightest-green .active a, .table.table-striped.green tr:nth-of-type(2n) .active a, .lightest-success .active a {
+  color: #000;
+}
+
+.dark-red, .navbar.red ul.nav li.active a, .btn.red:active, .form .form-footer input.red[type=submit]:active, .form .form-footer input.red[type=reset]:active, .form .form-footer input.red[type=button]:active, .btn.red:focus, .form .form-footer input.red[type=submit]:focus, .form .form-footer input.red[type=reset]:focus, .form .form-footer input.red[type=button]:focus, .dark-error, .btn.error:active, .form .form-footer input.error[type=submit]:active, .form .form-footer input.error[type=reset]:active, .form .form-footer input.error[type=button]:active, .btn.error:focus, .form .form-footer input.error[type=submit]:focus, .form .form-footer input.error[type=reset]:focus, .form .form-footer input.error[type=button]:focus, .dark-danger, .btn.danger:active, .form .form-footer input.danger[type=submit]:active, .form .form-footer input.danger[type=reset]:active, .form .form-footer input.danger[type=button]:active, .btn.danger:focus, .form .form-footer input.danger[type=submit]:focus, .form .form-footer input.danger[type=reset]:focus, .form .form-footer input.danger[type=button]:focus {
+  background-color: hsl(355, 72%, 36%);
+  border-color: hsl(355, 72%, 19.333%);
+  color: #fff;
+}
+.dark-red a, .navbar.red ul.nav li.active a a, .btn.red:active a, .form .form-footer input.red[type=submit]:active a, .form .form-footer input.red[type=reset]:active a, .form .form-footer input.red[type=button]:active a, .btn.red:focus a, .form .form-footer input.red[type=submit]:focus a, .form .form-footer input.red[type=reset]:focus a, .form .form-footer input.red[type=button]:focus a, .dark-error a, .btn.error:active a, .form .form-footer input.error[type=submit]:active a, .form .form-footer input.error[type=reset]:active a, .form .form-footer input.error[type=button]:active a, .btn.error:focus a, .form .form-footer input.error[type=submit]:focus a, .form .form-footer input.error[type=reset]:focus a, .form .form-footer input.error[type=button]:focus a, .dark-danger a, .btn.danger:active a, .form .form-footer input.danger[type=submit]:active a, .form .form-footer input.danger[type=reset]:active a, .form .form-footer input.danger[type=button]:active a, .btn.danger:focus a, .form .form-footer input.danger[type=submit]:focus a, .form .form-footer input.danger[type=reset]:focus a, .form .form-footer input.danger[type=button]:focus a {
+  color: #fff;
+}
+.dark-red .active a, .navbar.red ul.nav li.active a .active a, .btn.red:active .active a, .form .form-footer input.red[type=submit]:active .active a, .form .form-footer input.red[type=reset]:active .active a, .form .form-footer input.red[type=button]:active .active a, .btn.red:focus .active a, .form .form-footer input.red[type=submit]:focus .active a, .form .form-footer input.red[type=reset]:focus .active a, .form .form-footer input.red[type=button]:focus .active a, .dark-error .active a, .btn.error:active .active a, .form .form-footer input.error[type=submit]:active .active a, .form .form-footer input.error[type=reset]:active .active a, .form .form-footer input.error[type=button]:active .active a, .btn.error:focus .active a, .form .form-footer input.error[type=submit]:focus .active a, .form .form-footer input.error[type=reset]:focus .active a, .form .form-footer input.error[type=button]:focus .active a, .dark-danger .active a, .btn.danger:active .active a, .form .form-footer input.danger[type=submit]:active .active a, .form .form-footer input.danger[type=reset]:active .active a, .form .form-footer input.danger[type=button]:active .active a, .btn.danger:focus .active a, .form .form-footer input.danger[type=submit]:focus .active a, .form .form-footer input.danger[type=reset]:focus .active a, .form .form-footer input.danger[type=button]:focus .active a {
+  color: #fff;
+}
+
+.medium-red, .navbar.red ul.nav li a, .navbar.red, .btn.red:hover, .btn.red, .form .form-footer input.red[type=submit], .form .form-footer input.red[type=reset], .form .form-footer input.red[type=button], .medium-error, .btn.error:hover, .btn.error, .form .form-footer input.error[type=submit], .form .form-footer input.error[type=reset], .form .form-footer input.error[type=button], .medium-danger, .btn.danger:hover, .btn.danger, .form .form-footer input.danger[type=submit], .form .form-footer input.danger[type=reset], .form .form-footer input.danger[type=button] {
+  background-color: hsl(355, 72%, 42%);
+  border-color: hsl(355, 72%, 25.333%);
+  color: #fff;
+}
+.medium-red a, .navbar.red ul.nav li a a, .navbar.red a, .btn.red:hover a, .btn.red a, .form .form-footer input.red[type=submit] a, .form .form-footer input.red[type=reset] a, .form .form-footer input.red[type=button] a, .medium-error a, .btn.error:hover a, .btn.error a, .form .form-footer input.error[type=submit] a, .form .form-footer input.error[type=reset] a, .form .form-footer input.error[type=button] a, .medium-danger a, .btn.danger:hover a, .btn.danger a, .form .form-footer input.danger[type=submit] a, .form .form-footer input.danger[type=reset] a, .form .form-footer input.danger[type=button] a {
+  color: #fff;
+}
+.medium-red .active a, .navbar.red ul.nav li a .active a, .navbar.red .active a, .btn.red .active a, .form .form-footer input.red[type=submit] .active a, .form .form-footer input.red[type=reset] .active a, .form .form-footer input.red[type=button] .active a, .medium-error .active a, .btn.error .active a, .form .form-footer input.error[type=submit] .active a, .form .form-footer input.error[type=reset] .active a, .form .form-footer input.error[type=button] .active a, .medium-danger .active a, .btn.danger .active a, .form .form-footer input.danger[type=submit] .active a, .form .form-footer input.danger[type=reset] .active a, .form .form-footer input.danger[type=button] .active a {
+  color: #fff;
+}
+
+.light-red, .light-error, .msg.error, .light-danger, .msg.danger {
+  background-color: hsl(355, 72%, 72%);
+  border-color: hsl(355, 72%, 55.333%);
+  color: #000;
+}
+.light-red a, .light-error a, .msg.error a, .light-danger a, .msg.danger a {
+  color: #000;
+}
+.light-red .active a, .light-error .active a, .msg.error .active a, .light-danger .active a, .msg.danger .active a {
+  color: #000;
+}
+
+.lightest-red, .table.table-striped.red tr:nth-of-type(2n), .lightest-error, .lightest-danger {
+  background-color: hsl(355, 72%, 92%);
+  border-color: hsl(355, 72%, 75.333%);
+  color: #000;
+}
+.lightest-red a, .table.table-striped.red tr:nth-of-type(2n) a, .lightest-error a, .lightest-danger a {
+  color: #000;
+}
+.lightest-red .active a, .table.table-striped.red tr:nth-of-type(2n) .active a, .lightest-error .active a, .lightest-danger .active a {
+  color: #000;
+}
+
+.dark-amber, .navbar.amber ul.nav li.active a, .btn.amber:active, .form .form-footer input.amber[type=submit]:active, .form .form-footer input.amber[type=reset]:active, .form .form-footer input.amber[type=button]:active, .btn.amber:focus, .form .form-footer input.amber[type=submit]:focus, .form .form-footer input.amber[type=reset]:focus, .form .form-footer input.amber[type=button]:focus, .dark-warning, .btn.warning:active, .form .form-footer input.warning[type=submit]:active, .form .form-footer input.warning[type=reset]:active, .form .form-footer input.warning[type=button]:active, .btn.warning:focus, .form .form-footer input.warning[type=submit]:focus, .form .form-footer input.warning[type=reset]:focus, .form .form-footer input.warning[type=button]:focus {
+  background-color: hsl(29, 84%, 33.156%);
+  border-color: hsl(29, 84%, 16.489%);
+  color: #fff;
+}
+.dark-amber a, .navbar.amber ul.nav li.active a a, .btn.amber:active a, .form .form-footer input.amber[type=submit]:active a, .form .form-footer input.amber[type=reset]:active a, .form .form-footer input.amber[type=button]:active a, .btn.amber:focus a, .form .form-footer input.amber[type=submit]:focus a, .form .form-footer input.amber[type=reset]:focus a, .form .form-footer input.amber[type=button]:focus a, .dark-warning a, .btn.warning:active a, .form .form-footer input.warning[type=submit]:active a, .form .form-footer input.warning[type=reset]:active a, .form .form-footer input.warning[type=button]:active a, .btn.warning:focus a, .form .form-footer input.warning[type=submit]:focus a, .form .form-footer input.warning[type=reset]:focus a, .form .form-footer input.warning[type=button]:focus a {
+  color: #fff;
+}
+.dark-amber .active a, .navbar.amber ul.nav li.active a .active a, .btn.amber:active .active a, .form .form-footer input.amber[type=submit]:active .active a, .form .form-footer input.amber[type=reset]:active .active a, .form .form-footer input.amber[type=button]:active .active a, .btn.amber:focus .active a, .form .form-footer input.amber[type=submit]:focus .active a, .form .form-footer input.amber[type=reset]:focus .active a, .form .form-footer input.amber[type=button]:focus .active a, .dark-warning .active a, .btn.warning:active .active a, .form .form-footer input.warning[type=submit]:active .active a, .form .form-footer input.warning[type=reset]:active .active a, .form .form-footer input.warning[type=button]:active .active a, .btn.warning:focus .active a, .form .form-footer input.warning[type=submit]:focus .active a, .form .form-footer input.warning[type=reset]:focus .active a, .form .form-footer input.warning[type=button]:focus .active a {
+  color: #fff;
+}
+
+.medium-amber, .navbar.amber ul.nav li a, .navbar.amber, .btn.amber:hover, .btn.amber, .form .form-footer input.amber[type=submit], .form .form-footer input.amber[type=reset], .form .form-footer input.amber[type=button], .medium-warning, .btn.warning:hover, .btn.warning, .form .form-footer input.warning[type=submit], .form .form-footer input.warning[type=reset], .form .form-footer input.warning[type=button] {
+  background-color: hsl(29, 84%, 38.682%);
+  border-color: hsl(29, 84%, 22.015%);
+  color: #fff;
+}
+.medium-amber a, .navbar.amber ul.nav li a a, .navbar.amber a, .btn.amber:hover a, .btn.amber a, .form .form-footer input.amber[type=submit] a, .form .form-footer input.amber[type=reset] a, .form .form-footer input.amber[type=button] a, .medium-warning a, .btn.warning:hover a, .btn.warning a, .form .form-footer input.warning[type=submit] a, .form .form-footer input.warning[type=reset] a, .form .form-footer input.warning[type=button] a {
+  color: #fff;
+}
+.medium-amber .active a, .navbar.amber ul.nav li a .active a, .navbar.amber .active a, .btn.amber .active a, .form .form-footer input.amber[type=submit] .active a, .form .form-footer input.amber[type=reset] .active a, .form .form-footer input.amber[type=button] .active a, .medium-warning .active a, .btn.warning .active a, .form .form-footer input.warning[type=submit] .active a, .form .form-footer input.warning[type=reset] .active a, .form .form-footer input.warning[type=button] .active a {
+  color: #fff;
+}
+
+.light-amber, .light-warning, .msg.warning {
+  background-color: hsl(29, 84%, 66.312%);
+  border-color: hsl(29, 84%, 49.645%);
+  color: #000;
+}
+.light-amber a, .light-warning a, .msg.warning a {
+  color: #000;
+}
+.light-amber .active a, .light-warning .active a, .msg.warning .active a {
+  color: #000;
+}
+
+.lightest-amber, .table.table-striped.amber tr:nth-of-type(2n), .lightest-warning {
+  background-color: hsl(29, 84%, 84.732%);
+  border-color: hsl(29, 84%, 68.065%);
+  color: #000;
+}
+.lightest-amber a, .table.table-striped.amber tr:nth-of-type(2n) a, .lightest-warning a {
+  color: #000;
+}
+.lightest-amber .active a, .table.table-striped.amber tr:nth-of-type(2n) .active a, .lightest-warning .active a {
+  color: #000;
+}
+
+.dark-accent, .navbar.accent ul.nav li.active a, .navbar.msg ul.nav li.active a, .btn.accent:active, .btn.msg:active, .form .form-footer input.accent[type=submit]:active, .form .form-footer input[type=submit].msg:active, .form .form-footer input.accent[type=reset]:active, .form .form-footer input[type=reset].msg:active, .form .form-footer input.accent[type=button]:active, .form .form-footer input[type=button].msg:active, .btn.accent:focus, .btn.msg:focus, .form .form-footer input.accent[type=submit]:focus, .form .form-footer input[type=submit].msg:focus, .form .form-footer input.accent[type=reset]:focus, .form .form-footer input[type=reset].msg:focus, .form .form-footer input.accent[type=button]:focus, .form .form-footer input[type=button].msg:focus {
+  background-color: hsl(192, 58%, 32.04%);
+  border-color: hsl(192, 58%, 15.373%);
+  color: #fff;
+}
+.dark-accent a, .navbar.accent ul.nav li.active a a, .navbar.msg ul.nav li.active a a, .btn.accent:active a, .btn.msg:active a, .form .form-footer input.accent[type=submit]:active a, .form .form-footer input[type=submit].msg:active a, .form .form-footer input.accent[type=reset]:active a, .form .form-footer input[type=reset].msg:active a, .form .form-footer input.accent[type=button]:active a, .form .form-footer input[type=button].msg:active a, .btn.accent:focus a, .btn.msg:focus a, .form .form-footer input.accent[type=submit]:focus a, .form .form-footer input[type=submit].msg:focus a, .form .form-footer input.accent[type=reset]:focus a, .form .form-footer input[type=reset].msg:focus a, .form .form-footer input.accent[type=button]:focus a, .form .form-footer input[type=button].msg:focus a {
+  color: #fff;
+}
+.dark-accent .active a, .navbar.accent ul.nav li.active a .active a, .navbar.msg ul.nav li.active a .active a, .btn.accent:active .active a, .btn.msg:active .active a, .form .form-footer input.accent[type=submit]:active .active a, .form .form-footer input[type=submit].msg:active .active a, .form .form-footer input.accent[type=reset]:active .active a, .form .form-footer input[type=reset].msg:active .active a, .form .form-footer input.accent[type=button]:active .active a, .form .form-footer input[type=button].msg:active .active a, .btn.accent:focus .active a, .btn.msg:focus .active a, .form .form-footer input.accent[type=submit]:focus .active a, .form .form-footer input[type=submit].msg:focus .active a, .form .form-footer input.accent[type=reset]:focus .active a, .form .form-footer input[type=reset].msg:focus .active a, .form .form-footer input.accent[type=button]:focus .active a, .form .form-footer input[type=button].msg:focus .active a {
+  color: #fff;
+}
+
+.medium-accent, .navbar.accent ul.nav li a, .navbar.msg ul.nav li a, .navbar.accent, .navbar.msg, .btn.accent:hover, .btn.msg:hover, .btn.accent, .btn.msg, .form .form-footer input.accent[type=submit], .form .form-footer input[type=submit].msg, .form .form-footer input.accent[type=reset], .form .form-footer input[type=reset].msg, .form .form-footer input.accent[type=button], .form .form-footer input[type=button].msg {
+  background-color: hsl(192, 58%, 37.38%);
+  border-color: hsl(192, 58%, 20.713%);
+  color: #fff;
+}
+.medium-accent a, .navbar.accent ul.nav li a a, .navbar.msg ul.nav li a a, .navbar.accent a, .navbar.msg a, .btn.accent:hover a, .btn.msg:hover a, .btn.accent a, .btn.msg a, .form .form-footer input.accent[type=submit] a, .form .form-footer input[type=submit].msg a, .form .form-footer input.accent[type=reset] a, .form .form-footer input[type=reset].msg a, .form .form-footer input.accent[type=button] a, .form .form-footer input[type=button].msg a {
+  color: #fff;
+}
+.medium-accent .active a, .navbar.accent ul.nav li a .active a, .navbar.msg ul.nav li a .active a, .navbar.accent .active a, .navbar.msg .active a, .btn.accent .active a, .btn.msg .active a, .form .form-footer input.accent[type=submit] .active a, .form .form-footer input[type=submit].msg .active a, .form .form-footer input.accent[type=reset] .active a, .form .form-footer input[type=reset].msg .active a, .form .form-footer input.accent[type=button] .active a, .form .form-footer input[type=button].msg .active a {
+  color: #fff;
+}
+
+.light-accent, .msg.accent, .msg {
+  background-color: hsl(192, 58%, 64.08%);
+  border-color: hsl(192, 58%, 47.413%);
+  color: #000;
+}
+.light-accent a, .msg.accent a, .msg a {
+  color: #000;
+}
+.light-accent .active a, .msg .active a {
+  color: #000;
+}
+
+.lightest-accent, .table.table-striped.accent tr:nth-of-type(2n), .table.table-striped.msg tr:nth-of-type(2n) {
+  background-color: hsl(192, 58%, 81.88%);
+  border-color: hsl(192, 58%, 65.213%);
+  color: #000;
+}
+.lightest-accent a, .table.table-striped.accent tr:nth-of-type(2n) a, .table.table-striped.msg tr:nth-of-type(2n) a {
+  color: #000;
+}
+.lightest-accent .active a, .table.table-striped.accent tr:nth-of-type(2n) .active a, .table.table-striped.msg tr:nth-of-type(2n) .active a {
+  color: #000;
+}
+
+.dark-plum, .navbar.plum ul.nav li.active a, .btn.plum:active, .form .form-footer input.plum[type=submit]:active, .form .form-footer input.plum[type=reset]:active, .form .form-footer input.plum[type=button]:active, .btn.plum:focus, .form .form-footer input.plum[type=submit]:focus, .form .form-footer input.plum[type=reset]:focus, .form .form-footer input.plum[type=button]:focus {
+  background-color: hsl(271, 36%, 32.4%);
+  border-color: hsl(271, 36%, 15.733%);
+  color: #fff;
+}
+.dark-plum a, .navbar.plum ul.nav li.active a a, .btn.plum:active a, .form .form-footer input.plum[type=submit]:active a, .form .form-footer input.plum[type=reset]:active a, .form .form-footer input.plum[type=button]:active a, .btn.plum:focus a, .form .form-footer input.plum[type=submit]:focus a, .form .form-footer input.plum[type=reset]:focus a, .form .form-footer input.plum[type=button]:focus a {
+  color: #fff;
+}
+.dark-plum .active a, .navbar.plum ul.nav li.active a .active a, .btn.plum:active .active a, .form .form-footer input.plum[type=submit]:active .active a, .form .form-footer input.plum[type=reset]:active .active a, .form .form-footer input.plum[type=button]:active .active a, .btn.plum:focus .active a, .form .form-footer input.plum[type=submit]:focus .active a, .form .form-footer input.plum[type=reset]:focus .active a, .form .form-footer input.plum[type=button]:focus .active a {
+  color: #fff;
+}
+
+.medium-plum, .navbar.plum ul.nav li a, .navbar.plum, .btn.plum:hover, .btn.plum, .form .form-footer input.plum[type=submit], .form .form-footer input.plum[type=reset], .form .form-footer input.plum[type=button] {
+  background-color: hsl(271, 36%, 37.8%);
+  border-color: hsl(271, 36%, 21.133%);
+  color: #fff;
+}
+.medium-plum a, .navbar.plum ul.nav li a a, .navbar.plum a, .btn.plum:hover a, .btn.plum a, .form .form-footer input.plum[type=submit] a, .form .form-footer input.plum[type=reset] a, .form .form-footer input.plum[type=button] a {
+  color: #fff;
+}
+.medium-plum .active a, .navbar.plum ul.nav li a .active a, .navbar.plum .active a, .btn.plum .active a, .form .form-footer input.plum[type=submit] .active a, .form .form-footer input.plum[type=reset] .active a, .form .form-footer input.plum[type=button] .active a {
+  color: #fff;
+}
+
+.light-plum {
+  background-color: hsl(271, 36%, 64.8%);
+  border-color: hsl(271, 36%, 48.133%);
+  color: #000;
+}
+.light-plum a {
+  color: #000;
+}
+.light-plum .active a {
+  color: #000;
+}
+
+.lightest-plum, .table.table-striped.plum tr:nth-of-type(2n) {
+  background-color: hsl(271, 36%, 82.8%);
+  border-color: hsl(271, 36%, 66.133%);
+  color: #000;
+}
+.lightest-plum a, .table.table-striped.plum tr:nth-of-type(2n) a {
+  color: #000;
+}
+.lightest-plum .active a, .table.table-striped.plum tr:nth-of-type(2n) .active a {
+  color: #000;
+}
+
+.dark-raspberry, .navbar.raspberry ul.nav li.active a, .btn.raspberry:active, .form .form-footer input.raspberry[type=submit]:active, .form .form-footer input.raspberry[type=reset]:active, .form .form-footer input.raspberry[type=button]:active, .btn.raspberry:focus, .form .form-footer input.raspberry[type=submit]:focus, .form .form-footer input.raspberry[type=reset]:focus, .form .form-footer input.raspberry[type=button]:focus {
+  background-color: hsl(341, 69%, 36%);
+  border-color: hsl(341, 69%, 19.333%);
+  color: #fff;
+}
+.dark-raspberry a, .navbar.raspberry ul.nav li.active a a, .btn.raspberry:active a, .form .form-footer input.raspberry[type=submit]:active a, .form .form-footer input.raspberry[type=reset]:active a, .form .form-footer input.raspberry[type=button]:active a, .btn.raspberry:focus a, .form .form-footer input.raspberry[type=submit]:focus a, .form .form-footer input.raspberry[type=reset]:focus a, .form .form-footer input.raspberry[type=button]:focus a {
+  color: #fff;
+}
+.dark-raspberry .active a, .navbar.raspberry ul.nav li.active a .active a, .btn.raspberry:active .active a, .form .form-footer input.raspberry[type=submit]:active .active a, .form .form-footer input.raspberry[type=reset]:active .active a, .form .form-footer input.raspberry[type=button]:active .active a, .btn.raspberry:focus .active a, .form .form-footer input.raspberry[type=submit]:focus .active a, .form .form-footer input.raspberry[type=reset]:focus .active a, .form .form-footer input.raspberry[type=button]:focus .active a {
+  color: #fff;
+}
+
+.medium-raspberry, .navbar.raspberry ul.nav li a, .navbar.raspberry, .btn.raspberry:hover, .btn.raspberry, .form .form-footer input.raspberry[type=submit], .form .form-footer input.raspberry[type=reset], .form .form-footer input.raspberry[type=button] {
+  background-color: hsl(341, 69%, 42%);
+  border-color: hsl(341, 69%, 25.333%);
+  color: #fff;
+}
+.medium-raspberry a, .navbar.raspberry ul.nav li a a, .navbar.raspberry a, .btn.raspberry:hover a, .btn.raspberry a, .form .form-footer input.raspberry[type=submit] a, .form .form-footer input.raspberry[type=reset] a, .form .form-footer input.raspberry[type=button] a {
+  color: #fff;
+}
+.medium-raspberry .active a, .navbar.raspberry ul.nav li a .active a, .navbar.raspberry .active a, .btn.raspberry .active a, .form .form-footer input.raspberry[type=submit] .active a, .form .form-footer input.raspberry[type=reset] .active a, .form .form-footer input.raspberry[type=button] .active a {
+  color: #fff;
+}
+
+.light-raspberry {
+  background-color: hsl(341, 69%, 72%);
+  border-color: hsl(341, 69%, 55.333%);
+  color: #000;
+}
+.light-raspberry a {
+  color: #000;
+}
+.light-raspberry .active a {
+  color: #000;
+}
+
+.lightest-raspberry, .table.table-striped.raspberry tr:nth-of-type(2n) {
+  background-color: hsl(341, 69%, 92%);
+  border-color: hsl(341, 69%, 75.333%);
+  color: #000;
+}
+.lightest-raspberry a, .table.table-striped.raspberry tr:nth-of-type(2n) a {
+  color: #000;
+}
+.lightest-raspberry .active a, .table.table-striped.raspberry tr:nth-of-type(2n) .active a {
+  color: #000;
+}
+
+.dark-banana, .navbar.banana ul.nav li.active a, .btn.banana:active, .form .form-footer input.banana[type=submit]:active, .form .form-footer input.banana[type=reset]:active, .form .form-footer input.banana[type=button]:active, .btn.banana:focus, .form .form-footer input.banana[type=submit]:focus, .form .form-footer input.banana[type=reset]:focus, .form .form-footer input.banana[type=button]:focus {
+  background-color: hsl(45, 84%, 43.2%);
+  border-color: hsl(45, 84%, 26.533%);
+  color: #000;
+}
+.dark-banana a, .navbar.banana ul.nav li.active a a, .btn.banana:active a, .form .form-footer input.banana[type=submit]:active a, .form .form-footer input.banana[type=reset]:active a, .form .form-footer input.banana[type=button]:active a, .btn.banana:focus a, .form .form-footer input.banana[type=submit]:focus a, .form .form-footer input.banana[type=reset]:focus a, .form .form-footer input.banana[type=button]:focus a {
+  color: #000;
+}
+.dark-banana .active a, .navbar.banana ul.nav li.active a .active a, .btn.banana:active .active a, .form .form-footer input.banana[type=submit]:active .active a, .form .form-footer input.banana[type=reset]:active .active a, .form .form-footer input.banana[type=button]:active .active a, .btn.banana:focus .active a, .form .form-footer input.banana[type=submit]:focus .active a, .form .form-footer input.banana[type=reset]:focus .active a, .form .form-footer input.banana[type=button]:focus .active a {
+  color: #000;
+}
+
+.medium-banana, .navbar.banana ul.nav li a, .navbar.banana, .btn.banana:hover, .btn.banana, .form .form-footer input.banana[type=submit], .form .form-footer input.banana[type=reset], .form .form-footer input.banana[type=button] {
+  background-color: hsl(45, 84%, 50.4%);
+  border-color: hsl(45, 84%, 33.733%);
+  color: #000;
+}
+.medium-banana a, .navbar.banana ul.nav li a a, .navbar.banana a, .btn.banana:hover a, .btn.banana a, .form .form-footer input.banana[type=submit] a, .form .form-footer input.banana[type=reset] a, .form .form-footer input.banana[type=button] a {
+  color: #000;
+}
+.medium-banana .active a, .navbar.banana ul.nav li a .active a, .navbar.banana .active a, .btn.banana .active a, .form .form-footer input.banana[type=submit] .active a, .form .form-footer input.banana[type=reset] .active a, .form .form-footer input.banana[type=button] .active a {
+  color: #000;
+}
+
+.light-banana {
+  background-color: hsl(45, 84%, 86.4%);
+  border-color: hsl(45, 84%, 69.733%);
+  color: #000;
+}
+.light-banana a {
+  color: #000;
+}
+.light-banana .active a {
+  color: #000;
+}
+
+.lightest-banana, .table.table-striped.banana tr:nth-of-type(2n) {
+  background-color: hsl(45, 84%, 110.4%);
+  border-color: hsl(45, 84%, 93.733%);
+  color: #000;
+}
+.lightest-banana a, .table.table-striped.banana tr:nth-of-type(2n) a {
+  color: #000;
+}
+.lightest-banana .active a, .table.table-striped.banana tr:nth-of-type(2n) .active a {
+  color: #000;
+}
+
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/*
+Relative Luminance
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+The relative brightness of any point in a colorspace, normalized to 0 for darkest black and 1 for lightest white
+Note 1: For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 * R + 0.7152 * G + 0.0722 * B where R, G and B are defined as:
+
+if RsRGB <= 0.03928 then R = RsRGB/12.92 else R = ((RsRGB+0.055)/1.055) ^ 2.4
+if GsRGB <= 0.03928 then G = GsRGB/12.92 else G = ((GsRGB+0.055)/1.055) ^ 2.4
+if BsRGB <= 0.03928 then B = BsRGB/12.92 else B = ((BsRGB+0.055)/1.055) ^ 2.4
+and RsRGB, GsRGB, and BsRGB are defined as:
+
+RsRGB = R8bit/255
+GsRGB = G8bit/255
+BsRGB = B8bit/255
+*/
+/*doc
+---
+title: Forms
+name: 1-form-fields
+category: forms
+---
+
+Use the `form` class on a `<div>` or a `<section>` enclosing a group of form controls.
+Each row of the form must be enclosed in a block element with class `form-row`.
+Inside it, place a `<label>` and an input enclosed in a `<div>` with class `form-field`.
+
+```html_example
+<div class="form">
+    <div class="form-row">
+        <label for="f_title">Title:</label>
+        <div class="form-field">
+            <input id="f_title" type="text" size="24" placeholder="Enter title" />
+        </div>
+    </div>
+    <div class="form-row">
+        <label for="f_color">Color:</label>
+        <div class="form-field">
+            <select id="f_color">
+              <option>Red</option>
+              <option selected>Blue</option>
+              <option>Green</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-row">
+        <label for="f_date">Start date:</label>
+        <div class="form-field">
+            <input id="f_date" type="date" />
+        </div>
+    </div>
+</div>
+```
+*/
+/*doc
+---
+title: Form footer
+name: 1-form-footer
+category: forms
+---
+
+Enclose submit and other buttons in a `form-footer` element. The primary
+action in the form, usually the submit button, should have the `accent` class.
+Dangerous actions, e.g. actions that have a destructive effect, should use the
+`danger` class and preferrably placed far from the primary one.
+
+```html_example
+<div class="form">
+    <form>
+        <div class="form-row">
+            <label for="f_title_2">Title:</label>
+            <div class="form-field">
+                <input id="f_title_2" type="text" size="24" placeholder="Enter a title" />
+            </div>
+        </div>
+        <div class="form-footer">
+            <input type="submit" class="accent" value="Order" />
+            <input type="reset" value="Cancel" />
+            <input type="submit" class="danger" value="Delete" />
+        </div>
+    </form>
+</div>
+```
+*/
+.form .form-row label {
+  display: block;
+  font-weight: 500;
+  padding: 10px 0 5px 0;
+}
+.form .form-footer {
+  padding: 10px 0;
+}
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/*
+Relative Luminance
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+The relative brightness of any point in a colorspace, normalized to 0 for darkest black and 1 for lightest white
+Note 1: For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 * R + 0.7152 * G + 0.0722 * B where R, G and B are defined as:
+
+if RsRGB <= 0.03928 then R = RsRGB/12.92 else R = ((RsRGB+0.055)/1.055) ^ 2.4
+if GsRGB <= 0.03928 then G = GsRGB/12.92 else G = ((GsRGB+0.055)/1.055) ^ 2.4
+if BsRGB <= 0.03928 then B = BsRGB/12.92 else B = ((BsRGB+0.055)/1.055) ^ 2.4
+and RsRGB, GsRGB, and BsRGB are defined as:
+
+RsRGB = R8bit/255
+GsRGB = G8bit/255
+BsRGB = B8bit/255
+*/
+/*doc
+---
+title: Buttons
+name: 1-buttons
+category: buttons
+---
+Use the `btn` class on `<button>` or `<input type="button">` elements.
+
+```html_example_table
+<input type="button" class="btn" value="Button"/>
+
+<button class="btn">Button</button>
+```
+*/
+/*doc
+---
+title: Small buttons
+name: 2-small-buttons
+category: buttons
+---
+Add the `btn-small` class to other button classes to obtain a smaller affordance.
+
+```html_example_table
+<input type="button" class="btn btn-small" value="Button"/>
+
+<button class="btn btn-small">Button</button>
+```
+*/
+/*doc
+---
+title: Large buttons
+name: 3-large-buttons
+category: buttons
+---
+Add the `btn-large` class to other button classes to obtain a larger affordance.
+
+```html_example_table
+<input type="button" class="btn btn-large" value="Button"/>
+
+<button class="btn btn-large">Button</button>
+```
+*/
+/*doc
+---
+title: Huge buttons
+name: 4-huge-buttons
+category: buttons
+---
+Add the `btn-huge` class to other button classes to obtain an even larger affordance.
+
+```html_example_table
+<input type="button" class="btn btn-huge" value="Button"/>
+
+<button class="btn btn-huge">Button</button>
+```
+*/
+/*doc
+---
+title: Colorful buttons
+name: 5-colorful-buttons
+category: buttons
+---
+Add the `accent`, `danger`, `warning`, `info`, or `success` classes to a button
+to give the button a special semantic cue.
+
+```html_example_table
+<button class="btn accent">Button</button>
+
+<button class="btn danger">Button</button>
+
+<button class="btn warning">Button</button>
+
+<button class="btn info">Button</button>
+
+<button class="btn success">Button</button>
+```
+*/
+.btn, .form .form-footer input[type=submit], .form .form-footer input[type=reset], .form .form-footer input[type=button] {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 12px;
+  transition: box-shadow 0.2s ease-in;
+}
+.btn:hover, .form .form-footer input[type=submit]:hover, .form .form-footer input[type=reset]:hover, .form .form-footer input[type=button]:hover {
+  background-color: #eee;
+  border-color: #999;
+}
+.btn:focus, .form .form-footer input[type=submit]:focus, .form .form-footer input[type=reset]:focus, .form .form-footer input[type=button]:focus {
+  border-color: #666;
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 64.08%);
+  outline: none;
+  background-color: #eee;
+  border-color: #999;
+}
+.btn:active, .form .form-footer input[type=submit]:active, .form .form-footer input[type=reset]:active, .form .form-footer input[type=button]:active {
+  border-color: #666;
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 64.08%);
+  outline: none;
+  background-color: #ccc;
+}
+.btn.btn-small, .form .form-footer input.btn-small[type=submit], .form .form-footer input.btn-small[type=reset], .form .form-footer input.btn-small[type=button] {
+  font-size: 0.9rem;
+  padding: 4px 8px;
+}
+.btn.btn-large, .form .form-footer input.btn-large[type=submit], .form .form-footer input.btn-large[type=reset], .form .form-footer input.btn-large[type=button] {
+  font-size: 1.2rem;
+  padding: 8px 16px;
+}
+.btn.btn-huge, .form .form-footer input.btn-huge[type=submit], .form .form-footer input.btn-huge[type=reset], .form .form-footer input.btn-huge[type=button] {
+  border-radius: 8px;
+  font-size: 1.5667rem;
+  height: 72px;
+  padding: 16px 32px;
+}
+
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/*
+Relative Luminance
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+The relative brightness of any point in a colorspace, normalized to 0 for darkest black and 1 for lightest white
+Note 1: For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 * R + 0.7152 * G + 0.0722 * B where R, G and B are defined as:
+
+if RsRGB <= 0.03928 then R = RsRGB/12.92 else R = ((RsRGB+0.055)/1.055) ^ 2.4
+if GsRGB <= 0.03928 then G = GsRGB/12.92 else G = ((GsRGB+0.055)/1.055) ^ 2.4
+if BsRGB <= 0.03928 then B = BsRGB/12.92 else B = ((BsRGB+0.055)/1.055) ^ 2.4
+and RsRGB, GsRGB, and BsRGB are defined as:
+
+RsRGB = R8bit/255
+GsRGB = G8bit/255
+BsRGB = B8bit/255
+*/
+/*doc
+ ---
+ title: Radio Buttons
+ name: 1-radio-buttons
+ category: radio-buttons
+ ---
+ In order to render a group of radio buttons, use the `btn-radio` class on `<button>`, `<input type="button">`, or `<a class="btn">` elements enclosed in a block-level element with the `radio-buttons` class.
+
+ ```html_example_table
+ <div class="radio-buttons">
+    <button class="btn btn-radio btn-radio-selected" data-view="one" onclick="filterView(this);">One</button>
+    <button class="btn btn-radio" data-view="two" onclick="filterView(this);">Two</button>
+    <button class="btn btn-radio" data-view="three" onclick="filterView(this);">Three</button>
+</div>
+ ```
+*/
+/*doc
+ ---
+ title: Small Radio Buttons
+ name: 1-small-radio-buttons
+ category: radio-buttons
+ ---
+ Add the `btn-small` class on the buttons to render small radio buttons
+
+ ```html_example_table
+ <div class="radio-buttons">
+    <button class="btn btn-small btn-radio btn-radio-selected" data-view="one" onclick="filterView(this);">One</button>
+    <button class="btn btn-small btn-radio" data-view="two" onclick="filterView(this);">Two</button>
+    <button class="btn btn-small btn-radio" data-view="three" onclick="filterView(this);">Three</button>
+</div>
+ ```
+ */
+.radio-buttons {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  display: inline-flex;
+  margin-bottom: 10px;
+}
+.radio-buttons .btn, .radio-buttons .form .form-footer input[type=submit], .form .form-footer .radio-buttons input[type=submit], .radio-buttons .form .form-footer input[type=reset], .form .form-footer .radio-buttons input[type=reset], .radio-buttons .form .form-footer input[type=button], .form .form-footer .radio-buttons input[type=button] {
+  align-items: center;
+  background-color: transparent;
+  border-bottom: none;
+  border-left: none;
+  border-radius: 0;
+  border-right-color: #ccc;
+  border-top: none;
+  cursor: pointer;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  min-width: 48px;
+}
+.radio-buttons .btn.btn-small, .radio-buttons .form .form-footer input.btn-small[type=submit], .form .form-footer .radio-buttons input.btn-small[type=submit], .radio-buttons .form .form-footer input.btn-small[type=reset], .form .form-footer .radio-buttons input.btn-small[type=reset], .radio-buttons .form .form-footer input.btn-small[type=button], .form .form-footer .radio-buttons input.btn-small[type=button] {
+  height: 31px;
+  min-width: 31px;
+}
+.radio-buttons .btn:last-of-type, .radio-buttons .form .form-footer input[type=submit]:last-of-type, .form .form-footer .radio-buttons input[type=submit]:last-of-type, .radio-buttons .form .form-footer input[type=reset]:last-of-type, .form .form-footer .radio-buttons input[type=reset]:last-of-type, .radio-buttons .form .form-footer input[type=button]:last-of-type, .form .form-footer .radio-buttons input[type=button]:last-of-type {
+  border-right: none;
+}
+.radio-buttons .btn-radio-selected {
+  background-color: #eee;
+}
+
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/*
+Relative Luminance
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+The relative brightness of any point in a colorspace, normalized to 0 for darkest black and 1 for lightest white
+Note 1: For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 * R + 0.7152 * G + 0.0722 * B where R, G and B are defined as:
+
+if RsRGB <= 0.03928 then R = RsRGB/12.92 else R = ((RsRGB+0.055)/1.055) ^ 2.4
+if GsRGB <= 0.03928 then G = GsRGB/12.92 else G = ((GsRGB+0.055)/1.055) ^ 2.4
+if BsRGB <= 0.03928 then B = BsRGB/12.92 else B = ((BsRGB+0.055)/1.055) ^ 2.4
+and RsRGB, GsRGB, and BsRGB are defined as:
+
+RsRGB = R8bit/255
+GsRGB = G8bit/255
+BsRGB = B8bit/255
+*/
+/*doc
+ ---
+ title: Controls
+ name: 1-controls
+ category: controls
+ ---
+
+ Form controls come with a few predefined behaviors. The focus ring is custom and has a
+ pleasant transition.
+
+ ```html_example
+ <div class="form">
+     <div class="form-row">
+         <label for="f_text">Textbox:</label>
+         <div class="form-field">
+             <input id="f_text" type="text" size="24" placeholder="Holds a short line of text" />
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_select">Select:</label>
+         <div class="form-field">
+             <select id="f_select">
+               <option>First option</option>
+               <option selected>Second option (default selected)</option>
+               <option disabled>Third option (disabled)</option>
+             </select>
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_date">Date picker:</label>
+         <div class="form-field">
+             <input id="f_date" type="date" />
+         </div>
+     </div>
+     <div class="form-row">
+        <div class="form-field">
+             <label>
+                <input type="checkbox" />
+                Check me!
+            </label>
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_textarea">Textarea:</label>
+         <div class="form-field">
+             <textarea id="f_textarea" rows="3" placeholder="Holds longer form text"></textarea>
+         </div>
+     </div>
+ </div>
+ ```
+*/
+/*doc
+ ---
+ title: Large controls
+ name: 2-large-controls
+ category: controls
+ ---
+
+ Controls can be made slightly larger with the modifier `text-large` class.
+
+ ```html_example
+ <div class="form">
+     <div class="form-row">
+         <label for="f_text_2">Textbox:</label>
+         <div class="form-field">
+             <input id="f_text_2" type="text" class="text-large" size="24" placeholder="Holds a short line of text" />
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_select_2">Select:</label>
+         <div class="form-field">
+             <select class="text-large" id="f_select_2">
+               <option>First option</option>
+               <option selected>Second option (default selected)</option>
+               <option disabled>Third option (disabled)</option>
+             </select>
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_date_2">Date picker:</label>
+         <div class="form-field">
+             <input id="f_date_2" class="text-large" type="date" />
+         </div>
+     </div>
+     <div class="form-row">
+        <div class="form-field">
+             <label>
+                <input type="checkbox" class="text-large" />
+                Check me!
+            </label>
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_textarea_2">Textarea:</label>
+         <div class="form-field">
+             <textarea id="f_textarea_2" class="text-large" rows="3" placeholder="Holds longer form text"></textarea>
+         </div>
+     </div>
+ </div>
+ ```
+ */
+/*doc
+ ---
+ title: Huge controls
+ name: 3-huge-controls
+ category: controls
+ ---
+
+ Controls can be made even larger with the modifier `text-huge` class.
+
+ ```html_example
+ <div class="form">
+     <div class="form-row">
+         <label for="f_text_2">Textbox:</label>
+         <div class="form-field">
+             <input id="f_text_3" type="text" class="text-huge" size="24" placeholder="Holds a short line of text" />
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_select_3">Select:</label>
+         <div class="form-field">
+             <select class="text-huge" id="f_select_3">
+               <option>First option</option>
+               <option selected>Second option (default selected)</option>
+               <option disabled>Third option (disabled)</option>
+             </select>
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_date_3">Date picker:</label>
+         <div class="form-field">
+             <input id="f_date_3" class="text-huge" type="date" />
+         </div>
+     </div>
+     <div class="form-row">
+        <div class="form-field">
+             <label>
+                <input type="checkbox" class="text-huge" />
+                Check me!
+            </label>
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_textarea_3">Textarea:</label>
+         <div class="form-field">
+             <textarea id="f_textarea_3" class="text-huge" rows="3" placeholder="Holds longer form text"></textarea>
+         </div>
+     </div>
+ </div>
+ ```
+ */
+/*doc
+ ---
+ title: Disabled and read-only controls
+ name: 4-disabled-readonly-controls
+ category: controls
+ ---
+
+ Disabled and readonly elements are styled automatically.
+
+ ```html_example
+<div class="form">
+     <div class="form-row">
+         <label for="f_text_1">Textbox (readonly):</label>
+         <div class="form-field">
+             <input id="f_text_1" type="text" size="24" value="You can select and copy this text" readonly />
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_select_1">Select (disabled):</label>
+         <div class="form-field">
+             <select id="f_select_1" disabled>
+               <option>First option</option>
+               <option selected>Second option (default selected)</option>
+               <option>Third option (disabled)</option>
+             </select>
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_date_1">Date picker (disabled):</label>
+         <div class="form-field">
+             <input id="f_date_1" type="date" disabled />
+         </div>
+     </div>
+     <div class="form-row">
+        <div class="form-field">
+             <label>
+                <input type="checkbox" disabled />
+                You can't check me!
+            </label>
+         </div>
+     </div>
+     <div class="form-row">
+         <label for="f_textarea_1">Textarea (readonly):</label>
+         <div class="form-field">
+             <textarea id="f_textarea_1" rows="3" readonly>You can select and copy this text</textarea>
+         </div>
+     </div>
+ </div>
+ ```
+ */
+.form .form-row .form-field input[type=text] {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 6px 4px 6px;
+  transition: box-shadow 0.2s ease-in;
+}
+.form .form-row .form-field input[type=text].text-large {
+  font-size: 24px;
+  min-height: 48px;
+}
+.form .form-row .form-field input[type=text].text-huge {
+  font-size: 36px;
+  min-height: 72px;
+}
+.form .form-row .form-field input[type=text]:focus {
+  border-color: hsl(192, 58%, 37.38%);
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 64.08%);
+  outline: none;
+}
+.form .form-row .form-field input[type=text][disabled] {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+.form .form-row .form-field input[type=text][readonly] {
+  color: #999;
+}
+.form .form-row .form-field input[type=text][readonly]:focus {
+  border-color: #ccc;
+  box-shadow: none;
+}
+.form .form-row .form-field input[type=number] {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 6px 4px 6px;
+  transition: box-shadow 0.2s ease-in;
+}
+.form .form-row .form-field input[type=number].text-large {
+  font-size: 24px;
+  min-height: 48px;
+}
+.form .form-row .form-field input[type=number].text-huge {
+  font-size: 36px;
+  min-height: 72px;
+}
+.form .form-row .form-field input[type=number]:focus {
+  border-color: hsl(192, 58%, 37.38%);
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 64.08%);
+  outline: none;
+}
+.form .form-row .form-field input[type=number][disabled] {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+.form .form-row .form-field input[type=number][readonly] {
+  color: #999;
+}
+.form .form-row .form-field input[type=number][readonly]:focus {
+  border-color: #ccc;
+  box-shadow: none;
+}
+.form .form-row .form-field input[type=password] {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 6px 4px 6px;
+  transition: box-shadow 0.2s ease-in;
+}
+.form .form-row .form-field input[type=password].text-large {
+  font-size: 24px;
+  min-height: 48px;
+}
+.form .form-row .form-field input[type=password].text-huge {
+  font-size: 36px;
+  min-height: 72px;
+}
+.form .form-row .form-field input[type=password]:focus {
+  border-color: hsl(192, 58%, 37.38%);
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 64.08%);
+  outline: none;
+}
+.form .form-row .form-field input[type=password][disabled] {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+.form .form-row .form-field input[type=password][readonly] {
+  color: #999;
+}
+.form .form-row .form-field input[type=password][readonly]:focus {
+  border-color: #ccc;
+  box-shadow: none;
+}
+.form .form-row .form-field input[type=date] {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 6px 4px 6px;
+  transition: box-shadow 0.2s ease-in;
+}
+.form .form-row .form-field input[type=date].text-large {
+  font-size: 24px;
+  min-height: 48px;
+}
+.form .form-row .form-field input[type=date].text-huge {
+  font-size: 36px;
+  min-height: 72px;
+}
+.form .form-row .form-field input[type=date]:focus {
+  border-color: hsl(192, 58%, 37.38%);
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 64.08%);
+  outline: none;
+}
+.form .form-row .form-field input[type=date][disabled] {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+.form .form-row .form-field input[type=date][readonly] {
+  color: #999;
+}
+.form .form-row .form-field input[type=date][readonly]:focus {
+  border-color: #ccc;
+  box-shadow: none;
+}
+.form .form-row .form-field input[type=datetime-local] {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 6px 4px 6px;
+  transition: box-shadow 0.2s ease-in;
+}
+.form .form-row .form-field input[type=datetime-local].text-large {
+  font-size: 24px;
+  min-height: 48px;
+}
+.form .form-row .form-field input[type=datetime-local].text-huge {
+  font-size: 36px;
+  min-height: 72px;
+}
+.form .form-row .form-field input[type=datetime-local]:focus {
+  border-color: hsl(192, 58%, 37.38%);
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 64.08%);
+  outline: none;
+}
+.form .form-row .form-field input[type=datetime-local][disabled] {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+.form .form-row .form-field input[type=datetime-local][readonly] {
+  color: #999;
+}
+.form .form-row .form-field input[type=datetime-local][readonly]:focus {
+  border-color: #ccc;
+  box-shadow: none;
+}
+.form .form-row .form-field input[type=search] {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 6px 4px 6px;
+  transition: box-shadow 0.2s ease-in;
+}
+.form .form-row .form-field input[type=search].text-large {
+  font-size: 24px;
+  min-height: 48px;
+}
+.form .form-row .form-field input[type=search].text-huge {
+  font-size: 36px;
+  min-height: 72px;
+}
+.form .form-row .form-field input[type=search]:focus {
+  border-color: hsl(192, 58%, 37.38%);
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 64.08%);
+  outline: none;
+}
+.form .form-row .form-field input[type=search][disabled] {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+.form .form-row .form-field input[type=search][readonly] {
+  color: #999;
+}
+.form .form-row .form-field input[type=search][readonly]:focus {
+  border-color: #ccc;
+  box-shadow: none;
+}
+.form .form-row .form-field input[type=url] {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 6px 4px 6px;
+  transition: box-shadow 0.2s ease-in;
+}
+.form .form-row .form-field input[type=url].text-large {
+  font-size: 24px;
+  min-height: 48px;
+}
+.form .form-row .form-field input[type=url].text-huge {
+  font-size: 36px;
+  min-height: 72px;
+}
+.form .form-row .form-field input[type=url]:focus {
+  border-color: hsl(192, 58%, 37.38%);
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 64.08%);
+  outline: none;
+}
+.form .form-row .form-field input[type=url][disabled] {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+.form .form-row .form-field input[type=url][readonly] {
+  color: #999;
+}
+.form .form-row .form-field input[type=url][readonly]:focus {
+  border-color: #ccc;
+  box-shadow: none;
+}
+.form .form-row .form-field select {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 6px 4px 6px;
+  transition: box-shadow 0.2s ease-in;
+}
+.form .form-row .form-field select.text-large {
+  font-size: 24px;
+  min-height: 48px;
+}
+.form .form-row .form-field select.text-huge {
+  font-size: 36px;
+  min-height: 72px;
+}
+.form .form-row .form-field select:focus {
+  border-color: hsl(192, 58%, 37.38%);
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 64.08%);
+  outline: none;
+}
+.form .form-row .form-field select[disabled] {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+.form .form-row .form-field select[readonly] {
+  color: #999;
+}
+.form .form-row .form-field select[readonly]:focus {
+  border-color: #ccc;
+  box-shadow: none;
+}
+.form .form-row .form-field textarea {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 6px 4px 6px;
+  transition: box-shadow 0.2s ease-in;
+}
+.form .form-row .form-field textarea.text-large {
+  font-size: 24px;
+  min-height: 48px;
+}
+.form .form-row .form-field textarea.text-huge {
+  font-size: 36px;
+  min-height: 72px;
+}
+.form .form-row .form-field textarea:focus {
+  border-color: hsl(192, 58%, 37.38%);
+  box-shadow: 0 0 3px 1px hsl(192, 58%, 64.08%);
+  outline: none;
+}
+.form .form-row .form-field textarea[disabled] {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+.form .form-row .form-field textarea[readonly] {
+  color: #999;
+}
+.form .form-row .form-field textarea[readonly]:focus {
+  border-color: #ccc;
+  box-shadow: none;
+}
+
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/*
+Relative Luminance
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+The relative brightness of any point in a colorspace, normalized to 0 for darkest black and 1 for lightest white
+Note 1: For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 * R + 0.7152 * G + 0.0722 * B where R, G and B are defined as:
+
+if RsRGB <= 0.03928 then R = RsRGB/12.92 else R = ((RsRGB+0.055)/1.055) ^ 2.4
+if GsRGB <= 0.03928 then G = GsRGB/12.92 else G = ((GsRGB+0.055)/1.055) ^ 2.4
+if BsRGB <= 0.03928 then B = BsRGB/12.92 else B = ((BsRGB+0.055)/1.055) ^ 2.4
+and RsRGB, GsRGB, and BsRGB are defined as:
+
+RsRGB = R8bit/255
+GsRGB = G8bit/255
+BsRGB = B8bit/255
+*/
+/*doc
+---
+title: Tables
+name: 1-tables
+category: tables
+---
+Use the `table` class on tables to apply a clean, borderless layout, and separate
+headings from the body with a horizontal line.
+
+```html_example
+<table class="table">
+    <tr>
+        <th>One</th>
+        <th>Two</th>
+        <th>Three</th>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
+    <tr>
+        <td>One</td>
+        <td>Two</td>
+        <td>Three</td>
+    </tr>
+</table>
+```
+*/
+.table {
+  border-collapse: collapse;
+}
+.table td,
+.table th {
+  padding: 4px 8px;
+}
+.table th {
+  border-bottom: 2px solid #ccc;
+  font-weight: 500;
+}
+.table {
+  /*doc
+  ---
+  title: Striped tables
+  name: 2-striped-tables
+  category: tables
+  ---
+  Use the `table-striped` modifier class on tables to apply a striped pattern to visually
+  separate rows.
+
+  ```html_example
+  <table class="table table-striped">
+      <tr>
+          <th>One</th>
+          <th>Two</th>
+          <th>Three</th>
+      </tr>
+      <tr>
+          <td>One</td>
+          <td>Two</td>
+          <td>Three</td>
+      </tr>
+      <tr>
+          <td>One</td>
+          <td>Two</td>
+          <td>Three</td>
+      </tr>
+  </table>
+  ```
+
+  Adding a color class, e.g. `blue` or `plum`, to a `table-striped` table, you can customize
+  the color of stripes.
+
+  ```html_example
+  <table class="table table-striped blue">
+      <tr>
+          <th>One</th>
+          <th>Two</th>
+          <th>Three</th>
+      </tr>
+      <tr>
+          <td>One</td>
+          <td>Two</td>
+          <td>Three</td>
+      </tr>
+      <tr>
+          <td>One</td>
+          <td>Two</td>
+          <td>Three</td>
+      </tr>
+  </table>
+  ```
+
+  ```html_example
+  <table class="table table-striped red">
+      <tr>
+          <th>One</th>
+          <th>Two</th>
+          <th>Three</th>
+      </tr>
+      <tr>
+          <td>One</td>
+          <td>Two</td>
+          <td>Three</td>
+      </tr>
+      <tr>
+          <td>One</td>
+          <td>Two</td>
+          <td>Three</td>
+      </tr>
+  </table>
+  ```
+
+  ```html_example
+  <table class="table table-striped plum">
+      <tr>
+          <th>One</th>
+          <th>Two</th>
+          <th>Three</th>
+      </tr>
+      <tr>
+          <td>One</td>
+          <td>Two</td>
+          <td>Three</td>
+      </tr>
+      <tr>
+          <td>One</td>
+          <td>Two</td>
+          <td>Three</td>
+      </tr>
+  </table>
+  ```
+  */
+}
+.table.table-striped tr:nth-of-type(2n) {
+  background-color: hsl(192, 58%, 81.88%);
+}
+.table {
+  /*doc
+  ---
+  title: Compact tables
+  name: 3-compact-tables
+  category: tables
+  ---
+  Use the `table-compact` modifier class on tables to reduce the cell padding for a more compact layout.
+
+  ```html_example
+  <table class="table table-compact">
+      <tr>
+          <th>One</th>
+          <th>Two</th>
+          <th>Three</th>
+      </tr>
+      <tr>
+          <td>One</td>
+          <td>Two</td>
+          <td>Three</td>
+      </tr>
+      <tr>
+          <td>One</td>
+          <td>Two</td>
+          <td>Three</td>
+      </tr>
+  </table>
+  ```
+  */
+}
+.table.table-compact td,
+.table.table-compact th {
+  padding: 2px 4px;
+}
+
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/*
+Relative Luminance
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+The relative brightness of any point in a colorspace, normalized to 0 for darkest black and 1 for lightest white
+Note 1: For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 * R + 0.7152 * G + 0.0722 * B where R, G and B are defined as:
+
+if RsRGB <= 0.03928 then R = RsRGB/12.92 else R = ((RsRGB+0.055)/1.055) ^ 2.4
+if GsRGB <= 0.03928 then G = GsRGB/12.92 else G = ((GsRGB+0.055)/1.055) ^ 2.4
+if BsRGB <= 0.03928 then B = BsRGB/12.92 else B = ((BsRGB+0.055)/1.055) ^ 2.4
+and RsRGB, GsRGB, and BsRGB are defined as:
+
+RsRGB = R8bit/255
+GsRGB = G8bit/255
+BsRGB = B8bit/255
+*/
+/*doc
+---
+title: Panel
+name: 1-panel
+category: layout
+---
+A panel encloses a section of the document with a border and whitespace.
+
+```html_example
+<section class="panel">
+    <p>
+        Midori is a Japanese word for green, although its boundaries are not the same as in English.
+        Ancient Japanese did not have this distinction: the word midori only came into use in the
+        Heian period, and at that time (and for a long time thereafter) midori was still considered
+        a shade of ao.
+    </p>
+</section>
+```
+*/
+.panel {
+  border: 2px solid #eee;
+  border-radius: 4px;
+  padding: 20px;
+}
+.panel > :first-child {
+  margin-top: 0;
+}
+.panel > :last-child {
+  margin-bottom: 0;
+}
+
+/*doc
+---
+title: Well
+name: 2-well
+category: layout
+---
+Use the `well` class on `<div>`s or `<aside>`s to apply the visual cue of ancillary content.
+
+```html_example
+<aside class="well">
+    <h3>Ao (青) vs. Midori (緑)</h3>
+    <p>
+        Midori is a Japanese word for green, although its boundaries are not the same as in English.
+        Ancient Japanese did not have this distinction: the word midori only came into use in the
+        Heian period, and at that time (and for a long time thereafter) midori was still considered
+        a shade of ao.
+    </p>
+</aside>
+```
+
+If you add a `<header>` or `<footer>` inside the `well`, they will be visually separated from
+the content.
+
+```html_example
+<aside class="well">
+    <header>
+        <h3>Trivia</h3>
+    </header>
+    <p>
+        Educational materials distinguishing green and blue only came into use after World War II,
+        during the Occupation: thus, even though most Japanese consider them to be green,  the word
+        ao is still used to describe certain vegetables, apples and vegetation.
+    </p>
+</aside>
+```
+*/
+/*doc
+---
+title: Small well
+name: 3-well-small
+category: layout
+---
+The `well-small` modifier class reduces the padding and borders of the well.
+
+```html_example
+<aside class="well well-small">
+    <h3>Ao (青) vs. Midori (緑)</h3>
+    <p>
+        Midori is a Japanese word for green, although its boundaries are not the same as in English.
+        Ancient Japanese did not have this distinction: the word midori only came into use in the
+        Heian period, and at that time (and for a long time thereafter) midori was still considered
+        a shade of ao.
+    </p>
+</aside>
+```
+*/
+.well {
+  background-color: #f9f9f9;
+  border: 4px solid #eee;
+  border-radius: 8px;
+  box-shadow: inset 0 1px 2px 2px #ccc;
+  padding: 20px;
+}
+.well > :first-child {
+  margin-top: 0;
+}
+.well > :last-child {
+  margin-bottom: 0;
+}
+.well header {
+  border-bottom: 1px solid #ccc;
+  padding: 0 20px 10px 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.well header > :first-child {
+  margin-top: 0;
+}
+.well header > :last-child {
+  margin-bottom: 0;
+}
+.well footer {
+  border-top: 1px solid #ccc;
+  padding: 10px 20px 0 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.well.well-small {
+  border: 2px solid #eee;
+  border-radius: 6px;
+  box-shadow: inset 0 1px 1px 1px #ccc;
+  padding: 10px;
+}
+.well.well-small header {
+  border-bottom: 1px solid #ccc;
+  padding: 0 10px 5px 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.well.well-small footer {
+  border-top: 1px solid #ccc;
+  padding: 5px 10px 0 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/*
+Relative Luminance
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+The relative brightness of any point in a colorspace, normalized to 0 for darkest black and 1 for lightest white
+Note 1: For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 * R + 0.7152 * G + 0.0722 * B where R, G and B are defined as:
+
+if RsRGB <= 0.03928 then R = RsRGB/12.92 else R = ((RsRGB+0.055)/1.055) ^ 2.4
+if GsRGB <= 0.03928 then G = GsRGB/12.92 else G = ((GsRGB+0.055)/1.055) ^ 2.4
+if BsRGB <= 0.03928 then B = BsRGB/12.92 else B = ((BsRGB+0.055)/1.055) ^ 2.4
+and RsRGB, GsRGB, and BsRGB are defined as:
+
+RsRGB = R8bit/255
+GsRGB = G8bit/255
+BsRGB = B8bit/255
+*/
+/*doc
+---
+title: Messages
+name: 1-messages
+category: messages
+---
+Use the `msg` class on a block element to style it as a message container.
+
+```html_example
+<div class="msg">
+    <p>Hey y'all!</p>
+</div>
+```
+*/
+/*doc
+---
+title: Cued messages
+name: 2-cued-messages
+category: messages
+---
+
+Additionally, you can set a level modifier of `accent` (default), `error`, `warning`,
+`info`, or `success` to give it a semantic cue. 
+
+```html_example
+<div class="msg error">
+    <p>There was an error</p>
+</div>
+
+<div class="msg warning">
+    <p>This is a warning</p>
+</div>
+
+<div class="msg info">
+    <p>Here is some info</p>
+</div>
+
+<div class="msg success">
+    <p>Things are going well</p>
+</div>
+```
+*/
+/*doc
+---
+title: Messages with icons
+name: 3-messages-with-icons
+category: messages
+---
+Finally, setting a modifier of `msg-icon`, the message will include an icon. 
+
+```html_example
+<div class="msg msg-icon">
+    <p>Hello there!</p>
+</div>
+
+<div class="msg msg-icon error">
+    <p>There was an error</p>
+</div>
+
+<div class="msg msg-icon warning">
+    <p>This is a warning</p>
+</div>
+
+<div class="msg msg-icon info">
+    <p>Here is some info</p>
+</div>
+
+<div class="msg msg-icon success">
+    <p>Things are going well</p>
+</div>
+```
+*/
+.msg {
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0 10px 10px 10px;
+  padding: 10px;
+}
+.msg.msg-icon :first-child:before {
+  color: hsl(192, 58%, 32.04%);
+  content: "\f075";
+  font-family: "FontAwesome";
+  margin-right: 0.8em;
+  vertical-align: middle;
+}
+.msg.msg-icon.error :first-child:before {
+  color: hsl(355, 72%, 36%);
+  content: "\f06a";
+}
+.msg.msg-icon.info :first-child:before {
+  color: hsl(206, 58%, 36%);
+  content: "\f05a";
+}
+.msg.msg-icon.warning :first-child:before {
+  color: hsl(29, 84%, 33.156%);
+  content: "\f071";
+}
+.msg.msg-icon.success :first-child:before {
+  color: hsl(121, 32%, 33.48%);
+  content: "\f058";
+}
+.msg > :first-child {
+  margin-top: 0;
+}
+.msg > :last-child {
+  margin-bottom: 0;
+}
+
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/*
+Relative Luminance
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+The relative brightness of any point in a colorspace, normalized to 0 for darkest black and 1 for lightest white
+Note 1: For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 * R + 0.7152 * G + 0.0722 * B where R, G and B are defined as:
+
+if RsRGB <= 0.03928 then R = RsRGB/12.92 else R = ((RsRGB+0.055)/1.055) ^ 2.4
+if GsRGB <= 0.03928 then G = GsRGB/12.92 else G = ((GsRGB+0.055)/1.055) ^ 2.4
+if BsRGB <= 0.03928 then B = BsRGB/12.92 else B = ((BsRGB+0.055)/1.055) ^ 2.4
+and RsRGB, GsRGB, and BsRGB are defined as:
+
+RsRGB = R8bit/255
+GsRGB = G8bit/255
+BsRGB = B8bit/255
+*/
+/*doc
+---
+title: Navbar
+name: 1-navbar
+category: navigation
+---
+Use the `navbar` class on `<nav>` or `<div>` elements to style a global navbar.
+
+```html_example
+<nav class="navbar">
+    <ul class="nav">
+        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+</nav>
+```
+
+Of course you can give your navbar a kick by adding a color class to the `navbar` class:
+
+```html_example
+<nav class="navbar accent">
+    <ul class="nav">
+        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+</nav>
+```
+
+```html_example
+<nav class="navbar red">
+    <ul class="nav">
+        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+</nav>
+```
+
+```html_example
+<nav class="navbar amber">
+    <ul class="nav">
+        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+</nav>
+```
+
+```html_example
+<nav class="navbar blue">
+    <ul class="nav">
+        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+</nav>
+```
+
+```html_example
+<nav class="navbar green">
+    <ul class="nav">
+        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+</nav>
+```
+
+```html_example
+<nav class="navbar plum">
+    <ul class="nav">
+        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+</nav>
+```
+
+```html_example
+<nav class="navbar raspberry">
+    <ul class="nav">
+        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+</nav>
+```
+
+```html_example
+<nav class="navbar banana">
+    <ul class="nav">
+        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+</nav>
+```
+*/
+.navbar {
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-style: solid;
+  display: block;
+}
+.navbar ul.nav {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.navbar ul.nav li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.navbar ul.nav li a {
+  display: block;
+  height: 45px;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+.navbar ul.nav li.active a {
+  font-weight: 500;
+}
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/*
+Relative Luminance
+https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+The relative brightness of any point in a colorspace, normalized to 0 for darkest black and 1 for lightest white
+Note 1: For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 * R + 0.7152 * G + 0.0722 * B where R, G and B are defined as:
+
+if RsRGB <= 0.03928 then R = RsRGB/12.92 else R = ((RsRGB+0.055)/1.055) ^ 2.4
+if GsRGB <= 0.03928 then G = GsRGB/12.92 else G = ((GsRGB+0.055)/1.055) ^ 2.4
+if BsRGB <= 0.03928 then B = BsRGB/12.92 else B = ((BsRGB+0.055)/1.055) ^ 2.4
+and RsRGB, GsRGB, and BsRGB are defined as:
+
+RsRGB = R8bit/255
+GsRGB = G8bit/255
+BsRGB = B8bit/255
+*/
+/*doc
+---
+title: Pager
+name: 2-nav-pager
+category: navigation
+---
+Use the `nav-pager` class on a `<ol>` or a `<ul>` element to render a compound navigation control
+to pick an item from a list, with optional shortcuts to move forward and backward, and skip to the beginning or end.
+
+```html_example
+<ol class="nav-pager">
+    <li>
+        <a title="Page 1" href="#">1</a>
+    </li>
+    <li class="active">
+        <a title="Page 2 (current)" href="#">2</a>
+    </li>
+    <li>
+        <a title="Page 3" href="#">3</a>
+    </li>
+    <li>
+        <a title="Page 4" href="#">4</a>
+    </li>
+    <li>
+        <a title="Page 5" href="#">5</a>
+    </li>
+    <li>
+        <a title="Move one page forward" href="#"><i class="fa fa-step-forward"></i></a>
+    </li>
+    <li>
+        <a title="Move five pages forward" href="#"><i class="fa fa-fast-forward"></i></a>
+    </li>
+</ol>
+```
+
+### Guidelines
+
+It is recommended to limit the number of items in the pager control to a minimum. Display at most five items, centered on the current
+item, unless you're at the beginning or at the end of the list. The purpose of the pager is to provide a speed dial affordance, not
+to clutter the UI and add cognitive load with unnecessarily long lists of options.
+
+If there is at least one more item before or after the items rendered by the pager, display the step backward and/or forward items,
+through the Font Awesome icons `fa-step-backward` and `fa-step-forward` respectively.
+
+Moreover, if there are at least 5 more items beyond the first and/or last items, display the fast-forward and backward items as well,
+through the Font Awesome icons `fa-fast-backward` and `fa-fast-forward` respectively.
+
+```html_example
+<ol class="nav-pager">
+    <li>
+        <a title="Move five pages backward" href="#"><i class="fa fa-fast-backward"></i></a>
+    </li>
+    <li>
+        <a title="Move one page backward" href="#"><i class="fa fa-step-backward"></i></a>
+    </li>
+    <li>
+        <a title="Page 19" href="#">19</a>
+    </li>
+    <li>
+        <a title="Page 20" href="#">20</a>
+    </li>
+    <li class="active">
+        <a title="Page 21 (current)" href="#">21</a>
+    </li>
+    <li>
+        <a title="Page 22" href="#">22</a>
+    </li>
+    <li>
+        <a title="Page 23" href="#">23</a>
+    </li>
+    <li>
+        <a title="Move one page forward" href="#"><i class="fa fa-step-forward"></i></a>
+    </li>
+    <li>
+        <a title="Move five pages forward" href="#"><i class="fa fa-fast-forward"></i></a>
+    </li>
+</ol>
+```
+*/
+.nav-pager {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 0;
+}
+.nav-pager li {
+  border-right: 1px solid #ccc;
+  display: table-cell;
+  vertical-align: middle;
+}
+.nav-pager li:last-child {
+  border-right-width: 0;
+}
+.nav-pager li.active a {
+  background-color: #eee;
+}
+.nav-pager a {
+  display: block;
+  font-weight: 500;
+  padding: 8px 12px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+/**
+ *                _
+ *   ____ _____  (_)
+ *  / __ `/ __ \/ /
+ * / /_/ / /_/ / /
+ * \__,_/\____/_/
+ * 
+ * (c) Claudio Procida 2017-2024
+ * 
+ * @format
+ */
+:root {
+  --aoi-dark-blue: hsl(206, 58%, 36%);
+  --aoi-medium-blue: hsl(206, 58%, 42%);
+  --aoi-light-blue: hsl(206, 58%, 72%);
+  --aoi-lightest-blue: hsl(206, 58%, 92%);
+  --aoi-dark-green: hsl(121, 32%, 33.48%);
+  --aoi-medium-green: hsl(121, 32%, 39.06%);
+  --aoi-light-green: hsl(121, 32%, 66.96%);
+  --aoi-lightest-green: hsl(121, 32%, 85.56%);
+  --aoi-dark-red: hsl(355, 72%, 36%);
+  --aoi-medium-red: hsl(355, 72%, 42%);
+  --aoi-light-red: hsl(355, 72%, 72%);
+  --aoi-lightest-red: hsl(355, 72%, 92%);
+  --aoi-dark-amber: hsl(29, 84%, 33.156%);
+  --aoi-medium-amber: hsl(29, 84%, 38.682%);
+  --aoi-light-amber: hsl(29, 84%, 66.312%);
+  --aoi-lightest-amber: hsl(29, 84%, 84.732%);
+  --aoi-dark-accent: hsl(192, 58%, 32.04%);
+  --aoi-medium-accent: hsl(192, 58%, 37.38%);
+  --aoi-light-accent: hsl(192, 58%, 64.08%);
+  --aoi-lightest-accent: hsl(192, 58%, 81.88%);
+  --aoi-dark-plum: hsl(271, 36%, 32.4%);
+  --aoi-medium-plum: hsl(271, 36%, 37.8%);
+  --aoi-light-plum: hsl(271, 36%, 64.8%);
+  --aoi-lightest-plum: hsl(271, 36%, 82.8%);
+  --aoi-dark-raspberry: hsl(341, 69%, 36%);
+  --aoi-medium-raspberry: hsl(341, 69%, 42%);
+  --aoi-light-raspberry: hsl(341, 69%, 72%);
+  --aoi-lightest-raspberry: hsl(341, 69%, 92%);
+  --aoi-dark-banana: hsl(45, 84%, 43.2%);
+  --aoi-medium-banana: hsl(45, 84%, 50.4%);
+  --aoi-light-banana: hsl(45, 84%, 86.4%);
+  --aoi-lightest-banana: hsl(45, 84%, 110.4%);
+  --aoi-dark-gray: #666;
+  --aoi-medium-gray: #999;
+  --aoi-light-gray: #ccc;
+  --aoi-lightest-gray: #eee;
+}
