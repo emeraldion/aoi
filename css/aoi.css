@@ -1067,11 +1067,13 @@ BsRGB = B8bit/255
   border-top: none;
   cursor: pointer;
   display: flex;
+  gap: 10px;
   height: 48px;
   justify-content: center;
   min-width: 48px;
 }
 .radio-buttons .btn.btn-small, .radio-buttons .form .form-footer input.btn-small[type=submit], .form .form-footer .radio-buttons input.btn-small[type=submit], .radio-buttons .form .form-footer input.btn-small[type=reset], .form .form-footer .radio-buttons input.btn-small[type=reset], .radio-buttons .form .form-footer input.btn-small[type=button], .form .form-footer .radio-buttons input.btn-small[type=button] {
+  gap: 8px;
   height: 31px;
   min-width: 31px;
 }
