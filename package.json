@@ -1,8 +1,8 @@
 {
-  "name": "aoi",
+  "name": "@emeraldion/aoi",
   "version": "1.0.0",
   "description": "A design language for Emeraldion UX",
-  "type": "module",
+  "style": "css/aoi.css",
   "scripts": {
     "start": "gulp",
     "format": "prettier --write sass/*.scss",
@@ -39,10 +39,14 @@
   "dependencies": {
     "font-awesome": "^4.7.0"
   },
-  "directories": {
-    "doc": "docs"
-  },
+  "files": [
+    "css/*.css",
+    "dist/*.min.css",
+    "sass/*.scss"
+  ],
   "keywords": [
+    "emeraldion",
+    "aoi",
     "sass",
     "scss",
     "style",
