@@ -63,11 +63,13 @@
     border-top: none;
     cursor: pointer;
     display: flex;
+    gap: 10px;
     height: 48px;
     justify-content: center;
     min-width: 48px;
 
     &.btn-small {
+      gap: 8px;
       height: 31px;
       min-width: 31px;
     }
